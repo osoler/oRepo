@@ -63,6 +63,8 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 #googlePin{width: 17px;}
 #googlePinSpan:down {opacity: 0.6;}
 #mapLogo{width: 17px;}
+#mapLogo:hover{opacity: 0.7;}
+#mapLogo:down{opacity: 0.7;}
 #filterimage{width: 17px;}
 
 

@@ -2,27 +2,26 @@
 -----------------------------------------------------------------------------------------------------------*/
 .ui-bar-f {
 	border: 1px solid 		#b3b3b3 /*{c-bar-border}*/;
-	background: 			#eee /*{c-bar-background-color}*/;
-	color: 					#3e3e3e /*{c-bar-color}*/;
+	background: 			red /*{c-bar-background-color}*/;
+	color: 					yellow /*{c-bar-color}*/;
 	font-weight: bold;
-	text-shadow: 0 /*{c-bar-shadow-x}*/ 1px /*{c-bar-shadow-y}*/ 1px /*{c-bar-shadow-radius}*/ 	#fff /*{c-bar-shadow-color}*/;
 	background-image: -webkit-linear-gradient( #f0f0f0 /*{c-bar-background-start}*/, #ddd /*{c-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
 }
 .ui-bar-f .ui-link-inherit {
-	color: 	#3e3e3e /*{c-bar-color}*/;
+	color: 	yellow /*{c-bar-color}*/;
 }
 .ui-bar-f a.ui-link {
-	color: #7cc4e7 /*{c-bar-link-color}*/;
+	color: yellow /*{c-bar-link-color}*/;
 	font-weight: bold;
 }
 .ui-bar-f a.ui-link:visited {
-    color: #2489ce /*{c-bar-link-visited}*/;
+    color: yellow /*{c-bar-link-visited}*/;
 }
 .ui-bar-f a.ui-link:hover {
-	color: #2489ce /*{c-bar-link-hover}*/;
+	color: yellow /*{c-bar-link-hover}*/;
 }
 .ui-bar-f a.ui-link:active {
-	color: #2489ce /*{c-bar-link-active}*/;
+	color: yellow /*{c-bar-link-active}*/;
 }
 .ui-bar-f,
 .ui-bar-f input,
@@ -35,7 +34,6 @@
 .ui-overlay-f {
 	border: 1px solid 		#aaa /*{c-body-border}*/;
 	color: 					#333 /*{c-body-color}*/;
-	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #fff /*{c-body-shadow-color}*/;
 	background: 			yellow /*{c-body-background-color}*/;
 	background-image: -webkit-linear-gradient( #f9f9f9 /*{c-body-background-start}*/, #eee /*{c-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
 }
@@ -51,20 +49,26 @@
 	font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
 }
 .ui-body-f .ui-link-inherit {
-	color: 	#333 /*{c-body-color}*/;
+	color: 	yellow /*{c-body-color}*/;
 }
 .ui-body-f .ui-link {
-	color: #2489ce /*{c-body-link-color}*/;
+	color: yellow /*{c-body-link-color}*/;
 	font-weight: bold;
 }
 .ui-body-f .ui-link:visited {
-    color: #2489ce /*{c-body-link-visited}*/;
+    color: yellow /*{c-body-link-visited}*/;
 }
 .ui-body-f .ui-link:hover {
-	color: #2489ce /*{c-body-link-hover}*/;
+	color: yellow /*{c-body-link-hover}*/;
 }
 .ui-body-f .ui-link:active {
-	color: #2489ce /*{c-body-link-active}*/;
+	color: yellow /*{c-body-link-active}*/;
+}
+.ui-btn-f {
+	font-weight: bold;
+	color: 					#ce9102 /*{c-bup-color}*/;
+	background-image: -webkit-linear-gradient( #000C52 /*{c-bup-background-start}*/, #970F23 /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+
 }
 .ui-btn-up-f {
 	font-weight: bold;

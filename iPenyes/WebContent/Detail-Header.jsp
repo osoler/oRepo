@@ -1,12 +1,9 @@
 <div data-role="header" data-position="fixed" data-tap-toggle="false" data-transition="none" data-id="header">
-	<div id="headerDetail">
-		<div class="headerBtnBack"><a href="#" data-rel="back" data-role="button" data-theme="c" >Tornar</a></div>
-		<div class="headerLogoImg"></div>		
-		<div class="headerLogoInner">
-			<a href="Map.jsp" data-transition="fade" class="ui-btn ui-shadow ui-btn-corner-all" >
-				<span class="ui-btn-inner ui-btn-corner-all" style="padding-bottom: 2px;">
-				<img id="mapLogo" src="/images/google_pin.png"></span>
-			</a>
+	<div>
+		<div  style="float: left;padding-left: 15px;padding-top:3px;width: 70px"><a href="List.jsp#listPenyes"  data-transition="slide" data-direction="reverse"  data-role="button" data-theme="f" >Tornar</a></div>
+		<div  style="float: right;padding-right: 15px;padding-top:12px;width: 70px;text-align: right;">
+			<a href="Map.jsp" data-transition="fade"><img id="mapLogo" src="/images/google_pin.png"></a>
 		</div>		
-	</div>
+		<div  class="headerLogoImg">&nbsp;</div>		
+	</div>	
 </div><!-- /header -->

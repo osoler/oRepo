@@ -11,12 +11,13 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 .ui-icon-loading {background: url(../images/ajax-loader.gif);background-size: 46px 46px;}
 .iscroll-content {padding-top: 0px !important;padding-bottom: 0px !important;}
 /* === FOOTER BAR === */
-.navMenu{padding: 7px;}
+.navMenu{padding-top: 7px;padding-bottom: 7px}
 .ui-footer {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52);}
 .ui-footer .ui-btn {background: transparent;height: 40px;}
-.ui-footer .ui-btn-active {background: none rgba(255,255,255,0.14);-webkit-border-radius: 4px !important;-moz-border-radius: 4px !important;border-radius: 4px !important;}
+.ui-footer .ui-btn-active {background: none rgba(37, 25, 122, 0.22);border: none;}
+.ui-footer .ui-navbar li .ui-btn { height: 100%;}
 .ui-footer .ui-btn-inner {padding-top: 23px !important;}
-.ui-footer .ui-btn-text {font-size: 9px;text-shadow: 0 none;}
+.ui-footer .ui-btn-text {font-size: 10px;text-shadow: none;color: white;font-style: normal;font-weight: normal;}
 .ui-footer .ui-icon-custom.ui-icon {width: 30px;height: 28px;}
 .ui-footer .ui-icon-shadow {-webkit-box-shadow: none;-moz-box-shadow: none;	-o-box-shadow: none;box-shadow: none;}
 #tabList .ui-icon {background: url('../images/icon_list_bullets.png') 0 0 no-repeat;margin-left: -15px;margin-top: -7px;-moz-border-radius: 0px;-webkit-border-radius: 0px;	border-radius: 0px;}

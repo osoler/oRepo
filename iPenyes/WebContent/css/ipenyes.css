@@ -14,7 +14,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 .navMenu{padding-top: 7px;padding-bottom: 7px}
 .ui-footer {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52);}
 .ui-footer .ui-btn {background: transparent;height: 40px;}
-.ui-footer .ui-btn-active {background: none rgba(37, 25, 122, 0.22);border: none;}
+.ui-footer .ui-btn-active {background: none rgba(37, 25, 122, 0.22);border: none;-webkit-filter:none}
 .ui-footer .ui-navbar li .ui-btn { height: 100%;}
 .ui-footer .ui-btn-inner {padding-top: 23px !important;}
 .ui-footer .ui-btn-text {font-size: 10px;text-shadow: none;color: white;font-style: normal;font-weight: normal;}
@@ -40,7 +40,28 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 
 /* === LIST PENYES === */
 .ui-content .ui-listview-inset { margin: 0;}
-.ui-listview .ui-li-icon { max-height: 50px; max-width: 55px; left: 5px; top: 5px;}​
+.ui-listview .ui-li-icon { max-height: 50px; max-width: 55px; left: 5px; top: 5px;}
+.ui-listview li.ui-btn-active {
+	border: 1px solid 		#bbbbbb /*{c-bdown-border}*/;
+	background: 			#d6d6d6 /*{c-bdown-background-color}*/;
+	font-weight: normal;
+	color: 					black ;
+	text-shadow: 0 /*{c-bdown-shadow-x}*/ 1px /*{c-bdown-shadow-y}*/ 0 /*{c-bdown-shadow-radius}*/ #ffffff /*{c-bdown-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #d0d0d0 /*{c-bdown-background-start}*/), to( #dfdfdf /*{c-bdown-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #d0d0d0 /*{c-bdown-background-start}*/, #dfdfdf /*{c-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #d0d0d0 /*{c-bdown-background-start}*/, #dfdfdf /*{c-bdown-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #d0d0d0 /*{c-bdown-background-start}*/, #dfdfdf /*{c-bdown-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #d0d0d0 /*{c-bdown-background-start}*/, #dfdfdf /*{c-bdown-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #d0d0d0 /*{c-bdown-background-start}*/, #dfdfdf /*{c-bdown-background-end}*/);
+	-webkit-filter:none;
+}
+.ui-listview li.ui-btn-active a.ui-link-inherit {
+	color: black /*{global-active-color}*/;
+	font-weight: normal;
+	text-shadow:none;
+	border: none;
+
+}​
 .coat {float: left;}
 .description {margin-left:55px;margin-right: 0px;display: inline-block;}
 .namePenya{	font-weight: bold;font-size: large;}

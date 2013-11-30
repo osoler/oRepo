@@ -42,10 +42,10 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 .ui-content .ui-listview-inset { margin: 0;}
 .ui-listview .ui-li-icon { max-height: 50px; max-width: 55px; left: 5px; top: 5px;}
 .ui-listview li.ui-btn-active {
-	border: 1px solid 		#bbbbbb /*{c-bdown-border}*/;
+	border: none/*{c-bdown-border}*/;
 	background: 			#d6d6d6 /*{c-bdown-background-color}*/;
 	font-weight: normal;
-	color: 					black ;
+	color: 	#2f3e46 ;
 	text-shadow: 0 /*{c-bdown-shadow-x}*/ 1px /*{c-bdown-shadow-y}*/ 0 /*{c-bdown-shadow-radius}*/ #ffffff /*{c-bdown-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #d0d0d0 /*{c-bdown-background-start}*/), to( #dfdfdf /*{c-bdown-background-end}*/)); /* Saf4+, Chrome */
 	background-image: -webkit-linear-gradient( #d0d0d0 /*{c-bdown-background-start}*/, #dfdfdf /*{c-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
@@ -56,7 +56,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 	-webkit-filter:none;
 }
 .ui-listview li.ui-btn-active a.ui-link-inherit {
-	color: black /*{global-active-color}*/;
+	color: #2f3e46 /*{global-active-color}*/;
 	font-weight: normal;
 	text-shadow:none;
 	border: none;

@@ -11,6 +11,19 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 .ui-icon-loading {background: url(../images/ajax-loader.gif);background-size: 46px 46px;}
 .iscroll-content {padding-top: 0px !important;padding-bottom: 0px !important;}
 
+/* === WELCOME PAGE === */
+#ValkomenLogo {width: 100%;}
+#WelcomeWrapper {padding-left:5px;padding-right:5px;}
+
+/* === HEADER BAR === */
+#headerLogo {
+	background-image: url('/images/logo_fcb_penyes_250x90.png');background-repeat: no-repeat;background-size: auto 100%;background-position:0px -4px;
+	height: 100%; margin-left: 12px ; margin-right: 0px;
+}
+.headerLogoImg {
+	background-image: url('/images/logo_fcb_penyes_250x90.png');background-repeat: no-repeat;background-size: auto 100%;background-position:center center;
+	height: 50px; display: block;overflow:hidden;
+}
 
 /* === FOOTER BAR === */
 .navMenu{padding-top: 7px;padding-bottom: 7px}
@@ -24,21 +37,6 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 .ui-footer .ui-icon-shadow {-webkit-box-shadow: none;-moz-box-shadow: none;	-o-box-shadow: none;box-shadow: none;}
 #tabList .ui-icon {background: url('../images/icon_list_bullets.png') 0 0 no-repeat;margin-left: -15px;margin-top: -7px;-moz-border-radius: 0px;-webkit-border-radius: 0px;	border-radius: 0px;}
 #tabMap .ui-icon {background: url('../images/map_icon.png') 0 0 no-repeat;background-size: 50%;margin-left: -7px;margin-top: 0px;-moz-border-radius: 0px;-webkit-border-radius: 0px;	border-radius: 0px;}
-
-/* === WELCOME PAGE === */
-#ValkomenLogo {width: 100%;}
-#WelcomeWrapper {padding-left:5px;padding-right:5px;}
-
-
-/* === HEADER BAR === */
-#headerLogo {
-	background-image: url('/images/logo_fcb_penyes_250x90.png');background-repeat: no-repeat;background-size: auto 100%;background-position:0px -4px;
-	height: 100%; margin-left: 12px ; margin-right: 0px;
-}
-.headerLogoImg {
-	background-image: url('/images/logo_fcb_penyes_250x90.png');background-repeat: no-repeat;background-size: auto 100%;background-position:center center;
-	height: 50px; display: block;overflow:hidden;
-}
 
 /* === LIST PENYES === */
 .ui-content .ui-listview-inset { margin: 0;}

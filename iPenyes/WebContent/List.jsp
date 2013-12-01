@@ -11,10 +11,10 @@
 		</div> 	
 	</div><!-- /content -->         
 <!-- /div -->
-<div data-role="page" id="listPenyes" scrollbarClass="hola">  
+<div data-role="page" id="listPenyes">  
 	<%@ include file="List-Header.jsp"%>
-	<div data-role="content"  data-iscroll="true" scrollbarClass="hola"> 
-		<ul  data-role="listview" data-inset="true" data-filter="false" scrollbarClass="hola">
+	<div data-role="content"  data-iscroll="true" id="contentlistPenyes"> 
+		<ul  data-role="listview" data-inset="true" data-filter="false">
 			<%@ include file="penya.jsp"%>
 			<%@ include file="penya.jsp"%>
 			<%@ include file="penya.jsp"%>
@@ -40,7 +40,9 @@
 			<%@ include file="penya.jsp"%>
 			<%@ include file="penya.jsp"%>
 			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>																													
+			<%@ include file="penya.jsp"%>		
+			<li id="loadmoreajaxloader" style="display: none;"><center><img src="/images/ajax-loader-infinite.gif" /></center></li>	
+			<li/>																										
 		</ul>        
 	</div><!-- /content -->         
 	<%@ include file="List-Footer.jsp"%> 	

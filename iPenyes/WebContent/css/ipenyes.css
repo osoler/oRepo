@@ -24,6 +24,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 	background-image: url('/images/logo_fcb_penyes_250x90.png');background-repeat: no-repeat;background-size: auto 100%;background-position:center center;
 	height: 50px; display: block;overflow:hidden;
 }
+.ui-header {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52);}
 
 /* === FOOTER BAR === */
 .navMenu{padding-top: 7px;padding-bottom: 7px}

@@ -23,26 +23,8 @@
 			<%@ include file="penya.jsp"%>
 			<%@ include file="penya.jsp"%>
 			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>	
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>	
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>
-			<%@ include file="penya.jsp"%>		
-			<li id="loadmoreajaxloader" style="display: none;"><center><img src="/images/ajax-loader-infinite.gif" /></center></li>	
-			<li/>																										
+	
+			<li id="loadmoreajaxloader">&nbsp;</li>																											
 		</ul>        
 	</div><!-- /content -->         
 	<%@ include file="List-Footer.jsp"%> 	

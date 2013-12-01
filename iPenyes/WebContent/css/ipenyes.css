@@ -39,6 +39,10 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 #tabMap .ui-icon {background: url('../images/map_icon.png') 0 0 no-repeat;background-size: 50%;margin-left: -7px;margin-top: 0px;-moz-border-radius: 0px;-webkit-border-radius: 0px;	border-radius: 0px;}
 
 /* === LIST PENYES === */
+
+#loadmoreajaxloader{background-image: url('/images/ajax-loader-infinite.gif');background-repeat: no-repeat;background-size: auto;background-position:center center;
+	 display: none;overflow:hidden;}
+
 .ui-content .ui-listview-inset { margin: 0;}
 .ui-listview .ui-li-icon { max-height: 50px; max-width: 55px; left: 5px; top: 5px;}
 .ui-listview li.ui-btn-active {

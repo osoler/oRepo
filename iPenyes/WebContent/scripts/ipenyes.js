@@ -27,27 +27,23 @@ $("#googlePinSpan").live("touchend", function(e) {
 
 $(window).scroll(function()
 		{
-		    if($(window).scrollTop() == $(document).height() - $(window).height())
+		    if (($(document).height() -100)  <= $(window).scrollTop() + $(window).height()) 
 		    {
-		        $('div#loadmoreajaxloader').show();
+		        $('#loadmoreajaxloader').show();
 		        $.ajax({
-		        url: "penya.jsp",
+		        url: "penyainfinite.jsp",
 		        success: function(html)
 		        {
 		            if(html)
 		            {
-		                $("#postswrapper").append(html);
-		                $('div#loadmoreajaxloader').hide();
-		            }else
-		            {
-		                $('div#loadmoreajaxloader').html('<center>No more posts to show.</center>');
+		            	$(html).insertBefore( "#loadmoreajaxloader" );
+		            	$('ul').listview('refresh');
 		            }
-		        },
-                error: function(XMLHttpRequest, textStatus, errorThrown) { 
-                	 $("#postswrapper").append("<li data-icon='false' ><a href='Detail.jsp' data-transition='slide' class='penyaBean' >			<div id='detailPenyaBean'>	<div class='coat'><img class='ui-li-icon' src='/images/escudos/0002.LaGranada-icon.png' ></div>		<div  class='description'> 	<div  class='namePenya'><span>Penya Suecia</span></div>	</div>		<div class='rightarrow'><img class='icon-arrow' src='/images/icon-arrow-black.png'></div>		<div id='penyaMoreInfo' class='moreinfo'>		<div id='penyaLocation' class='location'><span>Barcelona</span></div>		<div id='penyaFundationYear' class='fundationYear'>Fundación: 1985</div>				</div>		</div>	</a></li>");
-		             $('div#loadmoreajaxloader').hide();
-                }
+		            $('#loadmoreajaxloader').hide();
+		        }
 		        });
+		    }else{
+		    	$('#loadmoreajaxloader').hide();
 		    }
 		});
 

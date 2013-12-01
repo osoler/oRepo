@@ -1,3 +1,4 @@
+/* === COMMON === */
 body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52) !important;}
 .ui-page{background : transparent;}
 .fade.out {	opacity: 0;	-webkit-animation-duration: 725ms;	-webkit-animation-name: fadeout;	-moz-animation-duration: 725ms;	-moz-animation-name: fadeout;}

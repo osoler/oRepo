@@ -10,6 +10,8 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 .quickfade.in {	opacity: 1;	-webkit-animation-duration: 50ms;	-webkit-animation-name: fadein;	-moz-animation-duration: 50ms;	-moz-animation-name: fadein;}
 .ui-icon-loading {background: url(../images/ajax-loader.gif);background-size: 46px 46px;}
 .iscroll-content {padding-top: 0px !important;padding-bottom: 0px !important;}
+
+
 /* === FOOTER BAR === */
 .navMenu{padding-top: 7px;padding-bottom: 7px}
 .ui-footer {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52);}

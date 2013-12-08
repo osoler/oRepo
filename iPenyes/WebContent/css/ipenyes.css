@@ -1,5 +1,6 @@
 /* === COMMON === */
 body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52) !important;}
+.ui-content  {padding-top: 0px;}
 .ui-page{background : transparent;}
 .fade.out {	opacity: 0;	-webkit-animation-duration: 725ms;	-webkit-animation-name: fadeout;	-moz-animation-duration: 725ms;	-moz-animation-name: fadeout;}
 .fade.in {	opacity: 1;	-webkit-animation-duration: 725ms;	-webkit-animation-name: fadein;	-moz-animation-duration: 725ms;	-moz-animation-name: fadein;}
@@ -42,6 +43,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 
 #loadmoreajaxloader{background-image: url('/images/ajax-loader-infinite.gif');background-repeat: no-repeat;background-size: auto;background-position:center center;
 	 display: none;overflow:hidden;}
+	 
 
 .ui-content .ui-listview-inset { margin: 0;}
 .ui-listview .ui-li-icon { max-height: 50px; max-width: 55px; left: 5px; top: 5px;}
@@ -85,7 +87,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
  
  /* === DETAIL PENYA === */
 .div_padding_v{margin-bottom: 10px;}
-.ui-bar-ipenyes {border: 1px solid #b3b3b3;background: white;font-weight: bold;padding: 5px;}
+.detailPenyes_divheader {border: 1px solid #b3b3b3;background: white;font-weight: bold;padding: 5px;height:100px;}
 .detailPenyes_coat {width: 100px;float:left;}
 .detailPenyes_description {width: 90%;height:80px;padding:10px;background-color: white;left: 100px;}
 .desc-icon { max-height: 100px; max-width: 100px;}
@@ -94,7 +96,9 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 .headerLogoInner{display:inline-block; float: right;margin-top:3px;margin-right: 17px;}
 #filterimage{width: 17px;}
 #detailLeft{float: left;padding-left: 15px;padding-top:18px;width: 70px;}
-#detailRight{float: right;padding-right: 18px;padding-top:12px;width: 70px;text-align: right;}
+#detailRight{float: right;padding-right: 18px;padding-top:7px;width: 70px;text-align: right;}
+.detailPenyes_div{border: 1px solid #b3b3b3;background: white;font-weight: normal; font-size: small;padding: 5px;}
+
 
 #ios-arrow-left span.ui-btn-inner{
 	display: inline;
@@ -105,7 +109,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 }
 #ios-arrow-left {
     left:20px;/*change the position*/
-    top:26px;/*change the position*/   
+    top:22px;/*change the position*/   
     position:absolute;
     background-repeat:repeat-x;
     background-color: #8F0418;/*change this and the background color for the :before element*/
@@ -128,7 +132,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
     font-size : 11px;
     display : block; 
     text-align:center;
-    color:#EBB500;
+    color:#C0AA61;
     text-shadow : 0px -1px 0px #000;
     line-height : 20px;
     font-weight: 700;

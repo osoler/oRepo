@@ -27,7 +27,7 @@ $("#googlePinSpan").live("touchend", function(e) {
 
 $(window).scroll(function()
 		{
-		    if (($(document).height() -100)  <= $(window).scrollTop() + $(window).height()) 
+		    if (($(document).height() - 2000)  <= $(window).scrollTop() + $(window).height()) 
 		    {
 		        $('#loadmoreajaxloader').show();
 		        $.ajax({

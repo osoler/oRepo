@@ -92,12 +92,9 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 .detailPenyes_fundation{font-size: 10px;padding-top: 35px;text-align: right;}
 .headerBtnBack{display:inline-block; float: left;margin-top:3px;margin-left: 5px;}
 .headerLogoInner{display:inline-block; float: right;margin-top:3px;margin-right: 17px;}
-#googlePin{width: 17px;}
-#googlePinSpan:down {opacity: 0.6;}
-#mapLogo{width: 17px;}
-#mapLogo:hover{-webkit-filter: brightness(150%);}
-#mapLogo:down{-webkit-filter: brightness(150%);}
 #filterimage{width: 17px;}
+#detailLeft{float: left;padding-left: 15px;padding-top:18px;width: 70px;}
+#detailRight{float: right;padding-right: 18px;padding-top:12px;width: 70px;text-align: right;}
 
 #ios-arrow-left span.ui-btn-inner{
 	display: inline;
@@ -111,7 +108,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
     top:26px;/*change the position*/   
     position:absolute;
     background-repeat:repeat-x;
-    background-color: #970F23;/*change this and the background color for the :before element*/
+    background-color: #8F0418;/*change this and the background color for the :before element*/
     background-image : -webkit-linear-gradient(
         bottom,
         rgba(0,0,0,0) 0%,
@@ -143,7 +140,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
     top:14.9%;
     left:-4px;
 
-    background-color: #970F23;/*change to the same as the main element*/
+    background-color: #8F0418;/*change to the same as the main element*/
     background-image :  
         -webkit-gradient(linear, left bottom, right top, 
             from(rgba(0,0,0,0)), 
@@ -166,10 +163,33 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
             color-stop(0.5, transparent), 
             to(transparent));
 }  
- #ios-arrow-left.ui-btn-active {
+#ios-arrow-left:hover{
+	-webkit-filter: brightness(110%);
+}
+#ios-arrow-left.ui-btn-active {
 	border: none;
 	color: none;
- }
+	-webkit-filter: brightness(110%);
+}
+#ios-arrow-left:hover span.ui-btn-text{
+	-webkit-filter: brightness(100%);
+}
+
+#mapLogo{
+width: 16px;
+padding: 4px 10px 4px 10px;
+background-color: transparent;
+-webkit-box-shadow: 0px 1px 0 rgba(255,255,255,0);
+box-shadow: 0px 1px 0 rgba(255,255,255,0); 
+}
+#mapLogo:hover{
+background-color: #transparent;
+-webkit-box-shadow: 0 0 1px rgba(255,255,255,.3);
+box-shadow: 0 0 1px rgba(255,255,255,.3);
+-webkit-border-radius: 10px;
+-webkit-filter: brightness(140%);
+}
+
 
 
 

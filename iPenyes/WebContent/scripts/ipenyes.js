@@ -16,15 +16,6 @@ function centerSplash() {
 	   setTimeout(hideSplash, 2000);
 }
 
-$("#googlePinSpan").live("touchstart", function(e) {
-	  $(this).trigger("hover");
-	});
-	 
-$("#googlePinSpan").live("touchend", function(e) {
-  $(this).trigger("blur");
-});
-
-
 $(window).scroll(function()
 		{
 		    if (($(document).height() - 2000)  <= $(window).scrollTop() + $(window).height()) 

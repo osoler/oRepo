@@ -1,10 +1,10 @@
 <html>
 <%@ include file="HeaderInfo.html"%>           
 <body>
-<div data-role="page" id="detailPenyes" class="index-page">
+<div data-role="page" id="detailPenyes">
 	<%@ include file="Detail-Header.jsp"%> 
 			
-    <div data-role="content" data-iscroll="true">
+    <div data-role="content">
 		<div class="detailPenyes_divheader ui-corner-all ui-shadow div_padding_v">
 				<div>
 					<div class="detailPenyes_coat"><img class="desc-icon" src="/images/escudos/0002.LaGranada.png"></div>
@@ -32,8 +32,41 @@ On a weekly basis, as long as games are televised, members of the Club gather to
 You can request a membership form in our web site filling out the contact us form in this web site. We hope you enjoy our web site and that you will become a member.
 
 Força Barça!!! (Go Barça!)
+<br/><br/>
 				</div>
-		</div>  				 
+	
+			<div class = 'iosSlider'>
+			
+				<div class = 'slider'>
+				
+					<div class = 'item' id = 'item1'></div>
+					
+					<div class = 'item' id = 'item2'></div>
+					
+					<div class = 'item' id = 'item3'></div>
+					
+					<div class = 'item' id = 'item4'></div>
+				
+				</div>
+			
+			</div>	
+			<div class = 'socialNetworks'>
+			
+					<div class = 'socialneticon'><img src="../images/20-social-media-icons/57x57/email.png"></div>			
+				
+					<div class = 'socialneticon'><img src="../images/20-social-media-icons/57x57/facebook.png"></div>
+					
+					<div class = 'socialneticon'><img src="../images/20-social-media-icons/57x57/twitter.png"></div>
+					
+					<div class = 'socialneticon'><img src="../images/20-social-media-icons/57x57/youtube.png"></div>
+					
+
+			
+			</div>						
+				
+		</div>  
+
+					 
     </div><!-- /content -->
 </div><!-- /page -->
 </body>

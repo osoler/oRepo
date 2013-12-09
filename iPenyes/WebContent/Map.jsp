@@ -7,7 +7,7 @@
 			
     <div data-role="content" id="contentMap">
  		<div id="map_canvasWrapper" class="ui-corner-all ui-shadow">
- 			<div id="map_canvas" data-iscroll="true"></div>
+ 			<div id="map_canvas"></div>
  		</div>
   	</div> 
 	<%@ include file="Map-Footer.jsp"%> 

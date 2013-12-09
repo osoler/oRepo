@@ -1,6 +1,13 @@
 $(document).on('pageshow', '#splashPage',function(e,data){ 
 	 centerSplash();
 });
+$(document).on('pageshow', '#detailPenyes',function(e,data){ 
+	
+	$('.iosSlider').iosSlider({
+		desktopClickDrag: true
+	});
+	
+});
 
 function hideSplash() {
 	  $.mobile.changePage("#listPenyes", "fade");

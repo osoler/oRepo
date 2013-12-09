@@ -13,7 +13,7 @@
 <!-- /div -->
 <div data-role="page" id="listPenyes">  
 	<%@ include file="List-Header.jsp"%>
-	<div data-role="content"  data-iscroll="true" id="contentlistPenyes"> 
+	<div data-role="content"  id="contentlistPenyes"> 
 		<ul  data-role="listview" data-inset="true" data-filter="false">
 			<%@ include file="penyainfinite.jsp"%>
 			<li id="loadmoreajaxloader">&nbsp;</li>																											

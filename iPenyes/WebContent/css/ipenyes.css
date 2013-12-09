@@ -86,6 +86,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 #contentMap{padding-top: 0px !important;}
  
  /* === DETAIL PENYA === */
+#detailPenyes{ background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52) !important;}
 .div_padding_v{margin-bottom: 10px;}
 .detailPenyes_divheader {border: 1px solid #b3b3b3;background: white;font-weight: bold;padding: 5px;height:100px;}
 .detailPenyes_coat {width: 100px;float:left;}
@@ -193,8 +194,53 @@ box-shadow: 0 0 1px rgba(255,255,255,.3);
 -webkit-border-radius: 10px;
 -webkit-filter: brightness(140%);
 }
+		
+.iosSlider {
+	left: 0;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 1024px;
+    height: 312px !important;
+    overflow: visible !important;
+}
 
+.iosSlider .slider {
+	width: 100%;
+	height: 100%;
+}
 
+.iosSlider .slider .item {
+	float: left;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: #000;
+}		
 
+.iosSlider .slider #item1 {
+	background: url(../images/photosPenyes/PBSuecia/25674_375479747599_1075420_n.jpg) no-repeat 0 0;
+}
 
+.iosSlider .slider #item2 {
+	background: url(../images/photosPenyes/PBSuecia/26194_374642007599_7429551_n.jpg) no-repeat 0 0;
+}
 
+.iosSlider .slider #item3 {
+	background: url(../images/photosPenyes/PBSuecia/525863_10150878688002600_479399075_n.jpg) no-repeat 0 0;
+}
+
+.iosSlider .slider #item4 {
+	background: url(../images/photosPenyes/PBSuecia/579861_10150878690297600_1131012138_n.jpg) no-repeat 0 0;
+}
+
+.socialNetworks{
+	margin-top: 10px;
+	display: block;
+	text-align: center;
+}
+.socialNetworks .socialneticon  {
+	padding: 3px;
+	display: inline;
+}
+			

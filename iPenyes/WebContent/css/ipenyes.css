@@ -201,7 +201,7 @@ box-shadow: 0 0 1px rgba(255,255,255,.3);
     position: relative;
     top: 0;
     width: 1024px;
-    height: 312px !important;
+    height: 200px;
     overflow: visible !important;
 }
 
@@ -216,22 +216,30 @@ box-shadow: 0 0 1px rgba(255,255,255,.3);
     height: 100%;
     padding: 0;
     background: #000;
+    
 }		
 
 .iosSlider .slider #item1 {
 	background: url(../images/photosPenyes/PBSuecia/25674_375479747599_1075420_n.jpg) no-repeat 0 0;
+	background-size: 320px auto;
 }
 
 .iosSlider .slider #item2 {
 	background: url(../images/photosPenyes/PBSuecia/26194_374642007599_7429551_n.jpg) no-repeat 0 0;
+		background-size: 320px auto;
+		margin-left: 5px;
 }
 
 .iosSlider .slider #item3 {
 	background: url(../images/photosPenyes/PBSuecia/525863_10150878688002600_479399075_n.jpg) no-repeat 0 0;
+		background-size: 320px auto;
+		margin-left: 5px;
 }
 
 .iosSlider .slider #item4 {
 	background: url(../images/photosPenyes/PBSuecia/579861_10150878690297600_1131012138_n.jpg) no-repeat 0 0;
+	background-size: 320px auto;
+	margin-left: 5px;
 }
 
 .socialNetworks{

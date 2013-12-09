@@ -4,7 +4,7 @@ $(document).on('pageshow', '#splashPage',function(e,data){
 $(document).on('pageshow', '#detailPenyes',function(e,data){ 
 	
 	$('.iosSlider').iosSlider({
-		desktopClickDrag: true
+		desktopClickDrag: false, scrollbarWidth: '100px', desktopClickDrag: true, scrollbarStageWidth: '100px'
 	});
 	
 });

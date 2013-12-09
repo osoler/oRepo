@@ -15,7 +15,7 @@
 	<%@ include file="List-Header.jsp"%>
 	<div data-role="content"  data-iscroll="true" id="contentlistPenyes"> 
 		<ul  data-role="listview" data-inset="true" data-filter="false">
-			<%@ include file="200penyes.jsp"%>
+			<%@ include file="penyainfinite.jsp"%>
 			<li id="loadmoreajaxloader">&nbsp;</li>																											
 		</ul>        
 	</div><!-- /content -->         

@@ -16,34 +16,33 @@ function centerSplash() {
 	   setTimeout(hideSplash, 2000);
 }
 var  fakereloaded = 0; 
+var  maxfakereloaded = 20; 
 $(window).scroll(function()
 		{
-		if (fakereloaded < 4){
-			    if (($(document).height() - 100)  <= $(window).scrollTop() + $(window).height()) 
-			    {
-	//		        $('#loadmoreajaxloader').show();
-			        $.ajax({
-			        url: "penyainfinite.jsp",
-			        success: function(html)
-			        {
-			            if(html)
-			            {
-			            	$(html).insertBefore( "#loadmoreajaxloader" );
-			            	$('ul').listview('refresh');
-			            }
-	//		            $('#loadmoreajaxloader').hide();
-			        }
-			        });
-				    fakereloaded++;  
-				    if (fakereloaded >= 4){
-				    	$('#loadmoreajaxloader').hide();
-				    	$('ul').listview('refresh');
-				    }
-			    }else{
-	//		    	$('#loadmoreajaxloader').hide();
+		if (($.mobile.activePage.is("#listPenyes"))&&(fakereloaded < maxfakereloaded)&&
+				(($(document).height() - 100)  <= $(window).scrollTop() + $(window).height())
+			){
+//		        $('#loadmoreajaxloader').show();
+		        $.ajax({
+		        url: "penyainfinite.jsp",
+		        success: function(html)
+		        {
+		            if(html)
+		            {
+		            	$(html).insertBefore( "#loadmoreajaxloader" );
+		            	$('ul').listview('refresh');
+		            }
+//		            $('#loadmoreajaxloader').hide();
+		        }
+		        });
+			    fakereloaded++;  
+			    if (fakereloaded >= maxfakereloaded){
+			    	$('#loadmoreajaxloader').hide();
+			    	$('ul').listview('refresh');
 			    }
-
-		}
+		    }else{
+//		    	$('#loadmoreajaxloader').hide();
+		    }
 		});
 
 

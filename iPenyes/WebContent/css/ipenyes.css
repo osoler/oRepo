@@ -42,7 +42,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 /* === LIST PENYES === */
 
 #loadmoreajaxloader{background-image: url('/images/ajax-loader-infinite.gif');background-repeat: no-repeat;background-size: auto;background-position:center center;
-	 display: none;overflow:hidden;}
+	 display: block;overflow:hidden;}
 	 
 
 .ui-content .ui-listview-inset { margin: 0;}

@@ -98,8 +98,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 #filterimage{width: 17px;}
 #detailLeft{float: left;padding-left: 15px;padding-top:18px;width: 70px;}
 #detailRight{float: right;padding-right: 18px;padding-top:7px;width: 70px;text-align: right;}
-.detailPenyes_div{border: 1px solid #b3b3b3;background: white;font-weight: normal; font-size: small;padding: 5px;}
-
+.detailPenyes_div{border: 1px solid #b3b3b3;background: white;font-weight: normal; font-size: small;padding: 10px;padding-left: 20px;padding-right: 20px;}
 
 #ios-arrow-left span.ui-btn-inner{
 	display: inline;
@@ -245,10 +244,27 @@ box-shadow: 0 0 1px rgba(255,255,255,.3);
 .socialNetworks{
 	margin-top: 10px;
 	display: block;
-	text-align: center;
 }
 .socialNetworks .socialneticon  {
-	padding: 3px;
+	padding: 9px;
+	display: inline;
+	text-align: center;
+}
+
+.socialNetworks .socialneticon .icon  {
+	width: 40px;
+}
+
+.subdetailPenyes_div{
+	margin-bottom: 2px;
+	margin-top: 2px;
+	display: block;
+}			
+.subdetailPenyes_divheader{
+	display: inline;
+	font-weight: bolder;
+}			
+.subdetailPenyes_divvalue{
+	margin-left: 10px;
 	display: inline;
 }
-			

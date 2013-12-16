@@ -7,7 +7,9 @@ $(window).bind( 'orientationchange', function(e){
 	}	
 	if ($.mobile.activePage.is("#detailPenyes")){ 
 		checkOrientation();
-	}	
+		refreshSlider() ;
+	}
+	
 });
 function checkOrientation() {
 	if (window.orientation === 0 || window.orientation === 180){

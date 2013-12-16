@@ -1,19 +1,3 @@
-$(document).on('pageshow', '#detailPenyes',function(e,data){ 
-	checkOrientation();
-	refreshSlider() ;
-});
-function fullScreen(div) {
-	$.mobile.changePage($("#fullScreen"));
-}
-function backFullScreen() {
-	$.mobile.changePage($("#detailPenyes"));
-}
-function refreshSlider() {
-	$('.iosSlider').iosSlider({
-		desktopClickDrag: false, scrollbarWidth: '100px', desktopClickDrag: true, scrollbarStageWidth: '100px'
-	});
-}
-
 var  fakereloaded = 0; 
 var  maxfakereloaded = 20; 
 $(window).scroll(function()
@@ -39,6 +23,3 @@ $(window).scroll(function()
 			    }
 		    }
 		});
-
-
-

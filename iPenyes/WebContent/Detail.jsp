@@ -4,7 +4,7 @@
     <div data-role="content">
 		<div class="detailPenyes_divheader ui-corner-all ui-shadow div_padding_v">
 				<div>
-					<div class="detailPenyes_coat"><img class="desc-icon" src="/images/escudos/0002.LaGranada.png"></div>
+					<div class="detailPenyes_coat"><img class="desc-icon" src="/images/escudos/0983.PBSuecia.png"></div>
 					<div class="detailPenyes_description"> 
 						<div class="detailPenyes_name"> Penya Barcelonista Barcino</div>
 						<div class="detailPenyes_fundation">Fundación: 1985</div>

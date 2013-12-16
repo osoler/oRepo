@@ -2,11 +2,8 @@
 body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52) !important;margin: 0px;padding: 0px;}
 .ui-content  {padding-top: 0px;}
 .ui-page{background : transparent;}
-.fade.out {	opacity: 0;	-webkit-animation-duration: 725ms;	-webkit-animation-name: fadeout;	-moz-animation-duration: 725ms;	-moz-animation-name: fadeout;}
-.fade.in {	opacity: 1;	-webkit-animation-duration: 725ms;	-webkit-animation-name: fadein;	-moz-animation-duration: 725ms;	-moz-animation-name: fadein;}
-.quickfade.out {	opacity: 0;	-webkit-animation-duration: 50ms;	-webkit-animation-name: fadeout;	-moz-animation-duration: 50ms;	-moz-animation-name: fadeout;}
-.quickfade.in {	opacity: 1;	-webkit-animation-duration: 50ms;	-webkit-animation-name: fadein;	-moz-animation-duration: 50ms;	-moz-animation-name: fadein;}
 .ui-icon-loading {background: url(../images/ajax-loader.gif);background-size: 46px 46px;}
+.in, .out {    -webkit-animation-timing-function: ease-in-out;    -webkit-animation-duration: 350ms !important;}
 
 /* === HEADER BAR === */
 .ui-header {height: 50px;border-bottom: none !important;padding-top: 17px !important;}
@@ -49,7 +46,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 	background: #d6d6d6 ;
 	font-weight: normal;
 	color: 	#2f3e46 ;
-	text-shadow: 0 /*{c-bdown-shadow-x}*/ 1px /*{c-bdown-shadow-y}*/ 0 /*{c-bdown-shadow-radius}*/ #ffffff /*{c-bdown-shadow-color}*/;
+	text-shadow: 0 /*{c-bdown-shadow-x}*/ 1px /*{c-bdown-shadow-y}*/ 0 /*{c-bdown-shadow-radius}*/ #ECEFF3 /*{c-bdown-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #d0d0d0 /*{c-bdown-background-start}*/), to( #dfdfdf /*{c-bdown-background-end}*/)); /* Saf4+, Chrome */
 	background-image: -webkit-linear-gradient( #d0d0d0 /*{c-bdown-background-start}*/, #dfdfdf /*{c-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
 	background-image:    -moz-linear-gradient( #d0d0d0 /*{c-bdown-background-start}*/, #dfdfdf /*{c-bdown-background-end}*/); /* FF3.6 */
@@ -83,17 +80,17 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
  /* === DETAIL PENYA === */
 #detailPenyes{ background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52) !important;}
 .div_padding_v{margin-bottom: 10px;}
-.detailPenyes_divheader {border: 1px solid #b3b3b3;background: white;font-weight: bold;padding: 5px;height:100px;}
-.detailPenyes_coat {width: 100px;float:left;}
-.detailPenyes_description {width: 90%;height:80px;padding:10px;background-color: white;left: 100px;}
+.detailPenyes_divheader {border: 1px solid #b3b3b3;background-color: #ECEFF3;font-weight: bold;padding: 5px;height:100px;}
+.detailPenyes_coat {width: 120px;float:left;}
+.detailPenyes_description {width: 90%;height:80px;padding:10px;background-color: #ECEFF3;left: 100px;}
 .desc-icon { max-height: 100px; max-width: 100px;}
-.detailPenyes_fundation{font-size: 10px;padding-top: 35px;text-align: right;}
+.detailPenyes_fundation{font-size: 10px;padding-top: 14px;text-align: right;}
 .headerBtnBack{display:inline-block; float: left;margin-top:3px;margin-left: 5px;}
 .headerLogoInner{display:inline-block; float: right;margin-top:3px;margin-right: 17px;}
 #filterimage{width: 17px;}
 #detailLeft{float: left;padding-left: 15px;padding-top:18px;width: 70px;}
 #detailRight{float: right;padding-right: 18px;padding-top:7px;width: 70px;text-align: right;}
-.detailPenyes_div{border: 1px solid #b3b3b3;background: white;font-weight: normal; font-size: small;padding: 10px;padding-left: 20px;padding-right: 20px;}
+.detailPenyes_div{border: 1px solid #b3b3b3;background: #ECEFF3;font-weight: normal; font-size: small;padding: 10px;padding-left: 20px;padding-right: 20px;}
 
 #ios-arrow-left span.ui-btn-inner{
 	display: inline;
@@ -254,10 +251,14 @@ box-shadow: 0 0 1px rgba(255,255,255,.3);
 }
 
  /* === PHOTO PENYA === */
-#fullScreen .ui-content{padding: 0px;margin: 0px;background: yellow;} 
+#fullScreen .ui-content{padding: 0px;margin: 0px;} 
 #fullscreenimage{
-	height: 100%;width: 100%;position: absolute;z-index: 1001;background: yellow;
+	height: 100%;width: 100%;position: absolute;z-index: 1001;background: transparent;
 	background: url(../images/photosPenyes/PBSuecia/25674_375479747599_1075420_n.jpg) no-repeat center left;
     background-size: 100% auto; top: -1px;
+}
+#closerWrapper{width: 100%;padding-top: 17px;}
+#closer{
+	z-index: 1002;background-color: aqua;position: relative;float: right;
 }
 

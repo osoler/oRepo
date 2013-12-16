@@ -1,6 +1,3 @@
-<html>
-<%@ include file="HeaderInfo.html"%>           
-<body>
 <div data-role="page" id="detailPenyes">
 	<%@ include file="Detail-Header.jsp"%> 
 			
@@ -73,6 +70,5 @@ Força Barça!!! (Go Barça!)
 
 					 
     </div><!-- /content -->
-</div><!-- /page -->
-</body>
-</html>
+</div>
+

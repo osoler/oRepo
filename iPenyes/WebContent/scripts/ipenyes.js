@@ -1,36 +1,17 @@
-$(document).on('pageshow', '#splashPage',function(e,data){ 
-	 centerSplash();
-});
-
 $(document).on('pageshow', '#detailPenyes',function(e,data){ 
 	checkOrientation();
 	refreshSlider() ;
 });
 function fullScreen(div) {
-	$.mobile.changePage("Photo.jsp", "slideup");
+	$.mobile.changePage($("#fullScreen"));
 }
 function backFullScreen() {
-	var previousPage =$.mobile.activePage.data('ui.prevPage');
-	$.mobile.changePage('Detail.jsp',"none");
+	$.mobile.changePage($("#detailPenyes"));
 }
 function refreshSlider() {
 	$('.iosSlider').iosSlider({
 		desktopClickDrag: false, scrollbarWidth: '100px', desktopClickDrag: true, scrollbarStageWidth: '100px'
 	});
-}
-
-function hideSplash() {
-	  $.mobile.changePage("#listPenyes", "fade");
-}
-
-function centerSplash() {
-
-	   var welcomeWrapper = $("#WelcomeWrapper").height()/2;
-	   var valkomenLogo    = $("#ValkomenLogo").height();
-	   
-	   var centeredSize = welcomeWrapper - valkomenLogo;
-	   $("#ValkomenLogo").css("margin-top",centeredSize+ "px");
-	   setTimeout(hideSplash, 2000);
 }
 
 var  fakereloaded = 0; 

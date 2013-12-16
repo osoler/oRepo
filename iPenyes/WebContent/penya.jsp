@@ -1,5 +1,5 @@
 <%@page import="com.ophone.Utils"%>
-<li data-icon="false"><a href="Detail.jsp" data-transition="slide" class="penyaBean" >
+<li data-icon="false"><a href="#detailPenyes" data-transition="slide" class="penyaBean" >
 			<div id="detailPenyaBean">		
 					<div class="coat"><img class="ui-li-icon" src="/images/escudos/<%= Utils.randomEscudo() %>" ></div>
 					<div  class="description"> 

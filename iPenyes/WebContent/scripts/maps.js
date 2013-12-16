@@ -1,12 +1,3 @@
-$(window).bind( 'orientationchange', function(e){
-	if ($.mobile.activePage.is("#mapPenyes")){ 
-		$.mobile.changePage( "Map2.jsp#mapPenyes" ,{ transition: "none", changeHash: false });
-	}	
-	if ($.mobile.activePage.is("#mapPenyes2")){ 
-		$.mobile.changePage( "Map.jsp#mapPenyes" ,{ transition: "none", changeHash: false });
-	}	
-});
-
 $(document).on('pageshow', '#mapPenyes',function(e,data){ 
 	createMap();
 });

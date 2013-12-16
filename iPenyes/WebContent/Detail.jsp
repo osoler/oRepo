@@ -22,13 +22,13 @@
 					<div class="subdetailPenyes_div"><div class="subdetailPenyes_divheader">Website:</div><div class="subdetailPenyes_divvalue">http://www.miamiblaugrana.org</div></div>
 					<div class = 'socialNetworks'>
 					
-							<div class = 'socialneticon'><img class = 'icon' src="../images/20-social-media-icons/57x57/email.png"></div>			
+							<div class = 'socialneticon'><a href="mailto:fcb@ipenyes.com"><img class = 'icon' src="../images/20-social-media-icons/57x57/email.png"></a></div>			
 						
-							<div class = 'socialneticon'><img class = 'icon' src="../images/20-social-media-icons/57x57/facebook.png"></div>
+							<div class = 'socialneticon'><a href="http://www.facebook.com"><img class = 'icon' src="../images/20-social-media-icons/57x57/facebook.png"></a></div>
 							
-							<div class = 'socialneticon'><img class = 'icon' src="../images/20-social-media-icons/57x57/twitter.png"></div>
+							<div class = 'socialneticon'><a href="http://www.twitter.com"><img class = 'icon' src="../images/20-social-media-icons/57x57/twitter.png"></a></div>
 							
-							<div class = 'socialneticon'><img class = 'icon' src="../images/20-social-media-icons/57x57/youtube.png"></div>
+							<div class = 'socialneticon'><a href="http://www.youtube.com"><img class = 'icon' src="../images/20-social-media-icons/57x57/youtube.png"></a></div>
 							
 		
 					
@@ -46,13 +46,13 @@ The Barcelona Supporters Club of Miami (Penya Barcelonista de Miami) was establi
 			
 				<div class = 'slider'>
 				
-					<div class = 'item' id = 'item1'></div>
+					<div class = 'photopenyaitem' id = 'item1'></div>
 					
-					<div class = 'item' id = 'item2'></div>
+					<div class = 'photopenyaitem' id = 'item2'></div>
 					
-					<div class = 'item' id = 'item3'></div>
+					<div class = 'photopenyaitem' id = 'item3'></div>
 					
-					<div class = 'item' id = 'item4'></div>
+					<div class = 'photopenyaitem' id = 'item4'></div>
 				
 				</div>
 			

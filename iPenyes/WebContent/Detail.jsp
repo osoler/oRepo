@@ -46,13 +46,13 @@ The Barcelona Supporters Club of Miami (Penya Barcelonista de Miami) was establi
 			
 				<div class = 'slider'>
 				
-					<div class = 'photopenyaitem' id = 'item1'></div>
+					<div class = 'photopenyaitem' id = 'item1' onclick="fullScreen(this)"></div>
 					
-					<div class = 'photopenyaitem' id = 'item2'></div>
+					<div class = 'photopenyaitem' id = 'item2' onclick="fullScreen(this)"></div>
 					
-					<div class = 'photopenyaitem' id = 'item3'></div>
+					<div class = 'photopenyaitem' id = 'item3' onclick="fullScreen(this)"></div>
 					
-					<div class = 'photopenyaitem' id = 'item4'></div>
+					<div class = 'photopenyaitem' id = 'item4' onclick="fullScreen(this)"></div>
 				
 				</div>
 			

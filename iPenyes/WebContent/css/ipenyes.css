@@ -1,5 +1,5 @@
 /* === COMMON === */
-body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52) !important;}
+body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52) !important;margin: 0px;padding: 0px;}
 .ui-content  {padding-top: 0px;}
 .ui-page{background : transparent;}
 .fade.out {	opacity: 0;	-webkit-animation-duration: 725ms;	-webkit-animation-name: fadeout;	-moz-animation-duration: 725ms;	-moz-animation-name: fadeout;}
@@ -7,11 +7,6 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 .quickfade.out {	opacity: 0;	-webkit-animation-duration: 50ms;	-webkit-animation-name: fadeout;	-moz-animation-duration: 50ms;	-moz-animation-name: fadeout;}
 .quickfade.in {	opacity: 1;	-webkit-animation-duration: 50ms;	-webkit-animation-name: fadein;	-moz-animation-duration: 50ms;	-moz-animation-name: fadein;}
 .ui-icon-loading {background: url(../images/ajax-loader.gif);background-size: 46px 46px;}
-
-/* === WELCOME PAGE === */
-.splash {align: center;}
-#ValkomenLogo {width: 100%;}
-#WelcomeWrapper {padding-left:5px;padding-right:5px;}
 
 /* === HEADER BAR === */
 .ui-header {height: 50px;border-bottom: none !important;padding-top: 17px !important;}
@@ -256,3 +251,12 @@ box-shadow: 0 0 1px rgba(255,255,255,.3);
 	margin-left: 10px;
 	display: inline;
 }
+
+ /* === PHOTO PENYA === */
+#fullScreen .ui-content{padding: 0px;margin: 0px;background: yellow;} 
+#fullscreenimage{
+	height: 100%;width: 100%;position: absolute;z-index: 1001;background: yellow;
+	background: url(../images/photosPenyes/PBSuecia/25674_375479747599_1075420_n.jpg) no-repeat center left;
+    background-size: 100% auto; top: -1px;
+}
+

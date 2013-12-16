@@ -6,7 +6,13 @@ $(document).on('pageshow', '#detailPenyes',function(e,data){
 	checkOrientation();
 	refreshSlider() ;
 });
-
+function fullScreen(div) {
+	$.mobile.changePage("Photo.jsp", "slideup");
+}
+function backFullScreen() {
+	var previousPage =$.mobile.activePage.data('ui.prevPage');
+	$.mobile.changePage('Detail.jsp',"none");
+}
 function refreshSlider() {
 	$('.iosSlider').iosSlider({
 		desktopClickDrag: false, scrollbarWidth: '100px', desktopClickDrag: true, scrollbarStageWidth: '100px'

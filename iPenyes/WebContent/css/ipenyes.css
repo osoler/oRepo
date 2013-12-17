@@ -257,11 +257,11 @@ box-shadow: 0 0 1px rgba(255,255,255,.3);
 	background: url(../images/photosPenyes/PBSuecia/25674_375479747599_1075420_n.jpg) no-repeat center left;
     background-size: 100% auto; top: -1px;
 }
-#closerWrapper{width: 100%;padding-top: 17px;}
+#closerWrapper{width: 100%;padding-top: 25px;}
 #closer{
 	z-index: 1002;position: relative;float: right;
 	background-image: url('/images/close-button.png');background-repeat: no-repeat;background-size: auto 100%;background-position:center center;
-	height: 20px;width: 20px; padding-right: 5px;
+	height: 20px;width: 20px; padding-right: 10px;
 }
 #closer:hover{
 -webkit-filter: brightness(50%);

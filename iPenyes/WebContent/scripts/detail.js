@@ -15,6 +15,7 @@ function refreshSlider() {
 	return false; 
 }
 function goToDetail() {
+	event.preventDefault();
 	$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
 	return false; 
 }

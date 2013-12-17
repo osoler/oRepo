@@ -25,4 +25,5 @@ function checkOrientation() {
 		});
 		$('div.iosSlider').addClass('horizontal');	
 	}
+	return false; 
 }

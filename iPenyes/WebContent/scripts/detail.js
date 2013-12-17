@@ -3,11 +3,18 @@ $(document).on('pageshow', '#detailPenyes',function(e,data){
 	refreshSlider() ;
 });
 function fullScreen(div) {
-	$.mobile.changePage($("#fullScreen"));
+	$.mobile.changePage($("#fullScreen"),{ transition: "pop", changeHash: false });
+	return false; 
 }
 function backFullScreen() {
-	$.mobile.changePage($("#detailPenyes"));
+	$.mobile.changePage($("#detailPenyes"),{ transition: "pop", reverse: true });
+	return false; 
 }
 function refreshSlider() {
 	$('.iosSlider').iosSlider({desktopClickDrag: true});
+	return false; 
+}
+function goToDetail() {
+	$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
+	return false; 
 }

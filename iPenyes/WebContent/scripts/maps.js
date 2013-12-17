@@ -9,6 +9,7 @@ $(document).on('pageshow', '#mapPenyes2',function(e,data){
 function addMarker(map, title, x, y){
 	 var myLatlng = new google.maps.LatLng(x,y);
 	 new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP});
+	 return false; 
 }
 function createMap(){	
 	$('#map_canvas').empty();
@@ -37,7 +38,7 @@ function createMap(){
         randY *= (randY * 1000000) % 2 == 0 ? 1 : -1;	
     	addMarker(map, title,60 + (randX * 0.5),17 + (randY * 0.5));
     }
-    
+    return false; 
 }
 
 

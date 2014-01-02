@@ -39,7 +39,7 @@ body {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#
 
 .ui-content .ui-listview-inset { margin: 0;}
 .ui-listview .ui-li-icon { max-height: 50px; max-width: 55px; left: 5px; top: 5px;}
-.ui-listview li:hover {
+.ui-listview li:active {
 	border-width:0px;
 	border: 1px solid #bbb;
 	border-bottom: none;

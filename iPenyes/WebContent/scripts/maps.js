@@ -56,7 +56,14 @@ function getRealContentHeight() {
 	return content_height;
 }
 
-
+$(window).bind( 'orientationchange', function(e){
+	if ($.mobile.activePage.is("#mapPenyes")){ 
+		$.mobile.changePage( "#mapPenyes2" ,{ transition: "none", changeHash: false });
+	}	
+	if ($.mobile.activePage.is("#mapPenyes2")){ 
+		$.mobile.changePage( "#mapPenyes" ,{ transition: "none", changeHash: false });
+	}	
+});
 
 
 

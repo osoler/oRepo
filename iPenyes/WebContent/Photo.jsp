@@ -4,4 +4,3 @@
 		<div id="closerWrapper"><div id="closer" onClick="backFullScreen()">&nbsp;</div></div>
     </div><!-- /content -->
 </div><!-- /page -->
-

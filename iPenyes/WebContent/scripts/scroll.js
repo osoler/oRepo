@@ -1,5 +1,5 @@
 var  fakereloaded = 0; 
-var  maxfakereloaded = 1; 
+var  maxfakereloaded = 3; 
 $(window).scroll(function()
 		{
 		if (($.mobile.activePage.is("#listPenyes"))||($.mobile.activePage.is("#detailPenyes"))){

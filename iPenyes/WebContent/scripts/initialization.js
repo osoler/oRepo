@@ -24,7 +24,6 @@ $.mobile.getMaxScrollForTransition = function () { return 65536; } ;
 $.mobile.defaultHomeScroll = 0;
 
 
-
 //Update viewport orientation
 //-----------------------------
 this.updateOrientation = function() {

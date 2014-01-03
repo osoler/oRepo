@@ -4,4 +4,5 @@
 		<div  id="detailRight"><a id="mapLogoLink" href="#mapPenyes" data-transition="pop"><img id="mapLogo" src="/images/google_pin.png"></a></div>		
 		<div  class="headerLogoImg">&nbsp;</div>		
 	</div>	
+	<div class="infiniteShadowTop"><div class="innerInfiniteShadowTop"></div></div>
 </div><!-- /header -->

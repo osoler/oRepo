@@ -20,7 +20,6 @@ $(document).on('pageshow', '#detailPenyes',function(e,data){
 	refreshSlider() ;
 });
 
-
 function doSomething() {
 	var currentScale = window.outerWidth;
   if (currentScale === 320)

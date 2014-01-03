@@ -1,3 +1,17 @@
+$(document).on('pageshow', '#listPenyes',function(e,data){ 
+	if ($(window).scrollTop() <= 1){
+		$(".innerInfiniteShadowTop").hide();
+	}else{
+    	$(".innerInfiniteShadowTop").show();
+	}
+});
+$(document).on('pageshow', '#detailPenyes',function(e,data){ 
+	if ($(window).scrollTop() <= 1){
+		$(".innerInfiniteShadowTop").hide();
+	}else{
+    	$(".innerInfiniteShadowTop").show();
+	}
+});
 function noScrollSlide(name, reverse, $to, $from) { 
 	var deferred = new $.Deferred() ,
 	toScroll = $('body').scrollTop(), 

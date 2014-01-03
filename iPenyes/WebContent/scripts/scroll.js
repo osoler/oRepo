@@ -12,14 +12,14 @@ $(window).scroll(function()
 		            if(html)
 		            {
 		            	$(html).insertBefore( "#loadmoreajaxloader" );
-		            	$('ul').listview('refresh');
+		            	$('#listviewpenyes').listview('refresh');
 		            }
 		        }
 		        });
 			    fakereloaded++;  
 			    if (fakereloaded >= maxfakereloaded){
 			    	$('#loadmoreajaxloader').hide();
-			    	$('ul').listview('refresh');
+			    	$('#listviewpenyes').listview('refresh');
 			    }
 		    }
 		});

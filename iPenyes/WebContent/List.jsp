@@ -7,7 +7,6 @@
 			<li id="loadmoreajaxloader">&nbsp;</li>																											
 		</ul>        
 	</div><!-- /content -->         
-
 </div><!-- /page -->
 
 		   

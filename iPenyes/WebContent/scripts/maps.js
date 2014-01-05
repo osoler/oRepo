@@ -2,12 +2,57 @@ $(document).on('pageshow', '#mapPenyes',function(e,data){
 	createMap();
 });
 
-function addMarker(map, title, x, y){
-	 var myLatlng = new google.maps.LatLng(x,y);
-	 new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP});
+function addMarker(map, counter){
+	if (counter >=30) {
+		return false;
+	}
+	
+	var title = "penya";
+    var randX = Math.random();
+    var randY = Math.random();
+    randX *= (randX * 1000000) % 2 == 0 ? 1 : -1;
+    randY *= (randY * 1000000) % 2 == 0 ? 1 : -1;	
+    var x = 60 + (randX * 0.5);
+    var y = 17 + (randY * 0.5);
+	var newcounter = counter + 1; 
+    $.ajax({
+        url: "infowindowpenya.jsp",
+        success: function(html)
+        {
+            if(html)
+            {
+            	   var contentString = html;	
+            		var infowindow = new InfoBubble({
+            	        map: map,
+            	        content: contentString,
+            	        position: new google.maps.LatLng(-35, 151),
+            	        shadowStyle: 1,
+            	        padding: 0,
+            	        backgroundColor: '#000C52',
+            	        borderRadius: 4,
+            	        arrowSize: 10,
+            	        borderWidth: 0,
+            	        borderColor: '#2c2c2c',
+            	        disableAutoPan: true,
+            	        hideCloseButton: false,
+            	        arrowPosition: 30,
+            	        backgroundClassName: 'infowindowPenyes',
+            	        arrowStyle: 2
+            	      });
+            	    var myLatlng = new google.maps.LatLng(x,y);
+            		var marker = new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP});
+            		google.maps.event.addListener(marker, 'click', function() {infowindow.open(map,marker);});
+            		
+            		 addMarker(map, newcounter);
+            }
+        }
+        });
+	
+ 
 	 return false; 
 }
 function createMap(){	
+
 	$('#map_canvas').empty();
 	
 	$('#contentMap').height(getRealContentHeight());
@@ -25,16 +70,10 @@ function createMap(){
     
     var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);    
     
-    addMarker(map, title,60,17);
-    for (var n = 1; n <= 30; n++) {
-    	var title = "Hello Penyes " + n ;
-        var randX = Math.random();
-        var randY = Math.random();
-        randX *= (randX * 1000000) % 2 == 0 ? 1 : -1;
-        randY *= (randY * 1000000) % 2 == 0 ? 1 : -1;	
-    	addMarker(map, title,60 + (randX * 0.5),17 + (randY * 0.5));
-    }
+    addMarker(map, 0);
+
     return false; 
+    
 }
 
 

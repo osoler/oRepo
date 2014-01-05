@@ -55,6 +55,11 @@ function refreshSlider() {
 }
 function goToDetail() {
 	event.preventDefault();
+	$(".innerInfiniteShadowTop").hide();
 	$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
+	return false; 
+}
+function backToList() {
+	$(".innerInfiniteShadowTop").hide();
 	return false; 
 }

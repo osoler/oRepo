@@ -1,0 +1,172 @@
+ /* === DETAIL PENYA === */
+#detailPenyes{ background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52) !important;}
+.div_padding_v{margin-bottom: 10px;}
+.detailPenyes_divheader {border: 1px solid #b3b3b3;background-color: #ECEFF3;font-weight: bold;padding: 5px;height:100px;}
+.detailPenyes_coat {width: 120px;float:left;}
+.detailPenyes_description {width: 90%;height:80px;padding:10px;background-color: #ECEFF3;left: 100px;}
+.desc-icon { max-height: 100px; max-width: 100px;}
+.detailPenyes_fundation{font-size: 10px;padding-top: 14px;text-align: right;}
+.headerBtnBack{display:inline-block; float: left;margin-top:3px;margin-left: 5px;}
+.headerLogoInner{display:inline-block; float: right;margin-top:3px;margin-right: 17px;}
+#filterimage{width: 17px;}
+#detailLeft{float: left;padding-left: 15px;padding-top:18px;width: 70px;}
+#detailRight{float: right;padding-right: 18px;padding-top:7px;width: 70px;text-align: right;}
+.detailPenyes_div{border: 1px solid #b3b3b3;background: #ECEFF3;font-weight: normal; font-size: small;padding: 10px;padding-left: 20px;padding-right: 20px;}
+
+#ios-arrow-left span.ui-btn-inner{
+	display: inline;
+	border: none;
+	padding: 5px 7px 0 6px;
+	font-size:11px;
+	top: 4px;
+	text-shadow: none;
+}
+#ios-arrow-left {
+    left:20px;/*change the position*/
+    top:22px;/*change the position*/   
+    position:absolute;
+    background-repeat:repeat-x;
+    background-color: #8F0418;/*change this and the background color for the :before element*/
+    background-image : -webkit-linear-gradient(
+        bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0) 50%,
+        rgba(255,255,255,0.1) 50%,
+        rgba(255,255,255,0.3) 100%
+        );
+    height:27px;
+    z-index : 0;
+    border:none;
+    border-radius: 6px;
+    -webkit-border-top-left-radius : 10px 15px;
+    -webkit-border-bottom-left-radius : 10px 15px;
+   /*  border-bottom: 1px solid rgba(255,255,255,0.3); */
+    box-shadow :-1px -1px 0px rgba(0,0,0,0.2)inset,
+        0 1px 2px rgba(0,0,0,0.8)inset;
+    font-size : 11px;
+    display : block; 
+    text-align:center;
+    color:#C0AA61;
+    text-shadow : 0px -1px 0px #000;
+    line-height : 20px;
+    font-weight: 700;
+    -webkit-background-size : 20px;
+}
+ 
+ #ios-arrow-left:before{
+    position:absolute;
+    top:14.9%;
+    left:-4px;
+
+    background-color: #8F0418;/*change to the same as the main element*/
+    background-image :  
+        -webkit-gradient(linear, left bottom, right top, 
+            from(rgba(0,0,0,0)), 
+            color-stop(0.5, rgba(0,0,0,0)), 
+            color-stop(0.5, rgba(255,255,255,0.1)), 
+            to(rgba(255,255,255,0.3))); 
+    height : 15px;
+    width: 20px;
+   
+    -webkit-transform : rotate(-45deg) skew(-10deg, -10deg);
+    z-index : 1;
+    content : ' ';
+   -webkit-border-left: 100px solid orange;
+   -webkit-border-top: 50px solid transparent;
+   -webkit-border-bottom: 50px solid transparent;
+    -webkit-mask-image : 
+        -webkit-gradient(linear, left top, right bottom,
+            from(#000000), 
+            color-stop(0.33,#000000), 
+            color-stop(0.5, transparent), 
+            to(transparent));
+}  
+#ios-arrow-left:hover{
+	-webkit-filter: brightness(50%);
+}
+#ios-arrow-left.ui-btn-active {
+	border: none;
+	color: none;
+	-webkit-filter: brightness(50%);
+}
+#ios-arrow-left:hover span.ui-btn-text{
+	-webkit-filter: brightness(140%);
+}
+
+#mapLogo{
+width: 16px;
+padding: 4px 10px 4px 10px;
+background-color: transparent;
+-webkit-box-shadow: 0px 1px 0 rgba(255,255,255,0);
+box-shadow: 0px 1px 0 rgba(255,255,255,0); 
+}
+#mapLogo:hover{
+background-color: transparent;
+-webkit-box-shadow: 0 0 1px rgba(255,255,255,.3);
+box-shadow: 0 0 1px rgba(255,255,255,.3);
+-webkit-border-radius: 10px;
+-webkit-filter: brightness(50%);
+}
+.socialneticon:hover{-webkit-filter: brightness(50%);}
+.socialneticon{-webkit-filter: brightness(100%);}
+		
+.iosSlider {
+	left: 0;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 1024px;
+    height: 200px;
+    overflow: visible !important;
+}
+.iosSlider.horizontal{ height: 280px;}
+
+.iosSlider .slider {
+	width: 100%;
+	height: 100%;
+}
+
+.iosSlider .slider .photopenyaitem {
+	float: left;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: transparent;
+  	background-size: 250px auto; 
+  	background-repeat: no-repeat;
+  	background-position: 0 0; 
+  	margin-left: 5px;
+}		
+.iosSlider .slider .photopenyaitem.horizontal {background-size: 474px auto;}
+.iosSlider .slider #item1 {background-image: url(../images/photosPenyes/PBSuecia/25674_375479747599_1075420_n.jpg);margin-left: 0px;}
+.iosSlider .slider #item2 {background-image: url(../images/photosPenyes/PBSuecia/26194_374642007599_7429551_n.jpg);}
+.iosSlider .slider #item3 {background-image: url(../images/photosPenyes/PBSuecia/525863_10150878688002600_479399075_n.jpg);}
+.iosSlider .slider #item4 {background-image: url(../images/photosPenyes/PBSuecia/579861_10150878690297600_1131012138_n.jpg);}
+
+.socialNetworks{
+	margin-top: 10px;
+	display: block;
+}
+.socialNetworks .socialneticon  {
+	padding: 9px;
+	display: inline;
+	text-align: center;
+}
+
+.socialNetworks .socialneticon .icon  {
+	width: 40px;
+}
+
+.subdetailPenyes_div{
+	margin-bottom: 2px;
+	margin-top: 2px;
+	display: block;
+}			
+.subdetailPenyes_divheader{
+	display: inline;
+	font-weight: bolder;
+}			
+.subdetailPenyes_divvalue{
+	margin-left: 10px;
+	display: inline;
+}

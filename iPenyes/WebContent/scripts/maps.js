@@ -2,10 +2,6 @@ $(document).on('pageshow', '#mapPenyes',function(e,data){
 	createMap();
 });
 
-$(document).on('pageshow', '#mapPenyes2',function(e,data){ 
-	createMap();
-});
-
 function addMarker(map, title, x, y){
 	 var myLatlng = new google.maps.LatLng(x,y);
 	 new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP});
@@ -57,12 +53,7 @@ function getRealContentHeight() {
 }
 
 $(window).bind( 'orientationchange', function(e){
-	if ($.mobile.activePage.is("#mapPenyes")){ 
-		$.mobile.changePage( "#mapPenyes2" ,{ transition: "none", changeHash: false });
-	}	
-	if ($.mobile.activePage.is("#mapPenyes2")){ 
-		$.mobile.changePage( "#mapPenyes" ,{ transition: "none", changeHash: false });
-	}	
+	 jQuery.mobile.changePage("#mapPenyes", {allowSamePageTransition: true,transition: 'none',reloadPage: false});	
 });
 
 

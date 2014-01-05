@@ -1,7 +1,7 @@
 <div data-role="page" id="detailPenyes">
 	<%@ include file="Detail-Header.jsp"%> 
 			
-    <div data-role="content">
+    <div data-role="content" id="contentDetailPenyes">
 		<div class="detailPenyes_divheader ui-corner-all ui-shadow div_padding_v">
 				<div>
 					<div class="detailPenyes_coat"><img class="desc-icon" src="/images/escudos/0983.PBSuecia.png"></div>

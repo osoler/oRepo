@@ -21,7 +21,7 @@ $(document).on('pageshow', '#detailPenyes',function(e,data){
 });
 
 function doSomething() {
-	var currentScale = window.outerWidth;
+  var currentScale = window.outerWidth;
   if (currentScale === 320)
   {
   	$("#closer").show();
@@ -31,12 +31,12 @@ function doSomething() {
 };
 
 var resizeTimer;
-$("#fullScreen").live("gestureend", function(){
+$(document).on('gestureend','#fullScreen',function(e,data) {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(doSomething, 600);
 });
 
-$( '#fullScreen' ).live("doubletap",function() {
+$(document).on('doubletap','#fullScreen',function(e,data) {
 	   clearTimeout(resizeTimer);
 	   resizeTimer = setTimeout(doSomething, 600);
 });

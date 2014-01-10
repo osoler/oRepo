@@ -1,6 +1,6 @@
 /* === LIST PENYES === */
-.infiniteShadowTop{height: 10px;width: 100%;z-index: 10;}
-.innerInfiniteShadowTop{display:none; height: 100%;margin-left: 15px;margin-right: 15px;opacity: 0.9;background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));"></div>}
+.infiniteShadowTop{height: 10px;width: 100%;}
+.innerInfiniteShadowTop{display:block;height: 100%;margin-left: 15px;margin-right: 15px;opacity: 0.9;background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));}
 .infiniteShadowBottom{height: 10px;width: 100%;z-index: 10;}
 .innerInfiniteShadowBottom{height: 100%;margin-left: 15px;margin-right: 15px;opacity: 0.9;background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));}
 #loadmoreajaxloader{background-image: url('/images/ajax-loader-infinite.gif');background-repeat: no-repeat;background-size: auto;background-position:center center;

@@ -1,23 +1,3 @@
-$(document).on('pageshow', '#listPenyes',function(e,data){ 
-	if ($(window).scrollTop() <= 1){
-		$(".innerInfiniteShadowTop").hide();
-	}else{
-    	$(".innerInfiniteShadowTop").show();
-	}
-});
-$(document).on('pagehide', '#listPenyes',function(e,data){ 
-	$(".innerInfiniteShadowTop").hide();
-});
-$(document).on('pageshow', '#detailPenyes',function(e,data){ 
-	if ($(window).scrollTop() <= 1){
-		$(".innerInfiniteShadowTop").hide();
-	}else{
-    	$(".innerInfiniteShadowTop").show();
-	}
-});
-$(document).on('pagehide', '#detailPenyes',function(e,data){ 
-	$(".innerInfiniteShadowTop").hide();
-});
 function noScrollSlide(name, reverse, $to, $from) { 
 	var deferred = new $.Deferred() ,
 	toScroll = $('body').scrollTop(), 

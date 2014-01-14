@@ -56,10 +56,12 @@ function refreshSlider() {
 function goToDetail() {
 	event.preventDefault();
 	$(".innerInfiniteShadowTop").hide();
+	$(".innerInfiniteShadowBottom").hide();
 	$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
 	return false; 
 }
 function backToList() {
 	$(".innerInfiniteShadowTop").hide();
+	$(".innerInfiniteShadowBottom").hide();
 	return false; 
 }

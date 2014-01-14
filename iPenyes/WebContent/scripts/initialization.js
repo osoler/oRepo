@@ -1,14 +1,18 @@
 $(document).on('pageshow', '#listPenyes',function(e,data){ 
-    	$(".innerInfiniteShadowTop").show();
+    	$(".innerInfiniteShadowTop").fadeIn( "slow" );
+    	$(".innerInfiniteShadowBottom").fadeIn( "slow" );
 });
 $(document).on('pagehide', '#listPenyes',function(e,data){ 
 	$(".innerInfiniteShadowTop").hide();
+	$(".innerInfiniteShadowBottom").hide();
 });
 $(document).on('pageshow', '#detailPenyes',function(e,data){ 
-    	$(".innerInfiniteShadowTop").show();
+    	$(".innerInfiniteShadowTop").fadeIn( "slow" );
+    	$(".innerInfiniteShadowBottom").fadeIn( "slow" );
 });
 $(document).on('pagehide', '#detailPenyes',function(e,data){ 
 	$(".innerInfiniteShadowTop").hide();
+	$(".innerInfiniteShadowBottom").hide();
 });
 function noScrollSlide(name, reverse, $to, $from) { 
 	var deferred = new $.Deferred() ,

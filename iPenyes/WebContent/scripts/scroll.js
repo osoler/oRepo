@@ -4,7 +4,7 @@ $(window).scroll(function()
 		{
 		if (($.mobile.activePage.is("#listPenyes"))||($.mobile.activePage.is("#detailPenyes"))){		
 			if (($.mobile.activePage.is("#listPenyes"))&&(fakereloaded < maxfakereloaded)&&
-					(($(document).height() - 100)  <= $(window).scrollTop() + $(window).height())
+					(($(document).height() - 200)  <= $(window).scrollTop() + $(window).height())
 				){
 			        $.ajax({
 			        url: "penyainfinite.jsp",

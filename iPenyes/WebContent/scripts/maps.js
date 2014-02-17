@@ -1,7 +1,7 @@
 $(document).on('pageshow', '#mapPenyes',function(e,data){ 
 	createMap();
 });
-
+var currentinfowindow;
 function addMarker(map, counter){
 	if (counter >=30) {
 		return false;
@@ -22,28 +22,34 @@ function addMarker(map, counter){
             if(html)
             {
             	   var contentString = html;	
-            		var infowindow = new InfoBubble({
-            	        map: map,
+            	   var infowindow = new InfoBubble({
+            	        mainfowindowp: map,
             	        content: contentString,
             	        position: new google.maps.LatLng(-35, 151),
             	        shadowStyle: 1,
             	        padding: 0,
-            	        backgroundColor: '#000C52',
-            	        borderRadius: 4,
+            	        backgroundColor: '#970F23',
+            	        borderRadius: 22,
             	        arrowSize: 10,
             	        borderWidth: 0,
             	        borderColor: '#2c2c2c',
             	        disableAutoPan: true,
-            	        hideCloseButton: false,
+            	        hideCloseButton: true,
             	        arrowPosition: 30,
             	        backgroundClassName: 'infowindowPenyes',
             	        arrowStyle: 2
             	      });
             	    var myLatlng = new google.maps.LatLng(x,y);
             		var marker = new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP});
-            		google.maps.event.addListener(marker, 'click', function() {infowindow.open(map,marker);});
-            		
-            		 addMarker(map, newcounter);
+            		google.maps.event.addListener(marker, 'click', function() {
+            				if (currentinfowindow) currentinfowindow.close();
+            				infowindow.open(map,marker);
+            				currentinfowindow = infowindow;
+            			});  	
+            		google.maps.event.addDomListener(infowindow.bubble_, 'click', function(){
+            			$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
+            		});
+            		addMarker(map, newcounter);
             }
         }
         });
@@ -71,6 +77,10 @@ function createMap(){
     var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);    
     
     addMarker(map, 0);
+    
+	google.maps.event.addListener(map, 'click', function() {
+		if (currentinfowindow) currentinfowindow.close();
+	});
 
     return false; 
     

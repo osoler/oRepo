@@ -8,7 +8,7 @@
 	 
 
 .ui-content .ui-listview-inset { margin: 0;}
-.ui-listview .ui-li-icon { max-height: 50px; max-width: 55px; left: 5px; top: 5px;}
+.ui-listview .ui-li-icon { max-height: 77px; max-width: 80px; left: 5px; top: 5px;}
 .ui-listview li {
     transition: 0s background-color;
     transition-delay:1s;
@@ -45,13 +45,14 @@
 
 }​
 .coat {float: left;}
-.description {margin-left:55px;margin-right: 0px;display: inline-block;}
+.description {margin-left:82px;margin-right: 0px;display: inline-block;}
 .namePenya{	font-weight: bold;font-size: large;}
-.moreinfo{margin-left:55px;margin-right: 7px;font-weight: normal;font-size: x-small;}
-.location{display: inline-block; }
-.fundationYear{float:right; display: inline-block;width: 85px;}
-.rightarrow{float: right;display: inline-block;height: 40px;}
-.icon-arrow{max-width: 7px;margin-top: 15px;margin-left: 1px;}
+.moreinfo{margin-left:82px;margin-right: 7px;font-weight: normal;font-size: x-small;}
+.location{display: block; }
+.numSocios{float:left; width: 85px;}
+.fundationYear{float:right; width: 85px;}
+.rightarrow{float: right;display: inline-block;height: 65px;}
+.icon-arrow{max-width: 7px;margin-top: 28px;margin-left: 1px;}
  .ui-li .ui-btn-inner a.ui-link-inherit.penyaBean { padding: .7em 5px; }
 
 /* === MAP PENYES === */

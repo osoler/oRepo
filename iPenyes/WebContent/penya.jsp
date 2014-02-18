@@ -8,8 +8,10 @@
 					<div class="rightarrow"><img class="icon-arrow" src="/images/icon-arrow-black.png"></div>						
 					<div id="penyaMoreInfo" class="moreinfo">
 						<div id="penyaLocation" class="location"><span><%= Utils.randomCity() %></span></div>
+						<div id="penyaCountry" class="country"><%= Utils.randomCountry() %></div>
+						<div id="penyaNumSocios" class="numSocios"><%= Utils.randomSocios() %> socios</div>
 						<div id="penyaFundationYear" class="fundationYear">Fundación: <%= Utils.randomYear() %></div>
-					</div>									
+					</div>												
 			</div>	
 </a></li>
 				

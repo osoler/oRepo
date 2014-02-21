@@ -102,7 +102,9 @@ function getRealContentHeight() {
 }
 
 $(window).bind( 'orientationchange', function(e){
-	 jQuery.mobile.changePage("#mapPenyes", {allowSamePageTransition: true,transition: 'none',reloadPage: false});	
+	if (($.mobile.activePage.is("#mapPenyes"))){	
+		jQuery.mobile.changePage("#mapPenyes", {allowSamePageTransition: true,transition: 'none',reloadPage: false});
+	}
 });
 
 

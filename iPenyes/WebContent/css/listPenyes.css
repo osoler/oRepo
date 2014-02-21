@@ -10,12 +10,12 @@
 .ui-content .ui-listview-inset { margin: 0;}
 .ui-listview .ui-li-icon { max-height: 77px; max-width: 80px; left: 5px; top: 5px;}
 .ui-listview li {
+	border-width:0px;
     transition: 0s background-color;
     transition-delay:1s;
 }
 .ui-listview li:active {
 	border-width:0px;
-	border: 1px solid #bbb;
 	border-bottom: none;
 	background: #d6d6d6 ;
 	font-weight: normal;
@@ -47,10 +47,10 @@
 .coat {float: left;}
 .description {margin-left:82px;margin-right: 0px;display: inline-block;}
 .namePenya{	font-weight: bold;font-size: large;}
-.moreinfo{margin-left:82px;margin-right: 7px;font-weight: normal;font-size: x-small;}
+.moreinfo{margin-left:82px;margin-right: 7px;font-weight: normal;font-size: 12px;}
 .location{display: block; }
 .numSocios{float:left; width: 85px;}
-.fundationYear{float:right; width: 85px;}
+.fundationYear{float:right; width: 100px;}
 .rightarrow{float: right;display: inline-block;height: 65px;}
 .icon-arrow{max-width: 7px;margin-top: 28px;margin-left: 1px;}
  .ui-li .ui-btn-inner a.ui-link-inherit.penyaBean { padding: .7em 5px; }

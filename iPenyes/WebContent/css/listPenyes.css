@@ -232,3 +232,29 @@ box-shadow: 0 0 1px rgba(255,255,255,.3);
 	margin-left: 10px;
 	display: inline;
 }
+#filterIcon:hover{
+background-color: transparent;
+-webkit-box-shadow: 0 0 1px rgba(255,255,255,.3);
+box-shadow: 0 0 1px rgba(255,255,255,.3);
+-webkit-border-radius: 10px;
+-webkit-filter: brightness(50%);
+}
+
+
+#filterPopup { display:none;
+left:10px !important;
+width: 281px;
+padding:10px;
+position: absolute;
+background-color: #fff;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 0 0 25px 5px #999;
+background-image: linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/);
+ }
+ 
+ .filter1{
+ 	display: inline-block;
+ 	padding: 14px;
+
+ }
+ 

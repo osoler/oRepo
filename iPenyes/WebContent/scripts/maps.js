@@ -28,7 +28,7 @@ function addMarker(map, counter){
             	        position: new google.maps.LatLng(-35, 151),
             	        shadowStyle: 1,
             	        padding: 0,
-            	        backgroundColor: '#970F23',
+            	        backgroundColor: '#0D56A4',
             	        borderRadius: 22,
             	        arrowSize: 10,
             	        borderWidth: 0,
@@ -40,7 +40,7 @@ function addMarker(map, counter){
             	        arrowStyle: 2
             	      });
             	    var myLatlng = new google.maps.LatLng(x,y);
-            		var marker = new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP});
+            		var marker = new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP, icon: '/images/fcb_marker.png'});
             		google.maps.event.addListener(marker, 'click', function() {
             				if (currentinfowindow) currentinfowindow.close();
             				infowindow.open(map,marker);

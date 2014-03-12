@@ -6,7 +6,6 @@
 <%@ include file="Detail.jsp"%>
 <%@ include file="Map.jsp"%>   
 <%@ include file="Photo.jsp"%> 
-<%@ include file="Filter.jsp"%> 
 </body>
 </html>
 		   

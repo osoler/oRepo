@@ -5,8 +5,8 @@
 
 .infowindowPenyes{
 
-	background: -webkit-linear-gradient(left, #030C51 0%,#030C51 35%,#970F23 35%,#970F23 100%); /* Chrome10+,Safari5.1+ */
-	background: linear-gradient(to right, #030C51 0%,#030C51 35%,#970F23 35%,#970F23 100%); /* W3C */	
+	background: -webkit-linear-gradient(left, #030C51 0%,#030C51 30%,#970F23 40%,#970F23 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to right, #030C51 0%,#030C51 30%,#970F23 40%,#970F23 100%); /* W3C */	
 	
 	color: #FFFFFF ;
 	font-size:11px;

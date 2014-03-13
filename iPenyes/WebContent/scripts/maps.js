@@ -36,7 +36,7 @@ function addMarker(map, counter){
             	        minHeight:116,
             	        maxHeight:118,
             	        borderWidth: 0,
-            	        borderColor: '#2c2c2c',
+            	        borderColor: '#030C51',
             	        disableAutoPan: true,
             	        hideCloseButton: true,
             	        arrowPosition: 20,

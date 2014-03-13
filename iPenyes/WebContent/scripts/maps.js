@@ -28,7 +28,7 @@ function addMarker(map, counter){
             	        position: new google.maps.LatLng(-35, 151),
             	        shadowStyle: 1,
             	        padding: 0,
-            	        backgroundColor: '#0D56A4',
+            	        backgroundColor: '#030C51',
             	        borderRadius: 22,
             	        arrowSize: 10,
             	        minWidth:220,

@@ -2,9 +2,24 @@
 #map_canvasWrapper {height:100%;padding:5px;min-height: 0px;background-color: #B2D1FF !important;}
 #map_canvas {height:100%;min-height: 0px;}
 #contentMap{padding-top: 0px !important;}
-.infowindows{display: inline-block; padding-top: 8px;padding-left: 8px;padding-right: 8px;padding-bottom: 4px;width:250px;}
+
 .infowindowPenyes{
-	background: -webkit-linear-gradient(left, #0D56A4 0%,#0D56A4 35%,#B1354C 35%,#B1354C 100%); /* Chrome10+,Safari5.1+ */
-	background: linear-gradient(to right, #0D56A4 0%,#0D56A4 35%,#B1354C 35%,#B1354C 100%); /* W3C */	
+
+	background: -webkit-linear-gradient(left, #030C51 0%,#030C51 35%,#970F23 35%,#970F23 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to right, #030C51 0%,#030C51 35%,#970F23 35%,#970F23 100%); /* W3C */	
+	
+	color: #FFFFFF ;
+	font-size:11px;
+	font-weight: normal;
+	text-shadow:none;
+	height: 111px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
 }
-   
+
+.infowindowPenyes .coat {float: left;display: block;}
+.infowindowPenyes .description {margin-left:106px;margin-right: 0px;display: block;}
+.infowindowPenyes .description .namePenya {	color: #FFFFFF ;font-size:17px;	font-weight: normal;	text-shadow:none;}
+.infowindowPenyes .moreinfo {margin-left:106px;margin-right: 0px;display: block;}
+.infowindowPenyes .moreinfo .fundationYear{float: none;}

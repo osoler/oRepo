@@ -31,11 +31,15 @@ function addMarker(map, counter){
             	        backgroundColor: '#0D56A4',
             	        borderRadius: 22,
             	        arrowSize: 10,
+            	        minWidth:220,
+            	        maxWidth:250,
+            	        minHeight:116,
+            	        maxHeight:118,
             	        borderWidth: 0,
             	        borderColor: '#2c2c2c',
             	        disableAutoPan: true,
             	        hideCloseButton: true,
-            	        arrowPosition: 30,
+            	        arrowPosition: 20,
             	        backgroundClassName: 'infowindowPenyes',
             	        arrowStyle: 2
             	      });

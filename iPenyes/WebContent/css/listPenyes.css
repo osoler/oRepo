@@ -232,10 +232,17 @@ box-shadow: 0 0 1px rgba(255,255,255,.3);
 	margin-left: 10px;
 	display: inline;
 }
-#filterIcon:hover{
+.buttonHover:hover{
 background-color: transparent;
 -webkit-box-shadow: 0 0 1px rgba(255,255,255,.3);
 box-shadow: 0 0 1px rgba(255,255,255,.3);
 -webkit-border-radius: 10px;
 -webkit-filter: brightness(50%);
 }
+.headerClass1{
+	float: left;padding-left: 15px;padding-top:3px;width: 70px;
+}
+.filterLinkHeader{
+	float: right;padding-right: 24px;padding-top:16px;width: 70px;text-align: right;
+}
+

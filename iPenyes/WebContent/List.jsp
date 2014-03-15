@@ -1,5 +1,5 @@
 <div data-role="page" id="listPenyes">  
-	<%@ include file="List-Header.jsp"%>
+	<%@ include file="Header.jsp"%>
 	<%@ include file="List-Footer.jsp"%> 	
 	<div data-role="content"  id="contentlistPenyes"> 
 		<%@ include file="Filter.jsp"%> 

@@ -4,7 +4,8 @@ function openFilter() {
     $('#filterPopup').bPopup({
 	    easing: 'easeOutBack', //uses jQuery easing plugin
         speed: 1050,
-        transition: 'slideDown'
+        transition: 'slideDown',
+        position: [5, 73]
     });
 
 };

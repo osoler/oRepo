@@ -1,7 +1,11 @@
 $(document).on('pageshow', '#mapPenyes',function(e,data){ 
 	createMap();
 });
+$(document).on('pagehide', '#mapPenyes',function(e,data){ 
+	destroyMap();
+});
 var currentinfowindow;
+var myMarkerTimer;
 function addMarker(map, counter){
 	if (counter >=30) {
 		return false;
@@ -43,17 +47,22 @@ function addMarker(map, counter){
             	        backgroundClassName: 'infowindowPenyes',
             	        arrowStyle: 2
             	      });
-            	    var myLatlng = new google.maps.LatLng(x,y);
+            	    var myLatlng = new google.maps.LatLng(x,y);            	 
             		var marker = new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP, icon: '/images/fcb_marker.png'});
             		google.maps.event.addListener(marker, 'click', function() {
             				if (currentinfowindow) currentinfowindow.close();
             				infowindow.open(map,marker);
+            				var newLatlng = new google.maps.LatLng(myLatlng.k+0.1,myLatlng.A+0.2);            				
+            			    map.setCenter(newLatlng);            			    
             				currentinfowindow = infowindow;
             			});  	
             		google.maps.event.addDomListener(infowindow.bubble_, 'click', function(){
             			$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
             		});
-            		addMarker(map, newcounter);
+            		myMarkerTimer = setTimeout(function()
+            	            { addMarker(map, newcounter); }
+            	    , 600);
+            		
             }
         }
         });
@@ -89,7 +98,10 @@ function createMap(){
     return false; 
     
 }
-
+function destroyMap(){	
+	clearTimeout(myMarkerTimer);
+	$('#map_canvas').empty();
+}
 
 
 function getRealContentHeight() {

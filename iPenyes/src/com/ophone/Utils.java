@@ -7,7 +7,7 @@ public class Utils {
     private static int index2 = 1; 
     private static String[] list = {"Barcelona", "Badalona", "Vallirana", "Lleida", "Tarragona", "Girona", "Vilafranca", "Cervelló", "Vic", "Palma de Mallorca"};
     private static String[] listCountry = {"Catalunya", "Catalunya", "Catalunya", "Catalunya", "Catalunya", "Catalunya", "Catalunya", "Catalunya", "Catalunya", "España"};
-    private static String[] listEscudos = {"0002.LaGranada-icon.png", "0001.ABPenyaAnguera-icon.png","0003.PBSantFruitosBages-icon.png", "0004.PBBarcino-icon.png", "0006.PBRipollet-icon.png", "0008.PBCincCopes-icon.png", "0007.UBCatalonia-icon.png", "0010.ADBCollblanc-icon.png", "0983.PBSuecia-icon.png"};
+    private static String[] listEscudos = {"http://www.geneaid.com/sites/default/files/imagecache/product_full/protein%20loading%20dye.JPG", "/images/escudos/0001.ABPenyaAnguera-icon.png","/images/escudos/0003.PBSantFruitosBages-icon.png", "/images/escudos/0004.PBBarcino-icon.png", "/images/escudos/0006.PBRipollet-icon.png", "/images/escudos/0008.PBCincCopes-icon.png", "/images/escudos/0007.UBCatalonia-icon.png", "/images/escudos/0010.ADBCollblanc-icon.png", "/images/escudos/0983.PBSuecia-icon.png"};
     
     public static Penya randomPenya(){
     	Penya penya = new Penya();

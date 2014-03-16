@@ -1,7 +1,7 @@
 <%@page import="com.ophone.Penya"%>
 <%@page import="com.ophone.Utils"%>
 <% Penya penya = Utils.randomPenya();%>
-<div class="coat"><img class="desc-icon" src="/images/escudos/<%= penya.logo %>" ></div>
+<div class="coat"><img class="desc-icon" src="<%= penya.logo %>" ></div>
 <div  class="description"> 
 	<div  class="namePenya"><span><%= penya.name %></span></div>
 </div>

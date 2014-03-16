@@ -63,7 +63,7 @@ var listPenyes = function () {
 	
 	function loadLogo(img, src){		       
         var image = new Image();
-        image.src = "/images/escudos/" + src;
+        image.src = src;
         image.onload = function(){
         	$(img).attr("src", image.src);
         };   
@@ -73,7 +73,7 @@ var listPenyes = function () {
 	     
 		$.each( list.penyes, function( i, item ) {
 	    	 var penyaHtml = "<li data-icon='false'><a href='#' onclick='detailPenyes.goToDetail()'  class='penyaBean' >" +
-	    	 		"<div id='detailPenyaBean'><div class='coat'><img id='penya-logo-" + item.id + "' class='ui-li-icon' src='/images/loading-icon-blue-purple50x50.gif'></div>" +
+	    	 		"<div id='detailPenyaBean'><div class='coat'><img id='penya-logo-" + item.id + "' class='ui-li-icon' src='/images/spinner.gif'></div>" +
 	    	 				"<div  class='description'> <div  class='namePenya'><span>" + item.namePenya + "</span></div></div>" +
 	    	 						"<div class='rightarrow'><img class='icon-arrow' src='/images/icon-arrow-black.png'></div>" +
 	    	 						"<div id='penyaMoreInfo' class='moreinfo'><div id='penyaLocation' class='location'><span>" + item.location + "</span></div>" +

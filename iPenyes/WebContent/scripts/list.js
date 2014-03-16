@@ -21,6 +21,20 @@ var listPenyes = function () {
 	function resetFilter() {
 		$('#filterForm')[0].reset();
 	};	 
+
+	function refresh(){
+		$('#listviewpenyes').listview('refresh');
+	};
+	
+	function showShadows(){
+		$(".innerInfiniteShadowTop").fadeIn( "slow" );
+		$(".innerInfiniteShadowBottom").fadeIn( "slow" );
+	};
+	
+	function hideShadows(){
+		$(".innerInfiniteShadowTop").hide();
+		$(".innerInfiniteShadowBottom").hide();
+	};
 	
 	return { 
 	    "openFilter" : function () {
@@ -31,6 +45,15 @@ var listPenyes = function () {
 	    },
 	    "resetFilter" : function () {
 	    	resetFilter(); 	    	
+	    },
+	    "refresh" : function () {
+	    	refresh(); 	    	
+	    },
+	    "showShadows" : function () {
+	    	showShadows(); 	    	
+	    },
+	    "hideShadows" : function () {
+	    	hideShadows(); 	    	
 	    }
 	  }; // end of the return
 	  
@@ -41,17 +64,15 @@ var listPenyes = function () {
 	
 
 $('#listPenyes').bind('pageinit', function() {
-	  $('#listviewpenyes').listview('refresh');
+	listPenyes.refresh();
 });
 
 $(document).on('pageshow', '#listPenyes',function(e,data){ 
-	$(".innerInfiniteShadowTop").fadeIn( "slow" );
-	$(".innerInfiniteShadowBottom").fadeIn( "slow" );
+	listPenyes.showShadows();
 });
 
 $(document).on('pagehide', '#listPenyes',function(e,data){ 
-	$(".innerInfiniteShadowTop").hide();
-	$(".innerInfiniteShadowBottom").hide();
+	listPenyes.hideShadows();
 });
 	
 	

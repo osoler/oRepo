@@ -1,0 +1,20 @@
+/* === FOOTER BAR === */
+.ui-footer {height: 50px;border-top: none !important;}
+#mapFooter.ui-footer {height: 40px;}
+#detailFooter.ui-footer {height: 9px;}
+.navMenu{padding-bottom: 7px}
+.ui-footer {background: transparent;}
+.ui-footer .ui-btn {background: transparent;height: 40px;}
+.ui-footer .ui-btn-active {background: none rgba(37, 25, 122, 0.22);border: none;-webkit-filter:none}
+.ui-footer .ui-navbar li .ui-btn { height: 100%;}
+.ui-footer .ui-btn-inner {padding-top: 23px !important;}
+.ui-footer .ui-btn-text {font-size: 10px;text-shadow: none;color: white;font-style: normal;font-weight: normal;}
+.ui-footer .ui-icon-custom.ui-icon {width: 30px;height: 28px;}
+.ui-footer .ui-icon-shadow {-webkit-box-shadow: none;-moz-box-shadow: none;	-o-box-shadow: none;box-shadow: none;}
+#tabList .ui-icon {background: url('/images/icon_list_bullets.png') 0 0 no-repeat;margin-left: -15px;margin-top: -7px;-moz-border-radius: 0px;-webkit-border-radius: 0px;	border-radius: 0px;}
+#tabMap .ui-icon {background: url('/images/map_icon.png') 0 0 no-repeat;background-size: 50%;margin-left: -7px;margin-top: 0px;-moz-border-radius: 0px;-webkit-border-radius: 0px;	border-radius: 0px;}
+.ui-navbar ul{background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52);}
+#tabList.ui-btn-up-a{border: none;}
+#tabMap.ui-btn-up-a{border: none;}
+
+

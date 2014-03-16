@@ -1,0 +1,21 @@
+/* === HEADER BAR === */
+.ui-header {height: 50px;border-bottom: none !important;padding-top: 17px !important;}
+#headerLogo {
+	background-image: url('/images/logo_fcb_penyes_250x90.png');background-repeat: no-repeat;background-size: auto 100%;background-position:0px -4px;
+	height: 100%; margin-left: 12px ; margin-right: 0px;
+}
+.headerLogoImg {
+	background-image: url('/images/logo_fcb_penyes_250x90.png');background-repeat: no-repeat;background-size: auto 100%;background-position:center center;
+	height: 50px; display: block;overflow:hidden;
+}
+.ui-header {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52);}
+
+.filterLinkHeader{
+	float: right;padding-right: 30px;padding-top:15px;
+}
+
+.voidHeader{
+	float: left;
+	padding-left: 30px;
+	padding-top: 3px;
+}

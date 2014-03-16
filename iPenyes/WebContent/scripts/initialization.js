@@ -1,5 +1,23 @@
 var initPenyes = function () {
 	
+	function loadImages(){
+		var loadedImagesCount = 0;
+		var imageNames = ["/images/ajax-loader-infinite.gif","/images/logo_fcb_penyes_250x90.png","/images/icon_list_bullets.png","/images/map_icon.png","/images/catalonia.png","/images/spain.png","/images/europe.png","/images/world.png"];
+		var imagesArray = [];
+		for (var i = 0; i < imageNames.length; i++) {
+		    var image = new Image();
+		    image.src = imageNames[i];
+		    image.onload = function(){
+		        loadedImagesCount++;
+		        if (loadedImagesCount >= imageNames.length) {
+		            //loaded all pictures
+		        }
+		    };
+		    imagesArray.push(image);
+		}
+	}
+	
+	
 	function getMaxScrollForTransition() { return 65536; } ;
 	
 	function updateOrientation() {
@@ -90,6 +108,9 @@ var initPenyes = function () {
 		    },
 		    "update" : function (callback) {
 		    	update(callback);
+		    },
+		    "loadImages" : function () {
+		    	loadImages(callback);
 			}
 		  }; // end of the return
 }();
@@ -106,4 +127,6 @@ this.update 						= initPenyes.update;
 $(document).on("mobileinit", function(){
     $.mobile.defaultDialogTransition = "none";
     $.mobile.defaultPageTransition = "none";
+    
+    initPenyes.loadImages();
 });

@@ -62,8 +62,7 @@ var listPenyes = function () {
 	
 //Events
 	
-
-$('#listPenyes').bind('pageinit', function() {
+$(document).on('pageinit', '#listPenyes',function(e,data){ 
 	listPenyes.refresh();
 });
 

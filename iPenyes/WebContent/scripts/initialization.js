@@ -103,7 +103,7 @@ this.update 						= initPenyes.update;
 
 //Events
 
-$(document).bind("mobileinit", function(){
+$(document).on("mobileinit", function(){
     $.mobile.defaultDialogTransition = "none";
     $.mobile.defaultPageTransition = "none";
 });

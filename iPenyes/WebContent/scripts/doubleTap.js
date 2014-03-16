@@ -3,7 +3,7 @@
          return this.each(function(){
 			var elm = this;
 			var lastTap = 0;
-			$(elm).bind('vmousedown', function (e) {
+			$(elm).on('vmousedown', function (e) {
                                 var now = (new Date()).valueOf();
 				var diff = (now - lastTap);
                                 lastTap = now ;

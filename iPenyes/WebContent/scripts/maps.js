@@ -133,10 +133,8 @@ $(document).on('pagehide', '#mapPenyes',function(e,data){
 	mapPenyes.destroyMap();
 });
 
-$(window).bind( 'orientationchange', function(e){
-	if (($.mobile.activePage.is("#mapPenyes"))){	
-		jQuery.mobile.changePage("#mapPenyes", {allowSamePageTransition: true,transition: 'none',reloadPage: false});
-	}
+$(window).on('orientationchange', function(e,data){ 
+	jQuery.mobile.changePage("#mapPenyes", {allowSamePageTransition: true,transition: 'none',reloadPage: false});
 });
 
 

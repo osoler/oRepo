@@ -14,23 +14,13 @@
  #filterPopup .ui-field-contain{
  	padding: 0;
  }
- .innerTextfilterPopupHeader.cancel{
- 	display: inline-block;text-align: left;width: 30%;font-size: 17px;
- 	color: #7397D3;
-font-weight: bold;
+ .innerTextfilterPopupHeader.filter{
+	display: inline-block;text-align: center;width: 100%;color: #D4D9DB;font-weight: bold;font-size: 18px;
  }
-  .innerTextfilterPopupHeader.filter{
-	display: inline-block;text-align: center;width: 35%;color: #D4D9DB;font-weight: bold;font-size: 18px;
- }
-  .innerTextfilterPopupHeader.done{
- 	display: inline-block;text-align: right;width: 30%;font-size: 17px;
- 	color: #7397D3;
-font-weight: bold;
+ .innerTextfilterPopupBottom{
+ 	display: inline-block;text-align: center;width: 49%;font-size: 17px;
  }
  
- .innerTextfilterPopupBottom{
- 	display: inline-block;text-align: center;width: 100%;font-size: 17px;
- }
  .filterPopupInputTitle{
  	text-align: center;
 	width: 100%;

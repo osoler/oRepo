@@ -1,9 +1,28 @@
-var  fakereloaded = 0; 
-var  maxfakereloaded = 3; 
+var scrollPenyes = function () {
+ 
+	var  fakereloaded = 0; 
+	var  maxfakereloaded = 3; 
+
+  return {  
+    "setFakeReloaded" : function (newValue) {
+    	fakereloaded = newValue;
+    },
+    "getFakeReloaded" : function () {
+     return fakereloaded; 
+    },
+    "getMaxFakeReloaded" : function () {
+     return maxfakereloaded; 
+    }
+  }; // end of the return
+}();
+
+
+//Events
+
 $(window).scroll(function()
 		{
 		if (($.mobile.activePage.is("#listPenyes"))||($.mobile.activePage.is("#detailPenyes"))){		
-			if (($.mobile.activePage.is("#listPenyes"))&&(fakereloaded < maxfakereloaded)&&
+			if (($.mobile.activePage.is("#listPenyes"))&&(scrollPenyes.getFakeReloaded() < scrollPenyes.getMaxFakeReloaded())&&
 					(($(document).height() - 200)  <= $(window).scrollTop() + $(window).height())
 				){
 			        $.ajax({
@@ -16,9 +35,9 @@ $(window).scroll(function()
 			            	$('#listviewpenyes').listview('refresh');
 			            }
 			        }
-			        });
-				    fakereloaded++;  
-				    if (fakereloaded >= maxfakereloaded){
+			        });		        
+			        scrollPenyes.setFakeReloaded(scrollPenyes.getFakeReloaded() + 1);
+				    if (scrollPenyes.getFakeReloaded() >= scrollPenyes.getMaxFakeReloaded()){
 				    	$('#loadmoreajaxloader').hide();
 				    	$('#listviewpenyes').listview('refresh');
 				    }

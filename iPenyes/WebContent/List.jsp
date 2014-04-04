@@ -1,6 +1,21 @@
-<div data-role="page" id="listPenyes">  
-	<%@ include file="List-Header.jsp"%>
-	<%@ include file="List-Footer.jsp"%> 	
+<div data-role="page" id="listPenyes">
+	<div data-role="header" data-position="fixed" data-tap-toggle="false" data-transition="none" data-id="header">
+		<div>
+			<div  class="voidHeader">&nbsp;</div>
+			<div  class="filterLinkHeader"><a id="filterLink" onclick="listPenyes.openFilter()"><img class="buttonHover" src="images/lupa.png" width="20px"/></a></div>	
+			<div class="headerLogoImg">&nbsp;</div>			
+		</div>	
+		<div class="infiniteShadowTop"><div class="innerInfiniteShadowTop"></div></div>	
+	</div><!-- /header -->
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" data-id="footer" id="listFooter">	
+		<div class="infiniteShadowBottom"><div class="innerInfiniteShadowBottom"></div></div>
+	    <div data-role="navbar" class="navMenu">
+	        <ul>
+	            <li><a href="#listPenyes" id="tabList" data-icon="custom" data-transition="pop" class="ui-btn-active ui-state-persist">Llista</a></li>
+	            <li><a href="#mapPenyes"  id="tabMap"  data-icon="custom" data-transition="pop" >Mapa</a></li>
+	        </ul>
+	     </div> 
+	</div>
 	<div data-role="content"  id="contentlistPenyes"> 
 		<%@ include file="Filter.jsp"%> 
 		<ul id="listviewpenyes" data-role="listview" data-inset="true" data-filter="false">

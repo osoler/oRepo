@@ -1,7 +1,7 @@
 var mapPenyes = function () {
 	var currentinfowindow;
 	var myMarkerTimer;
-	function addMarker(map, counter){
+	function addMarker(penya, map, counter){
 		if (counter >=30) {
 			return false;
 		}
@@ -14,56 +14,51 @@ var mapPenyes = function () {
 	    var x = 60 + (randX * 0.5);
 	    var y = 17 + (randY * 0.5);
 		var newcounter = counter + 1; 
-	    $.ajax({
-	        url: "infowindowpenya.jsp",
-	        success: function(html)
-	        {
-	            if(html)
-	            {
-	            	   var contentString = html;	
-	            	   var infowindow = new InfoBubble({
-	            	        mainfowindowp: map,
-	            	        content: contentString,
-	            	        position: new google.maps.LatLng(-35, 151),
-	            	        shadowStyle: 1,
-	            	        padding: 0,
-	            	        backgroundColor: '#030C51',
-	            	        borderRadius: 22,
-	            	        arrowSize: 10,
-	            	        minWidth:220,
-	            	        maxWidth:250,
-	            	        minHeight:116,
-	            	        maxHeight:118,
-	            	        borderWidth: 0,
-	            	        borderColor: '#030C51',
-	            	        disableAutoPan: true,
-	            	        hideCloseButton: true,
-	            	        arrowPosition: 20,
-	            	        backgroundClassName: 'infowindowPenyes',
-	            	        arrowStyle: 2
-	            	      });
-	            	    var myLatlng = new google.maps.LatLng(x,y);            	 
-	            		var marker = new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP, icon: '/images/fcb_marker.png'});
-	            		google.maps.event.addListener(marker, 'click', function() {
-	            				if (currentinfowindow) currentinfowindow.close();
-	            				infowindow.open(map,marker);
-	            				var newLatlng = new google.maps.LatLng(myLatlng.k+0.1,myLatlng.A+0.2);            				
-	            			    map.setCenter(newLatlng);            			    
-	            				currentinfowindow = infowindow;
-	            			});  	
-	            		google.maps.event.addDomListener(infowindow.bubble_, 'click', function(){
-	            			$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
-	            		});
-	            		myMarkerTimer = setTimeout(function()
-	            	            { addMarker(map, newcounter); }
-	            	    , 600);
-	            		
-	            }
-	        }
-	        });
+
+		var contentString = "<div class='coat'><img class='desc-icon' src='" + penya.logo + "' ></div><div  class='description'> " +
+				"<div  class='namePenya'><span>" + penya.name + "</span></div></div><div id='penyaMoreInfo' class='moreinfo'>" +
+						"	<div id='penyaLocation' class='location'><span>" + penya.location + ", " + penya.country + "</span></div>" +
+								"	<div id='penyaNumSocios' class='numSocios'>" + penya.numAffiliates + " socios</div>" +
+										"	<div id='penyaFundationYear' class='fundationYear'>Fundación: " + penya.fundationYear + "</div></div>	";	
+		
+		var infowindow = new InfoBubble({
+		        mainfowindowp: map,
+		        content: contentString,
+		        position: new google.maps.LatLng(-35, 151),
+		        shadowStyle: 1,
+		        padding: 0,
+		        backgroundColor: '#030C51',
+		        borderRadius: 22,
+		        arrowSize: 10,
+		        minWidth:220,
+		        maxWidth:250,
+		        minHeight:116,
+		        maxHeight:118,
+		        borderWidth: 0,
+		        borderColor: '#030C51',
+		        disableAutoPan: true,
+		        hideCloseButton: true,
+		        arrowPosition: 20,
+		        backgroundClassName: 'infowindowPenyes',
+		        arrowStyle: 2
+		      });
+		var myLatlng = new google.maps.LatLng(x,y);            	 
+		var marker = new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP, icon: '/images/fcb_marker.png'});
+		google.maps.event.addListener(marker, 'click', function() {
+					if (currentinfowindow) currentinfowindow.close();
+					infowindow.open(map,marker);
+					var newLatlng = new google.maps.LatLng(myLatlng.k+0.1,myLatlng.A+0.2);            				
+				    map.setCenter(newLatlng);            			    
+					currentinfowindow = infowindow;
+				});  	
+		google.maps.event.addDomListener(infowindow.bubble_, 'click', function(){
+				$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
+			});
+		myMarkerTimer = setTimeout(function(){ addMarker(listPenyes.getListOfFanClubs()[newcounter], map, newcounter); } , 600);
+
 		
 	 
-		 return false; 
+		return false; 
 	}
 	function createMap(){	
 
@@ -84,7 +79,7 @@ var mapPenyes = function () {
 	    
 	    var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);    
 	    
-	    addMarker(map, 0);
+	    addMarker(listPenyes.getListOfFanClubs()[0], map, 0);
 	    
 		google.maps.event.addListener(map, 'click', function() {
 			if (currentinfowindow) currentinfowindow.close();

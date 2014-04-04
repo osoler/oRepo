@@ -3,6 +3,8 @@ var listPenyes = function () {
 	var  fakereloaded = 0; 
 	var  maxfakereloaded = 3; 
 	
+	var listOfFanClubs = undefined;
+	
 	function openFilter() {
 	
 	    // Triggering bPopup when click event is fired
@@ -47,7 +49,7 @@ var listPenyes = function () {
 		var nocache = new Date().getTime();
         $.ajax({
         	dataType: "json",
-	        url: "getPenyesJSON.jsp?cache=" + nocache,
+	        url: "/iPenyesServer/getPenyes?cache=" + nocache,
 	        success: function(result){
 	            if(result)
 	            {
@@ -70,11 +72,11 @@ var listPenyes = function () {
 	}
 	
 	function loadPenyesJSON(list){
-	     
-		$.each( list.penyes, function( i, item ) {
+		listOfFanClubs = list;
+		$.each( listOfFanClubs, function( i, item ) {
 	    	 var penyaHtml = "<li data-icon='false'><a href='#' onclick='detailPenyes.goToDetail()'  class='penyaBean' >" +
 	    	 		"<div id='detailPenyaBean'><div class='coat'><img id='penya-logo-" + item.id + "' class='ui-li-icon' src='/images/spinner.gif'></div>" +
-	    	 				"<div  class='description'> <div  class='namePenya'><span>" + item.namePenya + "</span></div></div>" +
+	    	 				"<div  class='description'> <div  class='namePenya'><span>" + item.name + "</span></div></div>" +
 	    	 						"<div class='rightarrow'><img class='icon-arrow' src='/images/icon-arrow-black.png'></div>" +
 	    	 						"<div id='penyaMoreInfo' class='moreinfo'><div id='penyaLocation' class='location'><span>" + item.location + "</span></div>" +
 	    	 						"<div id='penyaCountry' class='country'>" + item.country + "</div>" +
@@ -131,6 +133,9 @@ var listPenyes = function () {
 	    },
 	    "loadLogo" : function (img, src) {
 	    	loadLogo(img, src); 
+		},
+	    "getListOfFanClubs" : function () {
+		     return listOfFanClubs; 
 		}
 	  }; // end of the return
 	  

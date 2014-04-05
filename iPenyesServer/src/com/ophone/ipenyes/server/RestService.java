@@ -11,7 +11,7 @@ import com.ophone.ipenyes.api.iPenyesResource;
 import com.sun.jersey.guice.JerseyServletModule;
 import com.sun.jersey.guice.spi.container.servlet.GuiceContainer;
 
-public class MyGuiceConfig extends GuiceServletContextListener {
+public class RestService extends GuiceServletContextListener {
 	
 	  @Override
 	    protected Injector getInjector() {

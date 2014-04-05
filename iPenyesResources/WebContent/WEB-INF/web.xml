@@ -1,6 +1,6 @@
 <web-app>
   <listener>
-    <listener-class>com.ophone.ipenyes.server.RestService</listener-class>
+    <listener-class>com.ophone.ipenyes.server.ServletService</listener-class>
   </listener>  
   <filter>
     <filter-name>Guice Filter</filter-name>

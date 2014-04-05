@@ -15,7 +15,7 @@ public class Utils {
     	penya.name = "P.B Random " + penya.id;
     	penya.location = randomCity();
     	penya.country = randomCountry();
-    	penya.logo = randomLogo();
+    	penya.logo = "/iPenyesResources/" + randomLogo();
     	penya.numAffiliates = randomSocios();
     	penya.fundationYear = randomYear();
     	

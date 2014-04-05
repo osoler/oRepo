@@ -1,8 +1,9 @@
 var mapPenyes = function () {
 	var currentinfowindow;
 	var myMarkerTimer;
+	var myMarkerLogoTimer;
 	function addMarker(penya, map, counter){
-		if (counter >=30) {
+		if (counter >=listPenyes.getListOfFanClubs().length) {
 			return false;
 		}
 		
@@ -15,7 +16,7 @@ var mapPenyes = function () {
 	    var y = 17 + (randY * 0.5);
 		var newcounter = counter + 1; 
 
-		var contentString = "<div class='coat'><img class='desc-icon' src='" + penya.logo + "' ></div><div  class='description'> " +
+		var contentString = "<div class='coat'><img id='infowindow-penya-logo-" + penya.id + "' class='desc-icon' src='/images/spinner.gif'></div><div  class='description'> " +
 				"<div  class='namePenya'><span>" + penya.name + "</span></div></div><div id='penyaMoreInfo' class='moreinfo'>" +
 						"	<div id='penyaLocation' class='location'><span>" + penya.location + ", " + penya.country + "</span></div>" +
 								"	<div id='penyaNumSocios' class='numSocios'>" + penya.numAffiliates + " socios</div>" +
@@ -41,19 +42,22 @@ var mapPenyes = function () {
 		        arrowPosition: 20,
 		        backgroundClassName: 'infowindowPenyes',
 		        arrowStyle: 2
-		      });
+		      });		
 		var myLatlng = new google.maps.LatLng(x,y);            	 
 		var marker = new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP, icon: '/images/fcb_marker.png'});
 		google.maps.event.addListener(marker, 'click', function() {
-					if (currentinfowindow) currentinfowindow.close();
+					if (currentinfowindow) {currentinfowindow.close();}			
 					infowindow.open(map,marker);
 					var newLatlng = new google.maps.LatLng(myLatlng.k+0.1,myLatlng.A+0.2);            				
 				    map.setCenter(newLatlng);            			    
-					currentinfowindow = infowindow;
+					currentinfowindow = infowindow;  
+					myMarkerLogoTimer = setTimeout(function(){ 
+						if (infowindow.isOpen()) {listPenyes.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 300);
 				});  	
 		google.maps.event.addDomListener(infowindow.bubble_, 'click', function(){
 				$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
 			});
+		
 		myMarkerTimer = setTimeout(function(){ addMarker(listPenyes.getListOfFanClubs()[newcounter], map, newcounter); } , 600);
 
 		
@@ -77,10 +81,10 @@ var mapPenyes = function () {
 	    	    mapTypeId: google.maps.MapTypeId.ROADMAP,
 	    	    disableDefaultUI: true};
 	    
-	    var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);    
-	    
-	    addMarker(listPenyes.getListOfFanClubs()[0], map, 0);
-	    
+	    var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);  
+	    if ((listPenyes.getListOfFanClubs() != undefined) && (listPenyes.getListOfFanClubs().length > 0)){
+		    addMarker(listPenyes.getListOfFanClubs()[0], map, 0);
+		}
 		google.maps.event.addListener(map, 'click', function() {
 			if (currentinfowindow) currentinfowindow.close();
 		});
@@ -90,6 +94,7 @@ var mapPenyes = function () {
 	}
 	function destroyMap(){	
 		clearTimeout(myMarkerTimer);
+		clearTimeout(myMarkerLogoTimer);
 		$('#map_canvas').empty();
 	}
 

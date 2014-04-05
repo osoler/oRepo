@@ -23,3 +23,5 @@
 .infowindowPenyes .description .namePenya {	color: #FFFFFF ;font-size:17px;	font-weight: normal;	text-shadow:none;}
 .infowindowPenyes .moreinfo {margin-left:106px;margin-right: 0px;display: block;}
 .infowindowPenyes .moreinfo .fundationYear{float: none;}
+
+.ui-listview .ui-li-icon { max-height: 77px; max-width: 80px; left: 5px; top: 5px;}

@@ -42,12 +42,19 @@ public class Utils {
     				}	
     			}
     		}
-    		if (filter != null && (filter.yearFrom !=-1 || filter.yearTo !=-1)){
-    			
+    		if (filter != null && filter.yearFrom !=-1 && penya.fundationYear < filter.yearFrom){
+    			continue;
     		}
-    		if (filter != null && (filter.numFansFrom !=-1 || filter.numFansTo !=-1)){
-    			
-    		} 		
+    		if (filter != null && filter.yearTo !=-1 && penya.fundationYear > filter.yearTo){
+    			continue;
+    		}
+    		if (filter != null && filter.numFansFrom !=-1 && penya.numAffiliates < filter.numFansFrom){
+    			continue;
+    		}
+    		if (filter != null && filter.numFansTo !=-1 && penya.numAffiliates > filter.numFansTo){
+    			continue;
+    		}
+		
     		listPenyes.add(penya);
     	}
     	return listPenyes;

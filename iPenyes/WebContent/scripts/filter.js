@@ -41,10 +41,10 @@ var filterPenyes = function () {
 		}
 		
 		filter  =  "&area=" + area;
-		filter  +=  "&yearFrom=-1";
-		filter  +=  "&yearTo=-1";
-		filter  +=  "&numFansFrom=-1";
-		filter  +=  "&numFansTo=-1";
+		filter  +=  "&yearFrom=" + $("#yearFrom")[0].value;
+		filter  +=  "&yearTo=" + $("#yearTo")[0].value;
+		filter  +=  "&numFansFrom=" + $("#numFansFrom")[0].value;
+		filter  +=  "&numFansTo=" + $("#numFansTo")[0].value;
 		
 		var nocache = new Date().getTime();
         $.ajax({

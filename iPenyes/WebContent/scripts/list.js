@@ -24,21 +24,7 @@ var listPenyes = function () {
 	};
 	
 	function loadPenyes(){
-		var nocache = new Date().getTime();
-        $.ajax({
-        	dataType: "json",
-	        url: "/iPenyesServer/getPenyes?cache=" + nocache,
-	        success: function(result){
-	            if(result)
-	            {
-	            	loadPenyesJSON(result);
-	            }
-	        },
-	        error: function (xhr, ajaxOptions, thrownError) {
-	            console.log(xhr.status);
-	            console.log(thrownError);
-	        }
-        });	
+		filterPenyes.search();
 	};
 	
 	function loadLogo(img, src){		       

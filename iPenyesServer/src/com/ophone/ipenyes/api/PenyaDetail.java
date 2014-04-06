@@ -1,6 +1,6 @@
 package com.ophone.ipenyes.api;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 public class PenyaDetail extends Penya{
 
@@ -9,9 +9,9 @@ public class PenyaDetail extends Penya{
 		
 	}
 	
-	public HashMap<String, String> info;
-	public HashMap<String, String> socialNetworks;
+	public LinkedHashMap<String, String> info;
+	public LinkedHashMap<String, String> socialNetworks;
 	
-	public HashMap<String, Object> description;
+	public LinkedHashMap<String, Object> description;
 
 }

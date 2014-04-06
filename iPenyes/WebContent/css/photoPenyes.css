@@ -2,7 +2,7 @@
 #fullScreen .ui-content{padding: 0px;margin: 0px;} 
 #fullscreenimage{
 	height: 100%;width: 100%;position: absolute;z-index: 1001;background: transparent;
-	background: url(../images/photosPenyes/PBSuecia/25674_375479747599_1075420_n.jpg) no-repeat center left;
+	background: url(../images/spinner.gif) no-repeat center left;
     background-size: 100% auto; top: -1px;
 }
 #closerWrapper{width: 100%;padding-top: 25px;}

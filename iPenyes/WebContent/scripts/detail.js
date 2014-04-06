@@ -1,4 +1,5 @@
 var detailPenyes = function () {
+	var penyaSelected;
 	var resizeTimer;
 	function checkOrientation() {
 		if (window.orientation === 0 || window.orientation === 180){
@@ -32,8 +33,12 @@ var detailPenyes = function () {
 	  }
 	};
 
-	function fullScreen() {
-		$.mobile.changePage($("#fullScreen"),{ transition: "pop", changeHash: false });
+	function fullScreen(url) {
+		if (url != undefined){
+			var url = "url(" + url + ")";
+			$("#fullscreenimage").css('background-image', url);
+			$.mobile.changePage($("#fullScreen"),{ transition: "pop", changeHash: false });
+		}
 		return false; 
 	};
 	
@@ -41,12 +46,73 @@ var detailPenyes = function () {
 		$.mobile.changePage($("#detailPenyes"),{ transition: "pop", reverse: true });		
 		return false; 
 	};
+	
+	function loadDetailPenya(penyaId){
+		var nocache = new Date().getTime();
+        $.ajax({
+        	dataType: "json",
+	        url: "/iPenyesServer/loadDetailPenya?penyaId=" + penyaId +  "&cache=" + nocache,
+	        success: function(result){
+	            if(result)
+	            {
+	            	loadDetails(result);
+	            	goToDetail();
+	            }
+	        },
+	        error: function (xhr, ajaxOptions, thrownError) {
+	            console.log(xhr.status);
+	            console.log(thrownError);
+	        }
+        });	
+	};	
+	var penyaSelected;
+	function loadDetails(penya){
+		 penyaSelected = penya;
+		 listPenyes.loadLogo("#penyaSelected-logo", penya.logo);
+		 $("#penyaSelected-name").empty();
+		 $("#penyaSelected-name").append(penya.name);
+		 $("#penyaSelected-fundation").empty();
+		 $("#penyaSelected-fundation").append("Fundación:" + penya.fundationYear);
+		 
+		 $("#penyaSelected-info1").empty();
+		 $.each( penya.info, function( title, value ) {
+			 var newdiv = "<div class='subdetailPenyes_div'><div class='subdetailPenyes_divheader'>"+title+":</div><div class='subdetailPenyes_divvalue'>"+value+"</div></div>";	 
+			 $("#penyaSelected-info1").append(newdiv);
+		 });
+		 if (penya.socialNetworks){
+			 $("#penyaSelected-info1").append("<div class='socialNetworks'>");
+			 $.each( penya.socialNetworks, function( url, urlImg ) {
+				 var newdiv = "<div class='socialneticon'><a href='"+url+"'><img class = 'icon' src='"+urlImg+"'></a></div>";	 
+				 $(".socialNetworks").append(newdiv);
+			 });	
+		 }
+		 
+		 $("#penyaSelected-info2").empty();
+		 $.each( penya.description, function( type, value ) {
+			 if (type.indexOf("text") == 0){
+				 var newdiv = "<div>" + value + "</div>";	 
+				 $("#penyaSelected-info2").append(newdiv);				 
+			 }
+			 if (type === "images"){
+				 $("#penyaSelected-info2").append("<div class='iosSlider'>");
+				 $(".iosSlider").append("<div class='slider'>");
+				 $.each( value, function( key, value ) {
+					 var valueStr = "&#39;" + value + "&#39;";
+					 var newdiv = "<div class='photopenyaitem' style='background-image:url("+value+");' id= '" + key + "' onclick='detailPenyes.fullScreen("+valueStr+")'></div>";	 
+					 $(".slider").append(newdiv);
+				 });		 
+			 }
 
+		 });
+		 
+		 return false;
+	}
 	function goToDetail() {
 		event.preventDefault();
 		$(".innerInfiniteShadowTop").hide();
 		$(".innerInfiniteShadowBottom").hide();
 		$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
+		refreshSlider(); 
 		return false; 
 	};
 	
@@ -78,8 +144,8 @@ return {
     "showHideCross" : function () {
     	showHideCross(); 
     },
-    "fullScreen" : function () {
-    	fullScreen();
+    "fullScreen" : function (selection) {
+    	fullScreen(selection);
     },
     "backFullScreen" : function () {
     	backFullScreen(); 
@@ -98,7 +164,10 @@ return {
     },      
     "noScrollSlide" : function (name, reverse, to, from) {
     	return noScrollSlide(name, reverse, to, from);
-    }   
+    },
+    "loadDetailPenya" : function (penyaId) {
+    	loadDetailPenya(penyaId); 
+    }
   }; // end of the return
 }();
 

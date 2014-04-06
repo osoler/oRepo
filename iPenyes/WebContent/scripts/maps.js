@@ -7,13 +7,7 @@ var mapPenyes = function () {
 			return false;
 		}
 		
-		var title = "penya";
-	    var randX = Math.random();
-	    var randY = Math.random();
-	    randX *= (randX * 1000000) % 2 == 0 ? 1 : -1;
-	    randY *= (randY * 1000000) % 2 == 0 ? 1 : -1;	
-	    var x = 60 + (randX * 0.5);
-	    var y = 17 + (randY * 0.5);
+		var title = "penya";	   
 		var newcounter = counter + 1; 
 
 		var contentString = "<div class='coat'><img id='infowindow-penya-logo-" + penya.id + "' class='desc-icon' src='/images/spinner.gif'></div><div  class='description'> " +
@@ -43,7 +37,7 @@ var mapPenyes = function () {
 		        backgroundClassName: 'infowindowPenyes',
 		        arrowStyle: 2
 		      });		
-		var myLatlng = new google.maps.LatLng(x,y);            	 
+		var myLatlng = new google.maps.LatLng(penya.x, penya.y);            	 
 		var marker = new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP, icon: '/images/fcb_marker.png'});
 		google.maps.event.addListener(marker, 'click', function() {
 					if (currentinfowindow) {currentinfowindow.close();}			
@@ -55,6 +49,7 @@ var mapPenyes = function () {
 						if (infowindow.isOpen()) {listPenyes.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 300);
 				});  	
 		google.maps.event.addDomListener(infowindow.bubble_, 'click', function(){
+			    detailPenyes.loadDetailPenya(penya.id);
 				$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
 			});
 		
@@ -132,14 +127,5 @@ $(document).on('pageshow', '#mapPenyes',function(e,data){
 $(document).on('pagehide', '#mapPenyes',function(e,data){ 
 	mapPenyes.destroyMap();
 });
-
-$(window).on('orientationchange', function(e,data){ 
-	jQuery.mobile.changePage("#mapPenyes", {allowSamePageTransition: true,transition: 'none',reloadPage: false});
-});
-
-
-
-
-
 
 

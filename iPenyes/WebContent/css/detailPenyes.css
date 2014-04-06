@@ -138,10 +138,7 @@ box-shadow: 0 0 1px rgba(255,255,255,.3);
   	margin-left: 5px;
 }		
 .iosSlider .slider .photopenyaitem.horizontal {background-size: 474px auto;}
-.iosSlider .slider #item1 {background-image: url(../images/photosPenyes/PBSuecia/25674_375479747599_1075420_n.jpg);margin-left: 0px;}
-.iosSlider .slider #item2 {background-image: url(../images/photosPenyes/PBSuecia/26194_374642007599_7429551_n.jpg);}
-.iosSlider .slider #item3 {background-image: url(../images/photosPenyes/PBSuecia/525863_10150878688002600_479399075_n.jpg);}
-.iosSlider .slider #item4 {background-image: url(../images/photosPenyes/PBSuecia/579861_10150878690297600_1131012138_n.jpg);}
+.iosSlider .slider #item1 {margin-left: 0px;}
 
 .socialNetworks{
 	margin-top: 10px;

@@ -14,6 +14,8 @@ public class Penya {
 	public String country;
 	public int numAffiliates;
 	public int fundationYear;
+	public double x;
+	public double y;
 	
 
 }

@@ -12,8 +12,8 @@ public class Utils {
 	private static HashMap<Long, PenyaDetail> dbPenyas;
     private static int index = 1; 
     private static int index2 = 1; 
-    private static String[] list = {"Barcelona", "Badalona", "Vallirana", "Lleida", "Tarragona", "Girona", "Vilafranca", "Cervelló", "Vic", "Palma de Mallorca"};
-    private static String[] listCountry = {"Catalunya", "Catalunya", "Catalunya", "Catalunya", "Catalunya", "Catalunya", "Catalunya", "Catalunya", "Catalunya", "España"};
+    private static String[] list = {"Beijing", "Tokio", "Vallirana", "Lleida", "Castellón", "Girona", "Vilafranca", "Cervelló", "Vic", "Stockholm"};
+    private static String[] listCountry = {"China", "Japan", "Catalonia", "Catalonia", "Spain", "Catalonia", "Spain", "Catalonia", "Catalonia", "Sweden"};
     private static String[] listEscudos = {"/images/escudos/0002.LaGranada-icon.png", "/images/escudos/0001.ABPenyaAnguera-icon.png","/images/escudos/0003.PBSantFruitosBages-icon.png", "/images/escudos/0004.PBBarcino-icon.png", "/images/escudos/0006.PBRipollet-icon.png", "/images/escudos/0008.PBCincCopes-icon.png", "/images/escudos/0007.UBCatalonia-icon.png", "/images/escudos/0010.ADBCollblanc-icon.png", "/images/escudos/0983.PBSuecia-icon.png"};
     
     static{
@@ -24,9 +24,30 @@ public class Utils {
     		dbPenyas.put(penyaDetail.id, penyaDetail);
     	} 
     }
-    public static List<Penya> getPenyas(){   
+    public static List<Penya> getPenyas(FilterPenya filter){   
     	List<Penya> listPenyes = new ArrayList<Penya>();
     	for(Penya penya: dbPenyas.values()){
+    		if (filter != null && filter.area !=null){
+    			if (filter.area.equals("europe")){
+    				if (!penya.country.equals("Catalonia")&&!penya.country.equals("Spain")&&!penya.country.equals("Sweden")){
+    					continue;
+    				}
+    			}else if (filter.area.equals("spain")){
+    				if (!penya.country.equals("Catalonia")&&!penya.country.equals("Spain")){
+    					continue;
+    				}	
+    			}else if (filter.area.equals("catalonia")){
+    				if (!penya.country.equals("Catalonia")){
+    					continue;
+    				}	
+    			}
+    		}
+    		if (filter != null && (filter.yearFrom !=-1 || filter.yearTo !=-1)){
+    			
+    		}
+    		if (filter != null && (filter.numFansFrom !=-1 || filter.numFansTo !=-1)){
+    			
+    		} 		
     		listPenyes.add(penya);
     	}
     	return listPenyes;

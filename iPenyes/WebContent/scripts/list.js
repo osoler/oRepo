@@ -88,6 +88,9 @@ var listPenyes = function () {
 	    "loadPenyes" : function () {
 	    	loadPenyes(); 	    	
 	    },
+	    "loadPenyesJSON" : function (result) {
+	    	loadPenyesJSON(result); 	    	
+	    },	    
 	    "setFakeReloaded" : function (newValue) {
 	    	fakereloaded = newValue;
 	    },

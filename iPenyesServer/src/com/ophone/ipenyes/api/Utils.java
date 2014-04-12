@@ -19,7 +19,7 @@ public class Utils {
     static{
     	dbPenyas = new HashMap<Long, PenyaDetail>();
     	
-    	for (int x=0;x<20;x++){
+    	for (int x=0;x<400;x++){
     		PenyaDetail penyaDetail = Utils.randomPenyaDetail();
     		dbPenyas.put(penyaDetail.id, penyaDetail);
     	} 

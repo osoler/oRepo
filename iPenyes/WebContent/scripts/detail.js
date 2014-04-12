@@ -52,6 +52,8 @@ var detailPenyes = function () {
         $.ajax({
         	dataType: "json",
 	        url: "/iPenyesServer/loadDetailPenya?penyaId=" + penyaId +  "&cache=" + nocache,
+	        beforeSend: function() { $.mobile.showPageLoadingMsg(); }, //Show spinner
+	        complete: function() { $.mobile.hidePageLoadingMsg(); }, //Hide spinner
 	        success: function(result){
 	            if(result)
 	            {

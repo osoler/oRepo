@@ -28,6 +28,15 @@ var filterPenyes = function () {
 	};	
 	
 	function search() {
+		closeFilter();
+		
+		listPenyes.cleanList();
+		
+		listPenyes.hideShadows();
+
+		$.mobile.showPageLoadingMsg();
+		$(".ui-loader").css("display", "block");
+		
 		var filter;
 		var area="world";
 		if ( $("#radio-area1")[0].checked) {
@@ -51,11 +60,18 @@ var filterPenyes = function () {
 	        url: "/iPenyesServer/getPenyes?cache=" + nocache + filter,
 	        success: function(result){
 	            if(result)
-	            {
-	            	$("#listviewpenyes").empty();
-	            	$("#listviewpenyes").append("<li id='loadmoreajaxloader'>&nbsp;</li>");	            	
-	            	listPenyes.loadPenyesJSON(result);
-	            	closeFilter();
+	            {        
+	            	listPenyes.setListOfFanClubs(result);
+	            	
+	            	if ($.mobile.activePage.is("#listPenyes")){
+	            		listPenyes.loadPenyesJSON();
+	            	}
+	            	
+	            	if ($.mobile.activePage.is("#mapPenyes")){
+	            		mapPenyes.destroyMap();
+	            		mapPenyes.createMap();
+	            	}
+	            	
 	            }
 	        },
 	        error: function (xhr, ajaxOptions, thrownError) {

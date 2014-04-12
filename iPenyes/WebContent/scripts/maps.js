@@ -1,7 +1,6 @@
 var mapPenyes = function () {
 	var currentinfowindow;
-	var myMarkerTimer;
-	var myMarkerLogoTimer;
+
 	function addMarker(penya, map, counter){
 		if (counter >=listPenyes.getListOfFanClubs().length) {
 			return false;
@@ -44,18 +43,15 @@ var mapPenyes = function () {
 					infowindow.open(map,marker);
 					var newLatlng = new google.maps.LatLng(myLatlng.k+0.1,myLatlng.A+0.2);            				
 				    map.setCenter(newLatlng);            			    
-					currentinfowindow = infowindow;  
-					myMarkerLogoTimer = setTimeout(function(){ 
-						if (infowindow.isOpen()) {listPenyes.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 300);
+					currentinfowindow = infowindow; 
+					navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {listPenyes.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 300));
 				});  	
 		google.maps.event.addDomListener(infowindow.bubble_, 'click', function(){
 			    detailPenyes.loadDetailPenya(penya.id);
 				$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
 			});
 		
-		myMarkerTimer = setTimeout(function(){ addMarker(listPenyes.getListOfFanClubs()[newcounter], map, newcounter); } , 600);
-
-		
+		navigation.setTimeout(setTimeout(function(){ addMarker(listPenyes.getListOfFanClubs()[newcounter], map, newcounter); } , 600));		
 	 
 		return false; 
 	}
@@ -83,13 +79,15 @@ var mapPenyes = function () {
 		google.maps.event.addListener(map, 'click', function() {
 			if (currentinfowindow) currentinfowindow.close();
 		});
+		
+    	$.mobile.hidePageLoadingMsg();
+    	$(".ui-loader").css("display", "none");
 
 	    return false; 
 	    
 	}
 	function destroyMap(){	
-		clearTimeout(myMarkerTimer);
-		clearTimeout(myMarkerLogoTimer);
+		navigation.clearAllTimeouts();
 		$('#map_canvas').empty();
 	}
 

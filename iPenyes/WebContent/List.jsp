@@ -11,16 +11,13 @@
 		<div class="infiniteShadowBottom"><div class="innerInfiniteShadowBottom"></div></div>
 	    <div data-role="navbar" class="navMenu">
 	        <ul>
-	            <li><a href="#listPenyes" id="tabList" data-icon="custom" data-transition="pop" class="ui-btn-active ui-state-persist">Llista</a></li>
-	            <li><a href="#mapPenyes"  id="tabMap"  data-icon="custom" data-transition="pop" >Mapa</a></li>
+	            <li><a href="#listPenyes" id="tabList" data-icon="custom" data-transition="pop" class="ui-btn-active ui-state-persist">List</a></li>
+	            <li><a href="#mapPenyes"  id="tabMap"  data-icon="custom" data-transition="pop">Map</a></li>
 	        </ul>
 	     </div> 
 	</div>
 	<div data-role="content"  id="contentlistPenyes"> 
-		<%@ include file="Filter.jsp"%> 
-		<ul id="listviewpenyes" data-role="listview" data-inset="true" data-filter="false">
-			<li id="loadmoreajaxloader">&nbsp;</li>																											
-		</ul>        
+		<%@ include file="Filter.jsp"%>       
 	</div><!-- /content -->         
 </div><!-- /page -->
 

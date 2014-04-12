@@ -1,26 +1,31 @@
 var listPenyes = function () {
 	 
-	var  fakereloaded = 0; 
-	var  maxfakereloaded = 3; 
-	
 	var listOfFanClubs = undefined;
+	
+	function cleanList(){
+		if ($('#listviewpenyes').length == 0){
+			$("#contentlistPenyes").append("<ul id='listviewpenyes' data-role='listview' data-inset='true' data-filter='false'></ul>");	  
+			$("#listviewpenyes").listview();
+		}
+		
+		$("#listviewpenyes").empty();
+		refresh();
+	};
 	
 	function refresh(){
 		$('#listviewpenyes').listview('refresh');
 	};
 	
 	function showShadows(){
-		$(".innerInfiniteShadowTop").fadeIn( "slow" );
+		if (listOfFanClubs != undefined && listOfFanClubs.length > 0){
+			$(".innerInfiniteShadowTop").fadeIn( "slow" );
+		}
 		$(".innerInfiniteShadowBottom").fadeIn( "slow" );
 	};
 	
 	function hideShadows(){
 		$(".innerInfiniteShadowTop").hide();
 		$(".innerInfiniteShadowBottom").hide();
-	};
-	
-	function hideLoader(){
-		$('#loadmoreajaxloader').hide();
 	};
 	
 	function loadPenyes(){
@@ -35,8 +40,8 @@ var listPenyes = function () {
         };   
 	}
 	
-	function loadPenyesJSON(list){
-		listOfFanClubs = list;
+	function loadPenyesJSON(){
+		 		
 		$.each( listOfFanClubs, function( i, item ) {
 	    	 var penyaHtml = "<li data-icon='false'><a href='#' onclick='detailPenyes.loadDetailPenya("+ item.id +")'  class='penyaBean' >" +
 	    	 		"<div id='detailPenyaBean'><div class='coat'><img id='penya-logo-" + item.id + "' class='ui-li-icon' src='/images/spinner.gif'></div>" +
@@ -48,17 +53,15 @@ var listPenyes = function () {
 	    	 						"<div id='penyaFundationYear' class='fundationYear'>Fundación: " + item.fundationYear + "</div>" +
 	    	 				"</div></div></a></li>";
 	    	 listPenyes.loadLogo("#penya-logo-" + item.id, item.logo);
-	    	 $(penyaHtml).insertBefore( "#loadmoreajaxloader" );
-	       });
-	     
-    	listPenyes.refresh();
+	    	 $("#listviewpenyes").append(penyaHtml);
+		});
+	       	
+    	refresh();
     	
-    	listPenyes.setFakeReloaded(listPenyes.getFakeReloaded() + 1);
-	    
-    	if (listPenyes.getFakeReloaded() >= listPenyes.getMaxFakeReloaded()){
-	    	listPenyes.hideLoader();
-	    	listPenyes.refresh();
-	    }	
+    	showShadows();
+    	
+    	$.mobile.hidePageLoadingMsg();
+    	$(".ui-loader").css("display", "none");
 	};
 	
 	return { 
@@ -77,23 +80,17 @@ var listPenyes = function () {
 	    "loadPenyesJSON" : function (result) {
 	    	loadPenyesJSON(result); 	    	
 	    },	    
-	    "setFakeReloaded" : function (newValue) {
-	    	fakereloaded = newValue;
-	    },
-	    "getFakeReloaded" : function () {
-	     return fakereloaded; 
-	    },
-	    "getMaxFakeReloaded" : function () {
-	     return maxfakereloaded; 
-	    },
-	    "hideLoader" : function () {
-	    	hideLoader(); 
-	    },
 	    "loadLogo" : function (img, src) {
 	    	loadLogo(img, src); 
 		},
 	    "getListOfFanClubs" : function () {
 		     return listOfFanClubs; 
+		},
+	    "setListOfFanClubs" : function (list) {
+		     listOfFanClubs = list; 
+		},		
+	    "cleanList" : function () {
+		     cleanList(); 
 		}
 	  }; // end of the return
 	  
@@ -103,18 +100,24 @@ var listPenyes = function () {
 //Events
 	
 $(document).on('pageinit', '#listPenyes',function(e,data){ 
-	listPenyes.loadPenyes();
+
 });
 
-$(document).on('pageshow', '#listPenyes',function(e,data){ 
-	listPenyes.showShadows();
+$(document).on('pageshow', '#listPenyes',function(e,data){
+	if (data.prevPage.attr('id') != "detailPenyes")	{
+		listPenyes.loadPenyes();
+	}
 });
 
 $(document).on('pagehide', '#listPenyes',function(e,data){ 
 	listPenyes.hideShadows();
+	if (data.nextPage.attr('id') != "detailPenyes")	{
+		listPenyes.cleanList();
+	}
+	navigation.clearAllTimeouts();
 });
 
-$(window).scroll(function(){
+/*$(window).scroll(function(){
 	if (($.mobile.activePage.is("#listPenyes"))||($.mobile.activePage.is("#detailPenyes"))){		
 		if (($.mobile.activePage.is("#listPenyes"))&&(listPenyes.getFakeReloaded() < listPenyes.getMaxFakeReloaded())&&
 				(($(document).height() - 200)  <= $(window).scrollTop() + $(window).height())
@@ -122,6 +125,6 @@ $(window).scroll(function(){
 		        listPenyes.loadPenyes();				        			        
 		    }
 	}
-});
+});*/
 	
 	

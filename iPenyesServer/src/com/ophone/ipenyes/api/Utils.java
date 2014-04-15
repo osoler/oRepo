@@ -74,10 +74,8 @@ public class Utils {
     	penya.fundationYear = randomYear();
     	
 
-// 	    penya.x = 180*Math.random() - 90;
-// 	    penya.y = 360*Math.random() - 180; 
-        penya.x = 40;
- 	    penya.y = 0; 
+ 	    penya.x = 180*Math.random() - 90;
+ 	    penya.y = 360*Math.random() - 180; 
  	    
  	    penya.info = new LinkedHashMap<String, String>();
  	    penya.info.put("President", "Rafael Escofet");

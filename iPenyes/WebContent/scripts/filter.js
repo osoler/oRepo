@@ -27,6 +27,20 @@ var filterPenyes = function () {
 		$('#filterForm')[0].reset();
 	};	
 	
+	function getArea() {
+		var area="world";
+		if ( $("#radio-area1")[0].checked) {
+			area = $("#radio-area1")[0].value;
+		}else if ( $("#radio-area2")[0].checked) {
+			area = $("#radio-area2")[0].value;
+		}else if ( $("#radio-area3")[0].checked) {
+			area = $("#radio-area3")[0].value;
+		}else if ( $("#radio-area4")[0].checked) {
+			area = $("#radio-area4")[0].value;
+		}
+		return area;
+	};	
+	
 	function search() {
 		closeFilter();
 		
@@ -38,16 +52,7 @@ var filterPenyes = function () {
 		$(".ui-loader").css("display", "block");
 		
 		var filter;
-		var area="world";
-		if ( $("#radio-area1")[0].checked) {
-			area = $("#radio-area1")[0].value;
-		}else if ( $("#radio-area2")[0].checked) {
-			area = $("#radio-area2")[0].value;
-		}else if ( $("#radio-area3")[0].checked) {
-			area = $("#radio-area3")[0].value;
-		}else if ( $("#radio-area4")[0].checked) {
-			area = $("#radio-area4")[0].value;
-		}
+		var area = getArea();
 		
 		filter  =  "&area=" + area;
 		filter  +=  "&yearFrom=" + $("#yearFrom")[0].value;
@@ -94,6 +99,9 @@ var filterPenyes = function () {
 	    },
 	    "resetFilter" : function () {
 	    	resetFilter(); 	    	
+	    },
+	    "getArea" : function () {
+	    	return getArea(); 	    	
 	    }
 	  }; // end of the return
 }();

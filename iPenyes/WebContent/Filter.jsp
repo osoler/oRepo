@@ -8,16 +8,16 @@
 				<div class="filterPopupInputTitle">Location</div>
 				<div class="filterPopupInput bottomLine">
 				    <fieldset data-role="controlgroup" data-type="horizontal" style="text-align: center" >
-				         	<input type="radio" name="radio-area" id="radio-area1" value="catalonia"/>
+				         	<input type="radio" name="radio-area" id="radio-area1" value="catalonia" checked="checked"/>
 				         	<label for="radio-area1" class="custom-button catalonia"></label>
 				
 				         	<input type="radio" name="radio-area" id="radio-area2" value="spain"  />
 				         	<label for="radio-area2" class="custom-button spain"></label>
 				
-				         	<input type="radio" name="radio-area" id="radio-area3" value="europe"  />
+				         	<input type="radio" name="radio-area" id="radio-area3" value="europe"   />
 				         	<label for="radio-area3" class="custom-button europe"></label>
 			
-				         	<input type="radio" name="radio-area" id="radio-area4" value="world" checked="checked" />
+				         	<input type="radio" name="radio-area" id="radio-area4" value="world" />
 				         	<label for="radio-area4" class="custom-button world"></label>
 				    </fieldset>
 			    </div>

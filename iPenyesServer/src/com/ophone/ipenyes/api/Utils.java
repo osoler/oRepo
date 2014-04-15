@@ -19,7 +19,7 @@ public class Utils {
     static{
     	dbPenyas = new HashMap<Long, PenyaDetail>();
     	
-    	for (int x=0;x<400;x++){
+    	for (int x=0;x<100;x++){
     		PenyaDetail penyaDetail = Utils.randomPenyaDetail();
     		dbPenyas.put(penyaDetail.id, penyaDetail);
     	} 
@@ -74,8 +74,10 @@ public class Utils {
     	penya.fundationYear = randomYear();
     	
 
- 	    penya.x = 180*Math.random() - 90;
- 	    penya.y = 360*Math.random() - 180; 
+// 	    penya.x = 180*Math.random() - 90;
+// 	    penya.y = 360*Math.random() - 180; 
+        penya.x = 40;
+ 	    penya.y = 0; 
  	    
  	    penya.info = new LinkedHashMap<String, String>();
  	    penya.info.put("President", "Rafael Escofet");

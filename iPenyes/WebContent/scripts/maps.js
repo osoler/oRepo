@@ -6,23 +6,32 @@ var mapPenyes = function () {
     	    center: new google.maps.LatLng(40,1),
     	    mapTypeId: google.maps.MapTypeId.ROADMAP,
     	    disableDefaultUI: true};
+    var MAP_OPTS_catalonia_x = 1;
+    var MAP_OPTS_catalonia_y = 1.8;
     
     var MAP_OPTS_spain = {
     	    zoom: 5,
     	    center: new google.maps.LatLng(40,-4),
     	    mapTypeId: google.maps.MapTypeId.ROADMAP,
     	    disableDefaultUI: true};
+    var MAP_OPTS_spain_x = 1;
+    var MAP_OPTS_spain_y = 3;
+    
     var MAP_OPTS_europe = {
     	    zoom: 4,
     	    center: new google.maps.LatLng(50,3),
     	    mapTypeId: google.maps.MapTypeId.ROADMAP,
     	    disableDefaultUI: true};
+    var MAP_OPTS_europe_x = 5;
+    var MAP_OPTS_europe_y = 7;    
     
     var MAP_OPTS_world = {
     	    zoom: 2,
     	    center: new google.maps.LatLng(30,40),
     	    mapTypeId: google.maps.MapTypeId.ROADMAP,
     	    disableDefaultUI: true};   
+    var MAP_OPTS_world_x = 10;
+    var MAP_OPTS_world_y = 30;
 
 	function addMarker(penya, map, counter){
 		if (counter >=listPenyes.getListOfFanClubs().length) {
@@ -64,7 +73,9 @@ var mapPenyes = function () {
 		google.maps.event.addListener(marker, 'click', function() {
 					if (currentinfowindow) {currentinfowindow.close();}			
 					infowindow.open(map,marker);
-					var newLatlng = new google.maps.LatLng(myLatlng.k+0.1,myLatlng.A+0.2);            				
+					var x = eval('MAP_OPTS_' + filterPenyes.getArea() + '_x');
+					var y = eval('MAP_OPTS_' + filterPenyes.getArea() + '_y');
+					var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.A + y);            				
 				    map.setCenter(newLatlng);            			    
 					currentinfowindow = infowindow; 
 					navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {listPenyes.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 300));
@@ -86,7 +97,7 @@ var mapPenyes = function () {
 	    $('#map_canvasWrapper').height($('#contentMap').height());
 	    $('#map_canvas').height($('#map_canvasWrapper').height());	
 	    
-	    var map_opts = 'MAP_OPTS_' +filterPenyes.getArea();
+	    var map_opts = 'MAP_OPTS_' + filterPenyes.getArea();
 			    
 	    var map = new google.maps.Map(document.getElementById("map_canvas"), eval(map_opts));  
 	    if ((listPenyes.getListOfFanClubs() != undefined) && (listPenyes.getListOfFanClubs().length > 0)){

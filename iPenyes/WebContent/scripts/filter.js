@@ -62,8 +62,9 @@ var filterPenyes = function () {
 		filter  +=  "&numFansTo=" + $("#numFansTo")[0].value;
 		
 		var nocache = new Date().getTime();
+		var url = configuration.getUrlServer() + "/getPenyes?cache=" + nocache + filter;
         $.ajax({
-	        url: "/iPenyesServer/getPenyes?cache=" + nocache + filter,
+	        url: url,
 	        success: function(result){
 	            if(result)
 	            {        

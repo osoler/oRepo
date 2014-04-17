@@ -32,6 +32,7 @@
 <script src="/jquery/jquery.easing.1.3.js"></script>        
 <script src="/jquery/jquery.mobile-events.js"></script>          
 
+<script src="/scripts/configuration.js"></script>
 <script src="/scripts/initialization.js"></script>
 <script src="/scripts/navigation.js"></script>
 <script src="/scripts/doubleTap.js"></script>             

@@ -118,9 +118,17 @@ var detailPenyes = function () {
 		return false; 
 	};
 	
-	function backToList() {
+	function back() {
 		$(".innerInfiniteShadowTop").hide();
 		$(".innerInfiniteShadowBottom").hide();
+		if(navigation.getLastPage() === "listPenyes"){
+			$.mobile.changePage( "#listPenyes" ,{ transition: "slide", changeHash: false, reverse :"true" });	
+		}
+		if(navigation.getLastPage() === "mapPenyes"){
+			$.mobile.changePage( "#mapPenyes" ,{ transition: "slide", changeHash: false, reverse :"true" });
+		}
+
+		
 		return false; 
 	};	
 	function noScrollSlide(name, reverse, $to, $from) { 
@@ -155,8 +163,8 @@ return {
     "goToDetail" : function () {
     	goToDetail(); 
     },
-    "backToList" : function () {
-    	backToList(); 
+    "back" : function () {
+    	back(); 
     },
     "setResizeTimer" : function (newValue) {
     	resizeTimer = newValue; 
@@ -181,7 +189,8 @@ return {
 
 $.mobile.transitionHandlers["slide"] = detailPenyes.noScrollSlide;
 
-$(document).on('pageshow', '#detailPenyes',function(e,data){ 
+$(document).on('pageshow', '#detailPenyes',function(e,data){
+	navigation.setLastPage(data.prevPage.attr('id'));
 	$(".innerInfiniteShadowTop").fadeIn( "slow" );
 	$(".innerInfiniteShadowBottom").fadeIn( "slow" );
 });

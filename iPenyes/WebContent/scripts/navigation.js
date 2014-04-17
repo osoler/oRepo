@@ -1,14 +1,10 @@
 var navigation = function () {
 	var timeouts = [];
-	var currentPage;
+	var lastPage;
 	
-	function setCurrentPage(page){
-		currentPage = page;
+	function setLastPage(page){
+		lastPage = page;
 	}
-	
-	function getCurrentPage(){
-		return currentPage;
-	}	
 	
 	function clearAllTimeouts(){
 		   for(var i = 0, z = timeouts.length; i < z; i++){
@@ -18,11 +14,11 @@ var navigation = function () {
 	}
 	
 	return { 
-	    "getCurrentPage" : function () {
-	    	getCurrentPage();
+	    "getLastPage" : function () {
+	    	return lastPage;
 	    },
-	    "setCurrentPage" : function (page) {
-	    	setCurrentPage(page); 
+	    "setLastPage" : function (page) {
+	    	lastPage = page;
 	    },
 	    "setTimeout" : function (timeout) {
 	    	timeouts.push(timeout);

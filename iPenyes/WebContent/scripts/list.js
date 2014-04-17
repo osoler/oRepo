@@ -105,16 +105,18 @@ $(document).on('pageinit', '#listPenyes',function(e,data){
 
 $(document).on('pageshow', '#listPenyes',function(e,data){
 	if (data.prevPage.attr('id') != "detailPenyes")	{
-		listPenyes.loadPenyes();
+		if ((listPenyes.getListOfFanClubs() === undefined) || (listPenyes.getListOfFanClubs().length === 0)){
+			listPenyes.loadPenyes();
+		}
 	}
 });
 
 $(document).on('pagehide', '#listPenyes',function(e,data){ 
 	listPenyes.hideShadows();
-	if (data.nextPage.attr('id') != "detailPenyes")	{
-		listPenyes.cleanList();
-	}
-	navigation.clearAllTimeouts();
+//	if (data.nextPage.attr('id') != "detailPenyes")	{
+//		listPenyes.cleanList();
+//	}
+//	navigation.clearAllTimeouts();
 });
 
 /*$(window).scroll(function(){

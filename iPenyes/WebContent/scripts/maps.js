@@ -32,6 +32,8 @@ var mapPenyes = function () {
     	    disableDefaultUI: true};   
     var MAP_OPTS_world_x = 10;
     var MAP_OPTS_world_y = 30;
+    
+	var selectedPenya;
 
 	function addMarker(penya, map, counter){
 		if (counter >=listPenyes.getListOfFanClubs().length) {
@@ -98,8 +100,19 @@ var mapPenyes = function () {
 	    $('#map_canvas').height($('#map_canvasWrapper').height());	
 	    
 	    var map_opts = 'MAP_OPTS_' + filterPenyes.getArea();
-			    
+	    
+	    if (selectedPenya != undefined){
+	    	map_opts = {
+	    	    	    zoom: eval(map_opts).zoom,
+	    	    	    center: new google.maps.LatLng(selectedPenya.x, selectedPenya.y),
+	    	    	    mapTypeId: google.maps.MapTypeId.ROADMAP,
+	    	    	    disableDefaultUI: true};
+	    }
+	    		    
 	    var map = new google.maps.Map(document.getElementById("map_canvas"), eval(map_opts));  
+	    if (selectedPenya != undefined){
+	    	addMarker(selectedPenya, map, listPenyes.getListOfFanClubs().length - 1);
+	    }
 	    if ((listPenyes.getListOfFanClubs() != undefined) && (listPenyes.getListOfFanClubs().length > 0)){
 		    addMarker(listPenyes.getListOfFanClubs()[0], map, 0);
 		}
@@ -113,6 +126,7 @@ var mapPenyes = function () {
 	    return false; 
 	    
 	}
+	
 	function destroyMap(){	
 		navigation.clearAllTimeouts();
 		$('#map_canvas').empty();
@@ -132,12 +146,27 @@ var mapPenyes = function () {
 		return content_height;
 	}	
 
+	function goToPenya(penya){	
+		selectedPenya = penya;
+		$.mobile.changePage($("#mapPenyes"),{ transition: "pop", changeHash: false });
+	}
+	
+	function isMapEmpty(penya){	
+		return $('#map_canvas').is(':empty');
+	}
 return { 
     "createMap" : function () {
     	createMap();
     },
     "destroyMap" : function () {
     	destroyMap(); 
+    	selectedPenya = undefined;
+    },
+    "isMapEmpty" : function () {
+    	return isMapEmpty(); 
+    },
+    "goToPenya" : function (penya) {
+    	goToPenya(penya); 
     }
   }; // end of the return
 }();
@@ -146,11 +175,10 @@ return {
 //Events
 
 $(document).on('pageshow', '#mapPenyes',function(e,data){ 
-	mapPenyes.createMap();
+	if (mapPenyes.isMapEmpty()) {
+		mapPenyes.createMap();
+	}
 });
 
-$(document).on('pagehide', '#mapPenyes',function(e,data){ 
-	mapPenyes.destroyMap();
-});
 
 

@@ -169,6 +169,9 @@ return {
     },
     "loadDetailPenya" : function (penyaId) {
     	loadDetailPenya(penyaId); 
+    },
+    "showPenyaInMap" : function () {
+    	mapPenyes.goToPenya(penyaSelected); 
     }
   }; // end of the return
 }();

@@ -45,6 +45,7 @@ var filterPenyes = function () {
 		closeFilter();
 		
 		listPenyes.cleanList();
+		mapPenyes.destroyMap();
 		
 		listPenyes.hideShadows();
 

@@ -71,6 +71,7 @@ var filterPenyes = function () {
 	        success: function(result){
 	            if(result)
 	            {        
+	            	fullLoaded = true;
 	            	listPenyes.setListOfFanClubs(result);
 	            	
 	            	if ($.mobile.activePage.is("#listPenyes")){
@@ -111,7 +112,7 @@ var filterPenyes = function () {
 	    "setFullLoaded" : function (loaded) {
 	    	fullLoaded = loaded;
 	    },
-	    "isFullLoaded()" : function () {
+	    "isFullLoaded" : function () {
 	     return fullLoaded; 
 	    }
 	  }; // end of the return
@@ -119,13 +120,22 @@ var filterPenyes = function () {
 
 $(window).scroll(function()
 		{
-		if (($.mobile.activePage.is("#listPenyes"))){		
-			if (!filterPenyes.isFullLoaded()&&
-					(($(document).height() - 200)  <= $(window).scrollTop() + $(window).height())
-				){
-				
-				
+		if ($.mobile.activePage.is("#listPenyes")){
 			
-				}
-			}
+			var totalHeight = $(document).height();
+			var alreadyLoaded = totalHeight > 700;
+			var scrollTop = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			var timeToSearch = (totalHeight-200) <= (scrollTop + windowHeight);
+			
+			$("#track").empty();
+			$("#track").append(timeToSearch+"/" +alreadyLoaded  );
+			
+			if (timeToSearch && alreadyLoaded){
+				
+				 	//TODO: add more --> filterPenyes.search();
+			
+			}			
+			
+		}
 		});

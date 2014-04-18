@@ -48,16 +48,20 @@ var detailPenyes = function () {
 	};
 	
 	function loadDetailPenya(penyaId){
+		$.mobile.showPageLoadingMsg();
 		var nocache = new Date().getTime();
+		var url = configuration.getUrlServer() + "/loadDetailPenya?penyaId=" + penyaId +  "&cache=" + nocache;
         $.ajax({
         	dataType: "json",
-	        url: "/iPenyesServer/loadDetailPenya?penyaId=" + penyaId +  "&cache=" + nocache,
+	        url: url,
 	        beforeSend: function() { $.mobile.showPageLoadingMsg(); }, //Show spinner
 	        complete: function() { $.mobile.hidePageLoadingMsg(); }, //Hide spinner
 	        success: function(result){
 	            if(result)
 	            {
 	            	loadDetails(result);
+	            	$.mobile.hidePageLoadingMsg();
+	            	$(".ui-loader").css("display", "none");
 	            	goToDetail();
 	            }
 	        },

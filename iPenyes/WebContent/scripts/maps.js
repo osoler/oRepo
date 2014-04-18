@@ -35,11 +35,10 @@ var mapPenyes = function () {
     
 	var selectedPenya;
 
-	function addMarker(penya, map, counter){
-		if (counter >=listPenyes.getListOfFanClubs().length) {
+	function addMarker(penya, map, counter, addSelectedPenya){
+		if (counter >=listPenyes.getListOfFanClubs().length && !addSelectedPenya) {
 			return false;
 		}
-		
 		var title = "penya";	   
 		var newcounter = counter + 1; 
 
@@ -69,28 +68,44 @@ var mapPenyes = function () {
 		        arrowPosition: 20,
 		        backgroundClassName: 'infowindowPenyes',
 		        arrowStyle: 2
-		      });		
-		var myLatlng = new google.maps.LatLng(penya.x, penya.y);            	 
-		var marker = new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP, icon: '/images/fcb_marker.png'});
-		google.maps.event.addListener(marker, 'click', function() {
-					if (currentinfowindow) {currentinfowindow.close();}			
-					infowindow.open(map,marker);
-					var x = eval('MAP_OPTS_' + filterPenyes.getArea() + '_x');
-					var y = eval('MAP_OPTS_' + filterPenyes.getArea() + '_y');
-					var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.A + y);            				
-				    map.setCenter(newLatlng);            			    
-					currentinfowindow = infowindow; 
-					navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {listPenyes.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 300));
-				});  	
-		google.maps.event.addDomListener(infowindow.bubble_, 'click', function(){
-			    detailPenyes.loadDetailPenya(penya.id);
-				$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
-			});
-		
-		navigation.setTimeout(setTimeout(function(){ addMarker(listPenyes.getListOfFanClubs()[newcounter], map, newcounter); } , 600));		
+		      });	
+		if (selectedPenya == undefined || selectedPenya.id != penya.id || addSelectedPenya){
+			var myLatlng = new google.maps.LatLng(penya.x, penya.y);            	 
+			var marker = new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP, icon: '/images/fcb_marker.png'});
+			google.maps.event.addListener(marker, 'click', function() {
+				if (mapPenyes.getCurrentInfoWindow()) {
+					currentinfowindow.close();
+				}			
+				infowindow.open(map,marker);
+				var x = eval('MAP_OPTS_' + filterPenyes.getArea() + '_x');
+				var y = eval('MAP_OPTS_' + filterPenyes.getArea() + '_y');
+				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.A + y);            				
+			    map.setCenter(newLatlng);            			    
+				currentinfowindow = infowindow; 
+				navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {listPenyes.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 300));
+			});  
+			if (addSelectedPenya){
+				if (mapPenyes.getCurrentInfoWindow()) {
+					currentinfowindow.close();
+				}			
+				infowindow.open(map,marker);
+				var x = eval('MAP_OPTS_' + filterPenyes.getArea() + '_x');
+				var y = eval('MAP_OPTS_' + filterPenyes.getArea() + '_y');
+				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.A + y);            				
+			    map.setCenter(newLatlng);            			    
+				currentinfowindow = infowindow; 
+				navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {listPenyes.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 300));
+			}
+			google.maps.event.addDomListener(infowindow.bubble_, 'click', function(){
+				    detailPenyes.loadDetailPenya(penya.id);
+					$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
+				});
+		}
+		navigation.setTimeout(setTimeout(function(){ addMarker(listPenyes.getListOfFanClubs()[newcounter], map, newcounter, false); } , 600));		
 	 
 		return false; 
 	}
+
 	function createMap(){	
 
 		$('#map_canvas').empty();
@@ -111,13 +126,13 @@ var mapPenyes = function () {
 	    		    
 	    var map = new google.maps.Map(document.getElementById("map_canvas"), eval(map_opts));  
 	    if (selectedPenya != undefined){
-	    	addMarker(selectedPenya, map, listPenyes.getListOfFanClubs().length - 1);
+	    	 addMarker(selectedPenya, map, -1, true);
 	    }
 	    if ((listPenyes.getListOfFanClubs() != undefined) && (listPenyes.getListOfFanClubs().length > 0)){
-		    addMarker(listPenyes.getListOfFanClubs()[0], map, 0);
+		    addMarker(listPenyes.getListOfFanClubs()[0], map, 0, false);
 		}
 		google.maps.event.addListener(map, 'click', function() {
-			if (currentinfowindow) currentinfowindow.close();
+			if (mapPenyes.getCurrentInfoWindow()) currentinfowindow.close();
 		});
 		
     	$.mobile.hidePageLoadingMsg();
@@ -151,9 +166,11 @@ var mapPenyes = function () {
 		$.mobile.changePage($("#mapPenyes"),{ transition: "pop", changeHash: false });
 	}
 	
-	function isMapEmpty(penya){	
+	function isMapEmpty(){	
 		return $('#map_canvas').is(':empty');
 	}
+	
+	
 return { 
     "createMap" : function () {
     	createMap();
@@ -167,6 +184,15 @@ return {
     },
     "goToPenya" : function (penya) {
     	goToPenya(penya); 
+    },
+    "getSelectedPenya" : function () {
+    	return selectedPenya; 
+    },
+    "getCurrentInfoWindow" : function () {
+    	return currentinfowindow; 
+    },
+    "setCurrentInfoWindow" : function (infowindow) {
+    	currentinfowindow = infowindow; 
     }
   }; // end of the return
 }();
@@ -175,8 +201,10 @@ return {
 //Events
 
 $(document).on('pageshow', '#mapPenyes',function(e,data){ 
-	if (mapPenyes.isMapEmpty()) {
-		mapPenyes.createMap();
+	if ((data.prevPage.attr('id') != "detailPenyes") || mapPenyes.isMapEmpty())	{
+		if (mapPenyes.isMapEmpty() || mapPenyes.getSelectedPenya() != undefined) {
+			mapPenyes.createMap();
+		}
 	}
 });
 

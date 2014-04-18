@@ -1,5 +1,5 @@
 var configuration = function () {
-	var urlserver = "http://localhost:8080/iPenyesServer";
+	var urlserver = "http://192.168.0.224:8080/iPenyesServer";
 
 	
 	return { 

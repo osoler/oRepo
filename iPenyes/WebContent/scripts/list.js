@@ -62,8 +62,11 @@ var listPenyes = function () {
     	
     	$.mobile.hidePageLoadingMsg();
     	$(".ui-loader").css("display", "none");
-	};
+	}
 	
+	function isListEmpty(){	
+		return $('#listviewpenyes').find('li').length === 0 ;
+	}
 	return { 
 	    "refresh" : function () {
 	    	refresh(); 	    	
@@ -88,7 +91,10 @@ var listPenyes = function () {
 		},
 	    "setListOfFanClubs" : function (list) {
 		     listOfFanClubs = list; 
-		},		
+	    },
+	    "isListEmpty" : function () {
+	    	return isListEmpty(); 
+	    },		
 	    "cleanList" : function () {
 		     cleanList(); 
 		}
@@ -105,7 +111,7 @@ $(document).on('pageinit', '#listPenyes',function(e,data){
 
 $(document).on('pageshow', '#listPenyes',function(e,data){
 	if (data.prevPage.attr('id') != "detailPenyes")	{
-		if ((listPenyes.getListOfFanClubs() === undefined) || (listPenyes.getListOfFanClubs().length === 0)){
+		if (listPenyes.isListEmpty() || (listPenyes.getListOfFanClubs() === undefined) || (listPenyes.getListOfFanClubs().length === 0)){
 			listPenyes.loadPenyes();
 		}
 	}

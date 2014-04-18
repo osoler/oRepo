@@ -1,4 +1,7 @@
 var filterPenyes = function () {
+	var  fullLoaded = false; 
+
+	
 	var location;
 	var yearFrom;
 	var yearTo;
@@ -104,6 +107,25 @@ var filterPenyes = function () {
 	    },
 	    "getArea" : function () {
 	    	return getArea(); 	    	
+	    },
+	    "setFullLoaded" : function (loaded) {
+	    	fullLoaded = loaded;
+	    },
+	    "isFullLoaded()" : function () {
+	     return fullLoaded; 
 	    }
 	  }; // end of the return
 }();
+
+$(window).scroll(function()
+		{
+		if (($.mobile.activePage.is("#listPenyes"))){		
+			if (!filterPenyes.isFullLoaded()&&
+					(($(document).height() - 200)  <= $(window).scrollTop() + $(window).height())
+				){
+				
+				
+			
+				}
+			}
+		});

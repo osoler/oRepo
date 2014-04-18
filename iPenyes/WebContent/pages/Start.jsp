@@ -35,8 +35,7 @@
 <script src="/scripts/configuration.js"></script>
 <script src="/scripts/initialization.js"></script>
 <script src="/scripts/navigation.js"></script>
-<script src="/scripts/doubleTap.js"></script>             
-<script src="/scripts/scroll.js"></script>  
+<script src="/scripts/doubleTap.js"></script>              
 <script src="/scripts/detail.js"></script>                      
 <script src="/scripts/maps.js"></script>
 <script src="/scripts/list.js"></script>

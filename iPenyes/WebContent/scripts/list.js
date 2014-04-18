@@ -28,10 +28,6 @@ var listPenyes = function () {
 		$(".innerInfiniteShadowBottom").hide();
 	};
 	
-	function loadPenyes(){
-		filterPenyes.search();
-	};
-	
 	function loadLogo(img, src){		       
         var image = new Image();
         image.src = src;
@@ -78,7 +74,7 @@ var listPenyes = function () {
 	    	hideShadows(); 	    	
 	    },
 	    "loadPenyes" : function () {
-	    	loadPenyes(); 	    	
+	    	filterPenyes.search(); 	    	
 	    },
 	    "loadPenyesJSON" : function (result) {
 	    	loadPenyesJSON(result); 	    	
@@ -112,27 +108,14 @@ $(document).on('pageinit', '#listPenyes',function(e,data){
 $(document).on('pageshow', '#listPenyes',function(e,data){
 	if (data.prevPage.attr('id') != "detailPenyes")	{
 		if (listPenyes.isListEmpty() || (listPenyes.getListOfFanClubs() === undefined) || (listPenyes.getListOfFanClubs().length === 0)){
-			listPenyes.loadPenyes();
+			filterPenyes.search();
 		}
 	}
 });
 
 $(document).on('pagehide', '#listPenyes',function(e,data){ 
 	listPenyes.hideShadows();
-//	if (data.nextPage.attr('id') != "detailPenyes")	{
-//		listPenyes.cleanList();
-//	}
-//	navigation.clearAllTimeouts();
 });
 
-/*$(window).scroll(function(){
-	if (($.mobile.activePage.is("#listPenyes"))||($.mobile.activePage.is("#detailPenyes"))){		
-		if (($.mobile.activePage.is("#listPenyes"))&&(listPenyes.getFakeReloaded() < listPenyes.getMaxFakeReloaded())&&
-				(($(document).height() - 200)  <= $(window).scrollTop() + $(window).height())
-			){
-		        listPenyes.loadPenyes();				        			        
-		    }
-	}
-});*/
 	
 	

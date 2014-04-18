@@ -1,37 +1,17 @@
 var mapPenyes = function () {
 	var currentinfowindow;
     
-	var MAP_OPTS_catalonia = {
-    	    zoom: 6,
-    	    center: new google.maps.LatLng(40,1),
-    	    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    	    disableDefaultUI: true};
-    var MAP_OPTS_catalonia_x = 1;
-    var MAP_OPTS_catalonia_y = 1.8;
+	var MAP_OPTS_catalonia = {zoom: 6, center: new google.maps.LatLng(40,1), mapTypeId: google.maps.MapTypeId.ROADMAP, disableDefaultUI: true};
+    var MAP_OPTS_catalonia_x = 1;var MAP_OPTS_catalonia_y = 1.8;
     
-    var MAP_OPTS_spain = {
-    	    zoom: 5,
-    	    center: new google.maps.LatLng(40,-4),
-    	    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    	    disableDefaultUI: true};
-    var MAP_OPTS_spain_x = 1;
-    var MAP_OPTS_spain_y = 3;
+    var MAP_OPTS_spain = {zoom: 5, center: new google.maps.LatLng(40,-4), mapTypeId: google.maps.MapTypeId.ROADMAP, disableDefaultUI: true};
+    var MAP_OPTS_spain_x = 1;var MAP_OPTS_spain_y = 3;
     
-    var MAP_OPTS_europe = {
-    	    zoom: 4,
-    	    center: new google.maps.LatLng(50,3),
-    	    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    	    disableDefaultUI: true};
-    var MAP_OPTS_europe_x = 5;
-    var MAP_OPTS_europe_y = 7;    
+    var MAP_OPTS_europe = {zoom: 4, center: new google.maps.LatLng(50,3),mapTypeId: google.maps.MapTypeId.ROADMAP,disableDefaultUI: true};
+    var MAP_OPTS_europe_x = 5;var MAP_OPTS_europe_y = 7;    
     
-    var MAP_OPTS_world = {
-    	    zoom: 2,
-    	    center: new google.maps.LatLng(30,40),
-    	    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    	    disableDefaultUI: true};   
-    var MAP_OPTS_world_x = 10;
-    var MAP_OPTS_world_y = 30;
+    var MAP_OPTS_world = {zoom: 2,center: new google.maps.LatLng(30,40),mapTypeId: google.maps.MapTypeId.ROADMAP,disableDefaultUI: true};   
+    var MAP_OPTS_world_x = 10;var MAP_OPTS_world_y = 30;
     
 	var selectedPenya;
 
@@ -162,6 +142,7 @@ var mapPenyes = function () {
 	}	
 
 	function goToPenya(penya){	
+		mapPenyes.destroyMap();
 		selectedPenya = penya;
 		$.mobile.changePage($("#mapPenyes"),{ transition: "pop", changeHash: false });
 	}

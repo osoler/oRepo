@@ -1,4 +1,4 @@
-package com.ophone.ipenyes.api;
+package com.ophone.ipenyes.mock;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,6 +7,9 @@ import java.util.List;
 import java.util.Random;
 
 import com.google.common.primitives.Longs;
+import com.ophone.ipenyes.api.FilterPenya;
+import com.ophone.ipenyes.api.Penya;
+import com.ophone.ipenyes.api.PenyaDetail;
 
 public class Utils {
 	private static HashMap<Long, PenyaDetail> dbPenyas;

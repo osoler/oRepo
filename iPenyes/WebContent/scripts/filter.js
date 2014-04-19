@@ -57,7 +57,6 @@ var filterPenyes = function () {
 		
 		var filter;
 		var area = getArea();
-		
 		filter  =  "&area=" + area;
 		filter  +=  "&yearFrom=" + $("#yearFrom")[0].value;
 		filter  +=  "&yearTo=" + $("#yearTo")[0].value;
@@ -122,14 +121,11 @@ $(window).scroll(function()
 		{
 		if ($.mobile.activePage.is("#listPenyes")){
 			
-			var totalHeight = $(document).height();
-			var alreadyLoaded = totalHeight > 700;
+			var totalHeight = $(document).height();	
 			var scrollTop = $(window).scrollTop();
 			var windowHeight = $(window).height();
 			var timeToSearch = (totalHeight-200) <= (scrollTop + windowHeight);
-			
-			$("#track").empty();
-			$("#track").append(timeToSearch+"/" +alreadyLoaded  );
+			var alreadyLoaded = totalHeight > windowHeight;
 			
 			if (timeToSearch && alreadyLoaded){
 				

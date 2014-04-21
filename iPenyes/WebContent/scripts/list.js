@@ -106,6 +106,7 @@ $(document).on('pageinit', '#listPenyes',function(e,data){
 });
 
 $(document).on('pageshow', '#listPenyes',function(e,data){
+	listPenyes.showShadows();
 	if (data.prevPage.attr('id') != "detailPenyes")	{
 		if (listPenyes.isListEmpty() || (listPenyes.getListOfFanClubs() === undefined) || (listPenyes.getListOfFanClubs().length === 0)){
 			filterPenyes.search();

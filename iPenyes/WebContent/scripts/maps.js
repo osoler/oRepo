@@ -57,8 +57,19 @@ var mapPenyes = function () {
 					currentinfowindow.close();
 				}			
 				infowindow.open(map,marker);
-				var x = eval('MAP_OPTS_' + filterPenyes.getArea() + '_x');
-				var y = eval('MAP_OPTS_' + filterPenyes.getArea() + '_y');
+				var zoom = map.getZoom();
+				var showArea = filterPenyes.getArea();
+				if (zoom <= 2){
+					showArea = "world";
+				}else if (zoom > 2 && zoom <= 4){
+					showArea = "europe";
+				}else if (zoom === 5){
+					showArea = "spain";
+				}else if (zoom >= 6){
+					showArea = "catalonia";
+				}
+				var x = eval('MAP_OPTS_' + showArea + '_x');
+				var y = eval('MAP_OPTS_' + showArea + '_y');
 				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.A + y);            				
 			    map.setCenter(newLatlng);            			    
 				currentinfowindow = infowindow; 
@@ -69,8 +80,19 @@ var mapPenyes = function () {
 					currentinfowindow.close();
 				}			
 				infowindow.open(map,marker);
-				var x = eval('MAP_OPTS_' + filterPenyes.getArea() + '_x');
-				var y = eval('MAP_OPTS_' + filterPenyes.getArea() + '_y');
+				var zoom = map.getZoom();
+				var showArea = filterPenyes.getArea();
+				if (zoom <= 2){
+					showArea = "world";
+				}else if (zoom > 2 && zoom <= 4){
+					showArea = "europe";
+				}else if (zoom === 5){
+					showArea = "spain";
+				}else if (zoom >= 6){
+					showArea = "catalonia";
+				}
+				var x = eval('MAP_OPTS_' + showArea + '_x');
+				var y = eval('MAP_OPTS_' + showArea + '_y');
 				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.A + y);            				
 			    map.setCenter(newLatlng);            			    
 				currentinfowindow = infowindow; 

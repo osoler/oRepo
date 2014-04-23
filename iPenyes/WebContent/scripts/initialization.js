@@ -96,7 +96,8 @@ var initPenyes = function () {
 		}
 
 	};
-	  return {  
+	
+	  return {
 		  "updateOrientation" : function () {
 			  updateOrientation();
 		    },
@@ -121,12 +122,16 @@ $.mobile.defaultHomeScroll = 0;
 this.updateOrientation 				= initPenyes.updateOrientation;
 this.getScale 						= initPenyes.getScale;
 this.update 						= initPenyes.update;
-
+initPenyes.init();
 //Events
+
+
 
 $(document).on("mobileinit", function(){
     $.mobile.defaultDialogTransition = "none";
     $.mobile.defaultPageTransition = "none";
     
     initPenyes.loadImages();
+   
+
 });

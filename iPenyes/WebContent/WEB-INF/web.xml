@@ -3,6 +3,6 @@
   <display-name>iPenyes</display-name>
   <welcome-file-list>
     <!--welcome-file>iPenyes.html</welcome-file-->
-    <welcome-file>/pages/Start.jsp</welcome-file>
+    <welcome-file>/pages/Init.html</welcome-file>
   </welcome-file-list>
 </web-app>

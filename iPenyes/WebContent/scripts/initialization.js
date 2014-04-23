@@ -11,6 +11,9 @@ var initPenyes = function () {
 		        loadedImagesCount++;
 		        if (loadedImagesCount >= imageNames.length) {
 		            //loaded all pictures
+		        	if (navigator.standalone) {	
+		        		window.location.replace(redirectURL);
+		        	};
 		        }
 		    };
 		    imagesArray.push(image);
@@ -111,27 +114,16 @@ var initPenyes = function () {
 		    	update(callback);
 		    },
 		    "loadImages" : function () {
-		    	loadImages(callback);
+		    	loadImages();
 			}
 		  }; // end of the return
 }();
 
 
-$.mobile.getMaxScrollForTransition  = initPenyes.getMaxScrollForTransition;
 $.mobile.defaultHomeScroll = 0;
+$.mobile.defaultDialogTransition = "none";
+$.mobile.defaultPageTransition = "none";
+
 this.updateOrientation 				= initPenyes.updateOrientation;
 this.getScale 						= initPenyes.getScale;
 this.update 						= initPenyes.update;
-initPenyes.init();
-//Events
-
-
-
-$(document).on("mobileinit", function(){
-    $.mobile.defaultDialogTransition = "none";
-    $.mobile.defaultPageTransition = "none";
-    
-    initPenyes.loadImages();
-   
-
-});

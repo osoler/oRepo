@@ -10,4 +10,12 @@ body {
 .ui-icon-loading {background: url('/images/ajax-loader.gif');background-size: 46px 46px;}
 .in, .out {    -webkit-animation-timing-function: ease-in-out;    -webkit-animation-duration: 350ms !important;}
 
+.logoImg {
+	background-image: url('/images/logo_fcb_penyes_250x90.png');background-repeat: no-repeat;background-size: auto 100%;background-position:center center;
+	height: 50px; display: block;overflow:hidden;
+	margin-top: 220px;
+}
 
+.logoImgWrapper{
+	height: 500px;
+}

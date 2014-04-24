@@ -20,3 +20,8 @@
 	padding-top: 3px;
 	width: 31px;
 }
+
+.magnifingGlass{
+    content: url('/images/lupa.png');
+    width: 20px;
+}

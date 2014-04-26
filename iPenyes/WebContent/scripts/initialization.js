@@ -1,4 +1,8 @@
 var initPenyes = function () {
+
+	function init(){
+		loadImages();
+	}
 	
 	function loadImages(){
 		var loadedImagesCount = 0;
@@ -20,15 +24,21 @@ var initPenyes = function () {
 		        loadedImagesCount++;
 		        if (loadedImagesCount >= imageNames.length) {
 		            //loaded all pictures
-		        	if (navigator.standalone) {	
-		        		window.location.replace(redirectURL);
-		        	};
+		        	goToList();
 		        }
 		    };
 		    imagesArray.push(image);
 		}
 	}
-	
+	function goToList(){
+		var showWebApp = navigator.standalone;
+		if (showWebApp) {	
+   		 	$("#logoImg").animate({marginTop: '0px'}, 1000, function() {
+   				  $.mobile.changePage($("#listPenyes"));
+   			  });	
+
+		}
+	}
 	
 	function getMaxScrollForTransition() { return 65536; } ;
 	
@@ -86,7 +96,6 @@ var initPenyes = function () {
 		if(this.timeout !== undefined) {
 			clearTimeout(this.timeout);
 			this.timeout = undefined;
-
 		}
 
 		if(this.delay > 0) {
@@ -124,15 +133,17 @@ var initPenyes = function () {
 		    },
 		    "loadImages" : function () {
 		    	loadImages();
+		    },
+		    "init" : function () {
+		    	init();
 			}
 		  }; // end of the return
 }();
 
-
-$.mobile.defaultHomeScroll = 0;
-$.mobile.defaultDialogTransition = "none";
-$.mobile.defaultPageTransition = "none";
-
 this.updateOrientation 				= initPenyes.updateOrientation;
 this.getScale 						= initPenyes.getScale;
 this.update 						= initPenyes.update;
+
+var addToHomeConfig = {touchIcon:true,returningVisitor:false,expire:0};
+
+initPenyes.init();

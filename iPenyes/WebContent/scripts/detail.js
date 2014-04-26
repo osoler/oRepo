@@ -194,7 +194,10 @@ return {
 $.mobile.transitionHandlers["slide"] = detailPenyes.noScrollSlide;
 
 $(document).on('pageshow', '#detailPenyes',function(e,data){
-	navigation.setLastPage(data.prevPage.attr('id'));
+	var prevPage = data.prevPage.attr('id');
+	if((prevPage === "listPenyes")||(prevPage === "mapPenyes")){
+		navigation.setLastPage(prevPage);
+	}
 	$(".innerInfiniteShadowTop").fadeIn( "slow" );
 	$(".innerInfiniteShadowBottom").fadeIn( "slow" );
 });

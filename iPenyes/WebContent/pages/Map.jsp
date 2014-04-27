@@ -2,7 +2,10 @@
 	<div data-role="header" data-position="fixed" data-tap-toggle="false" data-transition="none" data-id="header">
 		<div>
 			<div  class="voidHeader">&nbsp;</div>
-			<div  class="filterLinkHeader"><a id="filterLink" onclick="filterPenyes.openFilter()"><img class="magnifingGlass"/></a></div>	
+			<div  class="filterLinkHeader">
+				<div class="filterLogo"><a id="filterLink" onclick="filterPenyes.openFilter()"><img class="magnifingGlass"/></a></div>
+				<div class="voidLogo"></div>				
+			</div>	
 			<div class="headerLogoImg">&nbsp;</div>			
 		</div>	
 	</div><!-- /header -->

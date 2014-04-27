@@ -11,10 +11,22 @@
 .ui-header {background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52);}
 
 .filterLinkHeader{
-	float: right;padding-right: 30px;padding-top:15px;
-	width: 20px;
-	height: 24px;
+	float: right;
+	height: 24px;display: inline-block;
+	width: 40px;
 }
+.filterLogo{
+	float: right;
+	display: none; 
+	margin-top: 13px;
+	z-index: 999;
+}
+.voidLogo{
+	display: block;overflow:hidden;
+	width: 10px;
+	height: 100%;
+}
+
 
 .voidHeader{
 	float: left;
@@ -24,6 +36,7 @@
 }
 
 .magnifingGlass{
+	margin-right: 20px;
     content: url('/images/lupa.png');
     width: 20px;
 }

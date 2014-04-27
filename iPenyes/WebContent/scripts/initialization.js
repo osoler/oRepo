@@ -24,7 +24,7 @@ var initPenyes = function () {
 		        loadedImagesCount++;
 		        if (loadedImagesCount >= imageNames.length) {
 		            //loaded all pictures
-		        	goToList();
+		        	setTimeout(goToList, 2000);
 		        }
 		    };
 		    imagesArray.push(image);
@@ -145,5 +145,12 @@ this.getScale 						= initPenyes.getScale;
 this.update 						= initPenyes.update;
 
 var addToHomeConfig = {touchIcon:true,returningVisitor:false,expire:0};
+//function sss(){
+//	$("#initPenyes .filterLinkHeader").toggle( "slide" );
+//}
+$(document).on('pageshow', '#initPenyes',function(e,data){
+	//setTimeout(sss, 3000);
+	initPenyes.init();
+});
 
-initPenyes.init();
+

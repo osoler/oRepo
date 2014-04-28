@@ -2,7 +2,7 @@
 .ui-footer {height: 50px;border-top: none !important;}
 #mapFooter.ui-footer {height: 40px;}
 #detailFooter.ui-footer {height: 9px;}
-.navMenu{padding-bottom: 7px}
+.navMenu{padding-bottom: 7px;}
 .ui-footer {background: transparent;}
 .ui-footer .ui-btn {background: transparent;height: 40px;}
 .ui-footer .ui-btn-active {background: none rgba(37, 25, 122, 0.22);border: none;-webkit-filter:none}
@@ -16,5 +16,8 @@
 .ui-navbar ul{background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52);}
 #tabList.ui-btn-up-a{border: none;}
 #tabMap.ui-btn-up-a{border: none;}
+#listFooter{
+	display: none;
+}
 
 

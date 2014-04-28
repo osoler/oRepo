@@ -8,6 +8,7 @@ body {
 .ui-content  {padding-top: 0px;}
 .ui-page{background : transparent;}
 .ui-icon-loading {background: url('/images/ajax-loader.gif');background-size: 46px 46px;}
+.in, .out {    -webkit-animation-timing-function: ease-in-out;    -webkit-animation-duration: 350ms !important;}
 
 #logoImg {
 	padding-top: 17px;

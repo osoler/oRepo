@@ -110,12 +110,13 @@ $(document).on('pageshow', '#listPenyes',function(e,data){
 	var prevPage = data.prevPage.attr('id'); 
 	
 	if (prevPage === "initPenyes")	{
-		$("#listPenyes .filterLogo").toggle( "slide" );	
+		$(".filterLogo").toggle( "slide" );	
+		$("#listFooter").toggle( "slide" );	
 	}
 	
 	if (prevPage != "detailPenyes")	{
 		if (listPenyes.isListEmpty() || (listPenyes.getListOfFanClubs() === undefined) || (listPenyes.getListOfFanClubs().length === 0)){
-			setTimeout(filterPenyes.search, 1000);
+			//setTimeout(filterPenyes.search, 1000);
 		}
 	}
 	

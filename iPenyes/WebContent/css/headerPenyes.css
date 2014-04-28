@@ -18,7 +18,7 @@
 .filterLogo{
 	float: right;
 	display: none; 
-	margin-top: 13px;
+	margin-top: 15px;
 	z-index: 999;
 }
 .voidLogo{
@@ -36,7 +36,7 @@
 }
 
 .magnifingGlass{
-	margin-right: 20px;
+	margin-right: 30px;
     content: url('/images/lupa.png');
     width: 20px;
 }

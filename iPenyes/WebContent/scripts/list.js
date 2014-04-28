@@ -106,19 +106,28 @@ $(document).on('pageinit', '#listPenyes',function(e,data){
 });
 
 $(document).on('pageshow', '#listPenyes',function(e,data){
-	listPenyes.showShadows();
+
 	var prevPage = data.prevPage.attr('id'); 
 	
-	if (prevPage === "initPenyes")	{
-		$(".filterLogo").toggle( "slide" );	
-		$("#listFooter").toggle( "slide" );	
-	}
-	
-	if (prevPage != "detailPenyes")	{
-		if (listPenyes.isListEmpty() || (listPenyes.getListOfFanClubs() === undefined) || (listPenyes.getListOfFanClubs().length === 0)){
-			//setTimeout(filterPenyes.search, 1000);
+	if (prevPage === "initPenyes")	{		
+		$("#listFooter").slideToggle( "slow" , function() {
+			$(".filterLogo").toggle("slide", function() {
+				if (prevPage != "detailPenyes")	{
+					setTimeout(filterPenyes.search, 1000);
+				}
+			 });	
+		 });
+	}else{
+		if (prevPage != "detailPenyes")	{
+			if (listPenyes.isListEmpty() || (listPenyes.getListOfFanClubs() === undefined) || (listPenyes.getListOfFanClubs().length === 0)){
+				setTimeout(filterPenyes.search, 1000);
+			}
 		}
 	}
+	if (!listPenyes.isListEmpty() && (listPenyes.getListOfFanClubs() != undefined) && (listPenyes.getListOfFanClubs().length > 0)){
+		listPenyes.showShadows();
+	}
+
 	
 
 		

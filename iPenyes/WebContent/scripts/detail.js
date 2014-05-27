@@ -48,6 +48,7 @@ var detailPenyes = function () {
 	};
 	
 	function loadDetailPenya(penyaId){
+		goToDetail();
 		$.mobile.showPageLoadingMsg();
 		var nocache = new Date().getTime();
 		var url = configuration.getUrlServer() + "/loadDetailPenya?penyaId=" + penyaId +  "&cache=" + nocache;
@@ -61,8 +62,7 @@ var detailPenyes = function () {
 	            {
 	            	loadDetails(result);
 	            	$.mobile.hidePageLoadingMsg();
-	            	$(".ui-loader").css("display", "none");
-	            	goToDetail();
+	            	$(".ui-loader").css("display", "none");       	
 	            }
 	        },
 	        error: function (xhr, ajaxOptions, thrownError) {

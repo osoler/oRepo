@@ -48,6 +48,16 @@ var filterPenyes = function () {
 		setTimeout(newSearch, 1000);
 	}	
 	
+	function showPageLoading() {
+		$.mobile.showPageLoadingMsg();
+		$(".ui-loader").css("display", "block");
+	}
+	
+	function hidePageLoading() {
+		$.mobile.hidePageLoadingMsg();
+    	$(".ui-loader").css("display", "none");
+	}
+	
 	function newSearch() {
 		
 		listPenyes.cleanList();
@@ -55,8 +65,7 @@ var filterPenyes = function () {
 		
 		listPenyes.hideShadows();
 
-		$.mobile.showPageLoadingMsg();
-		$(".ui-loader").css("display", "block");
+		filterPenyes.showPageLoading();
 		
 		var filter;
 		var area = getArea();
@@ -88,6 +97,8 @@ var filterPenyes = function () {
 	            }
 	        },
 	        error: function (xhr, ajaxOptions, thrownError) {
+	        	filterPenyes.hidePageLoading();
+	        	alert("Not posible to connect");
 	            console.log(xhr.status);
 	            console.log(thrownError);
 	        }
@@ -96,6 +107,12 @@ var filterPenyes = function () {
 	}
 	
 	return { 
+	    "showPageLoading" : function () {
+	    	showPageLoading();
+	    },
+	    "hidePageLoading" : function () {
+	    	hidePageLoading();
+	    },		
 	    "openFilter" : function () {
 	    	openFilter();
 	    },

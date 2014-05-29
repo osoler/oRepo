@@ -51,27 +51,26 @@ var detailPenyes = function () {
 		removeDetails();
 		hideDetails();
 		goToDetail();
-		$.mobile.showPageLoadingMsg();
+		filterPenyes.showPageLoading();
 		var nocache = new Date().getTime();
 		var url = configuration.getUrlServer() + "/loadDetailPenya?penyaId=" + penyaId +  "&cache=" + nocache;
         $.ajax({
         	dataType: "json",
 	        url: url,
-	        beforeSend: function() { $.mobile.showPageLoadingMsg(); }, //Show spinner
-	        complete: function() { $.mobile.hidePageLoadingMsg(); }, //Hide spinner
+	        beforeSend: function() { filterPenyes.showPageLoading(); }, //Show spinner
+	        complete: function() { filterPenyes.hidePageLoading(); }, //Hide spinner
 	        success: function(result){
 	            if(result)
 	            {
 	            	loadDetails(result);
 	            	showDetails();
-	            	$.mobile.hidePageLoadingMsg();
-	            	$(".ui-loader").css("display", "none");
+	            	filterPenyes.hidePageLoading();
 	               	setTimeout(showShadows, 1000);
 	   
 	            }
 	        },
 	        error: function (xhr, ajaxOptions, thrownError) {
-            	$.mobile.hidePageLoadingMsg();
+	        	filterPenyes.hidePageLoading();
 	            console.log(xhr.status);
 	            console.log(thrownError);
 	        }
@@ -92,10 +91,12 @@ var detailPenyes = function () {
 		$("#penyaSelected-info0").hide();
 		$("#penyaSelected-info1").hide();
 		$("#penyaSelected-info2").hide();
-		$("#detailLoader").show();
+		//$("#detailLoader").show();
+		filterPenyes.showPageLoading();
 	}
 	function showDetails(){
-		$("#detailLoader").hide();
+		//$("#detailLoader").hide();
+		filterPenyes.hidePageLoading();
 		$("#penyaSelected-info0").show();
 		$("#penyaSelected-info1").show();
 		$("#penyaSelected-info2").show();	

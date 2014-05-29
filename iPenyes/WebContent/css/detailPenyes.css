@@ -168,15 +168,3 @@
 	margin-left: 10px;
 	display: inline;
 }
-#detailLoader{
-	margin-top: 160px;
-	display:none;
-	width: 100%;
-	text-align: center;
-}
-#innerDetailLoader{
-	display: inline-block;
-	background-color: #ECEFF3;
-	border-radius: 10px;
-	box-shadow: 5px 5px 5px #5E151F;
-}

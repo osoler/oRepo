@@ -9,9 +9,7 @@
 	</div><!-- /header --> 
 			
     <div data-role="content" id="contentDetailPenyes">
-    	<div id="detailLoader"><div id="innerDetailLoader"><img id="detailLoader-logo" class="desc-icon" src="/images/spinner.gif"></div></div>
-    	
-		<div id="penyaSelected-info0" class="detailPenyes_divheader ui-corner-all ui-shadow div_padding_v">
+    	<div id="penyaSelected-info0" class="detailPenyes_divheader ui-corner-all ui-shadow div_padding_v">
 				<div>
 					<div class="detailPenyes_coat"><img id="penyaSelected-logo" class="desc-icon" src="/images/spinner.gif"></div>
 					<div class="detailPenyes_description"> 

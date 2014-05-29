@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>iPenyes</title>
+<title>FCB Penyes</title>
 <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
 <meta HTTP-EQUIV="Expires" CONTENT="-1">
 <meta name="viewport" content="initial-scale = 1.0,  minimum-scale=1.0, maximum-scale=2.0, user-scalable = yes">
@@ -13,14 +13,14 @@
 
 <link rel="stylesheet" 		href="/css/3rdpartycss/jquery.mobile-1.3.2.css"/>   
 <link rel="stylesheet" 		href="/css/3rdpartycss/add2home.css"> 	             	          
-<link rel="stylesheet" 		href="/css/commonPenyes.css">
-<link rel="stylesheet" 		href="/css/headerPenyes.css">
-<link rel="stylesheet" 		href="/css/footerPenyes.css">
-<link rel="stylesheet" 		href="/css/listPenyes.css">
-<link rel="stylesheet" 		href="/css/filterPenyes.css">
-<link rel="stylesheet" 		href="/css/detailPenyes.css">
-<link rel="stylesheet" 		href="/css/photoPenyes.css">
-<link rel="stylesheet" 		href="/css/mapPenyes.css">
+<link rel="stylesheet" 		href="/css/commonPenyes.css?cache=3">
+<link rel="stylesheet" 		href="/css/headerPenyes.css?cache=3">
+<link rel="stylesheet" 		href="/css/footerPenyes.css?cache=3">
+<link rel="stylesheet" 		href="/css/listPenyes.css?cache=3">
+<link rel="stylesheet" 		href="/css/filterPenyes.css?cache=3">
+<link rel="stylesheet" 		href="/css/detailPenyes.css?cache=3">
+<link rel="stylesheet" 		href="/css/photoPenyes.css?cache=3">
+<link rel="stylesheet" 		href="/css/mapPenyes.css?cache=3">
 
 <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="/scripts/3rdpartyscripts/infobubble.js"></script>
@@ -33,15 +33,15 @@
 <script src="/scripts/3rdpartyscripts/jquery.easing.1.3.js"></script>        
 <script src="/scripts/3rdpartyscripts/jquery.mobile-events.js"></script>          
 
-<script src="/scripts/configuration.js?cache=1"></script>
-<script src="/scripts/initialization.js?cache=1"></script>
-<script src="/scripts/3rdpartyscripts/add2home.js?cache=1"></script>
-<script src="/scripts/navigation.js?cache=1"></script>
-<script src="/scripts/doubleTap.js?cache=1"></script>              
-<script src="/scripts/detail.js?cache=1"></script>                      
-<script src="/scripts/maps.js?cache=1"></script>
-<script src="/scripts/list.js?cache=1"></script>
-<script src="/scripts/filter.js?cache=1"></script>
+<script src="/scripts/configuration.js?cache=3"></script>
+<script src="/scripts/initialization.js?cache=3"></script>
+<script src="/scripts/3rdpartyscripts/add2home.js?cache=3"></script>
+<script src="/scripts/navigation.js?cache=3"></script>
+<script src="/scripts/doubleTap.js?cache=3"></script>              
+<script src="/scripts/detail.js?cache=3"></script>                      
+<script src="/scripts/maps.js?cache=3"></script>
+<script src="/scripts/list.js?cache=3"></script>
+<script src="/scripts/filter.js?cache=3"></script>
 </head>    
 
 <body>

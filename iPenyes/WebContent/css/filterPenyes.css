@@ -11,14 +11,22 @@
 	background: -webkit-linear-gradient(left, #030C51 0%,#030C51 40%,#970F23 60%,#970F23 100%); /* Chrome10+,Safari5.1+ */
 	background: linear-gradient(to right, #030C51 0%,#030C51 40%,#970F23 60%,#970F23 100%); /* W3C */	
  }
+ .closer.filter{
+ 	width: 30px;
+ 	background-image: url('/images/close-button-blue.png');
+ }
  #filterPopup .ui-field-contain{
  	padding: 0;
  }
- .innerTextfilterPopupHeader.filter{
-	display: inline-block;text-align: center;width: 100%;color: #D4D9DB;font-weight: bold;font-size: 18px;
+ .innerTextfilterPopupHeader{
+	text-align: center;color: #7397D3;font-weight: bold;font-size: 18px;height: 30px;text-shadow: none;padding-top: 10px
  }
  .innerTextfilterPopupBottom{
- 	display: inline-block;text-align: center;width: 49%;font-size: 17px;
+ 	display: inline-block;text-align: center;width: 49%;font-size: 15px;padding-bottom: 4px;
+ }
+ .filterLogo.filter{
+ 	margin-top: 10px;
+ 	width: 30px;
  }
  
  .filterPopupInputTitle{
@@ -112,3 +120,16 @@
     background-image: url('/images/world.png')  !important;
     background-size: 65px;
 } 
+.buttonHover{
+	display: inline-block;
+	width: 70px;
+	border-radius: 5px;
+	background-color: #D4D9DB;
+	color: #333 ;
+	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #fff /*{c-body-shadow-color}*/;
+}
+.buttonHover:hover{
+	-webkit-filter: brightness(50%);
+}
+
+}

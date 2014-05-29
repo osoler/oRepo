@@ -40,3 +40,6 @@
     content: url('/images/lupa.png');
     width: 20px;
 }
+.magnifingGlass:hover{
+	-webkit-filter: brightness(50%);
+}

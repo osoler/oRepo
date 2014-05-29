@@ -1,8 +1,13 @@
 <div id="filterPopup">
 	<div data-role="fieldcontain">
-		<div id="innerfilterPopupHeader">
-			<div class="innerTextfilterPopupHeader filter" >Filter</div>
-		</div>	
+		<div>
+			<div  class="voidHeader">&nbsp;</div>
+			<div  class="filterLinkHeader">
+				<div class="filterLogo filter"><div class="closer filter" onclick="filterPenyes.closeFilter()"></div></div>
+				<div class="voidLogo"></div>				
+			</div>	
+			<div class="innerTextfilterPopupHeader">Filter</div>			
+		</div>
 		<div id="innerfilterPopup">
 			<form id="filterForm">
 				<div class="filterPopupInputTitle">Location</div>
@@ -38,8 +43,8 @@
 			</form>    
 		</div>
 	    <div id="innerfilterPopupBottom">
-			<div class="innerTextfilterPopupBottom reset"><a  onclick="filterPenyes.resetFilter()" class="buttonHover">Reset</a></div>
-			<div class="innerTextfilterPopupBottom search"><a onclick="filterPenyes.search()" class="buttonHover">Search</a></div>			
+			<div class="innerTextfilterPopupBottom reset"><div  onclick="filterPenyes.resetFilter()" class="buttonHover">Reset</div></div>
+			<div class="innerTextfilterPopupBottom search"><div onclick="filterPenyes.search()" class="buttonHover">Search</div></div>			
 		</div>	
 	</div>	
 </div>

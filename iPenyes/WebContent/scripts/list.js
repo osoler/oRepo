@@ -108,8 +108,8 @@ $(document).on('pageinit', '#listPenyes',function(e,data){
 $(document).on('pageshow', '#listPenyes',function(e,data){
 
 	var prevPage = data.prevPage.attr('id'); 
-	
-	if (prevPage === "initPenyes")	{		
+	var initiated = $("#listFooter").is(":visible");
+	if (prevPage === "initPenyes" || !initiated)	{		
 		$("#listFooter").slideToggle( "slow" , function() {
 			$(".filterLogo").toggle("slide", function() {
 				if (prevPage != "detailPenyes")	{

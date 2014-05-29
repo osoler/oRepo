@@ -43,9 +43,12 @@ var filterPenyes = function () {
 		}
 		return area;
 	};	
-	
 	function search() {
 		closeFilter();
+		setTimeout(newSearch, 1000);
+	}	
+	
+	function newSearch() {
 		
 		listPenyes.cleanList();
 		mapPenyes.destroyMap();

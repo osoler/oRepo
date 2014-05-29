@@ -48,6 +48,8 @@ var detailPenyes = function () {
 	};
 	
 	function loadDetailPenya(penyaId){
+		removeDetails();
+		hideDetails();
 		goToDetail();
 		$.mobile.showPageLoadingMsg();
 		var nocache = new Date().getTime();
@@ -61,16 +63,43 @@ var detailPenyes = function () {
 	            if(result)
 	            {
 	            	loadDetails(result);
+	            	showDetails();
 	            	$.mobile.hidePageLoadingMsg();
-	            	$(".ui-loader").css("display", "none");       	
+	            	$(".ui-loader").css("display", "none");
+	               	setTimeout(showShadows, 1000);
+	   
 	            }
 	        },
 	        error: function (xhr, ajaxOptions, thrownError) {
+            	$.mobile.hidePageLoadingMsg();
 	            console.log(xhr.status);
 	            console.log(thrownError);
 	        }
         });	
-	};	
+	};
+	function showShadows(){
+     	$(".innerInfiniteShadowTop").fadeIn( "slow" );
+    	$(".innerInfiniteShadowBottom").fadeIn( "slow" );
+	}
+	function removeDetails(){
+		listPenyes.loadLogo("#penyaSelected-logo", "/images/spinner.gif");
+		$("#penyaSelected-name").empty();
+		$("#penyaSelected-fundation").empty();
+		$("#penyaSelected-info1").empty();
+		 $("#penyaSelected-info2").empty();
+	}
+	function hideDetails(){
+		$("#penyaSelected-info0").hide();
+		$("#penyaSelected-info1").hide();
+		$("#penyaSelected-info2").hide();
+		$("#detailLoader").show();
+	}
+	function showDetails(){
+		$("#detailLoader").hide();
+		$("#penyaSelected-info0").show();
+		$("#penyaSelected-info1").show();
+		$("#penyaSelected-info2").show();		
+	}
 	var penyaSelected;
 	function loadDetails(penya){
 		 penyaSelected = penya;
@@ -198,8 +227,7 @@ $(document).on('pageshow', '#detailPenyes',function(e,data){
 	if((prevPage === "listPenyes")||(prevPage === "mapPenyes")){
 		navigation.setLastPage(prevPage);
 	}
-	$(".innerInfiniteShadowTop").fadeIn( "slow" );
-	$(".innerInfiniteShadowBottom").fadeIn( "slow" );
+	
 });
 
 $(document).on('pagehide', '#detailPenyes',function(e,data){ 

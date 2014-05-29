@@ -6,7 +6,8 @@ var initPenyes = function () {
 	
 	function loadImages(){
 		var loadedImagesCount = 0;
-		var imageNames = ["/images/ajax-loader-infinite.gif",
+		var imageNames = ["/images/spinner.gif",
+		                  "/images/ajax-loader-infinite.gif",
 		                  "/images/logo_fcb_penyes_250x90.png",
 		                  "/images/lupa.png",
 		                  "/images/map-marker-l.png",
@@ -145,11 +146,7 @@ this.getScale 						= initPenyes.getScale;
 this.update 						= initPenyes.update;
 
 var addToHomeConfig = {touchIcon:true,returningVisitor:false,expire:0};
-//function sss(){
-//	$("#initPenyes .filterLinkHeader").toggle( "slide" );
-//}
 $(document).on('pageshow', '#initPenyes',function(e,data){
-	//setTimeout(sss, 3000);
 	initPenyes.init();
 });
 

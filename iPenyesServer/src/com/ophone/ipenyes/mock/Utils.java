@@ -27,6 +27,15 @@ public class Utils {
     		dbPenyas.put(penyaDetail.id, penyaDetail);
     	} 
     }
+    public static void sleep(long time){
+    	try {
+			Thread.sleep(time);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
+    
     public static List<Penya> getPenyas(FilterPenya filter){   
     	List<Penya> listPenyes = new ArrayList<Penya>();
     	for(Penya penya: dbPenyas.values()){

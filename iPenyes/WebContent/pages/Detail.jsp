@@ -9,7 +9,8 @@
 	</div><!-- /header --> 
 			
     <div data-role="content" id="contentDetailPenyes">
-		<div class="detailPenyes_divheader ui-corner-all ui-shadow div_padding_v">
+    	<div id="detailLoader"><img id="detailLoader-logo" class="desc-icon" src="/images/spinner.gif"></div>
+		<div id="penyaSelected-info0" class="detailPenyes_divheader ui-corner-all ui-shadow div_padding_v">
 				<div>
 					<div class="detailPenyes_coat"><img id="penyaSelected-logo" class="desc-icon" src="/images/spinner.gif"></div>
 					<div class="detailPenyes_description"> 
@@ -20,7 +21,7 @@
 		</div>   
 		<div id="penyaSelected-info1" class=" detailPenyes_div  ui-corner-all ui-shadow div_padding_v"></div>						
 		<div id="penyaSelected-info2" class=" detailPenyes_div  ui-corner-all ui-shadow div_padding_v"></div>  
-
+		
 					 
     </div><!-- /content -->
 	<div data-role="footer" data-position="fixed" data-tap-toggle="false"  data-id="footer" id="detailFooter">	

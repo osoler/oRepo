@@ -98,7 +98,8 @@ var detailPenyes = function () {
 		$("#detailLoader").hide();
 		$("#penyaSelected-info0").show();
 		$("#penyaSelected-info1").show();
-		$("#penyaSelected-info2").show();		
+		$("#penyaSelected-info2").show();	
+		refreshSlider(); 
 	}
 	var penyaSelected;
 	function loadDetails(penya){
@@ -147,7 +148,6 @@ var detailPenyes = function () {
 		$(".innerInfiniteShadowTop").hide();
 		$(".innerInfiniteShadowBottom").hide();
 		$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
-		refreshSlider(); 
 		return false; 
 	};
 	

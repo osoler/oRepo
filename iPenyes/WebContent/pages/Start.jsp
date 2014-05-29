@@ -33,15 +33,15 @@
 <script src="/scripts/3rdpartyscripts/jquery.easing.1.3.js"></script>        
 <script src="/scripts/3rdpartyscripts/jquery.mobile-events.js"></script>          
 
-<script src="/scripts/configuration.js"></script>
-<script src="/scripts/initialization.js"></script>
-<script src="/scripts/3rdpartyscripts/add2home.js"></script>
-<script src="/scripts/navigation.js"></script>
-<script src="/scripts/doubleTap.js"></script>              
-<script src="/scripts/detail.js"></script>                      
-<script src="/scripts/maps.js"></script>
-<script src="/scripts/list.js"></script>
-<script src="/scripts/filter.js"></script>
+<script src="/scripts/configuration.js?cache=1"></script>
+<script src="/scripts/initialization.js?cache=1"></script>
+<script src="/scripts/3rdpartyscripts/add2home.js?cache=1"></script>
+<script src="/scripts/navigation.js?cache=1"></script>
+<script src="/scripts/doubleTap.js?cache=1"></script>              
+<script src="/scripts/detail.js?cache=1"></script>                      
+<script src="/scripts/maps.js?cache=1"></script>
+<script src="/scripts/list.js?cache=1"></script>
+<script src="/scripts/filter.js?cache=1"></script>
 </head>    
 
 <body>

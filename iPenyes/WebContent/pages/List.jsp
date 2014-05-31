@@ -20,7 +20,7 @@
 	     </div> 
 	</div>
 	<div data-role="content"  id="contentlistPenyes"> 
-		<%@ include file="Filter.jsp"%>       
+		<%@ include file="Filter.jsp"%>     		  
 	</div><!-- /content -->         
 </div><!-- /page -->
 

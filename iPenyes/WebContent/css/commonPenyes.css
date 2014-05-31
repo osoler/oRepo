@@ -15,3 +15,14 @@ body {
 	margin-top: 180px;
 	border: none;
 }
+#alertPopUp{
+	display: none;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #D4D9DB;
+	background: #7f7f7f; 
+ 	background: rgba(221, 27, 65, 0.6);
+	color: #FFFFFF;
+	text-shadow: none;
+	font-size: 12px;
+}

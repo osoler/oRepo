@@ -105,9 +105,7 @@ var filterPenyes = function () {
 	        },
 	        error: function (xhr, ajaxOptions, thrownError) {
 	        	navigation.hidePageLoading();
-	        	navigation.alert("Not posible to connect");
-	            console.log(xhr.status);
-	            console.log(thrownError);
+	        	navigation.alert("Connection failed");
 	        }
         });			
 		

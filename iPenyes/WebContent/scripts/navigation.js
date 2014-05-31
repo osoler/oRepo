@@ -2,8 +2,19 @@ var navigation = function () {
 	var timeouts = [];
 	var lastPage;
 	
-	function showAlert(message){
-		alert(message);
+	function showAlert(message){	
+		$('#alertPopUp').bPopup({
+            onOpen: function() {
+            	$('#alertPopUp').empty();
+            	$('#alertPopUp').append(message);
+            },
+            onClose: function() {
+            	$('#alertPopUp').empty();
+            },
+            fadeSpeed: 'slow', //can be a string ('slow'/'fast') or int
+            followSpeed: 500, //can be a string ('slow'/'fast') or int
+            modalColor: '#170C4A'
+        });
 	}
 	
 	function setLastPage(page){
@@ -47,7 +58,7 @@ var navigation = function () {
 	    	clearAllTimeouts();
 	    },
 	    "alert" : function (message) {
-	    	showAlert();
+	    	showAlert(message);
 	    }
 	  }; // end of the return
 }();

@@ -154,7 +154,7 @@ var mapPenyes = function () {
 		
     	navigation.hidePageLoading();
 		
-		google.maps.event.addListenerOnce(map, 'idle', function(){removeGoogleLinks();});
+		google.maps.event.addListener(map, 'idle', function(){setTimeout(removeGoogleLinks(),2500);});
 		
 	    return false; 
 	    

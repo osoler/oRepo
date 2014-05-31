@@ -43,27 +43,11 @@ var mapPenyes = function () {
 								"	<div id='penyaNumSocios' class='numSocios'>" + penya.numAffiliates + " socios</div>" +
 										"	<div id='penyaFundationYear' class='fundationYear'>Fundación: " + penya.fundationYear + "</div></div>	";	
 		
-		var infowindow = new InfoBubble({
-		        mainfowindowp: map,
-		        content: contentString,
-		        position: new google.maps.LatLng(-35, 151),
-		        shadowStyle: 1,
-		        padding: 0,
-		        backgroundColor: '#030C51',
-		        borderRadius: 22,
-		        arrowSize: 10,
-		        minWidth:220,
-		        maxWidth:250,
-		        minHeight:116,
-		        maxHeight:118,
-		        borderWidth: 0,
-		        borderColor: '#030C51',
-		        disableAutoPan: true,
-		        hideCloseButton: true,
-		        arrowPosition: 20,
-		        backgroundClassName: 'infowindowPenyes',
-		        arrowStyle: 2
-		      });	
+		var infowindow = new InfoBubble({mainfowindowp: map,content: contentString,position: new google.maps.LatLng(-35, 151),
+		        shadowStyle: 1,padding: 0,backgroundColor: '#030C51',borderRadius: 22,arrowSize: 10,minWidth:220,maxWidth:250,
+		        minHeight:116,maxHeight:118,borderWidth: 0,borderColor: '#030C51',disableAutoPan: true,hideCloseButton: true,
+		        arrowPosition: 20,backgroundClassName: 'infowindowPenyes',arrowStyle: 2});	
+		
 		if (selectedPenya == undefined || selectedPenya.id != penya.id || addSelectedPenya){
 			var myLatlng = new google.maps.LatLng(penya.x, penya.y);            	 
 			var marker = new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP, icon: '/images/fcb_marker.png'});
@@ -88,7 +72,7 @@ var mapPenyes = function () {
 				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.A + y);            				
 			    map.setCenter(newLatlng);            			    
 				currentinfowindow = infowindow; 
-				navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {listPenyes.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 300));
+				navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {listPenyes.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 1000));
 			});  
 			if (addSelectedPenya){
 				if (mapPenyes.getCurrentInfoWindow()) {

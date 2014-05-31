@@ -69,8 +69,8 @@ var listPenyes = function () {
 	    "hideShadows" : function () {
 	    	hideShadows(); 	    	
 	    },
-	    "loadPenyesJSON" : function (result) {
-	    	loadPenyesJSON(result); 	    	
+	    "loadPenyesJSON" : function () {
+	    	loadPenyesJSON(); 	    	
 	    },	    
 	    "loadLogo" : function (img, src) {
 	    	loadLogo(img, src); 

@@ -12,18 +12,18 @@ import com.ophone.ipenyes.api.Penya;
 import com.ophone.ipenyes.api.PenyaDetail;
 
 public class Utils {
-	private static HashMap<Long, PenyaDetail> dbPenyas;
+	private static LinkedHashMap<Long, PenyaDetail> dbPenyas;
+
     private static int index = 1; 
-    private static int index2 = 1; 
     private static String[] list = {"Beijing", "Tokio", "Vallirana", "Lleida", "Castellón", "Girona", "Vilafranca", "Cervelló", "Vic", "Stockholm"};
     private static String[] listCountry = {"China", "Japan", "Catalonia", "Catalonia", "Spain", "Catalonia", "Spain", "Catalonia", "Catalonia", "Sweden"};
     private static String[] listEscudos = {"/images/escudos/0002.LaGranada-icon.png", "/images/escudos/0001.ABPenyaAnguera-icon.png","/images/escudos/0003.PBSantFruitosBages-icon.png", "/images/escudos/0004.PBBarcino-icon.png", "/images/escudos/0006.PBRipollet-icon.png", "/images/escudos/0008.PBCincCopes-icon.png", "/images/escudos/0007.UBCatalonia-icon.png", "/images/escudos/0010.ADBCollblanc-icon.png", "/images/escudos/0983.PBSuecia-icon.png"};
     
     static{
-    	dbPenyas = new HashMap<Long, PenyaDetail>();
+    	dbPenyas = new LinkedHashMap<Long, PenyaDetail>();
     	
-    	for (int x=0;x<100;x++){
-    		PenyaDetail penyaDetail = Utils.randomPenyaDetail();
+    	for (int x=1;x<=100;x++){
+    		PenyaDetail penyaDetail = Utils.randomPenyaDetail(x);
     		dbPenyas.put(penyaDetail.id, penyaDetail);
     	} 
     }
@@ -31,7 +31,6 @@ public class Utils {
     	try {
 			Thread.sleep(time);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
     }
@@ -54,16 +53,16 @@ public class Utils {
     				}	
     			}
     		}
-    		if (filter != null && filter.yearFrom !=-1 && penya.fundationYear < filter.yearFrom){
+    		if (filter != null && filter.yearFrom !=0 && penya.fundationYear < filter.yearFrom){
     			continue;
     		}
-    		if (filter != null && filter.yearTo !=-1 && penya.fundationYear > filter.yearTo){
+    		if (filter != null && filter.yearTo !=0 && penya.fundationYear > filter.yearTo){
     			continue;
     		}
-    		if (filter != null && filter.numFansFrom !=-1 && penya.numAffiliates < filter.numFansFrom){
+    		if (filter != null && filter.numFansFrom !=0 && penya.numAffiliates < filter.numFansFrom){
     			continue;
     		}
-    		if (filter != null && filter.numFansTo !=-1 && penya.numAffiliates > filter.numFansTo){
+    		if (filter != null && filter.numFansTo !=0 && penya.numAffiliates > filter.numFansTo){
     			continue;
     		}
 		
@@ -75,9 +74,9 @@ public class Utils {
     	return dbPenyas.get(Longs.tryParse(penyaId));
     }
     
-    public static PenyaDetail randomPenyaDetail(){
+    public static PenyaDetail randomPenyaDetail(int id){
     	PenyaDetail penya = new PenyaDetail();
-    	penya.id = index++;
+    	penya.id = id;
     	penya.name = "P.B Random " + penya.id;
     	penya.location = randomCity();
     	penya.country = randomCountry();
@@ -113,19 +112,15 @@ public class Utils {
 	    
         return penya;
     }
-   
-    public static Penya randomPenya(){    	
-    	return (Penya)randomPenyaDetail();
-    }
-    
+       
     private static String randomCity(){
         Random r = new Random();
-        index2 = r.nextInt(list.length);
-        return list[index2];
+        index = r.nextInt(list.length);
+        return list[index];
     } 
     
     private static String randomCountry(){
-        return listCountry[index2];
+        return listCountry[index];
     } 
     
     private static String randomLogo(){

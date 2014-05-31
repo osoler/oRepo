@@ -11,10 +11,10 @@ public class FilterPenya {
 		this.numFansTo  = numFansTo;
 	}
 	
-	public int yearFrom = -1;
-	public int yearTo = -1;
-	public int numFansFrom = -1;
-	public int numFansTo = -1;	
+	public int yearFrom = 0;
+	public int yearTo = 0;
+	public int numFansFrom = 0;
+	public int numFansTo = 0;	
 	public String area = null;
 
 	

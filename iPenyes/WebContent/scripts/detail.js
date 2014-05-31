@@ -51,35 +51,31 @@ var detailPenyes = function () {
 		removeDetails();
 		hideDetails();
 		goToDetail();
-		filterPenyes.showPageLoading();
+		navigation.showPageLoading();
 		var nocache = new Date().getTime();
 		var url = configuration.getUrlServer() + "/loadDetailPenya?penyaId=" + penyaId +  "&cache=" + nocache;
         $.ajax({
         	dataType: "json",
 	        url: url,
-	        beforeSend: function() { filterPenyes.showPageLoading(); }, //Show spinner
-	        complete: function() { filterPenyes.hidePageLoading(); }, //Hide spinner
 	        success: function(result){
 	            if(result)
 	            {
 	            	loadDetails(result);
 	            	showDetails();
-	            	filterPenyes.hidePageLoading();
-	               	setTimeout(showShadows, 1000);
+	            	navigation.hidePageLoading();
+	               	setTimeout(listPenyes.showShadows, 1000);
 	   
 	            }
 	        },
 	        error: function (xhr, ajaxOptions, thrownError) {
-	        	filterPenyes.hidePageLoading();
+	        	navigation.hidePageLoading();
+	        	navigation.alert("Not posible to connect");
 	            console.log(xhr.status);
 	            console.log(thrownError);
 	        }
         });	
 	};
-	function showShadows(){
-     	$(".innerInfiniteShadowTop").fadeIn( "slow" );
-    	$(".innerInfiniteShadowBottom").fadeIn( "slow" );
-	}
+
 	function removeDetails(){
 		listPenyes.loadLogo("#penyaSelected-logo", "/images/spinner.gif");
 		$("#penyaSelected-name").empty();
@@ -92,11 +88,11 @@ var detailPenyes = function () {
 		$("#penyaSelected-info1").hide();
 		$("#penyaSelected-info2").hide();
 		//$("#detailLoader").show();
-		filterPenyes.showPageLoading();
+		navigation.showPageLoading();
 	}
 	function showDetails(){
 		//$("#detailLoader").hide();
-		filterPenyes.hidePageLoading();
+		navigation.hidePageLoading();
 		$("#penyaSelected-info0").show();
 		$("#penyaSelected-info1").show();
 		$("#penyaSelected-info2").show();	
@@ -146,8 +142,7 @@ var detailPenyes = function () {
 	}
 	function goToDetail() {
 		event.preventDefault();
-		$(".innerInfiniteShadowTop").hide();
-		$(".innerInfiniteShadowBottom").hide();
+		listPenyes.hideShadows();
 		$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
 		return false; 
 	};
@@ -229,16 +224,15 @@ $(document).on('pageshow', '#detailPenyes',function(e,data){
 		navigation.setLastPage(prevPage);
 	}
 	
+	detailPenyes.checkOrientation();
+	detailPenyes.refreshSlider() ;
+	
+	listPenyes.showShadows();
+	
 });
 
 $(document).on('pagehide', '#detailPenyes',function(e,data){ 
-$(".innerInfiniteShadowTop").hide();
-$(".innerInfiniteShadowBottom").hide();
-});
-
-$(document).on('pageshow', '#detailPenyes',function(e,data){ 
-detailPenyes.checkOrientation();
-detailPenyes.refreshSlider() ;
+	listPenyes.hideShadows();
 });
 
 $(document).on('gestureend','#fullScreen',function(e,data) {

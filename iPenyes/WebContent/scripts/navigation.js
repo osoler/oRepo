@@ -2,6 +2,10 @@ var navigation = function () {
 	var timeouts = [];
 	var lastPage;
 	
+	function showAlert(message){
+		alert(message);
+	}
+	
 	function setLastPage(page){
 		lastPage = page;
 	}
@@ -13,7 +17,23 @@ var navigation = function () {
 		   timeouts = [];
 	}
 	
+	function showPageLoading() {
+		$.mobile.showPageLoadingMsg();
+		$(".ui-loader").css("display", "block");
+	}
+	
+	function hidePageLoading() {
+		$.mobile.hidePageLoadingMsg();
+    	$(".ui-loader").css("display", "none");
+	}
+	
 	return { 
+	    "showPageLoading" : function () {
+	    	showPageLoading();
+	    },
+	    "hidePageLoading" : function () {
+	    	hidePageLoading();
+	    },		
 	    "getLastPage" : function () {
 	    	return lastPage;
 	    },
@@ -25,6 +45,9 @@ var navigation = function () {
 	    },
 	    "clearAllTimeouts" : function () {
 	    	clearAllTimeouts();
+	    },
+	    "alert" : function (message) {
+	    	showAlert();
 	    }
 	  }; // end of the return
 }();

@@ -54,10 +54,6 @@ var listPenyes = function () {
 	       	
     	refresh();
     	
-    	showShadows();
-    	
-    	$.mobile.hidePageLoadingMsg();
-    	$(".ui-loader").css("display", "none");
 	}
 	
 	function isListEmpty(){	
@@ -72,9 +68,6 @@ var listPenyes = function () {
 	    },
 	    "hideShadows" : function () {
 	    	hideShadows(); 	    	
-	    },
-	    "loadPenyes" : function () {
-	    	filterPenyes.search(); 	    	
 	    },
 	    "loadPenyesJSON" : function (result) {
 	    	loadPenyesJSON(result); 	    	
@@ -113,23 +106,26 @@ $(document).on('pageshow', '#listPenyes',function(e,data){
 		$("#listFooter").slideToggle( "slow" , function() {
 			$(".filterLogo").toggle("slide", function() {
 				if (prevPage != "detailPenyes")	{
-					setTimeout(filterPenyes.search, 1000);
+					if ((listPenyes.getListOfFanClubs() === undefined) || (listPenyes.getListOfFanClubs().length === 0)){
+						setTimeout(filterPenyes.search, 1000);				
+					}
 				}
 			 });	
 		 });
 	}else{
 		if (prevPage != "detailPenyes")	{
-			if (listPenyes.isListEmpty() || (listPenyes.getListOfFanClubs() === undefined) || (listPenyes.getListOfFanClubs().length === 0)){
+			if ((listPenyes.getListOfFanClubs() === undefined) || (listPenyes.getListOfFanClubs().length === 0)){
 				setTimeout(filterPenyes.search, 1000);
 			}
 		}
 	}
-	if (!listPenyes.isListEmpty() && (listPenyes.getListOfFanClubs() != undefined) && (listPenyes.getListOfFanClubs().length > 0)){
-		listPenyes.showShadows();
+	if (listPenyes.isListEmpty()){
+		filterPenyes.displayPenyes();
 	}
-
 	
-
+	listPenyes.showShadows();
+	
+	
 		
 });
 

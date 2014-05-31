@@ -43,30 +43,37 @@ var filterPenyes = function () {
 		}
 		return area;
 	};	
+	
+	function displayPenyes() {
+		if ($.mobile.activePage.is("#listPenyes")){
+			listPenyes.cleanList();
+    		listPenyes.loadPenyesJSON();
+    	}
+    	
+    	if ($.mobile.activePage.is("#mapPenyes")){
+    		mapPenyes.destroyMap();
+    		mapPenyes.createMap();
+    	}
+	}
+	
 	function search() {
 		closeFilter();
-		setTimeout(newSearch, 1000);
+				
+		setTimeout(function(){
+			listPenyes.cleanList();
+			mapPenyes.destroyMap();		
+			listPenyes.hideShadows();
+			filterPenyes.newSearch(function(){
+				filterPenyes.displayPenyes();
+				if ($.mobile.activePage.is("#listPenyes")){
+		    		listPenyes.showShadows();
+		    	}	
+			});
+		}, 1000);
 	}	
 	
-	function showPageLoading() {
-		$.mobile.showPageLoadingMsg();
-		$(".ui-loader").css("display", "block");
-	}
-	
-	function hidePageLoading() {
-		$.mobile.hidePageLoadingMsg();
-    	$(".ui-loader").css("display", "none");
-	}
-	
-	function newSearch() {
-		
-		listPenyes.cleanList();
-		mapPenyes.destroyMap();
-		
-		listPenyes.hideShadows();
-
-		filterPenyes.showPageLoading();
-		
+	function newSearch(callBack) {
+				
 		var filter;
 		var area = getArea();
 		filter  =  "&area=" + area;
@@ -77,28 +84,28 @@ var filterPenyes = function () {
 		
 		var nocache = new Date().getTime();
 		var url = configuration.getUrlServer() + "/getPenyes?cache=" + nocache + filter;
+		
+		navigation.showPageLoading();
         $.ajax({
 	        url: url,
 	        success: function(result){
 	            if(result)
 	            {        
 	            	fullLoaded = true;
-	            	listPenyes.setListOfFanClubs(result);
 	            	
-	            	if ($.mobile.activePage.is("#listPenyes")){
-	            		listPenyes.loadPenyesJSON();
-	            	}
+	            	listPenyes.setListOfFanClubs(result);	            	
 	            	
-	            	if ($.mobile.activePage.is("#mapPenyes")){
-	            		mapPenyes.destroyMap();
-	            		mapPenyes.createMap();
+	            	navigation.hidePageLoading();
+	            	
+	            	if (callBack){
+	            		callBack();
 	            	}
 	            	
 	            }
 	        },
 	        error: function (xhr, ajaxOptions, thrownError) {
-	        	filterPenyes.hidePageLoading();
-	        	alert("Not posible to connect");
+	        	navigation.hidePageLoading();
+	        	navigation.alert("Not posible to connect");
 	            console.log(xhr.status);
 	            console.log(thrownError);
 	        }
@@ -106,19 +113,19 @@ var filterPenyes = function () {
 		
 	}
 	
-	return { 
-	    "showPageLoading" : function () {
-	    	showPageLoading();
-	    },
-	    "hidePageLoading" : function () {
-	    	hidePageLoading();
-	    },		
+	return { 		
 	    "openFilter" : function () {
 	    	openFilter();
 	    },
 	    "search" : function () {
 	    	search();
 	    },	    
+	    "newSearch" : function (callBack) {
+	    	newSearch(callBack);
+	    },	 
+	    "displayPenyes" : function () {
+	    	displayPenyes();
+	    },
 	    "closeFilter" : function () {
 	    	closeFilter(); 
 	    },

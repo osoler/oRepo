@@ -152,11 +152,18 @@ var mapPenyes = function () {
 			if (mapPenyes.getCurrentInfoWindow()) currentinfowindow.close();
 		});
 		
-    	$.mobile.hidePageLoadingMsg();
-    	$(".ui-loader").css("display", "none");
-
+    	navigation.hidePageLoading();
+		
+		google.maps.event.addListenerOnce(map, 'idle', function(){removeGoogleLinks();});
+		
 	    return false; 
 	    
+	}
+	function removeGoogleLinks(){
+		$('a[href^="http://maps.google.com/maps?"]').hide();
+		$('a[href^="http://www.google.com/intl"]').hide();
+		$('a:contains("Map Data")').hide();
+		$('span:contains("Map data")').hide();		
 	}
 	
 	function destroyMap(){	

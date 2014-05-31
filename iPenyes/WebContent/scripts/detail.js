@@ -91,12 +91,12 @@ var detailPenyes = function () {
 		navigation.showPageLoading();
 	}
 	function showDetails(){
-		//$("#detailLoader").hide();
 		navigation.hidePageLoading();
 		$("#penyaSelected-info0").show();
 		$("#penyaSelected-info1").show();
 		$("#penyaSelected-info2").show();	
 		refreshSlider(); 
+		listPenyes.showShadows();
 	}
 	var penyaSelected;
 	function loadDetails(penya){
@@ -226,8 +226,6 @@ $(document).on('pageshow', '#detailPenyes',function(e,data){
 	
 	detailPenyes.checkOrientation();
 	detailPenyes.refreshSlider() ;
-	
-	listPenyes.showShadows();
 	
 });
 

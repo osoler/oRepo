@@ -1,7 +1,6 @@
 package com.ophone.ipenyes.mock;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Random;
@@ -102,7 +101,7 @@ public class Utils {
 	    
 	    penya.description = new LinkedHashMap<String, Object>();
 	    penya.description.put("text1", "<br/><b>The FC Barcelona Supporters Club Miami</b> (Penya Barcelonista de Miami by its Catalan name) is officially authorized by FC Barcelona as a fan club dedicated to promote FC Barcelona name and brand in South Florida.<br/><br/>The Barcelona Supporters Club of Miami (Penya Barcelonista de Miami) was established on June 9, 2003. What began as an occasional get together by a group of Catalan friends (residing in Miami) to watch televised Barça games, became an official and organized Club.<br/><br/>");
-	    HashMap<String, String> images =  new HashMap<>();
+	    LinkedHashMap<String, String> images =  new LinkedHashMap<>();
 	    penya.description.put("images", images);
 	    images.put("item1", "/iPenyesResources/images/photosPenyes/PBSuecia/25674_375479747599_1075420_n.jpg");
 	    images.put("item2", "/iPenyesResources/images/photosPenyes/PBSuecia/26194_374642007599_7429551_n.jpg");

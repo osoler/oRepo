@@ -64,7 +64,7 @@ var detailPenyes = function () {
 	            	loadDetails(result);
 	            	showDetails();
 	            	navigation.hidePageLoading();
-	               	setTimeout(listPenyes.showShadows, 1000);
+	               	setTimeout(navigation.showShadows, 1000);
 	   
 	            }
 	        },
@@ -76,7 +76,7 @@ var detailPenyes = function () {
 	};
 
 	function removeDetails(){
-		listPenyes.loadLogo("#penyaSelected-logo", "/images/spinner.gif");
+		navigation.loadLogo("#penyaSelected-logo", "/images/spinner.gif");
 		$("#penyaSelected-name").empty();
 		$("#penyaSelected-fundation").empty();
 		$("#penyaSelected-info1").empty();
@@ -95,12 +95,12 @@ var detailPenyes = function () {
 		$("#penyaSelected-info1").show();
 		$("#penyaSelected-info2").show();	
 		refreshSlider(); 
-		listPenyes.showShadows();
+		navigation.showShadows();
 	}
 
 	function loadDetails(penya){
 		 penyaSelected = penya;
-		 listPenyes.loadLogo("#penyaSelected-logo", penya.logo);
+		 navigation.loadLogo("#penyaSelected-logo", penya.logo);
 		 $("#penyaSelected-name").empty();
 		 $("#penyaSelected-name").append(penya.name);
 		 $("#penyaSelected-fundation").empty();
@@ -141,7 +141,7 @@ var detailPenyes = function () {
 	}
 	function goToDetail() {
 		event.preventDefault();
-		listPenyes.hideShadows();
+		navigation.hideShadows();
 		$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
 		return false; 
 	};
@@ -239,7 +239,7 @@ $(document).on('pageshow', '#detailPenyes',function(e,data){
 });
 
 $(document).on('pagehide', '#detailPenyes',function(e,data){ 
-	listPenyes.hideShadows();
+	navigation.hideShadows();
 });
 
 $(document).on('gestureend','#fullScreen',function(e,data) {

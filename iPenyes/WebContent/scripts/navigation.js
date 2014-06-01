@@ -38,13 +38,39 @@ var navigation = function () {
     	$(".ui-loader").css("display", "none");
 	}
 	
+	function loadLogo(img, src){		       
+        var image = new Image();
+        image.src = src;
+        image.onload = function(){
+        	$(img).attr("src", image.src);
+        };   
+	}
+	
+	function showShadows(){
+		if (filterPenyes.getListOfFanClubs() != undefined && filterPenyes.getListOfFanClubs().length > 0){
+			$(".innerInfiniteShadowTop").fadeIn( "slow" );
+		}
+		$(".innerInfiniteShadowBottom").fadeIn( "slow" );
+	};
+	
+	function hideShadows(){
+		$(".innerInfiniteShadowTop").hide();
+		$(".innerInfiniteShadowBottom").hide();
+	};
+	
 	return { 
 	    "showPageLoading" : function () {
 	    	showPageLoading();
 	    },
 	    "hidePageLoading" : function () {
 	    	hidePageLoading();
-	    },		
+	    },	
+	    "showShadows" : function () {
+	    	showShadows(); 	    	
+	    },
+	    "hideShadows" : function () {
+	    	hideShadows(); 	    	
+	    },   
 	    "getLastPage" : function () {
 	    	return lastPage;
 	    },
@@ -57,6 +83,9 @@ var navigation = function () {
 	    "clearAllTimeouts" : function () {
 	    	clearAllTimeouts();
 	    },
+	    "loadLogo" : function (img, src) {
+	    	loadLogo(img, src); 
+		},
 	    "alert" : function (message) {
 	    	showAlert(message);
 	    }

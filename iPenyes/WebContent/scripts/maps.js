@@ -59,7 +59,7 @@ var mapPenyes = function () {
 				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.A + y);            				
 			    map.setCenter(newLatlng);            			    
 				currentinfowindow = infowindow; 
-				navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {listPenyes.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 1000));
+				navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {navigation.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 1000));
 			});  
 			if (addSelectedPenya){
 				if (mapPenyes.getCurrentInfoWindow()) {
@@ -82,7 +82,7 @@ var mapPenyes = function () {
 				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.A + y);            				
 			    map.setCenter(newLatlng);            			    
 				currentinfowindow = infowindow; 
-				navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {listPenyes.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 300));
+				navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {navigation.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 300));
 			}
 			google.maps.event.addDomListener(infowindow.bubble_, 'click', function(){
 				    detailPenyes.loadDetailPenya(penya.id);

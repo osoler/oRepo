@@ -16,29 +16,10 @@ var listPenyes = function () {
 		$('#listviewpenyes').listview('refresh');
 	};
 	
-	function showShadows(){
-		if (filterPenyes.getListOfFanClubs() != undefined && filterPenyes.getListOfFanClubs().length > 0){
-			$(".innerInfiniteShadowTop").fadeIn( "slow" );
-		}
-		$(".innerInfiniteShadowBottom").fadeIn( "slow" );
-	};
 	
-	function hideShadows(){
-		$(".innerInfiniteShadowTop").hide();
-		$(".innerInfiniteShadowBottom").hide();
-	};
-	
-	function loadLogo(img, src){		       
-        var image = new Image();
-        image.src = src;
-        image.onload = function(){
-        	$(img).attr("src", image.src);
-        };   
-	}
-	
-	function loadPenyesJSON(){
+	function loadPenyesJSON(listPenyes){
 		 		
-		$.each( filterPenyes.getListOfFanClubs(), function( i, item ) {
+		$.each( listPenyes, function( i, item ) {
 	    	 var penyaHtml = "<li data-icon='false'><a href='#' onclick='detailPenyes.loadDetailPenya("+ item.id +")'  class='penyaBean' >" +
 	    	 		"<div id='detailPenyaBean'><div class='coat'><img id='penya-logo-" + item.id + "' class='ui-li-icon' src='/images/spinner.gif'></div>" +
 	    	 				"<div  class='description'> <div  class='namePenya'><span>" + item.name + "</span></div></div>" +
@@ -48,7 +29,7 @@ var listPenyes = function () {
 	    	 						"<div id='penyaNumSocios' class='numSocios'>" + item.numAffiliates + " socios</div>" +
 	    	 						"<div id='penyaFundationYear' class='fundationYear'>Fundación: " + item.fundationYear + "</div>" +
 	    	 				"</div></div></a></li>";
-	    	 listPenyes.loadLogo("#penya-logo-" + item.id, item.logo);
+	    	 navigation.loadLogo("#penya-logo-" + item.id, item.logo);
 	    	 $("#listviewpenyes").append(penyaHtml);
 		});
 	       	
@@ -70,25 +51,13 @@ var listPenyes = function () {
 	
 	function displayPenyes() {
 		listPenyes.cleanList();
-		listPenyes.loadPenyesJSON();
+		loadPenyesJSON(filterPenyes.getListOfFanClubs());
 	}
 	
 	return { 
 	    "refresh" : function () {
 	    	refresh(); 	    	
-	    },
-	    "showShadows" : function () {
-	    	showShadows(); 	    	
-	    },
-	    "hideShadows" : function () {
-	    	hideShadows(); 	    	
-	    },
-	    "loadPenyesJSON" : function () {
-	    	loadPenyesJSON(); 	    	
-	    },	    
-	    "loadLogo" : function (img, src) {
-	    	loadLogo(img, src); 
-		},
+	    },    
 	    "isListEmpty" : function () {
 	    	return isListEmpty(); 
 	    },		
@@ -129,11 +98,11 @@ $(document).on('pageshow', '#listPenyes',function(e,data){
 		listPenyes.displayPenyes();
 	}
 	
-	listPenyes.showShadows();		
+	navigation.showShadows();		
 });
 
 $(document).on('pagehide', '#listPenyes',function(e,data){ 
-	listPenyes.hideShadows();
+	navigation.hideShadows();
 });
 
 	

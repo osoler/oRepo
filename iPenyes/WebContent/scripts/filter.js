@@ -50,13 +50,13 @@ var filterPenyes = function () {
 		closeFilter();
 				
 		setTimeout(function(){
-			listPenyes.hideShadows();
+			navigation.hideShadows();
 			filterPenyes.newSearch(function(){
 				
 				if ($.mobile.activePage.is("#listPenyes")){
 					mapPenyes.destroyMap();
 					listPenyes.displayPenyes();
-					listPenyes.showShadows();
+					navigation.showShadows();
 		    	}
 		    	
 		    	if ($.mobile.activePage.is("#mapPenyes")){

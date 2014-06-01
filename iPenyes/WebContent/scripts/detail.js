@@ -23,7 +23,8 @@ var detailPenyes = function () {
     	showDetails();
 	}
 	
-	function loadDetailPenya(penyaId){
+	function loadDetailPenya(row, penyaId){
+		listPenyes.setTopCoordinate($(row.parentElement).offset().top);
 		removeDetails();
 		hideDetails();
 		goToDetail();
@@ -170,8 +171,8 @@ return {
     "noScrollSlide" : function (name, reverse, to, from) {
     	return noScrollSlide(name, reverse, to, from);
     },
-    "loadDetailPenya" : function (penyaId) {
-    	loadDetailPenya(penyaId); 
+    "loadDetailPenya" : function (row,penyaId) {
+    	loadDetailPenya(row,penyaId); 
     },
     "getSelectedPenya" : function () {
     	return penyaSelected; 

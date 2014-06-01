@@ -1,6 +1,8 @@
 var listPenyes = function () {
-	 
-
+	// Store position location
+	var storePosition = {
+	    topCoordinate : null
+	};
 	
 	function cleanList(){
 		if ($('#listviewpenyes').length == 0){
@@ -20,7 +22,7 @@ var listPenyes = function () {
 	function loadPenyesJSON(listPenyes){
 		 		
 		$.each( listPenyes, function( i, item ) {
-	    	 var penyaHtml = "<li data-icon='false'><a href='#' onclick='detailPenyes.loadDetailPenya("+ item.id +")'  class='penyaBean' >" +
+	    	 var penyaHtml = "<li data-icon='false'><a href='#' onclick='detailPenyes.loadDetailPenya(this, "+ item.id +")'  class='penyaBean' >" +
 	    	 		"<div id='detailPenyaBean'><div class='coat'><img id='penya-logo-" + item.id + "' class='ui-li-icon' src='/images/spinner.gif'></div>" +
 	    	 				"<div  class='description'> <div  class='namePenya'><span>" + item.name + "</span></div></div>" +
 	    	 						"<div class='rightarrow'><img class='icon-arrow' src='/images/icon-arrow-black.png'></div>" +
@@ -67,6 +69,21 @@ var listPenyes = function () {
 	    "displayPenyes" : function () {
 	    	displayPenyes();
 	    },	    
+	    "getTopCoordinate" : function () {
+	    	return storePosition.topCoordinate;
+	    },	    
+	    "setTopCoordinate" : function (coordinate) {
+			var rowCoord = coordinate - 67;//67px header height
+			var newCoordinate = rowCoord - (rowCoord - $(window).scrollTop());
+	    	storePosition.topCoordinate = newCoordinate; 
+	    },	    
+	    "goToTopCoordinate" : function () {
+	        if(listPenyes.getTopCoordinate() !== null) {    
+	            //$.mobile.silentScroll(listPenyes.getTopCoordinate());
+	        	var coord = listPenyes.getTopCoordinate()+'px';
+	        	$('html, body').animate({scrollTop: coord}, 1500);
+	        }
+	    },	
 	    "initMenu" : function (callBack) {
 		     initMenu(callBack); 
 		}
@@ -98,12 +115,16 @@ $(document).on('pageshow', '#listPenyes',function(e,data){
 		listPenyes.displayPenyes();
 	}
 	
+	if (prevPage === "detailPenyes")	{
+		listPenyes.goToTopCoordinate();
+	}
 	navigation.showShadows();		
 });
 
 $(document).on('pagehide', '#listPenyes',function(e,data){ 
 	navigation.hideShadows();
 });
+
 
 	
 	

@@ -1,4 +1,6 @@
 var filterPenyes = function () {
+	var listOfFanClubs = undefined;	
+	
 	var  fullLoaded = false; 
 
 	
@@ -43,47 +45,34 @@ var filterPenyes = function () {
 		}
 		return area;
 	};	
-	
-	function displayPenyes() {
-		if ($.mobile.activePage.is("#listPenyes")){
-			listPenyes.cleanList();
-    		listPenyes.loadPenyesJSON();
-    	}
-    	
-    	if ($.mobile.activePage.is("#mapPenyes")){
-    		mapPenyes.destroyMap();
-    		mapPenyes.createMap();
-    	}
-	}
-	
+		
 	function search() {
 		closeFilter();
 				
 		setTimeout(function(){
-			listPenyes.cleanList();
-			mapPenyes.destroyMap();		
 			listPenyes.hideShadows();
 			filterPenyes.newSearch(function(){
-				filterPenyes.displayPenyes();
+				
 				if ($.mobile.activePage.is("#listPenyes")){
-		    		listPenyes.showShadows();
-		    	}	
+					mapPenyes.destroyMap();
+					listPenyes.displayPenyes();
+					listPenyes.showShadows();
+		    	}
+		    	
+		    	if ($.mobile.activePage.is("#mapPenyes")){
+		    		listPenyes.cleanList();
+		    		mapPenyes.displayPenyes();
+		    	}
+		    	
 			});
 		}, 1000);
 	}	
 	
 	function newSearch(callBack) {
 				
-		var filter;
-		var area = getArea();
-		filter  =  "&area=" + area;
-		filter  +=  "&yearFrom=" + $("#yearFrom")[0].value;
-		filter  +=  "&yearTo=" + $("#yearTo")[0].value;
-		filter  +=  "&numFansFrom=" + $("#numFansFrom")[0].value;
-		filter  +=  "&numFansTo=" + $("#numFansTo")[0].value;
+		var filter  =  "&area=" + getArea() + "&yearFrom=" + $("#yearFrom")[0].value + "&yearTo=" + $("#yearTo")[0].value + "&numFansFrom=" + $("#numFansFrom")[0].value + "&numFansTo=" + $("#numFansTo")[0].value;
 		
-		var nocache = new Date().getTime();
-		var url = configuration.getUrlServer() + "/getPenyes?cache=" + nocache + filter;
+		var url = configuration.getUrlServer() + "/getPenyes?cache=" + new Date().getTime() + filter;
 		
 		navigation.showPageLoading();
         $.ajax({
@@ -92,15 +81,13 @@ var filterPenyes = function () {
 	            if(result)
 	            {        
 	            	fullLoaded = true;
-	            	
-	            	listPenyes.setListOfFanClubs(result);	            	
+	            	listOfFanClubs = result;
 	            	
 	            	navigation.hidePageLoading();
 	            	
 	            	if (callBack){
 	            		callBack();
-	            	}
-	            	
+	            	}    	
 	            }
 	        },
 	        error: function (xhr, ajaxOptions, thrownError) {
@@ -111,7 +98,10 @@ var filterPenyes = function () {
 		
 	}
 	
-	return { 		
+	return { 
+	    "getListOfFanClubs" : function () {
+		     return listOfFanClubs; 
+		},
 	    "openFilter" : function () {
 	    	openFilter();
 	    },
@@ -121,9 +111,6 @@ var filterPenyes = function () {
 	    "newSearch" : function (callBack) {
 	    	newSearch(callBack);
 	    },	 
-	    "displayPenyes" : function () {
-	    	displayPenyes();
-	    },
 	    "closeFilter" : function () {
 	    	closeFilter(); 
 	    },

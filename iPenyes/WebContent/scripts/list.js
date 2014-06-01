@@ -1,6 +1,6 @@
 var listPenyes = function () {
 	 
-	var listOfFanClubs = undefined;
+
 	
 	function cleanList(){
 		if ($('#listviewpenyes').length == 0){
@@ -17,7 +17,7 @@ var listPenyes = function () {
 	};
 	
 	function showShadows(){
-		if (listOfFanClubs != undefined && listOfFanClubs.length > 0){
+		if (filterPenyes.getListOfFanClubs() != undefined && filterPenyes.getListOfFanClubs().length > 0){
 			$(".innerInfiniteShadowTop").fadeIn( "slow" );
 		}
 		$(".innerInfiniteShadowBottom").fadeIn( "slow" );
@@ -38,7 +38,7 @@ var listPenyes = function () {
 	
 	function loadPenyesJSON(){
 		 		
-		$.each( listOfFanClubs, function( i, item ) {
+		$.each( filterPenyes.getListOfFanClubs(), function( i, item ) {
 	    	 var penyaHtml = "<li data-icon='false'><a href='#' onclick='detailPenyes.loadDetailPenya("+ item.id +")'  class='penyaBean' >" +
 	    	 		"<div id='detailPenyaBean'><div class='coat'><img id='penya-logo-" + item.id + "' class='ui-li-icon' src='/images/spinner.gif'></div>" +
 	    	 				"<div  class='description'> <div  class='namePenya'><span>" + item.name + "</span></div></div>" +
@@ -59,6 +59,20 @@ var listPenyes = function () {
 	function isListEmpty(){	
 		return $('#listviewpenyes').find('li').length === 0 ;
 	}
+	
+	function initMenu(callBack){
+		$("#listFooter").slideToggle( "slow" , function() {
+			$(".filterLogo").toggle("slide", function() {
+				callBack();
+			});
+		});
+	}
+	
+	function displayPenyes() {
+		listPenyes.cleanList();
+		listPenyes.loadPenyesJSON();
+	}
+	
 	return { 
 	    "refresh" : function () {
 	    	refresh(); 	    	
@@ -75,58 +89,47 @@ var listPenyes = function () {
 	    "loadLogo" : function (img, src) {
 	    	loadLogo(img, src); 
 		},
-	    "getListOfFanClubs" : function () {
-		     return listOfFanClubs; 
-		},
-	    "setListOfFanClubs" : function (list) {
-		     listOfFanClubs = list; 
-	    },
 	    "isListEmpty" : function () {
 	    	return isListEmpty(); 
 	    },		
 	    "cleanList" : function () {
 		     cleanList(); 
+	    },
+	    "displayPenyes" : function () {
+	    	displayPenyes();
+	    },	    
+	    "initMenu" : function (callBack) {
+		     initMenu(callBack); 
 		}
 	  }; // end of the return
 	  
 }();
-	
-	
+		
 //Events
 	
-$(document).on('pageinit', '#listPenyes',function(e,data){ 
-
-});
-
 $(document).on('pageshow', '#listPenyes',function(e,data){
-
 	var prevPage = data.prevPage.attr('id'); 
-	var initiated = $("#listFooter").is(":visible");
-	if (prevPage === "initPenyes" || !initiated)	{		
-		$("#listFooter").slideToggle( "slow" , function() {
-			$(".filterLogo").toggle("slide", function() {
-				if (prevPage != "detailPenyes")	{
-					if ((listPenyes.getListOfFanClubs() === undefined) || (listPenyes.getListOfFanClubs().length === 0)){
-						setTimeout(filterPenyes.search, 1000);				
-					}
-				}
-			 });	
-		 });
-	}else{
+	var menuInitiated = $("#listFooter").is(":visible");
+	
+	var showPenyes = function(){
 		if (prevPage != "detailPenyes")	{
-			if ((listPenyes.getListOfFanClubs() === undefined) || (listPenyes.getListOfFanClubs().length === 0)){
-				setTimeout(filterPenyes.search, 1000);
+			if ((filterPenyes.getListOfFanClubs() === undefined) || (filterPenyes.getListOfFanClubs().length === 0)){
+				setTimeout(filterPenyes.search, 1000);				
 			}
 		}
+	};
+	
+	if (!menuInitiated){
+		setTimeout(function (){listPenyes.initMenu(showPenyes);},1000);
+	}else{
+		showPenyes();
 	}
+	
 	if (listPenyes.isListEmpty()){
-		filterPenyes.displayPenyes();
+		listPenyes.displayPenyes();
 	}
 	
-	listPenyes.showShadows();
-	
-	
-		
+	listPenyes.showShadows();		
 });
 
 $(document).on('pagehide', '#listPenyes',function(e,data){ 

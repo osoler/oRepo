@@ -1,6 +1,7 @@
 var detailPenyes = function () {
 	var penyaSelected;
 	var resizeTimer;
+	
 	function checkOrientation() {
 		if (window.orientation === 0 || window.orientation === 180){
 			//portrait orientation
@@ -96,7 +97,7 @@ var detailPenyes = function () {
 		refreshSlider(); 
 		listPenyes.showShadows();
 	}
-	var penyaSelected;
+
 	function loadDetails(penya){
 		 penyaSelected = penya;
 		 listPenyes.loadLogo("#penyaSelected-logo", penya.logo);
@@ -145,6 +146,10 @@ var detailPenyes = function () {
 		return false; 
 	};
 	
+	function showPenyaInMap(){	
+		$.mobile.changePage($("#mapPenyes"),{ transition: "pop", changeHash: false });
+	}	
+	
 	function back() {
 		$(".innerInfiniteShadowTop").hide();
 		$(".innerInfiniteShadowBottom").hide();
@@ -174,7 +179,7 @@ var detailPenyes = function () {
 return { 
     "checkOrientation" : function () {
     	checkOrientation();
-    },
+    },  
     "refreshSlider" : function () {
     	refreshSlider(); 
     },
@@ -205,8 +210,14 @@ return {
     "loadDetailPenya" : function (penyaId) {
     	loadDetailPenya(penyaId); 
     },
+    "getSelectedPenya" : function () {
+    	return penyaSelected; 
+    },   
+    "clearSelectedPenya" : function () {
+    	penyaSelected = null; 
+    }, 
     "showPenyaInMap" : function () {
-    	mapPenyes.goToPenya(penyaSelected); 
+    	showPenyaInMap(penyaSelected); 
     }
   }; // end of the return
 }();

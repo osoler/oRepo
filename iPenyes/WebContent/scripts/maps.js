@@ -1,37 +1,24 @@
 var mapPenyes = function () {
 	var currentinfowindow;
 	
-	var MAP_OPTS_catalonia = {};
-    var MAP_OPTS_catalonia_x = 1;var MAP_OPTS_catalonia_y = 1.8;
-    
-    var MAP_OPTS_spain = {};
-    var MAP_OPTS_spain_x = 1;var MAP_OPTS_spain_y = 3;
-    
-    var MAP_OPTS_europe = {};
-    var MAP_OPTS_europe_x = 5;var MAP_OPTS_europe_y = 7;    
-    
-    var MAP_OPTS_world = {};   
-    var MAP_OPTS_world_x = 10;var MAP_OPTS_world_y = 30;
+	//MAP_OPTS_XX = [{map_ops},x,y]
+	var MAP_OPTS_catalonia  = [{},1,1.8];
+    var MAP_OPTS_spain 		= [{},1,3];    
+    var MAP_OPTS_europe		= [{},5,7];     
+    var MAP_OPTS_world 		= [{},10,30];  
     
     try{
-		MAP_OPTS_catalonia = {zoom: 6, center: new google.maps.LatLng(40,1), mapTypeId: google.maps.MapTypeId.ROADMAP, disableDefaultUI: true};
-	    MAP_OPTS_catalonia_x = 1;var MAP_OPTS_catalonia_y = 1.8;
-	    
-	    MAP_OPTS_spain = {zoom: 5, center: new google.maps.LatLng(40,-4), mapTypeId: google.maps.MapTypeId.ROADMAP, disableDefaultUI: true};
-	    MAP_OPTS_spain_x = 1;var MAP_OPTS_spain_y = 3;
-	    
-	    MAP_OPTS_europe = {zoom: 4, center: new google.maps.LatLng(50,3),mapTypeId: google.maps.MapTypeId.ROADMAP,disableDefaultUI: true};
-	    MAP_OPTS_europe_x = 5;var MAP_OPTS_europe_y = 7;    
-	    
-	    MAP_OPTS_world = {zoom: 2,center: new google.maps.LatLng(30,40),mapTypeId: google.maps.MapTypeId.ROADMAP,disableDefaultUI: true};   
-	    MAP_OPTS_world_x = 10;var MAP_OPTS_world_y = 30;
+		MAP_OPTS_catalonia[0] = {zoom: 6, center: new google.maps.LatLng(40,1), mapTypeId: google.maps.MapTypeId.ROADMAP, disableDefaultUI: true};   
+	    MAP_OPTS_spain[0] = {zoom: 5, center: new google.maps.LatLng(40,-4), mapTypeId: google.maps.MapTypeId.ROADMAP, disableDefaultUI: true};    
+	    MAP_OPTS_europe[0] = {zoom: 4, center: new google.maps.LatLng(50,3),mapTypeId: google.maps.MapTypeId.ROADMAP,disableDefaultUI: true};    
+	    MAP_OPTS_world[0] = {zoom: 2,center: new google.maps.LatLng(30,40),mapTypeId: google.maps.MapTypeId.ROADMAP,disableDefaultUI: true};   
+
     }catch(e){
     	console.log(e);
     }
-	var selectedPenya;
-
+    
 	function addMarker(penya, map, counter, addSelectedPenya){
-		if (counter >=listPenyes.getListOfFanClubs().length && !addSelectedPenya) {
+		if (counter >=filterPenyes.getListOfFanClubs().length && !addSelectedPenya) {
 			return false;
 		}
 		var title = "penya";	   
@@ -48,7 +35,7 @@ var mapPenyes = function () {
 		        minHeight:116,maxHeight:118,borderWidth: 0,borderColor: '#030C51',disableAutoPan: true,hideCloseButton: true,
 		        arrowPosition: 20,backgroundClassName: 'infowindowPenyes',arrowStyle: 2});	
 		
-		if (selectedPenya == undefined || selectedPenya.id != penya.id || addSelectedPenya){
+		if (detailPenyes.getSelectedPenya() == undefined || detailPenyes.getSelectedPenya().id != penya.id || addSelectedPenya){
 			var myLatlng = new google.maps.LatLng(penya.x, penya.y);            	 
 			var marker = new google.maps.Marker({position: myLatlng,map: map,title:title,animation: google.maps.Animation.DROP, icon: '/images/fcb_marker.png'});
 			google.maps.event.addListener(marker, 'click', function() {
@@ -67,8 +54,8 @@ var mapPenyes = function () {
 				}else if (zoom >= 6){
 					showArea = "catalonia";
 				}
-				var x = eval('MAP_OPTS_' + showArea + '_x');
-				var y = eval('MAP_OPTS_' + showArea + '_y');
+				var x = eval('MAP_OPTS_' + showArea + '[1]');
+				var y = eval('MAP_OPTS_' + showArea + '[2]');
 				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.A + y);            				
 			    map.setCenter(newLatlng);            			    
 				currentinfowindow = infowindow; 
@@ -90,8 +77,8 @@ var mapPenyes = function () {
 				}else if (zoom >= 6){
 					showArea = "catalonia";
 				}
-				var x = eval('MAP_OPTS_' + showArea + '_x');
-				var y = eval('MAP_OPTS_' + showArea + '_y');
+				var x = eval('MAP_OPTS_' + showArea + '[1]');
+				var y = eval('MAP_OPTS_' + showArea + '[2]');
 				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.A + y);            				
 			    map.setCenter(newLatlng);            			    
 				currentinfowindow = infowindow; 
@@ -102,7 +89,7 @@ var mapPenyes = function () {
 					$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
 				});
 		}
-		navigation.setTimeout(setTimeout(function(){ addMarker(listPenyes.getListOfFanClubs()[newcounter], map, newcounter, false); } , 600));		
+		navigation.setTimeout(setTimeout(function(){ addMarker(filterPenyes.getListOfFanClubs()[newcounter], map, newcounter, false); } , 600));		
 	 
 		return false; 
 	}
@@ -115,31 +102,28 @@ var mapPenyes = function () {
 	    $('#map_canvasWrapper').height($('#contentMap').height());
 	    $('#map_canvas').height($('#map_canvasWrapper').height());	
 	    
-	    var map_opts = 'MAP_OPTS_' + filterPenyes.getArea();
+	    var map_opts = 'MAP_OPTS_' + filterPenyes.getArea() + "[0]";
 	    
-	    if (selectedPenya != undefined){
+	    if (detailPenyes.getSelectedPenya() != undefined){
 	    	map_opts = {
 	    	    	    zoom: eval(map_opts).zoom,
-	    	    	    center: new google.maps.LatLng(selectedPenya.x, selectedPenya.y),
+	    	    	    center: new google.maps.LatLng(detailPenyes.getSelectedPenya().x, detailPenyes.getSelectedPenya().y),
 	    	    	    mapTypeId: google.maps.MapTypeId.ROADMAP,
 	    	    	    disableDefaultUI: true};
 	    }
-	    		    
-	    var map = new google.maps.Map(document.getElementById("map_canvas"), eval(map_opts));  
-	    if (selectedPenya != undefined){
-	    	 addMarker(selectedPenya, map, -1, true);
+	    var map = new google.maps.Map($('#map_canvas')[0], eval(map_opts));  
+	    if (detailPenyes.getSelectedPenya() != undefined){
+	    	 addMarker(detailPenyes.getSelectedPenya(), map, -1, true);
 	    }
-	    if ((listPenyes.getListOfFanClubs() != undefined) && (listPenyes.getListOfFanClubs().length > 0)){
-		    addMarker(listPenyes.getListOfFanClubs()[0], map, 0, false);
+	    if ((filterPenyes.getListOfFanClubs() != undefined) && (filterPenyes.getListOfFanClubs().length > 0)){
+		    addMarker(filterPenyes.getListOfFanClubs()[0], map, 0, false);
 		}
 		google.maps.event.addListener(map, 'click', function() {
 			if (mapPenyes.getCurrentInfoWindow()) currentinfowindow.close();
-		});
-		
-    	navigation.hidePageLoading();
-		
+		});		
 		google.maps.event.addListener(map, 'idle', function(){setTimeout(removeGoogleLinks(),2500);});
 		
+		navigation.hidePageLoading();
 	    return false; 
 	    
 	}
@@ -168,34 +152,24 @@ var mapPenyes = function () {
 		} 
 		return content_height;
 	}	
-
-	function goToPenya(penya){	
-		mapPenyes.destroyMap();
-		selectedPenya = penya;
-		$.mobile.changePage($("#mapPenyes"),{ transition: "pop", changeHash: false });
-	}
 	
 	function isMapEmpty(){	
 		return $('#map_canvas').is(':empty');
 	}
 	
-	
+	function displayPenyes() {
+		destroyMap();
+		createMap();
+	}
 return { 
-    "createMap" : function () {
-    	createMap();
-    },
-    "destroyMap" : function () {
-    	destroyMap(); 
-    	selectedPenya = undefined;
-    },
+    "displayPenyes" : function () {
+    	displayPenyes();
+    },	
     "isMapEmpty" : function () {
     	return isMapEmpty(); 
     },
-    "goToPenya" : function (penya) {
-    	goToPenya(penya); 
-    },
-    "getSelectedPenya" : function () {
-    	return selectedPenya; 
+    "destroyMap" : function () {
+    	return destroyMap(); 
     },
     "getCurrentInfoWindow" : function () {
     	return currentinfowindow; 
@@ -210,11 +184,15 @@ return {
 //Events
 
 $(document).on('pageshow', '#mapPenyes',function(e,data){ 
-	if ((data.prevPage.attr('id') != "detailPenyes") || mapPenyes.isMapEmpty())	{
-		if (mapPenyes.isMapEmpty() || mapPenyes.getSelectedPenya() != undefined) {
-			mapPenyes.createMap();
+	if ((data.prevPage.attr('id') == "detailPenyes") || mapPenyes.isMapEmpty())	{
+		if (mapPenyes.isMapEmpty() || detailPenyes.getSelectedPenya() != undefined) {
+			mapPenyes.displayPenyes();
 		}
 	}
+});
+
+$(document).on('pagehide', '#mapPenyes',function(e,data){ 
+	detailPenyes.clearSelectedPenya();
 });
 
 

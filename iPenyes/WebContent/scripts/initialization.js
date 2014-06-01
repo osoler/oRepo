@@ -1,10 +1,11 @@
+var addToHomeConfig = {	touchIcon : true,	returningVisitor : false,	expire : 0};
 var initPenyes = function() {
 
 	function init() {
-		loadImages();
+		loadImages(function(){setTimeout(goToList, 2000);});
 	}
 
-	function loadImages() {
+	function loadImages(callBack) {
 		var loadedImagesCount = 0;
 		var imageNames = [ "/images/spinner.gif","/images/ico-close-button.png","/images/close-button.png",
 		                   "/images/close-button-blue.png","/images/ajax-loader-infinite.gif",
@@ -20,7 +21,8 @@ var initPenyes = function() {
 				loadedImagesCount++;
 				if (loadedImagesCount >= imageNames.length) {
 					// loaded all pictures
-					setTimeout(goToList, 2000);
+					callBack();
+					
 				}
 			};
 			imagesArray.push(image);
@@ -140,9 +142,6 @@ var initPenyes = function() {
 		"update" : function(callback) {
 			update(callback);
 		},
-		"loadImages" : function() {
-			loadImages();
-		},
 		"init" : function() {
 			init();
 		}
@@ -153,11 +152,9 @@ this.updateOrientation = initPenyes.updateOrientation;
 this.getScale = initPenyes.getScale;
 this.update = initPenyes.update;
 
-var addToHomeConfig = {
-	touchIcon : true,
-	returningVisitor : false,
-	expire : 0
-};
+
+
+
 $(document).on('pageshow', '#initPenyes', function(e, data) {
 	initPenyes.init();
 });

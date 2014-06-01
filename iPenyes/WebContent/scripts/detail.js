@@ -23,8 +23,10 @@ var detailPenyes = function () {
     	showDetails();
 	}
 	
-	function loadDetailPenya(row, penyaId){
-		listPenyes.setTopCoordinate($(row.parentElement).offset().top);
+	function loadDetailPenya(penyaId, row){
+		if (row){
+			listPenyes.setTopCoordinate($(row.parentElement).offset().top);
+		}
 		removeDetails();
 		hideDetails();
 		goToDetail();

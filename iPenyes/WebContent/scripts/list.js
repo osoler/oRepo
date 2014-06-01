@@ -22,7 +22,7 @@ var listPenyes = function () {
 	function loadPenyesJSON(listPenyes){
 		 		
 		$.each( listPenyes, function( i, item ) {
-	    	 var penyaHtml = "<li data-icon='false'><a href='#' onclick='detailPenyes.loadDetailPenya(this, "+ item.id +")'  class='penyaBean' >" +
+	    	 var penyaHtml = "<li data-icon='false'><a href='#' onclick='detailPenyes.loadDetailPenya("+ item.id +", this)'  class='penyaBean' >" +
 	    	 		"<div id='detailPenyaBean'><div class='coat'><img id='penya-logo-" + item.id + "' class='ui-li-icon' src='/images/spinner.gif'></div>" +
 	    	 				"<div  class='description'> <div  class='namePenya'><span>" + item.name + "</span></div></div>" +
 	    	 						"<div class='rightarrow'><img class='icon-arrow' src='/images/icon-arrow-black.png'></div>" +

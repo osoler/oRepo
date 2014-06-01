@@ -37,7 +37,7 @@
 <script src="/scripts/initialization.js?cache=8"></script>
 <script src="/scripts/3rdpartyscripts/add2home.js?cache=8"></script>
 <script src="/scripts/navigation.js?cache=8"></script>
-<script src="/scripts/doubleTap.js?cache=8"></script>              
+<script src="/scripts/photo.js?cache=8"></script>              
 <script src="/scripts/detail.js?cache=8"></script>                      
 <script src="/scripts/maps.js?cache=8"></script>
 <script src="/scripts/list.js?cache=8"></script>

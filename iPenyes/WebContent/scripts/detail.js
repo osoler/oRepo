@@ -24,17 +24,7 @@ var detailPenyes = function () {
 		return false; 
 	};	
 
-	function showHideCross() {
-	  var currentScale = window.outerWidth;
-	  if (currentScale === 320)
-	  {
-	  	$("#closer").show();
-	  } else  {
-	  	$("#closer").hide();
-	  }
-	};
-
-	function fullScreen(url) {
+	function openPhoto(url) {
 		if (url != undefined){
 			var url = "url(" + url + ")";
 			$("#fullscreenimage").css('background-image', url);
@@ -42,12 +32,7 @@ var detailPenyes = function () {
 		}
 		return false; 
 	};
-	
-	function backFullScreen() {	
-		$.mobile.changePage($("#detailPenyes"),{ transition: "pop", reverse: true });		
-		return false; 
-	};
-	
+		
 	function loadDetailPenya(penyaId){
 		removeDetails();
 		hideDetails();
@@ -130,7 +115,7 @@ var detailPenyes = function () {
 				 $(".iosSlider").append("<div class='slider'>");
 				 $.each( value, function( key, value ) {
 					 var valueStr = "&#39;" + value + "&#39;";
-					 var newdiv = "<div class='photopenyaitem' style='background-image:url("+value+");' id= '" + key + "' onclick='detailPenyes.fullScreen("+valueStr+")'></div>";	 
+					 var newdiv = "<div class='photopenyaitem' style='background-image:url("+value+");' id= '" + key + "' onclick='detailPenyes.openPhoto("+valueStr+")'></div>";	 
 					 $(".slider").append(newdiv);
 				 });		 
 			 }
@@ -183,27 +168,15 @@ return {
     "refreshSlider" : function () {
     	refreshSlider(); 
     },
-    "showHideCross" : function () {
-    	showHideCross(); 
-    },
-    "fullScreen" : function (selection) {
-    	fullScreen(selection);
-    },
-    "backFullScreen" : function () {
-    	backFullScreen(); 
+    "openPhoto" : function (selection) {
+    	openPhoto(selection);
     },
     "goToDetail" : function () {
     	goToDetail(); 
     },
     "back" : function () {
     	back(); 
-    },
-    "setResizeTimer" : function (newValue) {
-    	resizeTimer = newValue; 
-    },
-    "getResizeTimer" : function () {
-    	return resizeTimer; 
-    },      
+    },     
     "noScrollSlide" : function (name, reverse, to, from) {
     	return noScrollSlide(name, reverse, to, from);
     },
@@ -242,12 +215,3 @@ $(document).on('pagehide', '#detailPenyes',function(e,data){
 	navigation.hideShadows();
 });
 
-$(document).on('gestureend','#fullScreen',function(e,data) {
-    clearTimeout(detailPenyes.getResizeTimer());
-    detailPenyes.setResizeTimer(setTimeout(detailPenyes.showHideCross, 600));
-});
-
-$(document).on('doubletap','#fullScreen',function(e,data) {
-    clearTimeout(detailPenyes.getResizeTimer());
-    detailPenyes.setResizeTimer(setTimeout(detailPenyes.showHideCross, 600));
-});

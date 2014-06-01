@@ -109,7 +109,9 @@ var detailPenyes = function () {
 				 $(".iosSlider").append("<div class='slider'>");
 				 $.each( value, function( key, value ) {
 					 var valueStr = "&#39;" + value + "&#39;";
-					 var newdiv = "<div class='photopenyaitem' style='background-image:url("+value+");' id= '" + key + "' onclick='detailPenyes.openPhoto("+valueStr+")'></div>";	 
+					 var photoClass = "photopenyaitem";
+					 if (window.orientation !== 0){ photoClass = "photopenyaitem horizontal";}
+					 var newdiv = "<div class='"+photoClass+"' style='background-image:url("+value+");' id= '" + key + "' onclick='detailPenyes.openPhoto("+valueStr+")'></div>";	 
 					 $(".slider").append(newdiv);
 				 });		 
 			 }
@@ -191,6 +193,7 @@ return {
   }; // end of the return
 }();
 
+this.updateOrientation 				= detailPenyes.hola;
 
 $.mobile.transitionHandlers["slide"] = detailPenyes.noScrollSlide;
 
@@ -205,5 +208,11 @@ $(document).on('pageshow', '#detailPenyes',function(e,data){
 
 $(document).on('pagehide', '#detailPenyes',function(e,data){ 
 	navigation.hideShadows();
+});
+
+$(window).on("orientationchange",function(){
+	if ($.mobile.activePage.is("#detailPenyes")){
+		detailPenyes.loadDetailPenyaPopBack(detailPenyes.getSelectedPenya().id);
+	}
 });
 

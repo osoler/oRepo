@@ -16,11 +16,11 @@ var detailPenyes = function () {
 		return false; 
 	};
 	
-	function loadDetailPenya(penyaId, options, row){
+	function loadDetailPenya(penyaId, row){
 		goToDetailPenya(penyaId, { transition: "slide", changeHash: false }, row);
 	}
 	
-	function loadDetailPenyaPopBack(penyaId, options, row){
+	function loadDetailPenyaPopBack(penyaId, row){
 		goToDetailPenya(penyaId, {transition: "pop", changeHash: false}, row);
 	}
 	
@@ -174,10 +174,10 @@ return {
     	return noScrollSlide(name, reverse, to, from);
     },
     "loadDetailPenya" : function (penyaId,row) {
-    	loadDetailPenya(penyaId,row); 
+    	loadDetailPenya(penyaId, row); 
     },
-    "loadDetailPenyaPopBack" : function (penyaId,row) {
-    	loadDetailPenyaPopBack(penyaId,row); 
+    "loadDetailPenyaPopBack" : function (penyaId, row) {
+    	loadDetailPenyaPopBack(penyaId, row); 
     },
     "getSelectedPenya" : function () {
     	return penyaSelected; 

@@ -2,23 +2,6 @@ var detailPenyes = function () {
 	var penyaSelected;
 	var resizeTimer;
 	
-	function checkOrientation() {
-		if (window.orientation === 0 || window.orientation === 180){
-			//portrait orientation
-			$( 'div.photopenyaitem' ).each(function(){
-				$(this).removeClass('horizontal');
-			});
-			$('div.iosSlider').removeClass('horizontal');
-		}else{
-			//Landscape orientation
-			$( 'div.photopenyaitem' ).each(function(){
-				$(this).addClass('horizontal');	
-			});
-			$('div.iosSlider').addClass('horizontal');	
-		}
-		return false; 
-	};
-	
 	function refreshSlider() {
 		$('.iosSlider').iosSlider({desktopClickDrag: true});
 		return false; 
@@ -32,7 +15,14 @@ var detailPenyes = function () {
 		}
 		return false; 
 	};
-		
+	
+	function refresh(){
+		removeDetails();
+		hideDetails();
+		loadDetails(penyaSelected);
+    	showDetails();
+	}
+	
 	function loadDetailPenya(penyaId){
 		removeDetails();
 		hideDetails();
@@ -46,7 +36,8 @@ var detailPenyes = function () {
 	        success: function(result){
 	            if(result)
 	            {
-	            	loadDetails(result);
+	       		    penyaSelected = result;
+	            	loadDetails(penyaSelected);
 	            	showDetails();
 	            	navigation.hidePageLoading();
 	               	setTimeout(navigation.showShadows, 1000);
@@ -67,6 +58,7 @@ var detailPenyes = function () {
 		$("#penyaSelected-info1").empty();
 		 $("#penyaSelected-info2").empty();
 	}
+	
 	function hideDetails(){
 		$("#penyaSelected-info0").hide();
 		$("#penyaSelected-info1").hide();
@@ -74,6 +66,7 @@ var detailPenyes = function () {
 		//$("#detailLoader").show();
 		navigation.showPageLoading();
 	}
+	
 	function showDetails(){
 		navigation.hidePageLoading();
 		$("#penyaSelected-info0").show();
@@ -84,7 +77,6 @@ var detailPenyes = function () {
 	}
 
 	function loadDetails(penya){
-		 penyaSelected = penya;
 		 navigation.loadLogo("#penyaSelected-logo", penya.logo);
 		 $("#penyaSelected-name").empty();
 		 $("#penyaSelected-name").append(penya.name);
@@ -161,13 +153,11 @@ var detailPenyes = function () {
 			deferred.resolve(); }); 
 		return deferred.promise(); 
 	};	
-return { 
-    "checkOrientation" : function () {
-    	checkOrientation();
-    },  
-    "refreshSlider" : function () {
-    	refreshSlider(); 
-    },
+	
+return {  
+    "refresh" : function () {
+    	refresh(); 
+    },   
     "openPhoto" : function (selection) {
     	openPhoto(selection);
     },
@@ -205,10 +195,6 @@ $(document).on('pageshow', '#detailPenyes',function(e,data){
 	if((prevPage === "listPenyes")||(prevPage === "mapPenyes")){
 		navigation.setLastPage(prevPage);
 	}
-	
-	detailPenyes.checkOrientation();
-	detailPenyes.refreshSlider() ;
-	
 });
 
 $(document).on('pagehide', '#detailPenyes',function(e,data){ 

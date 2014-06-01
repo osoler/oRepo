@@ -1,7 +1,7 @@
 <div data-role="page" id="detailPenyes">
 	<div data-role="header" data-position="fixed"  data-id="header" data-tap-toggle="false">
 		<div>
-			<div  id="detailLeft"><a id="ios-arrow-left" data-transition="slide" data-direction="reverse"  data-role="button" onclick="detailPenyes.back()">Back</a></div>
+			<div  id="detailLeft"><a id="ios-arrow-left" data-role="button" onclick="detailPenyes.back()">Back</a></div>
 			<div  id="detailRight"><a id="mapLogoLink" onclick="detailPenyes.showPenyaInMap()"><img class="mapLogo"></a></div>		
 			<div  class="headerLogoImg">&nbsp;</div>		
 		</div>	

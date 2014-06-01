@@ -86,7 +86,6 @@ var mapPenyes = function () {
 			}
 			google.maps.event.addDomListener(infowindow.bubble_, 'click', function(){
 				    detailPenyes.loadDetailPenya(penya.id);
-					$.mobile.changePage( "#detailPenyes" ,{ transition: "slide", changeHash: false });
 				});
 		}
 		navigation.setTimeout(setTimeout(function(){ addMarker(filterPenyes.getListOfFanClubs()[newcounter], map, newcounter, false); } , 600));		
@@ -190,10 +189,4 @@ $(document).on('pageshow', '#mapPenyes',function(e,data){
 		}
 	}
 });
-
-$(document).on('pagehide', '#mapPenyes',function(e,data){ 
-	detailPenyes.clearSelectedPenya();
-});
-
-
 

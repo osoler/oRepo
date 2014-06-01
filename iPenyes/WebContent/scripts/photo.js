@@ -19,9 +19,8 @@ var photoPenyes = function () {
 	}
 		
 	function backToDetail() {	
-		detailPenyes.loadDetailPenya(detailPenyes.getSelectedPenya().id);
-		$.mobile.changePage( "#detailPenyes" ,{ transition: "pop", changeHash: false });
-		return false; 
+		detailPenyes.loadDetailPenyaPopBack(detailPenyes.getSelectedPenya().id);
+		return false;
 	}	
 		
 	return { 

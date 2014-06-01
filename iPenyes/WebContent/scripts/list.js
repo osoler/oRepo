@@ -105,6 +105,8 @@ $(document).on('pageshow', '#listPenyes',function(e,data){
 		}
 	};
 	
+	detailPenyes.clearSelectedPenya();
+	
 	if (!menuInitiated){
 		setTimeout(function (){listPenyes.initMenu(showPenyes);},1000);
 	}else{

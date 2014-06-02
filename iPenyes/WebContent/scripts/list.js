@@ -79,9 +79,7 @@ var listPenyes = function () {
 	    },	    
 	    "goToTopCoordinate" : function () {
 	        if(listPenyes.getTopCoordinate() !== null) {    
-	            //$.mobile.silentScroll(listPenyes.getTopCoordinate());
-	        	var coord = listPenyes.getTopCoordinate()+'px';
-	        	$('html, body').animate({scrollTop: coord}, 1500);
+	            $.mobile.silentScroll(listPenyes.getTopCoordinate());
 	        }
 	    },	
 	    "initMenu" : function (callBack) {

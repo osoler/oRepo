@@ -86,12 +86,15 @@ var detailPenyes = function () {
 		 
 		 $("#penyaSelected-info1").empty();
 		 $.each( penya.info, function( title, value ) {	 
+			 if (title=="email"){
+				 value = "<a href='mailto:"+value+"'>" + value + "</a>";
+			 }	
 			 $("#penyaSelected-info1").append("<div class='subdetailPenyes_div'><div class='subdetailPenyes_divheader'>"+title+":</div><div class='subdetailPenyes_divvalue'>"+value+"</div></div>");
 		 });
 		 if (penya.socialNetworks){
 			 $("#penyaSelected-info1").append("<div class='socialNetworks'>");
 			 $.each( penya.socialNetworks, function( url, urlImg ) { 
-				 var newdiv = "<div class='socialneticon'><a href='"+url+"'><img class = 'icon' src='"+urlImg+"'></a></div>";	 
+				 var newdiv = "<div class='socialneticon'><a href='"+url+"' target='_blank'><img class = 'icon' src='"+urlImg+"'></a></div>";	 
 				 $(".socialNetworks").append(newdiv);
 			 });	
 		 }

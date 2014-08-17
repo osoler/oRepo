@@ -146,13 +146,13 @@
 	display: block;
 }
 .socialNetworks .socialneticon  {
-	padding: 9px;
+	padding-right: 5px;
 	display: inline;
 	text-align: center;
 }
 
 .socialNetworks .socialneticon .icon  {
-	width: 40px;
+	
 }
 
 .subdetailPenyes_div{

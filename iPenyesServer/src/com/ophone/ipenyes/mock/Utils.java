@@ -101,12 +101,12 @@ public class Utils {
  	    penya.info.put("Vice president", "Maurici Lladó");
  	   	penya.info.put("Phone", "077 43"+ Math.random());
  	   	penya.info.put("Website", "http://www.miamiblaugrana.org");
+ 	    penya.info.put("email", "miamiblaugrana@ipenyes.com");
  	   	
  	    penya.socialNetworks = new LinkedHashMap<String, String>();
-	    penya.socialNetworks.put("mailto:fcb@ipenyes.com", "../images/20-social-media-icons/57x57/email.png");
-	    penya.socialNetworks.put("http://www.facebook.com", "../images/20-social-media-icons/57x57/facebook.png");
-	    penya.socialNetworks.put("http://www.twitter.com", "../images/20-social-media-icons/57x57/twitter.png");
-	    penya.socialNetworks.put("http://www.youtube.com", "../images/20-social-media-icons/57x57/youtube.png");
+	    penya.socialNetworks.put("http://www.facebook.com", "../images/socialicons/facebook.png");
+	    penya.socialNetworks.put("http://www.twitter.com", "../images/socialicons/twitter.png");
+	    penya.socialNetworks.put("http://www.youtube.com", "../images/socialicons/youtube.png");
 	    
 	    penya.description = new LinkedHashMap<String, Object>();
 	    penya.description.put("text1", "<br/><b>The FC Barcelona Supporters Club Miami</b> (Penya Barcelonista de Miami by its Catalan name) is officially authorized by FC Barcelona as a fan club dedicated to promote FC Barcelona name and brand in South Florida.<br/><br/>The Barcelona Supporters Club of Miami (Penya Barcelonista de Miami) was established on June 9, 2003. What began as an occasional get together by a group of Catalan friends (residing in Miami) to watch televised Barça games, became an official and organized Club.<br/><br/>");

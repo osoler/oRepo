@@ -42,6 +42,22 @@
 
 }
 
+#morelistviewpenyes{
+	display:none;
+}
+
+.innerLoadMore {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+.innerLoadMore .buttonHover {
+	width: 100%;
+}
+
 .coat {float: left;}
 .description {margin-left:82px;margin-right: 0px;display: inline-block;}
 .namePenya{	font-weight: bold;font-size: large;}

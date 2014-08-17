@@ -56,7 +56,7 @@ var mapPenyes = function () {
 				}
 				var x = eval('MAP_OPTS_' + showArea + '[1]');
 				var y = eval('MAP_OPTS_' + showArea + '[2]');
-				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.A + y);            				
+				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.B + y);            				
 			    map.setCenter(newLatlng);            			    
 				currentinfowindow = infowindow; 
 				navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {navigation.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 1000));
@@ -79,10 +79,10 @@ var mapPenyes = function () {
 				}
 				var x = eval('MAP_OPTS_' + showArea + '[1]');
 				var y = eval('MAP_OPTS_' + showArea + '[2]');
-				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.A + y);            				
+				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.B + y);            				
 			    map.setCenter(newLatlng);            			    
 				currentinfowindow = infowindow; 
-				navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {navigation.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 300));
+				navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {navigation.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 1000));
 			}
 			google.maps.event.addDomListener(infowindow.bubble_, 'click', function(){
 				    detailPenyes.loadDetailPenya(penya.id);

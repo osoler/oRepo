@@ -1,12 +1,13 @@
 var listPenyes = function () {
-	// Store position location
-	var storePosition = {
-	    topCoordinate : null
-	};
 	
 	function cleanList(){
+		
 		if ($('#listviewpenyes').length == 0){
-			$("#contentlistPenyes").append("<ul id='listviewpenyes' data-role='listview' data-inset='true' data-filter='false'></ul>");	  
+			$("#contentlistPenyes").append("<ul id='listviewpenyes' data-role='listview' data-inset='true' data-filter='false'></ul>");	
+			$("#contentlistPenyes").append("<div id='morelistviewpenyes'>" +
+					"<div class='innerLoadMore search'><div onclick='filterPenyes.search(true)' class='buttonHover'>more</div></div>" +
+					"</div>");	
+			$("#morelistviewpenyes").hide();
 			$("#listviewpenyes").listview();
 		}
 		
@@ -22,13 +23,13 @@ var listPenyes = function () {
 	function loadPenyesJSON(listPenyes){
 		 		
 		$.each( listPenyes, function( i, item ) {
-	    	 var penyaHtml = "<li data-icon='false'><a href='#' onclick='detailPenyes.loadDetailPenya("+ item.id +", this)'  class='penyaBean' >" +
+	    	 var penyaHtml = "<li data-icon='false'><a href='#' onclick='detailPenyes.loadDetailPenya("+ item.id +")'  class='penyaBean' >" +
 	    	 		"<div id='detailPenyaBean'><div class='coat'><img id='penya-logo-" + item.id + "' class='ui-li-icon' src='/images/spinner.gif'></div>" +
 	    	 				"<div  class='description'> <div  class='namePenya'><span>" + item.name + "</span></div></div>" +
 	    	 						"<div class='rightarrow'><img class='icon-arrow' src='/images/icon-arrow-black.png'></div>" +
 	    	 						"<div id='penyaMoreInfo' class='moreinfo'><div id='penyaLocation' class='location'><span>" + item.location + "</span></div>" +
 	    	 						"<div id='penyaCountry' class='country'>" + item.country + "</div>" +
-	    	 						"<div id='penyaNumSocios' class='numSocios'>" + item.numAffiliates + " socios</div>" +
+	    	 						"<div id='penyaNumSocios' class='numSocios'>" + item.numAffiliates + " members</div>" +
 	    	 						"<div id='penyaFundationYear' class='fundationYear'>Fundación: " + item.fundationYear + "</div>" +
 	    	 				"</div></div></a></li>";
 	    	 navigation.loadLogo("#penya-logo-" + item.id, item.logo);
@@ -36,6 +37,7 @@ var listPenyes = function () {
 		});
 	       	
     	refresh();
+		$("#morelistviewpenyes").show();
     	
 	}
 	
@@ -54,6 +56,11 @@ var listPenyes = function () {
 	function displayPenyes() {
 		listPenyes.cleanList();
 		loadPenyesJSON(filterPenyes.getListOfFanClubs());
+		if (filterPenyes.isFullLoaded()){
+			$("#morelistviewpenyes").hide();
+		}else{
+			$("#morelistviewpenyes").show();
+		}
 	}
 	
 	return { 
@@ -69,19 +76,6 @@ var listPenyes = function () {
 	    "displayPenyes" : function () {
 	    	displayPenyes();
 	    },	    
-	    "getTopCoordinate" : function () {
-	    	return storePosition.topCoordinate;
-	    },	    
-	    "setTopCoordinate" : function (coordinate) {
-			var rowCoord = coordinate - 67;//67px header height
-			var newCoordinate = rowCoord - (rowCoord - $(window).scrollTop());
-	    	storePosition.topCoordinate = newCoordinate; 
-	    },	    
-	    "goToTopCoordinate" : function () {
-	        if(listPenyes.getTopCoordinate() !== null) {    
-	            $.mobile.silentScroll(listPenyes.getTopCoordinate());
-	        }
-	    },	
 	    "initMenu" : function (callBack) {
 		     initMenu(callBack); 
 		}
@@ -115,9 +109,6 @@ $(document).on('pageshow', '#listPenyes',function(e,data){
 		listPenyes.displayPenyes();
 	}
 	
-	if (prevPage === "detailPenyes")	{
-		listPenyes.goToTopCoordinate();
-	}
 	navigation.showShadows();		
 });
 

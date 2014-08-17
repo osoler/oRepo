@@ -14,6 +14,7 @@ public class Utils {
 	private static LinkedHashMap<Long, PenyaDetail> dbPenyas;
 
     private static int index = 1; 
+    private static int maxPenyes = 100; 
     private static String[] list = {"Beijing", "Tokio", "Vallirana", "Lleida", "Castellón", "Girona", "Vilafranca", "Cervelló", "Vic", "Stockholm"};
     private static String[] listCountry = {"China", "Japan", "Catalonia", "Catalonia", "Spain", "Catalonia", "Spain", "Catalonia", "Catalonia", "Sweden"};
     private static String[] listEscudos = {"/images/escudos/0002.LaGranada-icon.png", "/images/escudos/0001.ABPenyaAnguera-icon.png","/images/escudos/0003.PBSantFruitosBages-icon.png", "/images/escudos/0004.PBBarcino-icon.png", "/images/escudos/0006.PBRipollet-icon.png", "/images/escudos/0008.PBCincCopes-icon.png", "/images/escudos/0007.UBCatalonia-icon.png", "/images/escudos/0010.ADBCollblanc-icon.png", "/images/escudos/0983.PBSuecia-icon.png"};
@@ -21,7 +22,7 @@ public class Utils {
     static{
     	dbPenyas = new LinkedHashMap<Long, PenyaDetail>();
     	
-    	for (int x=1;x<=100;x++){
+    	for (int x=1;x<=300;x++){
     		PenyaDetail penyaDetail = Utils.randomPenyaDetail(x);
     		dbPenyas.put(penyaDetail.id, penyaDetail);
     	} 
@@ -36,7 +37,12 @@ public class Utils {
     
     public static List<Penya> getPenyas(FilterPenya filter){   
     	List<Penya> listPenyes = new ArrayList<Penya>();
+    	int i = 0;
     	for(Penya penya: dbPenyas.values()){
+    		if (listPenyes.size() >= maxPenyes ){
+    			break;
+    		}
+
     		if (filter != null && filter.area !=null){
     			if (filter.area.equals("europe")){
     				if (!penya.country.equals("Catalonia")&&!penya.country.equals("Spain")&&!penya.country.equals("Sweden")){
@@ -64,8 +70,11 @@ public class Utils {
     		if (filter != null && filter.numFansTo !=0 && penya.numAffiliates > filter.numFansTo){
     			continue;
     		}
-		
-    		listPenyes.add(penya);
+    		if (i >= filter.lastPosition){
+        		listPenyes.add(penya);	        		
+    		}
+    		i++;
+
     	}
     	return listPenyes;
     }

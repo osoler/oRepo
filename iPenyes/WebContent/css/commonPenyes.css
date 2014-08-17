@@ -26,3 +26,19 @@ body {
 	text-shadow: none;
 	font-size: 12px;
 }
+.buttonHover{
+	display: inline-block;
+	width: 70px;
+	border-radius: 5px;
+	background-color: #D4D9DB;
+	color: #333 ;
+	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #fff /*{c-body-shadow-color}*/;
+	box-shadow:1px 1px 5px #000000;
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.buttonHover:hover{
+	-webkit-filter: brightness(50%);
+}

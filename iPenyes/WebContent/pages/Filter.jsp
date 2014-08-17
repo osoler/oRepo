@@ -43,8 +43,8 @@
 			</form>    
 		</div>
 	    <div id="innerfilterPopupBottom">
-			<div class="innerTextfilterPopupBottom reset"><div  onclick="filterPenyes.resetFilter()" class="buttonHover">Reset</div></div>
-			<div class="innerTextfilterPopupBottom search"><div onclick="filterPenyes.search()" class="buttonHover">Search</div></div>			
+			<div class="innerTextfilterPopupBottom reset"><div  onclick="filterPenyes.resetFilter()" class="buttonHover">reset</div></div>
+			<div class="innerTextfilterPopupBottom search"><div onclick="filterPenyes.search()" class="buttonHover">search</div></div>			
 		</div>	
 	</div>	
 </div>

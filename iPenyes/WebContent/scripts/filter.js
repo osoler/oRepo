@@ -46,12 +46,19 @@ var filterPenyes = function () {
 		return area;
 	};	
 		
-	function search() {
+	function search(more) {
 		closeFilter();
+		
+		var lastPosition = 0;
+		if (more){
+			lastPosition = filterPenyes.getListOfFanClubs().length;
+		}else{
+			listOfFanClubs = undefined;
+		}
 				
 		setTimeout(function(){
 			navigation.hideShadows();
-			filterPenyes.newSearch(function(){
+			filterPenyes.newSearch(lastPosition, function(){
 				
 				if ($.mobile.activePage.is("#listPenyes")){
 					mapPenyes.destroyMap();
@@ -68,9 +75,9 @@ var filterPenyes = function () {
 		}, 1000);
 	}	
 	
-	function newSearch(callBack) {
+	function newSearch(lastPosition, callBack) {
 				
-		var filter  =  "&area=" + getArea() + "&yearFrom=" + $("#yearFrom")[0].value + "&yearTo=" + $("#yearTo")[0].value + "&numFansFrom=" + $("#numFansFrom")[0].value + "&numFansTo=" + $("#numFansTo")[0].value;
+		var filter  =  "&lastPosition=" + lastPosition + "&area=" + getArea() + "&yearFrom=" + $("#yearFrom")[0].value + "&yearTo=" + $("#yearTo")[0].value + "&numFansFrom=" + $("#numFansFrom")[0].value + "&numFansTo=" + $("#numFansTo")[0].value;
 		
 		var url = configuration.getUrlServer() + "/getPenyes?cache=" + new Date().getTime() + filter;
 		
@@ -80,8 +87,16 @@ var filterPenyes = function () {
 	        success: function(result){
 	            if(result)
 	            {        
-	            	fullLoaded = true;
-	            	listOfFanClubs = result;
+
+	            	if (result.length < 100){
+		            	fullLoaded = true;
+	            	}
+	            	
+	            	if (listOfFanClubs === undefined){
+	            		listOfFanClubs = result;
+	            	}else{
+	            		listOfFanClubs = listOfFanClubs.concat(result);
+	            	}
 	            	
 	            	navigation.hidePageLoading();
 	            	
@@ -105,11 +120,11 @@ var filterPenyes = function () {
 	    "openFilter" : function () {
 	    	openFilter();
 	    },
-	    "search" : function () {
-	    	search();
+	    "search" : function (more) {
+	    	search(more);
 	    },	    
-	    "newSearch" : function (callBack) {
-	    	newSearch(callBack);
+	    "newSearch" : function (lastPosition, callBack) {
+	    	newSearch(lastPosition, callBack);
 	    },	 
 	    "closeFilter" : function () {
 	    	closeFilter(); 

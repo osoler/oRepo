@@ -34,7 +34,7 @@ var initPenyes = function() {
 	function goToList() {
 		var showWebApp = navigator.standalone;
 		if (showWebApp) {
-			filterPenyes.newSearch(function (){
+			filterPenyes.newSearch(0, function (){
 				$("#logoImg").animate({marginTop : '0px'}, 1000, function() {$.mobile.changePage($("#listPenyes"));});	
 			});			
 		}

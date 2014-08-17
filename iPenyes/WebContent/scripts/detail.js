@@ -16,18 +16,15 @@ var detailPenyes = function () {
 		return false; 
 	};
 	
-	function loadDetailPenya(penyaId, row){
-		goToDetailPenya(penyaId, { transition: "slide", changeHash: false }, row);
+	function loadDetailPenya(penyaId){
+		goToDetailPenya(penyaId, { transition: "slide", changeHash: false });
 	}
 	
-	function loadDetailPenyaPopBack(penyaId, row){
-		goToDetailPenya(penyaId, {transition: "pop", changeHash: false}, row);
+	function loadDetailPenyaPopBack(penyaId){
+		goToDetailPenya(penyaId, {transition: "pop", changeHash: false});
 	}
 	
-	function goToDetailPenya(penyaId, transOptions, row){
-		if (row){
-			listPenyes.setTopCoordinate($(row.parentElement).offset().top);
-		}
+	function goToDetailPenya(penyaId, transOptions){
 		removeDetails();
 		hideDetails();
 		goToDetail(transOptions,function(){
@@ -175,11 +172,11 @@ return {
     "noScrollSlide" : function (name, reverse, to, from) {
     	return noScrollSlide(name, reverse, to, from);
     },
-    "loadDetailPenya" : function (penyaId,row) {
-    	loadDetailPenya(penyaId, row); 
+    "loadDetailPenya" : function (penyaId) {
+    	loadDetailPenya(penyaId); 
     },
-    "loadDetailPenyaPopBack" : function (penyaId, row) {
-    	loadDetailPenyaPopBack(penyaId, row); 
+    "loadDetailPenyaPopBack" : function (penyaId) {
+    	loadDetailPenyaPopBack(penyaId); 
     },
     "getSelectedPenya" : function () {
     	return penyaSelected; 

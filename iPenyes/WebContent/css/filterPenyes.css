@@ -71,18 +71,18 @@
 }
 #innerfilterPopupBottom { 
 	display: block;
-	padding: 5px;
+	padding: 10px;
 	text-shadow: none;
 	color: #7397D3;
 	font-weight: bold;
 }
- .filter1{
+.filter1{
  	display: inline-block;
  	padding: 6px 6px 0px 6px;
  	vertical-align: super;
  } 
  
- .custom-button {
+.custom-button {
     height: 50px !important;
 }
 
@@ -120,16 +120,3 @@
     background-image: url('/images/world.png')  !important;
     background-size: 65px;
 } 
-.buttonHover{
-	display: inline-block;
-	width: 70px;
-	border-radius: 5px;
-	background-color: #D4D9DB;
-	color: #333 ;
-	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #fff /*{c-body-shadow-color}*/;
-}
-.buttonHover:hover{
-	-webkit-filter: brightness(50%);
-}
-
-}

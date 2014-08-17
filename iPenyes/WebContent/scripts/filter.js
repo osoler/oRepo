@@ -76,7 +76,7 @@ var filterPenyes = function () {
 	}	
 	
 	function newSearch(lastPosition, callBack) {
-				
+		fullLoaded = false;		
 		var filter  =  "&lastPosition=" + lastPosition + "&area=" + getArea() + "&yearFrom=" + $("#yearFrom")[0].value + "&yearTo=" + $("#yearTo")[0].value + "&numFansFrom=" + $("#numFansFrom")[0].value + "&numFansTo=" + $("#numFansTo")[0].value;
 		
 		var url = configuration.getUrlServer() + "/getPenyes?cache=" + new Date().getTime() + filter;

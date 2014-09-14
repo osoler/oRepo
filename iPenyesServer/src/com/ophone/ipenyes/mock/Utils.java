@@ -1,10 +1,10 @@
 package com.ophone.ipenyes.mock;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Random;
-
 import com.google.common.primitives.Longs;
 import com.ophone.ipenyes.api.FilterPenya;
 import com.ophone.ipenyes.api.Penya;
@@ -15,17 +15,37 @@ public class Utils {
 
     private static int index = 1; 
     private static int maxPenyes = 100; 
-    private static String[] list = {"Beijing", "Tokio", "Vallirana", "Lleida", "Castellón", "Girona", "Vilafranca", "Cervelló", "Vic", "Stockholm"};
-    private static String[] listCountry = {"China", "Japan", "Catalonia", "Catalonia", "Spain", "Catalonia", "Spain", "Catalonia", "Catalonia", "Sweden"};
+    private static String[] europe = {"Sweden", "France", "Italy", "UK", "Finland", "Portugal"};
+    private static String[] world = {"China","USA","Thailand"};
+
+
     private static String[] listEscudos = {"/images/escudos/0002.LaGranada-icon.png", "/images/escudos/0001.ABPenyaAnguera-icon.png","/images/escudos/0003.PBSantFruitosBages-icon.png", "/images/escudos/0004.PBBarcino-icon.png", "/images/escudos/0006.PBRipollet-icon.png", "/images/escudos/0008.PBCincCopes-icon.png", "/images/escudos/0007.UBCatalonia-icon.png", "/images/escudos/0010.ADBCollblanc-icon.png", "/images/escudos/0983.PBSuecia-icon.png"};
     
     static{
     	dbPenyas = new LinkedHashMap<Long, PenyaDetail>();
     	
-    	for (int x=1;x<=300;x++){
-    		PenyaDetail penyaDetail = Utils.randomPenyaDetail(x);
+    	XMLParser parser = new XMLParser();
+    	InputStream p1 = Utils.class.getClassLoader().getResourceAsStream("Penyes1.xml");
+    	List<PenyaDetail> listPenyas = parser.getAllUserNames(p1);
+    	
+    	for (int x=0;x<listPenyas.size();x++){
+    		PenyaDetail penyaDetail = Utils.randomPenyaDetail(x, listPenyas.get(x), "Catalonia");
+    		dbPenyas.put(penyaDetail.id, penyaDetail);
+    	}   	
+    	InputStream p2 = Utils.class.getClassLoader().getResourceAsStream("Penyes2.xml");
+    	List<PenyaDetail> listPenyas2 = parser.getAllUserNames(p2);
+    	for (int x=0;x<listPenyas2.size();x++){
+    		PenyaDetail penyaDetail = Utils.randomPenyaDetail(listPenyas.size()+x, listPenyas2.get(x), "Spain");
     		dbPenyas.put(penyaDetail.id, penyaDetail);
     	} 
+    	InputStream p3 = Utils.class.getClassLoader().getResourceAsStream("Penyes3.xml");
+    	List<PenyaDetail> listPenyas3 = parser.getAllUserNames(p3);
+    	
+    	for (int x=0;x<listPenyas3.size();x++){
+    		PenyaDetail penyaDetail = Utils.randomPenyaDetail(listPenyas.size()+listPenyas2.size()+ x, listPenyas3.get(x), (new Random()).nextBoolean()?"World":"Europe");
+    		dbPenyas.put(penyaDetail.id, penyaDetail);
+    	} 
+    	
     }
     public static void sleep(long time){
     	try {
@@ -44,12 +64,17 @@ public class Utils {
     		}
 
     		if (filter != null && filter.area !=null){
-    			if (filter.area.equals("europe")){
-    				if (!penya.country.equals("Catalonia")&&!penya.country.equals("Spain")&&!penya.country.equals("Sweden")){
+    			if (filter.area.equals("world")){
+    				if (!penya.country.equals("China")&&!penya.country.equals("USA")&&!penya.country.equals("Thailand")){
+    					continue;
+    				}
+    			}else if (filter.area.equals("europe")){
+    				if (!penya.country.equals("Sweden")
+    						&&!penya.country.equals("France")&&!penya.country.equals("Italy")&&!penya.country.equals("UK")&&!penya.country.equals("Finland")&&!penya.country.equals("Portugal")){
     					continue;
     				}
     			}else if (filter.area.equals("spain")){
-    				if (!penya.country.equals("Catalonia")&&!penya.country.equals("Spain")){
+    				if (!penya.country.equals("Spain")){
     					continue;
     				}	
     			}else if (filter.area.equals("catalonia")){
@@ -82,19 +107,16 @@ public class Utils {
     	return dbPenyas.get(Longs.tryParse(penyaId));
     }
     
-    public static PenyaDetail randomPenyaDetail(int id){
-    	PenyaDetail penya = new PenyaDetail();
+    public static PenyaDetail randomPenyaDetail(int id, PenyaDetail penya, String area){
+
     	penya.id = id;
-    	penya.name = "P.B Random " + penya.id;
-    	penya.location = randomCity();
-    	penya.country = randomCountry();
+
+    	penya.location = "undefined";
+    	penya.country = randomCountry(area);
     	penya.logo = "/iPenyesResources/" + randomLogo();
     	penya.numAffiliates = randomSocios();
     	penya.fundationYear = randomYear();
-    	
-
- 	    penya.x = 180*Math.random() - 90;
- 	    penya.y = 360*Math.random() - 180; 
+    
  	    
  	    penya.info = new LinkedHashMap<String, String>();
  	    penya.info.put("President", "Rafael Escofet");
@@ -121,14 +143,23 @@ public class Utils {
         return penya;
     }
        
-    private static String randomCity(){
+    private static String randomCountry(String area){
         Random r = new Random();
-        index = r.nextInt(list.length);
-        return list[index];
-    } 
-    
-    private static String randomCountry(){
-        return listCountry[index];
+        if (area.equals("Catalonia")){
+        	return "Catalonia";
+        }
+        if (area.equals("Spain")){
+        	return "Spain";
+        }
+        if (area.equals("Europe")){
+            index = r.nextInt(europe.length);
+            return europe[index];
+        }
+        if (area.equals("World")){
+            index = r.nextInt(world.length);
+            return world[index];
+        }
+        return "";
     } 
     
     private static String randomLogo(){

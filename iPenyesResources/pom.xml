@@ -15,7 +15,7 @@
   
   
   <build>
- 	<finalName>iPenyesServer</finalName> 
+ 	<finalName>iPenyesResources</finalName> 
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>

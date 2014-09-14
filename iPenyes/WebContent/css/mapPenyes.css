@@ -20,7 +20,7 @@
 
 .infowindowPenyes .coat {float: left;display: block;}
 .infowindowPenyes .description {margin-left:106px;margin-right: 0px;display: block;}
-.infowindowPenyes .description .namePenya {	color: #FFFFFF ;font-size:17px;	font-weight: normal;	text-shadow:none;}
+.infowindowPenyes .description .namePenya {	color: #FFFFFF ;font-size:14px;	font-weight: normal;	text-shadow:none;}
 .infowindowPenyes .moreinfo {margin-left:106px;margin-right: 0px;display: block;}
 .infowindowPenyes .moreinfo .fundationYear{float: none;}
 

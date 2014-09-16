@@ -25,7 +25,7 @@ var listPenyes = function () {
 		$.each( listPenyes, function( i, item ) {
 	    	 var penyaHtml = "<li data-icon='false'><a href='#' onclick='detailPenyes.loadDetailPenya("+ item.id +")'  class='penyaBean' >" +
 	    	 		"<div id='detailPenyaBean'><div class='coat'><img id='penya-logo-" + item.id + "' class='ui-li-icon' src='/images/spinner.gif'></div>" +
-	    	 				"<div  class='description'> <div  class='namePenya'><span>" + item.name + "</span></div></div>" +
+	    	 				"<div  class='description'> <div  class='namePenya'><span>" + item.shortname + "</span></div></div>" +
 	    	 						"<div class='rightarrow'><img class='icon-arrow' src='/images/icon-arrow-black.png'></div>" +
 	    	 						"<div id='penyaMoreInfo' class='moreinfo'><div id='penyaLocation' class='location'><span>" + item.location + "</span></div>" +
 	    	 						"<div id='penyaCountry' class='country'>" + item.country + "</div>" +

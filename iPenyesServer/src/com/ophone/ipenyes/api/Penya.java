@@ -9,6 +9,7 @@ public class Penya {
 	
 	public long id;
 	public String name;
+	public String shortname;
 	public String logo;
 	public String location;
 	public String country;

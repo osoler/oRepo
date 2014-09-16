@@ -25,7 +25,7 @@ var mapPenyes = function () {
 		var newcounter = counter + 1; 
 
 		var contentString = "<div class='coat'><img id='infowindow-penya-logo-" + penya.id + "' class='desc-icon' src='/images/spinner.gif'></div><div  class='description'> " +
-				"<div  class='namePenya'><span>" + penya.name + "</span></div></div><div id='penyaMoreInfo' class='moreinfo'>" +
+				"<div  class='namePenya'><span>" + penya.shortname + "</span></div></div><div id='penyaMoreInfo' class='moreinfo'>" +
 						"	<div id='penyaLocation' class='location'><span>" + penya.location + ", " + penya.country + "</span></div>" +
 								"	<div id='penyaNumSocios' class='numSocios'>" + penya.numAffiliates + " socios</div>" +
 										"	<div id='penyaFundationYear' class='fundationYear'>Fundación: " + penya.fundationYear + "</div></div>	";	

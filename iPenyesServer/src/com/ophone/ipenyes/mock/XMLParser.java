@@ -54,7 +54,8 @@ public class XMLParser {
 
                             penya.name = nodeList.item(0).getChildNodes().item(0)
                                     .getNodeValue();
- 
+                            
+                            penya.shortname = getShortName(penya.name);
                             nodeList = e.getElementsByTagName("coordinates");
                             String[] coordinates = nodeList.item(0).getChildNodes().item(0)
                                     .getNodeValue().split(",");
@@ -70,6 +71,14 @@ public class XMLParser {
             System.out.println(e);
         }
         return list;
+    }
+    private static String getShortName(String name){
+    	return name.replaceAll("Penya Barcelonista", "P.B")
+    			   .replaceAll("Penya Blaugrana", "P.B")
+    			   .replaceAll("Penya Barça", "P.B")
+    			   .replaceAll("Agrupació Barcelonista", "A.B")
+    			   .replaceAll("Penya  Blau-Grana", "P.B")
+    			   .replaceAll("Peña Barcelonista", "P.B");
     }
 
 }

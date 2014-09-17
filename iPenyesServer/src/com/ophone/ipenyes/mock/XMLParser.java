@@ -73,12 +73,18 @@ public class XMLParser {
         return list;
     }
     private static String getShortName(String name){
-    	return name.replaceAll("Penya Barcelonista", "P.B")
-    			   .replaceAll("Penya Blaugrana", "P.B")
-    			   .replaceAll("Penya Barça", "P.B")
-    			   .replaceAll("Agrupació Barcelonista", "A.B")
-    			   .replaceAll("Penya  Blau-Grana", "P.B")
-    			   .replaceAll("Peña Barcelonista", "P.B");
+    	if (name.length() < 30) return name;    	
+    	name =  name.replaceAll("Penya ", "P.").replaceAll("Peña ", "P.").replaceAll("Agrupació", "A.");
+    	if (name.length() < 30) return name;   			
+    	name =  name.replaceAll("Barcelonista", "B");
+    			if (name.length() < 30) return name;    	
+    	name =  name.replaceAll("Blaugrana", "B");
+    	if (name.length() < 30) return name;    	
+    	name =  name.replaceAll("Barça", "B");
+    	if (name.length() < 30) return name;    
+    	name =  name.replaceAll("Blau-Grana", "B");
+    	if (name.length() < 30) return name;    	
+    	return name.substring(0,30) + " ...";
     }
 
 }

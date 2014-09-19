@@ -39,7 +39,7 @@ var detailPenyes = function () {
 		            {
 		       		    penyaSelected = result;
 		            	loadDetails(penyaSelected);
-		            	showDetails();
+		            	showDetails(penyaSelected);
 		            	navigation.hidePageLoading();
 		               	setTimeout(navigation.showShadows, 1000);
 		   
@@ -69,11 +69,11 @@ var detailPenyes = function () {
 		navigation.showPageLoading();
 	}
 	
-	function showDetails(){
+	function showDetails(penya){
 		navigation.hidePageLoading();
 		$("#penyaSelected-info0").show();
-		$("#penyaSelected-info1").show();
-		$("#penyaSelected-info2").show();	
+		if (penya.info){$("#penyaSelected-info1").show();}
+		if(penya.description){$("#penyaSelected-info2").show();}	
 		refreshSlider();
 	}
 

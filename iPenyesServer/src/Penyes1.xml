@@ -4,6 +4,8 @@
     <name>Agrupació Barcelonista Penya Anguera</name>
     <description><![CDATA[<div dir="ltr">C/ Viladomat, 267</div>]]></description>
     <styleUrl>#style285</styleUrl>
+    <numAffiliates>30</numAffiliates>
+    <fundationYear>1903</fundationYear>
     <infodetail>
     	<info><title>President</title><desc>Joan Pere</desc></info>
     	<info><title>Vicepresident</title><desc>Antoni Tàpies</desc></info>
@@ -40,6 +42,8 @@
     <name>Penya Barcelonista La Granada</name>
     <description><![CDATA[<div dir="ltr">Av. Catalunya, 70</div>]]></description>
     <styleUrl>#style322</styleUrl>
+        <numAffiliates>20</numAffiliates>
+    <fundationYear>1957</fundationYear>
     <infodetail>
     	<info><title>President</title><desc>Agnes Folk</desc></info>
     	<info><title>telèfon</title><desc>44353553</desc></info>

@@ -13,14 +13,14 @@
 
 <link rel="stylesheet" 		href="/css/3rdpartycss/jquery.mobile-1.3.2.css"/>   
 <link rel="stylesheet" 		href="/css/3rdpartycss/add2home.css"> 	             	          
-<link rel="stylesheet" 		href="/css/commonPenyes.css?cache=21">
-<link rel="stylesheet" 		href="/css/headerPenyes.css?cache=21">
-<link rel="stylesheet" 		href="/css/footerPenyes.css?cache=21">
-<link rel="stylesheet" 		href="/css/listPenyes.css?cache=21">
-<link rel="stylesheet" 		href="/css/filterPenyes.css?cache=21">
-<link rel="stylesheet" 		href="/css/detailPenyes.css?cache=21">
-<link rel="stylesheet" 		href="/css/photoPenyes.css?cache=21">
-<link rel="stylesheet" 		href="/css/mapPenyes.css?cache=21">
+<link rel="stylesheet" 		href="/css/commonPenyes.css?cache=22">
+<link rel="stylesheet" 		href="/css/headerPenyes.css?cache=22">
+<link rel="stylesheet" 		href="/css/footerPenyes.css?cache=22">
+<link rel="stylesheet" 		href="/css/listPenyes.css?cache=22">
+<link rel="stylesheet" 		href="/css/filterPenyes.css?cache=22">
+<link rel="stylesheet" 		href="/css/detailPenyes.css?cache=22">
+<link rel="stylesheet" 		href="/css/photoPenyes.css?cache=22">
+<link rel="stylesheet" 		href="/css/mapPenyes.css?cache=22">
 
 <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="/scripts/3rdpartyscripts/infobubble.js"></script>
@@ -33,15 +33,15 @@
 <script src="/scripts/3rdpartyscripts/jquery.easing.1.3.js"></script>        
 <script src="/scripts/3rdpartyscripts/jquery.mobile-events.js"></script>          
 
-<script src="/scripts/configuration.js?cache=21"></script>
-<script src="/scripts/initialization.js?cache=21"></script>
-<script src="/scripts/3rdpartyscripts/add2home.js?cache=21"></script>
-<script src="/scripts/navigation.js?cache=21"></script>
-<script src="/scripts/photo.js?cache=21"></script>              
-<script src="/scripts/detail.js?cache=21"></script>                      
-<script src="/scripts/maps.js?cache=21"></script>
-<script src="/scripts/list.js?cache=21"></script>
-<script src="/scripts/filter.js?cache=21"></script>
+<script src="/scripts/configuration.js?cache=22"></script>
+<script src="/scripts/initialization.js?cache=22"></script>
+<script src="/scripts/3rdpartyscripts/add2home.js?cache=22"></script>
+<script src="/scripts/navigation.js?cache=22"></script>
+<script src="/scripts/photo.js?cache=22"></script>              
+<script src="/scripts/detail.js?cache=22"></script>                      
+<script src="/scripts/maps.js?cache=22"></script>
+<script src="/scripts/list.js?cache=22"></script>
+<script src="/scripts/filter.js?cache=22"></script>
 </head>    
 
 <body>

@@ -4,6 +4,34 @@
     <name>Agrupació Barcelonista Penya Anguera</name>
     <description><![CDATA[<div dir="ltr">C/ Viladomat, 267</div>]]></description>
     <styleUrl>#style285</styleUrl>
+    <infodetail>
+    	<info><title>President</title><desc>Joan Pere</desc></info>
+    	<info><title>Vicepresident</title><desc>Antoni Tàpies</desc></info>
+    	<info><title>telèfon</title><desc>694454545</desc></info>
+    	<info><title>email</title><desc>anguerapenya@barsa.cat</desc></info>
+    	<info><title>website</title><desc>http://www.anguerapenya.cat</desc></info>
+    </infodetail>
+    <socialNetworks>
+    	<socialnet>http://www.facebook.com/anguera</socialnet>
+    	<socialnet>http://www.twitter.com/anguera</socialnet>
+    	<socialnet>http://www.youtube.com/anguera</socialnet>
+    </socialNetworks>
+    <descripcio>
+    	<texte>openb The FC Barcelona Supporters Club Miamicloseb (Penya Barcelonista de Miami by its Catalan name) is officially authorized by FC Barcelona as a fan club dedicated to promote FC Barcelona name and brand in South Florida.</texte>
+    	<texte>The Barcelona Supporters Club of Miami (Penya Barcelonista de Miami) was established on June 9, 2003. What began as an occasional get together by a group of Catalan friends (residing in Miami) to watch televised Barça games, became an official and organized Club.</texte>
+  		<imatges>
+  			<imatge>/iPenyesResources/images/photosPenyes/PBSuecia/25674_375479747599_1075420_n.jpg</imatge>
+  			<imatge>/iPenyesResources/images/photosPenyes/PBSuecia/26194_374642007599_7429551_n.jpg</imatge>
+  			<imatge>/iPenyesResources/images/photosPenyes/PBSuecia/525863_10150878688002600_479399075_n.jpg</imatge>
+  			<imatge>/iPenyesResources/images/photosPenyes/PBSuecia/579861_10150878690297600_1131012138_n.jpg</imatge>
+  		</imatges>
+  		<texte>openbThe Barcelona Fan Club of Miamicloseb, officially recognized by F.C. Barcelonacloseb on February 2004 and assigned as the Penya #1588, was created by Pepe Martí, Ricard Mateu, Lluís Sandoval, Rafael Escofet, Toni Pich, Gregori Dolz and Genís Sànchez.</texte>
+  		<texte>On a weekly basis, as long as games are televised, members of the Club gather to watch Barça play at Franz and Fritz Bierhaus in Coral Gables. We also have other activities, which we hope to increment with the help and cooperation of the members and followers, in order to become a reference for all FC Barcelona fans in the South Florida and the US.</texte>
+  		<texte>openbYou can request a membershipcloseb form in our web site filling out the contact us form in this web site. We hope you enjoy our web site and that you will become a member.</texte>
+  		<texte>Força Barça!!! (Go Barça!)</texte>  
+    </descripcio>
+    
+    <logo>0001.ABPenyaAnguera-icon.png</logo>
     <Point>
       <coordinates>2.147415,41.387005,0.000000</coordinates>
     </Point>
@@ -12,6 +40,26 @@
     <name>Penya Barcelonista La Granada</name>
     <description><![CDATA[<div dir="ltr">Av. Catalunya, 70</div>]]></description>
     <styleUrl>#style322</styleUrl>
+    <infodetail>
+    	<info><title>President</title><desc>Agnes Folk</desc></info>
+    	<info><title>telèfon</title><desc>44353553</desc></info>
+    	<info><title>email</title><desc>granadapenya@barsa.cat</desc></info>
+    	<info><title>website</title><desc>http://www.granadapenya.cat</desc></info>
+    </infodetail>
+    <socialNetworks>
+    	<socialnet>http://www.facebook.com/granada</socialnet>
+    	<socialnet>http://www.twitter.com/granada</socialnet>
+
+    </socialNetworks>
+    <descripcio>
+    <texte>Penya granada mola</texte>
+  		<texte>Força Barça!!! (Go Barça!)</texte>
+  		<imatges>
+  			<imatge>/iPenyesResources/images/photosPenyes/PBSuecia/25674_375479747599_1075420_n.jpg</imatge>
+  			<imatge>/iPenyesResources/images/photosPenyes/PBSuecia/26194_374642007599_7429551_n.jpg</imatge>
+  		</imatges>  
+    </descripcio>
+    <logo>0002.LaGranada-icon.png</logo>
     <Point>
       <coordinates>1.720337,41.375153,0.000000</coordinates>
     </Point>
@@ -20,6 +68,26 @@
     <name>Penya Barcelonista Sant Fruitos de Bages</name>
     <description><![CDATA[<div dir="ltr">C/ Doctor Duran, 3</div>]]></description>
     <styleUrl>#style584</styleUrl>
+    <infodetail>
+    	<info><title>President</title><desc>Agnes Folk</desc></info>
+    	<info><title>telèfon</title><desc>44353553</desc></info>
+    	<info><title>email</title><desc>granadapenya@barsa.cat</desc></info>
+    	<info><title>website</title><desc>http://www.granadapenya.cat</desc></info>
+    </infodetail>
+    <socialNetworks>
+    	<socialnet>http://www.facebook.com/granada</socialnet>
+    	<socialnet>http://www.twitter.com/granada</socialnet>
+
+    </socialNetworks>
+    <descripcio>
+    	<texte>openb The FC Barcelona Supporters Club Miamicloseb (Penya Barcelonista de Miami by its Catalan name) is officially authorized by FC Barcelona as a fan club dedicated to promote FC Barcelona name and brand in South Florida.</texte>
+		<texte>Força Barça!!! (Go Barça!)</texte>
+  		<imatges>
+  			<imatge>/iPenyesResources/images/photosPenyes/PBSuecia/25674_375479747599_1075420_n.jpg</imatge>
+  			<imatge>/iPenyesResources/images/photosPenyes/PBSuecia/26194_374642007599_7429551_n.jpg</imatge>
+  		</imatges>  
+    </descripcio>
+     <logo>0003.PBSantFruitosBages-icon.png</logo>
     <Point>
       <coordinates>1.877019,41.750832,0.000000</coordinates>
     </Point>
@@ -28,6 +96,7 @@
     <name>Penya Barcelonista Barcino</name>
     <description><![CDATA[<div dir="ltr">C/ Menorca, 7-11</div>]]></description>
     <styleUrl>#style580</styleUrl>
+    <logo>0004.PBBarcino-icon.png</logo>
     <Point>
       <coordinates>2.195276,41.418404,0.000000</coordinates>
     </Point>
@@ -44,6 +113,7 @@
     <name>Penya Barcelonista Ripollet</name>
     <description><![CDATA[<div dir="ltr">C/ de la Lluna, 20</div>]]></description>
     <styleUrl>#style112</styleUrl>
+    <logo>0006.PBRipollet-icon.png</logo>
     <Point>
       <coordinates>2.159331,41.497604,0.000000</coordinates>
     </Point>
@@ -52,6 +122,7 @@
     <name>Unió Barcelonista Catalonia</name>
     <description><![CDATA[<div dir="ltr">Gran Vía de les Corts Catalanes, 443</div>]]></description>
     <styleUrl>#style82</styleUrl>
+     <logo>0007.UBCatalonia-icon.png</logo>
     <Point>
       <coordinates>2.153604,41.378654,0.000000</coordinates>
     </Point>
@@ -60,6 +131,7 @@
     <name>Penya Barcelonista Cinc Copes</name>
     <description><![CDATA[<div dir="ltr">C/ Marina, 119</div>]]></description>
     <styleUrl>#style295</styleUrl>
+     <logo>0008.PBCincCopes-icon.png</logo>
     <Point>
       <coordinates>2.184719,41.396126,0.000000</coordinates>
     </Point>
@@ -68,6 +140,7 @@
     <name>A.D.B. Collblanc</name>
     <description><![CDATA[<div dir="ltr">C/Pintor Tapiró, 28</div>]]></description>
     <styleUrl>#style391</styleUrl>
+    <logo>0010.ADBCollblanc-icon.png</logo>
     <Point>
       <coordinates>2.117999,41.378323,0.000000</coordinates>
     </Point>

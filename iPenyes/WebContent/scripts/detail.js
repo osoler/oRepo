@@ -82,15 +82,17 @@ var detailPenyes = function () {
 		 $("#penyaSelected-name").empty();
 		 $("#penyaSelected-name").append(penya.name);
 		 $("#penyaSelected-fundation").empty();
-		 $("#penyaSelected-fundation").append("Fundación:" + penya.fundationYear);
+		 $("#penyaSelected-fundation").append("Fundació:" + penya.fundationYear);
 		 
 		 $("#penyaSelected-info1").empty();
-		 $.each( penya.info, function( title, value ) {	 
-			 if (title=="email"){
-				 value = "<a href='mailto:"+value+"'>" + value + "</a>";
-			 }	
-			 $("#penyaSelected-info1").append("<div class='subdetailPenyes_div'><div class='subdetailPenyes_divheader'>"+title+":</div><div class='subdetailPenyes_divvalue'>"+value+"</div></div>");
-		 });
+		 if (penya.info){
+			 $.each( penya.info, function( title, value ) {	 
+				 if (title=="email"){
+					 value = "<a href='mailto:"+value+"'>" + value + "</a>";
+				 }	
+				 $("#penyaSelected-info1").append("<div class='subdetailPenyes_div'><div class='subdetailPenyes_divheader'>"+title+":</div><div class='subdetailPenyes_divvalue'>"+value+"</div></div>");
+			 });
+		 }
 		 if (penya.socialNetworks){
 			 $("#penyaSelected-info1").append("<div class='socialNetworks'>");
 			 $.each( penya.socialNetworks, function( url, urlImg ) { 
@@ -100,23 +102,24 @@ var detailPenyes = function () {
 		 }
 		 
 		 $("#penyaSelected-info2").empty();
-		 $.each( penya.description, function( type, value ) {
-			 if (type.indexOf("text") == 0){	 
-				 $("#penyaSelected-info2").append("<div>" + value + "</div>");		
-			 }
-			 if (type === "images"){
-				 $("#penyaSelected-info2").append("<div class='iosSlider'>");
-				 $(".iosSlider").append("<div class='slider'>");
-				 $.each( value, function( key, value ) {
-					 var valueStr = "&#39;" + value + "&#39;";
-					 var photoClass = "photopenyaitem";
-					 if (window.orientation !== 0){ photoClass = "photopenyaitem horizontal";}
-					 var newdiv = "<div class='"+photoClass+"' style='background-image:url("+value+");' id= '" + key + "' onclick='detailPenyes.openPhoto("+valueStr+")'></div>";	 
-					 $(".slider").append(newdiv);
-				 });		 
-			 }
-
-		 });
+		 if(penya.description){
+			 $.each(penya.description, function( type, value ) {
+				 if (type.indexOf("text") == 0){	 
+					 $("#penyaSelected-info2").append("<div class='descText'>" + value + "</div>");		
+				 }
+				 if (type === "images"){
+					 $("#penyaSelected-info2").append("<div class='iosSlider'>");
+					 $(".iosSlider").append("<div class='slider'>");
+					 $.each( value, function( key, value ) {
+						 var valueStr = "&#39;" + value + "&#39;";
+						 var photoClass = "photopenyaitem";
+						 if (window.orientation !== 0){ photoClass = "photopenyaitem horizontal";}
+						 var newdiv = "<div class='"+photoClass+"' style='background-image:url("+value+");' id= '" + key + "' onclick='detailPenyes.openPhoto("+valueStr+")'></div>";	 
+						 $(".slider").append(newdiv);
+					 });		 
+				 }
+			 });
+		 }
 		 
 		 return false;
 	}

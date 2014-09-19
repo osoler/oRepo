@@ -29,8 +29,8 @@ var listPenyes = function () {
 	    	 						"<div class='rightarrow'><img class='icon-arrow' src='/images/icon-arrow-black.png'></div>" +
 	    	 						"<div id='penyaMoreInfo' class='moreinfo'><div id='penyaLocation' class='location'><span>" + item.location + "</span></div>" +
 	    	 						"<div id='penyaCountry' class='country'>" + item.country + "</div>" +
-	    	 						"<div id='penyaNumSocios' class='numSocios'>" + item.numAffiliates + " members</div>" +
-	    	 						"<div id='penyaFundationYear' class='fundationYear'>Fundación: " + item.fundationYear + "</div>" +
+	    	 						"<div id='penyaNumSocios' class='numSocios'>" + item.numAffiliates + " socis</div>" +
+	    	 						"<div id='penyaFundationYear' class='fundationYear'>Fundació: " + item.fundationYear + "</div>" +
 	    	 				"</div></div></a></li>";
 	    	 navigation.loadLogo("#penya-logo-" + item.id, item.logo);
 	    	 $("#listviewpenyes").append(penyaHtml);

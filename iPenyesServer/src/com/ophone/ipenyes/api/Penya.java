@@ -13,6 +13,7 @@ public class Penya {
 	public String logo;
 	public String location;
 	public String country;
+	public String area;
 	public int numAffiliates;
 	public int fundationYear;
 	public double x;

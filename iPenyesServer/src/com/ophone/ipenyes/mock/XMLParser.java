@@ -66,8 +66,8 @@ public class XMLParser {
                             
                             penya.logo = "/iPenyesResources/images/escudos/" + logo;
                             
-                        	penya.numAffiliates = getNodeIntValue(e, "numAffiliates")>0?getNodeIntValue(e, "numAffiliates"):randomSocios(); 
-                        	penya.fundationYear = getNodeIntValue(e, "fundationYear")>0?getNodeIntValue(e, "fundationYear"):randomYear(); 
+                        	penya.numAffiliates = getNodeIntValue(e, "numAffiliates")>0?getNodeIntValue(e, "numAffiliates"):1899; 
+                        	penya.fundationYear = getNodeIntValue(e, "fundationYear")>0?getNodeIntValue(e, "fundationYear"):1; 
 
                         	NodeList infoList = e.getElementsByTagName("info");
               
@@ -192,22 +192,6 @@ public class XMLParser {
     	name =  name.replaceAll("Blau-Grana", "B");
     	if (name.length() < 30) return name;    	
     	return name.substring(0,30) + " ...";
-    }
-    
-    private static int randomYear(){
-
-        int year = randBetween(1899, 2014);
-
-        return year;
-    }
-    
-    private static int randBetween(int start, int end) {
-	    return start + (int)Math.round(Math.random() * (end - start));
-	}   
-	
-    private static int randomSocios(){
-        int nsocios = randBetween(1, 1000);
-        return nsocios;
     }
 
 }

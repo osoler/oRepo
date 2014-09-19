@@ -66,8 +66,8 @@ public class XMLParser {
                             
                             penya.logo = "/iPenyesResources/images/escudos/" + logo;
                             
-                        	penya.numAffiliates = getNodeIntValue(e, "numAffiliates")>0?getNodeIntValue(e, "numAffiliates"):1899; 
-                        	penya.fundationYear = getNodeIntValue(e, "fundationYear")>0?getNodeIntValue(e, "fundationYear"):1; 
+                        	penya.numAffiliates = getNodeIntValue(e, "numAffiliates")>0?getNodeIntValue(e, "numAffiliates"):1; 
+                        	penya.fundationYear = getNodeIntValue(e, "fundationYear")>0?getNodeIntValue(e, "fundationYear"):1899; 
 
                         	NodeList infoList = e.getElementsByTagName("info");
               

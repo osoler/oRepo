@@ -1,5 +1,8 @@
 var configuration = function () {
+	var isDebug = false;
+	var showWebapp = navigator.standalone;
 	var urlserver 	= "http://ipenyes.jelastic.elastx.net/iPenyesServer";
+	var debugserver = "http://localhost:8080/iPenyesServer";
 	var socialicons = "../images/socialicons/";
 	var spinner 	= "/images/spinner.gif";
 	var photos 		= "/iPenyesResources/images/photosPenyes/";
@@ -24,7 +27,11 @@ var configuration = function () {
 	    	return socialicons;
 	    },
 	    "getUrlServer" : function () {
-	    	return urlserver;
+	    	if (isDebug) return debugserver;
+	    	else		 return urlserver;
+	    },
+	    "showWebapp" : function () {
+	    	return showWebapp || isDebug;
 	    }
 	  }; // end of the return
 }();

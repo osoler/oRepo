@@ -26,6 +26,20 @@ body {
 	text-shadow: none;
 	font-size: 12px;
 }
+#infoPopUp{
+	display: none;
+	padding: 12px;
+	border-radius: 10px;
+	background-color: #D4D9DB;
+	background: #7f7f7f; 
+ 	background: rgba(221, 27, 65, 0.6);
+	color: #FFFFFF;
+	text-shadow: none;
+	font-size: 12px;
+	top: -46px;
+	left: 9px;
+	position: relative;
+}
 .buttonHover{
 	display: inline-block;
 	width: 70px;

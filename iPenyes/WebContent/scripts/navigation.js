@@ -17,6 +17,19 @@ var navigation = function () {
         });
 	}
 	
+	function showInfo(message){	
+		$('#infoPopUp').css('display', 'inline-block');
+		$('#infoPopUp').empty();
+        $('#infoPopUp').append(message);
+           
+	}
+	
+	function hideInfo(message){	
+		showInfo(message);
+		navigation.setTimeout(setTimeout(function(){ $('#infoPopUp').hide('slow');} , 1000));
+           
+	}
+	
 	function setLastPage(page){
 		lastPage = page;
 	}
@@ -88,6 +101,12 @@ var navigation = function () {
 		},
 	    "alert" : function (message) {
 	    	showAlert(message);
+	    },
+	    "info" : function (message) {
+	    	showInfo(message);
+	    },
+	    "hideInfo" : function (message) {
+	    	hideInfo(message);
 	    }
 	  }; // end of the return
 }();

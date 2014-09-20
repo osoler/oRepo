@@ -1,0 +1,5578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+<area>Espanya</area>
+  <penya>
+    <name>Peña Barcelonista de Astudillo y Comarca</name>
+    <address>C/ Juan de Tapia, 7</address>
+    <id>36</id>
+    <Point>
+      <coordinates>-4.295956,42.193474,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Deportiva FC Barcelona de Úbeda</name>
+    <address>C/ Carlos Emperador, 53</address>
+    <id>592</id>
+    <Point>
+      <coordinates>-3.363655,38.015453,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Atalaya de Torrijos</name>
+    <address>Avenida de la Estación, 81</address>
+    <id>415</id>
+    <Point>
+      <coordinates>-4.281780,39.981873,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Málaga</name>
+    <address>C/ Ministerio de la Vivienda, 4</address>
+    <id>631</id>
+    <Point>
+      <coordinates>-4.443305,36.723068,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Langreo</name>
+    <address>[Sin ubicación]</address>
+    <id>217</id>
+    <Point>
+      <coordinates>-5.682542,43.296360,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Peña Barcelonista Aguilas</name>
+    <address>C/ Armando Muñoz Calero, 15</address>
+    <id>457</id>
+    <Point>
+      <coordinates>-1.587812,37.404736,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Alcalá de Henares</name>
+    <address>C/ Entrepeñas, s/n</address>
+    <id>79</id>
+    <Point>
+      <coordinates>-3.364722,40.469925,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña F.C. Barcelona Alfaro</name>
+    <address>Pl. Cervantes, 11</address>
+    <id>430</id>
+    <Point>
+      <coordinates>-1.748235,42.178104,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Almansa</name>
+    <address>C/ Santa Lucía, 36</address>
+    <id>291</id>
+    <Point>
+      <coordinates>-1.097642,38.867298,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Deportiva Barça de Andujar</name>
+    <address>C/ Principe, 13</address>
+    <id>362</id>
+    <Point>
+      <coordinates>-4.056746,38.037762,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Arnedana F.C. Barcelona</name>
+    <address>Av. Eliseo Lerena, 1</address>
+    <id>538</id>
+    <Point>
+      <coordinates>-2.101259,42.226208,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Avilés</name>
+    <address>C/ Fernando Moran, 1</address>
+    <id>341</id>
+    <Point>
+      <coordinates>-5.929616,43.554470,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Don Benito y Comarca</name>
+    <address>C/ Piedad, 4</address>
+    <id>374</id>
+    <Point>
+      <coordinates>-5.865590,38.952587,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Peña Barcelonista Bierzo Alto</name>
+    <address>C/ del Doctor Fleming, 3</address>
+    <id>73</id>
+    <Point>
+      <coordinates>-6.416709,42.616043,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Bañeza</name>
+    <address>C/ Senado, 9</address>
+    <id>504</id>
+    <Point>
+      <coordinates>-5.897476,42.296741,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Castreña</name>
+    <address>Pl. Blas Infante, s/n</address>
+    <id>222</id>
+    <Point>
+      <coordinates>-4.476588,37.692890,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña F.C. Barcelona Ciudad Real</name>
+    <address>C/ Belchite, 5</address>
+    <id>431</id>
+    <Point>
+      <coordinates>-3.931021,38.981438,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Conquense F.C. Barcelona</name>
+    <address>Av. Reyes Católicos, 40</address>
+    <id>124</id>
+    <Point>
+      <coordinates>-2.138724,40.061337,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Deportiva FC Barcelona La Carolina</name>
+    <address>C/ Navas de Tolosa, 28</address>
+    <id>659</id>
+    <Point>
+      <coordinates>-3.614737,38.277248,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Ferrolana</name>
+    <address>C/ Fontemoura, 61-63</address>
+    <id>187</id>
+    <Point>
+      <coordinates>-8.218964,43.492176,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana 1961 de Illora</name>
+    <address>C/ Federico García Lorca, 4</address>
+    <id>236</id>
+    <Point>
+      <coordinates>-3.881145,37.283688,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana de Madrid</name>
+    <address>Pl. del Ángel, 13</address>
+    <id>510</id>
+    <Point>
+      <coordinates>-3.702368,40.414322,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Asociación Cultural Peña Barcelonista Montillana</name>
+    <address>C/ de la Feria, 1</address>
+    <id>245</id>
+    <Point>
+      <coordinates>-4.635243,37.589897,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña El Barça de Mengibar</name>
+    <address>C/ Rafael Alberti, 3</address>
+    <id>628</id>
+    <Point>
+      <coordinates>-3.802113,37.970184,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Morala</name>
+    <address>C/ Garganta Jaranda, 5</address>
+    <id>25</id>
+    <Point>
+      <coordinates>-5.546437,39.893333,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista San Jorge de Palos</name>
+    <address>C/ Martin Alonso Pinzón, 34</address>
+    <id>570</id>
+    <Point>
+      <coordinates>-6.892119,37.226925,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Pozoblanco</name>
+    <address>C/ de los Herreros, s/n</address>
+    <id>617</id>
+    <Point>
+      <coordinates>-4.845943,38.378132,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Placentina</name>
+    <address>C/ Cardenal B de Carvajal, s/n</address>
+    <id>509</id>
+    <Point>
+      <coordinates>-6.081228,40.040745,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Bota</name>
+    <address>C/ Pósito, 7</address>
+    <id>394</id>
+    <Point>
+      <coordinates>-3.190215,39.971352,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Miranda Ebro</name>
+    <address>C/ Ciudad del Vierzón, 17</address>
+    <id>61</id>
+    <Point>
+      <coordinates>-2.938871,42.685436,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Montijo</name>
+    <address>C/ Gabriel y Galán, 123</address>
+    <id>540</id>
+    <Point>
+      <coordinates>-6.609993,38.909370,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Valdepeñas</name>
+    <address>C/ Lorenzo Luzuriaga, 6</address>
+    <id>615</id>
+    <Point>
+      <coordinates>-3.385689,38.755459,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Aresana</name>
+    <address>C/ Salazón, 8</address>
+    <id>483</id>
+    <Point>
+      <coordinates>-8.241599,43.428509,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña del F.C. Barcelona Pinos Puente</name>
+    <address>C/ Ancha, 53</address>
+    <id>14</id>
+    <Point>
+      <coordinates>-3.750060,37.253551,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista San Sebastián</name>
+    <address>C/ Cigüela, 8</address>
+    <id>220</id>
+    <Point>
+      <coordinates>-5.282263,37.698410,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Alcalá La Real</name>
+    <address>C/ Subida al Mercado, s/n</address>
+    <id>265</id>
+    <Point>
+      <coordinates>-3.921273,37.462322,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Berja</name>
+    <address>C/ Sevilla, 1</address>
+    <id>283</id>
+    <Point>
+      <coordinates>-2.943474,36.840015,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña F.C. Barcelona Manzanares</name>
+    <address>C/ San Marcos, 28</address>
+    <id>345</id>
+    <Point>
+      <coordinates>-3.367780,38.999035,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Talavera La Real</name>
+    <address>C/ Muralla, 16</address>
+    <id>373</id>
+    <Point>
+      <coordinates>-6.773331,38.879017,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Burebana</name>
+    <address>C/ Duque de Frías, 3</address>
+    <id>277</id>
+    <Point>
+      <coordinates>-3.321915,42.550354,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Molina de Segura</name>
+    <address>C/ Valle-Inclán, 29</address>
+    <id>435</id>
+    <Point>
+      <coordinates>-1.203921,38.056141,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Comarcal</name>
+    <address>Ps. Arboleda, 3</address>
+    <id>3</id>
+    <Point>
+      <coordinates>0.187946,41.909893,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana &quot;Quini&quot; Oviedo</name>
+    <address>C/ Padre Suarez, 21</address>
+    <id>568</id>
+    <Point>
+      <coordinates>-5.842497,43.357815,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Santa Amalia</name>
+    <address>C/ La Paz, 15</address>
+    <id>518</id>
+    <Point>
+      <coordinates>-6.007324,39.007721,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Cáceres</name>
+    <address>C/ Marrakech, 9</address>
+    <id>665</id>
+    <Point>
+      <coordinates>-6.381200,39.458958,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Torrejón de Ardoz</name>
+    <address>C/ del Olmo, 15</address>
+    <id>58</id>
+    <Point>
+      <coordinates>-3.457193,40.446972,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Bierzo&quot;</name>
+    <address>C/ Mateo Garza, 16</address>
+    <id>485</id>
+    <Point>
+      <coordinates>-6.601733,42.550045,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Penya Barcelonista de Jaén</name>
+    <address>Av. Granada, 37</address>
+    <id>658</id>
+    <Point>
+      <coordinates>-3.781526,37.769489,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña F.C. Barcelona Rincón Soto</name>
+    <address>Av. de la Rioja, 5</address>
+    <id>584</id>
+    <Point>
+      <coordinates>-1.850702,42.232513,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Irún</name>
+    <address>C/ Jaizkibel, 35</address>
+    <id>419</id>
+    <Point>
+      <coordinates>-1.805853,43.342602,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Cueva de la Vieja</name>
+    <address>C/ Primero de Mayo, 61</address>
+    <id>605</id>
+    <Point>
+      <coordinates>-1.230103,38.956249,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Villafranca de Córdoba</name>
+    <address>[Sin ubicación]</address>
+    <id>211</id>
+    <Point>
+      <coordinates>-4.545728,37.961933,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Villal-Barça</name>
+    <address>C/ Consolación, 7</address>
+    <id>199</id>
+    <Point>
+      <coordinates>-1.622525,39.471733,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Villa del Río</name>
+    <address>C/ Montoro, 7</address>
+    <id>227</id>
+    <Point>
+      <coordinates>-4.298267,37.982372,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Oliventina F.C. Barcelona</name>
+    <address>C/ Carmen, 11</address>
+    <id>303</id>
+    <Point>
+      <coordinates>-7.098744,38.684200,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Santiago</name>
+    <address>C/ de la Estrada, 56</address>
+    <id>288</id>
+    <Point>
+      <coordinates>-8.540750,42.863605,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Peña Barcelonista Gamper</name>
+    <address>C/ Juan José Pérez del Molino, 31</address>
+    <id>539</id>
+    <Point>
+      <coordinates>-3.815875,43.464645,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Cultural y Recreativa Barcelonista &quot;Diego Luna&quot;</name>
+    <address>Av. de la Constitución, 3</address>
+    <id>591</id>
+    <Point>
+      <coordinates>-6.342741,38.561611,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Linares</name>
+    <address>C/ Hernán Cortés, 3</address>
+    <id>578</id>
+    <Point>
+      <coordinates>-3.638087,38.097359,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Atalaya de Cieza</name>
+    <address>C/ Fulgencio Serra, 2</address>
+    <id>363</id>
+    <Point>
+      <coordinates>-1.418580,38.241287,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Mérida</name>
+    <address>C/ Vespasiano, 12</address>
+    <id>479</id>
+    <Point>
+      <coordinates>-6.346188,38.920044,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña De. F.C. Barcelona de Aldeanueva</name>
+    <address>C/ Carretil, 20</address>
+    <id>200</id>
+    <Point>
+      <coordinates>-1.888314,42.227417,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Segoviana del Barça</name>
+    <address>C/ 3 de Abril, 1</address>
+    <id>449</id>
+    <Point>
+      <coordinates>-4.121894,40.944118,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Julio Alberto&quot;</name>
+    <address>C/ Ramón Pérez de Ayala, 10</address>
+    <id>93</id>
+    <Point>
+      <coordinates>-5.778004,43.251099,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Valdelacalzada</name>
+    <address>C/ Ronda Norte, 31</address>
+    <id>621</id>
+    <Point>
+      <coordinates>-6.698040,38.891956,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Peña Barcelonista Jerezana</name>
+    <address>C/ Tajo, 9</address>
+    <id>650</id>
+    <Point>
+      <coordinates>-6.095779,36.695713,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azul-Grana de Motril</name>
+    <address>C/ Pablo Picasso, 14</address>
+    <id>279</id>
+    <Point>
+      <coordinates>-3.515116,36.743221,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Sevilla</name>
+    <address>C/ Evangelista, 69-71</address>
+    <id>202</id>
+    <Point>
+      <coordinates>-6.006882,37.379372,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña F.C. Barcelona de Azagra</name>
+    <address>C/ Señorío de Albarracín, s/n</address>
+    <id>161</id>
+    <Point>
+      <coordinates>-1.896210,42.306858,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña B. Villanueva de la Serena</name>
+    <address>Polígono Cagancha, 9-2</address>
+    <id>40</id>
+    <Point>
+      <coordinates>-5.803700,38.968788,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Alza</name>
+    <address>C/ Bertsolari Txirrita, 16</address>
+    <id>285</id>
+    <Point>
+      <coordinates>-1.938907,43.314510,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Fraga i Comarca Jaume Pallares</name>
+    <address>C/Teruel, 14</address>
+    <id>695</id>
+    <Point>
+      <coordinates>0.335071,41.522133,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Leonesa</name>
+    <address>[Sin Ubicación]</address>
+    <id>361</id>
+    <Point>
+      <coordinates>-5.567223,42.627735,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Palentina F.C. Barcelona</name>
+    <address>Pl. Los Abetos, 3-5</address>
+    <id>107</id>
+    <Point>
+      <coordinates>-4.530635,42.014900,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Peligros</name>
+    <address>C/ Ángel Ganivet, s/n</address>
+    <id>587</id>
+    <Point>
+      <coordinates>-3.628947,37.229179,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana Cercle Català</name>
+    <address>Plaza de España, 6</address>
+    <id>395</id>
+    <Point>
+      <coordinates>-3.711917,40.422714,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Daimiel</name>
+    <address>C/ Herrera, 60</address>
+    <id>259</id>
+    <Point>
+      <coordinates>-3.614766,39.074371,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Guareña</name>
+    <address>C/ Luis Cernuda, s/n</address>
+    <id>689</id>
+    <Point>
+      <coordinates>-6.090515,38.856457,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Lucense</name>
+    <address>C/ Río Ser, 32</address>
+    <id>331</id>
+    <Point>
+      <coordinates>-7.565966,43.017303,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana Santa Curz de la Palma</name>
+    <address>Av. Marítima, 61</address>
+    <id>224</id>
+    <Point>
+      <coordinates>-17.761602,28.685675,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Najerina</name>
+    <address>C/ Mayor, 43</address>
+    <id>597</id>
+    <Point>
+      <coordinates>-2.733664,42.417381,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Força Blaugrana Zaragoza</name>
+    <address>C/ Desiderio Escosura, 38</address>
+    <id>482</id>
+    <Point>
+      <coordinates>-0.898486,41.648014,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Yeclana</name>
+    <address>Pl. García Lorca, 5</address>
+    <id>228</id>
+    <Point>
+      <coordinates>-1.109370,38.607235,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Monesterio</name>
+    <address>C/ Sierra de Aguafría, 8</address>
+    <id>242</id>
+    <Point>
+      <coordinates>-6.276368,38.088543,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Bailén</name>
+    <address>C/ Pablo Picasso, s/n</address>
+    <id>144</id>
+    <Point>
+      <coordinates>-3.783278,38.092270,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista del Norte de La Palma</name>
+    <address>[Sin ubicación]</address>
+    <id>48</id>
+    <Point>
+      <coordinates>-17.766666,28.799999,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Castra Vinaria</name>
+    <address>C/ Cava, 21</address>
+    <id>544</id>
+    <Point>
+      <coordinates>-6.447251,38.528042,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Aguilariense F.C. Barcelona</name>
+    <address>Pl. España, 49</address>
+    <id>379</id>
+    <Point>
+      <coordinates>-4.259887,42.792847,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Estadio</name>
+    <address>Av. Constitución, 91</address>
+    <id>90</id>
+    <Point>
+      <coordinates>-6.377193,38.444611,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Oviedo</name>
+    <address>C/ Fray Ceferino, 17</address>
+    <id>166</id>
+    <Point>
+      <coordinates>-5.851550,43.366302,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Castuera</name>
+    <address>Av. Extremadura, 76</address>
+    <id>135</id>
+    <Point>
+      <coordinates>-5.548780,38.730133,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Abarán</name>
+    <address>C/ José Yelo Valentino, 32</address>
+    <id>429</id>
+    <Point>
+      <coordinates>-1.399750,38.201469,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Peña Barcelonista de Ceuta</name>
+    <address>C/ Bermudo Soriano, 4</address>
+    <id>669</id>
+    <Point>
+      <coordinates>-5.332637,35.886162,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Eternos do Barça</name>
+    <address>C/ Rio Bedoya, 31</address>
+    <id>514</id>
+    <Point>
+      <coordinates>-7.860466,42.338951,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Zaragoza</name>
+    <address>Av. Cesareo Alierta, 10</address>
+    <id>280</id>
+    <Point>
+      <coordinates>-0.879320,41.646393,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Villabalter</name>
+    <address>C/ de la Fuente, s/n</address>
+    <id>336</id>
+    <Point>
+      <coordinates>-5.623979,42.622627,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Jumilla</name>
+    <address>C/ Canovas del Castillo, 46</address>
+    <id>347</id>
+    <Point>
+      <coordinates>-1.328613,38.474522,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Calle de Viriato</name>
+    <address>C/ Viriato, 4</address>
+    <id>390</id>
+    <Point>
+      <coordinates>-3.205987,39.385342,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Casasimarro</name>
+    <address>Camino de la Cañada, s/n</address>
+    <id>614</id>
+    <Point>
+      <coordinates>-2.044184,39.394344,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista do Carballiño</name>
+    <address>C/ Conde Vallellano, 16</address>
+    <id>593</id>
+    <Point>
+      <coordinates>-8.076216,42.430756,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Maracena</name>
+    <address>C/ Encrucijada, 13</address>
+    <id>573</id>
+    <Point>
+      <coordinates>-3.635235,37.206760,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Optense</name>
+    <address>C/ Mayor, 24</address>
+    <id>397</id>
+    <Point>
+      <coordinates>-2.689804,40.144154,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Caudete</name>
+    <address>C/ Molino, 64</address>
+    <id>657</id>
+    <Point>
+      <coordinates>-0.982707,38.707840,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Deportiva F.C. Barcelona Villacarrillo</name>
+    <address>Carretera de la Circunvalación, 40</address>
+    <id>17</id>
+    <Point>
+      <coordinates>-3.079021,38.119282,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Albolote</name>
+    <address>[Sin ubicación]</address>
+    <id>408</id>
+    <Point>
+      <coordinates>-3.652185,37.315868,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana de Villamayor</name>
+    <address>C/ Nicolás Salmerón, 2</address>
+    <id>282</id>
+    <Point>
+      <coordinates>-2.922037,39.730015,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Alameda</name>
+    <address>C/ Pablo Ruiz Picasso, 22</address>
+    <id>688</id>
+    <Point>
+      <coordinates>-4.657675,37.205994,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Las Gabias</name>
+    <address>C/ Concepción, 3</address>
+    <id>271</id>
+    <Point>
+      <coordinates>-3.669454,37.134247,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Trujillo</name>
+    <address>Ronda de la Piedad, 26</address>
+    <id>460</id>
+    <Point>
+      <coordinates>-5.873543,39.459522,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Pedro Crespo</name>
+    <address>C/ Espronceda, 20</address>
+    <id>247</id>
+    <Point>
+      <coordinates>-5.654970,38.651077,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Líder</name>
+    <address>C/ Azahar, 10</address>
+    <id>437</id>
+    <Point>
+      <coordinates>-2.427735,36.887379,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Los amigos en Madrid&quot;</name>
+    <address>C/ Emilio Ferrari, 21</address>
+    <id>7</id>
+    <Point>
+      <coordinates>-3.642997,40.433544,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista S. Cristobal</name>
+    <address>Av de Huerta Abayo, 37</address>
+    <id>153</id>
+    <Point>
+      <coordinates>-2.360818,39.847408,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Villa de la Sidra&quot;</name>
+    <address>C/ Barraca, 35</address>
+    <id>393</id>
+    <Point>
+      <coordinates>-5.511184,43.362717,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Linense-Migueli</name>
+    <address>Pje. Espronceda, 14</address>
+    <id>462</id>
+    <Point>
+      <coordinates>-5.343932,36.163235,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana de Torrelavega</name>
+    <address>C/ de la Carrera, 10</address>
+    <id>297</id>
+    <Point>
+      <coordinates>-4.046517,43.350464,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Joan Gamper&quot; de Huelva</name>
+    <address>C/ Severo Ochoa, 20</address>
+    <id>683</id>
+    <Point>
+      <coordinates>-6.940856,37.279232,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Atarfe</name>
+    <address>C/ Miguel Morillas, 13</address>
+    <id>27</id>
+    <Point>
+      <coordinates>-3.693357,37.223244,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Soriana</name>
+    <address>Pº Valobos, 1</address>
+    <id>275</id>
+    <Point>
+      <coordinates>-2.463074,41.760818,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Boñar</name>
+    <address>Pl. El Negrillón</address>
+    <id>70</id>
+    <Point>
+      <coordinates>-5.322118,42.866234,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Martos &quot;El Llanete&quot;</name>
+    <address>C/ Lope de Vega, 10</address>
+    <id>368</id>
+    <Point>
+      <coordinates>-3.972641,37.723633,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Lobo&quot;</name>
+    <address>C/ San Bartolomé, 47</address>
+    <id>213</id>
+    <Point>
+      <coordinates>-6.791610,37.424603,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Villanueva Infantes</name>
+    <address>C/ Ramón y Cajal, 12</address>
+    <id>337</id>
+    <Point>
+      <coordinates>-3.014561,38.737431,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Guadalajara</name>
+    <address>C/ Chorrón, 8</address>
+    <id>134</id>
+    <Point>
+      <coordinates>-3.159966,40.631329,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Las Salinas F.C. Barcelona</name>
+    <address>C/ Servando Gutiérrez, 14</address>
+    <id>515</id>
+    <Point>
+      <coordinates>-6.197136,36.471973,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Baeza</name>
+    <address>C/ del Agua, 9</address>
+    <id>446</id>
+    <Point>
+      <coordinates>-3.471576,37.991909,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Ubrique &quot;Migueli&quot;</name>
+    <address>C/ San Francisco Javier, 6</address>
+    <id>529</id>
+    <Point>
+      <coordinates>-5.444834,36.676743,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Andorra</name>
+    <address>C/ la Unión, 30</address>
+    <id>262</id>
+    <Point>
+      <coordinates>-0.448886,40.977367,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Llerenense</name>
+    <address>C/ Pólvora, 16</address>
+    <id>409</id>
+    <Point>
+      <coordinates>-6.016486,38.239330,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Dalías</name>
+    <address>Trav. Rambla de Gracia, 99</address>
+    <id>136</id>
+    <Point>
+      <coordinates>-2.871249,36.823296,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vitoria-Gasteiz Euskobarça</name>
+    <address>C/ Uruguay, 7</address>
+    <id>427</id>
+    <Point>
+      <coordinates>-2.676677,42.857445,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Los Billares&quot;</name>
+    <address>C/ Golondrinas, 1</address>
+    <id>308</id>
+    <Point>
+      <coordinates>-6.417026,38.428154,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barça de Toledo</name>
+    <address>Av Reino Unido, 7</address>
+    <id>289</id>
+    <Point>
+      <coordinates>-4.033437,39.881195,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana &quot;Los Culés&quot;</name>
+    <address>C/ Estepona, 1</address>
+    <id>328</id>
+    <Point>
+      <coordinates>-3.969530,39.673107,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Capitulaciones&quot;</name>
+    <address>C/ Almagro, 1</address>
+    <id>651</id>
+    <Point>
+      <coordinates>-3.717314,37.189175,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Villanueva Córdoba &quot;Pata Negra&quot;</name>
+    <address>C/ Parralejo, 8</address>
+    <id>453</id>
+    <Point>
+      <coordinates>-4.625786,38.323318,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Binefar y Comarca</name>
+    <address>C/ la Luna, 2</address>
+    <id>75</id>
+    <Point>
+      <coordinates>0.298908,41.849907,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Encamisa&quot;</name>
+    <address>Av de la Constitución, 21</address>
+    <id>418</id>
+    <Point>
+      <coordinates>-5.468265,39.090427,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Rute</name>
+    <address>C/ Mariano Haro, 1</address>
+    <id>244</id>
+    <Point>
+      <coordinates>-4.371552,37.323395,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Almagro</name>
+    <address>Camino de Calatrava, 8</address>
+    <id>686</id>
+    <Point>
+      <coordinates>-3.707062,38.889931,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;20 de mayo&quot;</name>
+    <address>[Sense ubicació]</address>
+    <id>177</id>
+    <Point>
+      <coordinates>-5.930404,39.138878,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña F.C. Barcelona Alburquerque</name>
+    <address>C/ del Álamo, 10</address>
+    <id>676</id>
+    <Point>
+      <coordinates>-6.992968,39.219250,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Sanvicenteña</name>
+    <address>C/ Meléndez Valdés, s/n</address>
+    <id>594</id>
+    <Point>
+      <coordinates>-7.137872,39.364685,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Murillo de Río Leza&quot;</name>
+    <address>C/ Mayor, 48</address>
+    <id>350</id>
+    <Point>
+      <coordinates>-2.325246,42.401287,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Maella</name>
+    <address>C/ Matarraña, 3</address>
+    <id>168</id>
+    <Point>
+      <coordinates>0.141750,41.120468,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Bonares &quot;Carlos Rexacach&quot;</name>
+    <address>C/ Arenal, 1</address>
+    <id>122</id>
+    <Point>
+      <coordinates>-6.683555,37.319489,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista El Ejido</name>
+    <address>Pº las Lomas, 92</address>
+    <id>472</id>
+    <Point>
+      <coordinates>-2.815679,36.769283,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Membrilla</name>
+    <address>C/ Olivo, 6</address>
+    <id>596</id>
+    <Point>
+      <coordinates>-3.346697,38.968555,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Ajo&quot;</name>
+    <address>Pl. Arrabal del Coso, 15</address>
+    <id>18</id>
+    <Point>
+      <coordinates>-2.671267,39.448158,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Alhedin</name>
+    <address>C/ Real, 3</address>
+    <id>235</id>
+    <Point>
+      <coordinates>-3.644725,37.108753,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña F.C. Barcelona Culés de Adamuz</name>
+    <address>C/ Pedroche, 48</address>
+    <id>586</id>
+    <Point>
+      <coordinates>-4.522813,38.028564,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Navarrete</name>
+    <address>Ctra. de Entrena, 6</address>
+    <id>497</id>
+    <Point>
+      <coordinates>-2.560459,42.426491,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Calzada</name>
+    <address>C/ Torno, 10</address>
+    <id>164</id>
+    <Point>
+      <coordinates>-5.703812,43.540611,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Ejea de los Caballeros</name>
+    <address>[Sin ubicación]</address>
+    <id>499</id>
+    <Point>
+      <coordinates>-1.137434,42.129208,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Leonesa F.C. Barcelona</name>
+    <address>C/ Francisco Fernández Díez, 1</address>
+    <id>253</id>
+    <Point>
+      <coordinates>-5.585054,42.589458,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Orellana La Vieja</name>
+    <address>C/ Peñas Altas, 31</address>
+    <id>246</id>
+    <Point>
+      <coordinates>-5.539713,39.004208,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista 92 Zalamea</name>
+    <address>C/ Juan Díaz González, 27</address>
+    <id>158</id>
+    <Point>
+      <coordinates>-6.658837,37.679813,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Hellín</name>
+    <address>C/ de las Eras, 20</address>
+    <id>541</id>
+    <Point>
+      <coordinates>-1.703706,38.510159,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Archena</name>
+    <address>Ctra. Balneario, 11</address>
+    <id>307</id>
+    <Point>
+      <coordinates>-1.298772,38.118340,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana San Serván</name>
+    <address>C/ Obando, 70</address>
+    <id>250</id>
+    <Point>
+      <coordinates>-6.456408,38.853802,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Las Canteras</name>
+    <address>C/ Antonio Machado, 91</address>
+    <id>365</id>
+    <Point>
+      <coordinates>-2.306501,37.329483,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Moraleda&quot;</name>
+    <address>C/ Enrique III, 8</address>
+    <id>670</id>
+    <Point>
+      <coordinates>-3.008248,38.168549,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>P. Barcelonista 20 de Mayo de Quintanar</name>
+    <address>Av. San Fernando, 63</address>
+    <id>273</id>
+    <Point>
+      <coordinates>-3.046115,39.594601,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Josep Lluis Nuñez</name>
+    <address>C/ de los Gallegos, 6</address>
+    <id>466</id>
+    <Point>
+      <coordinates>-1.911661,39.264435,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Vetusta&quot;</name>
+    <address>C/ Catedrático José Serrano, s/n</address>
+    <id>69</id>
+    <Point>
+      <coordinates>-5.870819,43.357342,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Los Galanes del FC Barcelona</name>
+    <address>Camino de Santa Inés, 40</address>
+    <id>299</id>
+    <Point>
+      <coordinates>-3.248663,38.944775,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Montefrío-Gamper</name>
+    <address>C/ Juan de Carrión, 6</address>
+    <id>45</id>
+    <Point>
+      <coordinates>-4.010211,37.320419,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Plaza&quot; de Ocaña</name>
+    <address>Pl. Doctor Espina y Capó, 6</address>
+    <id>13</id>
+    <Point>
+      <coordinates>-3.502078,39.958462,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista El Manantial</name>
+    <address>C/ del Hospital, 25</address>
+    <id>527</id>
+    <Point>
+      <coordinates>-4.172515,38.044575,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Condesito&quot;</name>
+    <address>Av. del Parque, 76</address>
+    <id>216</id>
+    <Point>
+      <coordinates>-5.142831,38.494335,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Navarros del Barça</name>
+    <address>C/ Telésforo Aranzadi, 5</address>
+    <id>488</id>
+    <Point>
+      <coordinates>-2.685150,42.851452,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana Manantial del Vino</name>
+    <address>C/ de la Cervera, 22</address>
+    <id>238</id>
+    <Point>
+      <coordinates>-3.023935,39.162888,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Altamira</name>
+    <address>Pº General Dávila, 208</address>
+    <id>680</id>
+    <Point>
+      <coordinates>-3.816918,43.467075,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Alfacar</name>
+    <address>C/ Infanta Elena, 11</address>
+    <id>24</id>
+    <Point>
+      <coordinates>-3.562051,37.241962,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Torrecillana</name>
+    <address>C/ Acacias, 30</address>
+    <id>52</id>
+    <Point>
+      <coordinates>-5.741185,39.568687,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Unión Zujaira</name>
+    <address>C/ Reyes Católicos, 5</address>
+    <id>114</id>
+    <Point>
+      <coordinates>-3.789857,37.256622,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Lorca &quot;Jose Luis Nuñez&quot;</name>
+    <address>C/ María Agustina, 1</address>
+    <id>258</id>
+    <Point>
+      <coordinates>-1.698848,37.669720,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Adra &quot;Migueli&quot;</name>
+    <address>C/ Jumilla, 8</address>
+    <id>567</id>
+    <Point>
+      <coordinates>-3.015576,36.745949,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Bienvenida</name>
+    <address>C/ Nava, 76</address>
+    <id>352</id>
+    <Point>
+      <coordinates>-6.209980,38.301723,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista San Isidro</name>
+    <address>C/ Manuel Golpe, 41</address>
+    <id>388</id>
+    <Point>
+      <coordinates>-6.385222,38.887314,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Ribaforada</name>
+    <address>C/ Juan XXIII, 13</address>
+    <id>147</id>
+    <Point>
+      <coordinates>-1.511761,41.998901,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Alcañiz</name>
+    <address>Av. de Aragón, 9</address>
+    <id>412</id>
+    <Point>
+      <coordinates>-0.130236,41.050507,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Güevéjar Wembley-92</name>
+    <address>Av. de Andalucía, s/n</address>
+    <id>652</id>
+    <Point>
+      <coordinates>-3.598029,37.256874,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña FC Barcelona &quot;Mentesa Bastia&quot;</name>
+    <address>C/ Santana, 10</address>
+    <id>486</id>
+    <Point>
+      <coordinates>-3.692608,37.741535,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Merced</name>
+    <address>C/ Arquitecto Modesto Cendoya, 47</address>
+    <id>530</id>
+    <Point>
+      <coordinates>-3.617595,37.209484,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Porcula -Neila-</name>
+    <address>C/ Caserío Alharilla, 8</address>
+    <id>438</id>
+    <Point>
+      <coordinates>-4.183329,37.871738,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Moralejana</name>
+    <address>Ronda de los Molinos, 3</address>
+    <id>295</id>
+    <Point>
+      <coordinates>-6.658370,40.070232,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Alejandro Martínez Mora</name>
+    <address>C/Zacatín, 23</address>
+    <id>477</id>
+    <Point>
+      <coordinates>-2.158178,39.766308,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Benalup Johan Cruyff</name>
+    <address>C/ Conciliar, 5</address>
+    <id>183</id>
+    <Point>
+      <coordinates>-5.809100,36.343433,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>S.C. Recreativos San Miguel Pedroso</name>
+    <address>C/ Pedroso, 17</address>
+    <id>402</id>
+    <Point>
+      <coordinates>-3.214388,42.395832,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Algaidas</name>
+    <address>C/ San Francisco, 1</address>
+    <id>267</id>
+    <Point>
+      <coordinates>-4.449791,37.185005,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña FC Barcelona Guardo</name>
+    <address>C/ Río Chico, 8</address>
+    <id>138</id>
+    <Point>
+      <coordinates>-4.846193,42.789928,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Peña Barcelonista Occidental</name>
+    <address>[Sin ubicación]</address>
+    <id>63</id>
+    <Point>
+      <coordinates>-6.643637,43.566185,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Deportiva FC Barcelona de Calahorra</name>
+    <address>Av. del Ebro, 11</address>
+    <id>339</id>
+    <Point>
+      <coordinates>-1.953792,42.311691,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Nicolau Casaus&quot;</name>
+    <address>C/ Poeta García Lorca, 4</address>
+    <id>528</id>
+    <Point>
+      <coordinates>-4.381110,37.895622,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;20 de mayo&quot; de Almonte</name>
+    <address>C/ Pérez Embid, 15</address>
+    <id>356</id>
+    <Point>
+      <coordinates>-6.512741,37.262489,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Juventud&quot;</name>
+    <address>C/ de la Molineta, s/n</address>
+    <id>604</id>
+    <Point>
+      <coordinates>-6.234001,38.548786,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Deportiva FC Barcelona de Oliva</name>
+    <address>Travesía del Prado, s/n</address>
+    <id>624</id>
+    <Point>
+      <coordinates>-6.914893,38.277912,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Bellotas Azulgranas</name>
+    <address>C/ Rafael Alberti, 2</address>
+    <id>603</id>
+    <Point>
+      <coordinates>-6.350949,40.087284,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista 2.000</name>
+    <address>C/ Rosaledas, 4</address>
+    <id>162</id>
+    <Point>
+      <coordinates>-3.911316,37.263229,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Tudela</name>
+    <address>C/ Concarera</address>
+    <id>314</id>
+    <Point>
+      <coordinates>-1.605991,42.062466,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Caucense</name>
+    <address>Av. de Icona, 3</address>
+    <id>64</id>
+    <Point>
+      <coordinates>-4.521667,41.215611,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Los Cañeteros</name>
+    <address>C/ Séneca, 20</address>
+    <id>523</id>
+    <Point>
+      <coordinates>-4.320890,37.867584,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Aljaraque Nicolau Casaus</name>
+    <address>C/ La Fuente, 11</address>
+    <id>370</id>
+    <Point>
+      <coordinates>-7.023247,37.270691,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Mula</name>
+    <address>C/ de las Cucharadas, 2</address>
+    <id>581</id>
+    <Point>
+      <coordinates>-1.491994,38.040607,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Porzuna</name>
+    <address>C/ Cervantes, 46</address>
+    <id>424</id>
+    <Point>
+      <coordinates>-4.151442,39.146896,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Tenerife</name>
+    <address>C/ de los Hernández, 22</address>
+    <id>237</id>
+    <Point>
+      <coordinates>-16.351736,28.526554,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana &quot;La Paca&quot; Cuevas Almanzora</name>
+    <address>C/ Cervantes, 6</address>
+    <id>204</id>
+    <Point>
+      <coordinates>-1.879858,37.295422,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Johan Cruyff de San Bartolomé</name>
+    <address>C/ Gibraleón, 2</address>
+    <id>404</id>
+    <Point>
+      <coordinates>-7.099951,37.444008,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Montsacro</name>
+    <address>C/ López del Vallado, 13</address>
+    <id>252</id>
+    <Point>
+      <coordinates>-5.833357,43.363445,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Cartagena</name>
+    <address>C/ Seo, 7</address>
+    <id>643</id>
+    <Point>
+      <coordinates>-0.988110,37.629002,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana Gigia-Ivan</name>
+    <address>C/ Juan Alvargonzález, 42</address>
+    <id>546</id>
+    <Point>
+      <coordinates>-5.667189,43.530006,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Monterrubio de la Serena</name>
+    <address>C/ Feria, 54</address>
+    <id>160</id>
+    <Point>
+      <coordinates>-5.440599,38.588760,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Maragata FC Barcelona</name>
+    <address>Pl. de los Marqueses de Astorga, 9</address>
+    <id>12</id>
+    <Point>
+      <coordinates>-6.058938,42.455330,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana &quot;Johan Cruyff&quot;</name>
+    <address>Cuesta de la Foronda, 2</address>
+    <id>66</id>
+    <Point>
+      <coordinates>-4.718002,41.061859,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Ivan&quot;</name>
+    <address>C/ Ramón Valle, 8</address>
+    <id>503</id>
+    <Point>
+      <coordinates>-5.187053,43.390163,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Los Hinojosos</name>
+    <address>C/ Salazar Monreal, 19</address>
+    <id>311</id>
+    <Point>
+      <coordinates>-2.824039,39.602398,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista 5-0 Lucena</name>
+    <address>Pl. de la Barrera, s/n</address>
+    <id>561</id>
+    <Point>
+      <coordinates>-4.480960,37.406933,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Lojeña &quot;El Chapi&quot;</name>
+    <address>Av de la Estación, 15</address>
+    <id>102</id>
+    <Point>
+      <coordinates>-4.149697,37.173016,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Rana</name>
+    <address>Paseo de las Canalejas, 6</address>
+    <id>349</id>
+    <Point>
+      <coordinates>-5.658528,40.967751,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Jose María Labrador&quot;</name>
+    <address>C/ de los Remedios, 26</address>
+    <id>622</id>
+    <Point>
+      <coordinates>-4.539233,37.268875,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Josep Guardiola&quot;</name>
+    <address>C/ Cervantes, 15</address>
+    <id>163</id>
+    <Point>
+      <coordinates>-3.530873,37.983814,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Moaña</name>
+    <address>Av de José Costa Alonso, 72</address>
+    <id>537</id>
+    <Point>
+      <coordinates>-8.740658,42.271633,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Castillo de Lopera</name>
+    <address>C/ Vicente Rey, 73</address>
+    <id>30</id>
+    <Point>
+      <coordinates>-4.210950,37.946762,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Melilla</name>
+    <address>C/ Alfonso X, 4</address>
+    <id>354</id>
+    <Point>
+      <coordinates>-2.947854,35.285690,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Camarguesa</name>
+    <address>C/ de la Constitución, 5</address>
+    <id>450</id>
+    <Point>
+      <coordinates>-3.844451,43.416908,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Burela</name>
+    <address>Avda. de Arcadio Pardiñas, 113</address>
+    <id>194</id>
+    <Point>
+      <coordinates>-7.359334,43.657726,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana Navamorquin Baños de la Encina</name>
+    <address>C/ Desengaño, 4</address>
+    <id>37</id>
+    <Point>
+      <coordinates>-3.773761,38.171341,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Azkoyen</name>
+    <address>C/ San Pedro, 36</address>
+    <id>120</id>
+    <Point>
+      <coordinates>-1.803935,42.336792,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Valdemoro</name>
+    <address>C/ Orfeo, 6</address>
+    <id>33</id>
+    <Point>
+      <coordinates>-3.681311,40.182526,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Marin</name>
+    <address>Rua Calvo Sotelo, 105</address>
+    <id>560</id>
+    <Point>
+      <coordinates>-8.693190,42.394115,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Tio Francisquete&quot;</name>
+    <address>C/ Don Quijote, 9</address>
+    <id>223</id>
+    <Point>
+      <coordinates>-3.449584,39.427803,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Voz Castua&quot;</name>
+    <address>C/ Máximo Cruz, 2</address>
+    <id>324</id>
+    <Point>
+      <coordinates>-6.636490,39.966282,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista El Escardillo</name>
+    <address>C/ General Villacañas, 1</address>
+    <id>206</id>
+    <Point>
+      <coordinates>-3.013314,39.670773,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Tarazona</name>
+    <address>Pº de los Fueros de Aragón, 17</address>
+    <id>473</id>
+    <Point>
+      <coordinates>-1.729128,41.902164,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña FC Barcelona Puebla de la Calzada</name>
+    <address>Pl. de Extremadura, 1</address>
+    <id>461</id>
+    <Point>
+      <coordinates>-6.625491,38.894150,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana de La Axarquía</name>
+    <address>Pl. del Carmen, 4</address>
+    <id>254</id>
+    <Point>
+      <coordinates>-4.104324,36.782284,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;San Juan Bautista&quot;</name>
+    <address>C/ Coso, 4</address>
+    <id>281</id>
+    <Point>
+      <coordinates>-5.627632,39.138592,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Chauchina Boixos-Sur</name>
+    <address>Primero de Mayo, 1</address>
+    <id>143</id>
+    <Point>
+      <coordinates>-3.772044,37.201485,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Pueblonuevo del Guadiana</name>
+    <address>Ronda Saliente, 10</address>
+    <id>526</id>
+    <Point>
+      <coordinates>-6.754320,38.920681,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Fuente Vaqueros Blau-Grana Sur</name>
+    <address>C/ Poeta Blas Otero, 16</address>
+    <id>11</id>
+    <Point>
+      <coordinates>-3.781997,37.220654,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Alcorisa</name>
+    <address>C/ Cueva Oscura, 27</address>
+    <id>88</id>
+    <Point>
+      <coordinates>-0.378847,40.892056,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Jose Mari Baquero</name>
+    <address>C/ Romancero, 4</address>
+    <id>557</id>
+    <Point>
+      <coordinates>-3.922108,38.005054,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de La Zubia &quot;Carlos Rexach&quot;</name>
+    <address>Cumbres Verdes, s/n</address>
+    <id>332</id>
+    <Point>
+      <coordinates>-3.550708,37.100178,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Alhaurín de la Torre</name>
+    <address>Av de la Vega, 1</address>
+    <id>71</id>
+    <Point>
+      <coordinates>-4.562624,36.663860,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Sidrería Belén</name>
+    <address>C/ Puerto del Pontón, 9</address>
+    <id>305</id>
+    <Point>
+      <coordinates>-5.834924,43.372505,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Libertad</name>
+    <address>Parque la Libertad, 7</address>
+    <id>301</id>
+    <Point>
+      <coordinates>-15.443884,27.848946,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Tapia</name>
+    <address>C/ Rafael Alberti, 6</address>
+    <id>130</id>
+    <Point>
+      <coordinates>-2.301298,37.331646,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Alhama de Murcia</name>
+    <address>C/ General García Díaz, 30</address>
+    <id>83</id>
+    <Point>
+      <coordinates>-1.421180,37.849205,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña FC Barcelona de Autol</name>
+    <address>C/ Hermandad, 7</address>
+    <id>475</id>
+    <Point>
+      <coordinates>-2.005035,42.214008,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Santomera</name>
+    <address>C/ Almazara, 11</address>
+    <id>369</id>
+    <Point>
+      <coordinates>-1.046653,38.063126,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Miguelturra</name>
+    <address>C/ Azorín, 2</address>
+    <id>249</id>
+    <Point>
+      <coordinates>-3.888846,38.966717,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña &quot;Teruel Azulgrana&quot;</name>
+    <address>C/ Jardinera, 7</address>
+    <id>185</id>
+    <Point>
+      <coordinates>-1.104175,40.343269,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Cruz</name>
+    <address>C/ Extremadura, 13</address>
+    <id>263</id>
+    <Point>
+      <coordinates>-1.867368,38.100548,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Villa de Mancha Real</name>
+    <address>C/ Zambra, 53</address>
+    <id>306</id>
+    <Point>
+      <coordinates>-3.611397,37.786354,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Beniel</name>
+    <address>C/ Jardín, 24</address>
+    <id>342</id>
+    <Point>
+      <coordinates>-1.000754,38.045170,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Antillon Blau-Grana</name>
+    <address>C/ J. A. Navarrete, 10</address>
+    <id>74</id>
+    <Point>
+      <coordinates>-1.314986,40.571728,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Special&quot; Azulgrana</name>
+    <address>C/ Santa Isabel, 11</address>
+    <id>182</id>
+    <Point>
+      <coordinates>-5.454939,36.133614,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Beniajan &quot;Ivan de la Peña&quot;</name>
+    <address>Carretera de Beniajan, KM 4</address>
+    <id>137</id>
+    <Point>
+      <coordinates>-1.076896,37.982769,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Nicolau Casaus de Almansa</name>
+    <address>C/ Aniceto Coloma, 100</address>
+    <id>327</id>
+    <Point>
+      <coordinates>-1.102564,38.870403,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de los Enamorados del Barça</name>
+    <address>C/ Nájera, s/n</address>
+    <id>115</id>
+    <Point>
+      <coordinates>-4.557680,37.016167,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Cehegín</name>
+    <address>C/ Cuesta Partidor, 4</address>
+    <id>256</id>
+    <Point>
+      <coordinates>-1.799454,38.093819,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Birlari</name>
+    <address>C/ Camilo José Cela, s/n</address>
+    <id>410</id>
+    <Point>
+      <coordinates>-2.301961,37.359875,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Miraflores</name>
+    <address>C/ las Peñas, 16</address>
+    <id>667</id>
+    <Point>
+      <coordinates>-3.764746,40.815392,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Unión Extremadura</name>
+    <address>C/ Marqués de Mondéjar, s/n</address>
+    <id>535</id>
+    <Point>
+      <coordinates>-3.375450,40.473183,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Puerto Lumbreras</name>
+    <address>C/ Pedro García Rubio, 13</address>
+    <id>313</id>
+    <Point>
+      <coordinates>-1.807539,37.563858,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista O Grove</name>
+    <address>Av. Luis Casais, 11</address>
+    <id>552</id>
+    <Point>
+      <coordinates>-8.862137,42.493446,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Tierras del Cid&quot;</name>
+    <address>Pl. Antolín Avelino Toledano, 2</address>
+    <id>654</id>
+    <Point>
+      <coordinates>-3.661250,42.350128,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Teide</name>
+    <address>Ctra. Gral. del Sur, 132</address>
+    <id>89</id>
+    <Point>
+      <coordinates>-16.658117,28.091593,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Alcaracejos Alcazulgrana</name>
+    <address>C/ Visó, s/n</address>
+    <id>309</id>
+    <Point>
+      <coordinates>-4.966141,38.392696,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Fuenlabarça</name>
+    <address>Pl. Bogotá, 8</address>
+    <id>188</id>
+    <Point>
+      <coordinates>-3.783846,40.293545,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Jose Mari Bakero de Torreperogil</name>
+    <address>C/ Manuel Falla, 2</address>
+    <id>682</id>
+    <Point>
+      <coordinates>-3.293017,38.036346,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Burgalesa</name>
+    <address>C/ los Labradores, 5</address>
+    <id>72</id>
+    <Point>
+      <coordinates>-3.648986,42.343864,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Esférico&quot;</name>
+    <address>Av de Andalucía, s/n</address>
+    <id>127</id>
+    <Point>
+      <coordinates>-3.502986,38.020672,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana Gran Canaria Los Norteños</name>
+    <address>C/ Marmolejos, 137</address>
+    <id>351</id>
+    <Point>
+      <coordinates>-15.657193,28.130566,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Peralea&quot;</name>
+    <address>Camino de la Fuentecita</address>
+    <id>606</id>
+    <Point>
+      <coordinates>-5.463534,39.853436,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista El Gallo de Morón</name>
+    <address>C/ Cañuelos, 31</address>
+    <id>29</id>
+    <Point>
+      <coordinates>-5.446676,37.119698,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Tristan-Barça&quot;</name>
+    <address>C/ Comodoro Rolín, 6</address>
+    <id>494</id>
+    <Point>
+      <coordinates>-16.266850,28.463188,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Priego Los Peloteros</name>
+    <address>Av de la Juventud, 1</address>
+    <id>445</id>
+    <Point>
+      <coordinates>-4.208348,37.442146,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Angel Mur&quot; de Barbastro y Comarca</name>
+    <address>Av de los Pirineos, 30</address>
+    <id>500</id>
+    <Point>
+      <coordinates>0.131294,42.038513,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Gol 4.000</name>
+    <address>C/ San Juan, 28</address>
+    <id>556</id>
+    <Point>
+      <coordinates>-6.621804,38.523151,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Vincula&quot;</name>
+    <address>Av de Andalucía, 21</address>
+    <id>492</id>
+    <Point>
+      <coordinates>-4.031674,37.880062,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Estepona</name>
+    <address>C/ Gibraltar, 5</address>
+    <id>524</id>
+    <Point>
+      <coordinates>-5.145820,36.429436,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Sierra del Pozo&quot;</name>
+    <address>C/ Arroyo de la Venta, 4</address>
+    <id>411</id>
+    <Point>
+      <coordinates>-2.932211,37.703144,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Casabermeja</name>
+    <address>Callejón de la luz, 2</address>
+    <id>276</id>
+    <Point>
+      <coordinates>-4.429059,36.894032,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Quel</name>
+    <address>A. de la Rioja, 19</address>
+    <id>616</id>
+    <Point>
+      <coordinates>-2.050302,42.229218,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barça &quot;Val do Tea&quot;</name>
+    <address>Ctra. de Villasobroso, 8</address>
+    <id>99</id>
+    <Point>
+      <coordinates>-8.470220,42.224010,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Estella-Lizarra</name>
+    <address>C/ Santa Bárbara, 4</address>
+    <id>210</id>
+    <Point>
+      <coordinates>-2.039619,42.673332,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Trastolillo&quot;</name>
+    <address>C/ Cardenal Cisneros, 96</address>
+    <id>57</id>
+    <Point>
+      <coordinates>-3.820359,43.461887,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Ivan de la Peña de Tabernas</name>
+    <address>C/ Gran Capitan, 4</address>
+    <id>149</id>
+    <Point>
+      <coordinates>-2.388184,37.053768,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Bullas</name>
+    <address>Av de Don Luis de los Reyes, 33</address>
+    <id>56</id>
+    <Point>
+      <coordinates>-1.663657,38.047104,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Moreneta&quot;</name>
+    <address>C/ Páramo de San Isidro, 15</address>
+    <id>425</id>
+    <Point>
+      <coordinates>-4.704385,41.638683,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Puebla de Soto</name>
+    <address>C/ Mayor, 17</address>
+    <id>590</id>
+    <Point>
+      <coordinates>-1.197234,37.977814,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Lantejolense</name>
+    <address>Cardenal Spinola, 3</address>
+    <id>661</id>
+    <Point>
+      <coordinates>-5.222792,37.353619,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barça Lalín</name>
+    <address>C/ Joaquín Loriga, 21</address>
+    <id>633</id>
+    <Point>
+      <coordinates>-8.112402,42.660694,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Sidrería La Villa&quot;</name>
+    <address>C/ Eleuterio Quintanilla, 38</address>
+    <id>656</id>
+    <Point>
+      <coordinates>-5.666744,43.531013,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Unión Barça&quot;</name>
+    <address>[Sin ubicación]</address>
+    <id>97</id>
+    <Point>
+      <coordinates>-1.789272,43.338234,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Masía&quot; de Moguer</name>
+    <address>C/ Daniel Vázquez Díaz, 10</address>
+    <id>193</id>
+    <Point>
+      <coordinates>-6.836027,37.277714,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Totana</name>
+    <address>C/ San Francisco, 11</address>
+    <id>126</id>
+    <Point>
+      <coordinates>-1.498257,37.766479,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Masía&quot; de Moguer</name>
+    <address>C/ Daniel Vázquez Díaz, 10</address>
+    <id>215</id>
+    <Point>
+      <coordinates>-6.836027,37.277714,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Totana</name>
+    <address>C/ San Francisco, 11</address>
+    <id>433</id>
+    <Point>
+      <coordinates>-1.498257,37.766479,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Queretes-Cretas</name>
+    <address>C/ Sant Roc, 11</address>
+    <id>167</id>
+    <Point>
+      <coordinates>0.212249,40.928089,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Mirobriga del FC Barcelona</name>
+    <address>C/ Santiago Vegas Arranz, 2</address>
+    <id>296</id>
+    <Point>
+      <coordinates>-6.533332,40.601658,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Alange</name>
+    <address>Pl. España, 7</address>
+    <id>413</id>
+    <Point>
+      <coordinates>-6.247408,38.785011,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Pepe Bernal&quot;</name>
+    <address>Av de Galicia, 71</address>
+    <id>403</id>
+    <Point>
+      <coordinates>-5.751581,41.510406,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Los Pedroteños&quot;</name>
+    <address>C/ Ancha, 45</address>
+    <id>441</id>
+    <Point>
+      <coordinates>-2.944635,39.400467,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Castillera Barça 2000</name>
+    <address>Ctra. de Granada, 63</address>
+    <id>491</id>
+    <Point>
+      <coordinates>-3.938219,37.524857,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Guardiola&quot; Almodóvar del Campo</name>
+    <address>C/ Blasco Ibáñez, 24</address>
+    <id>619</id>
+    <Point>
+      <coordinates>-4.178463,38.710606,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barçaldea</name>
+    <address>C/ Doctor Fleming, 191</address>
+    <id>613</id>
+    <Point>
+      <coordinates>-15.796551,27.989595,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Salamanca</name>
+    <address>C/ Colombia, 14</address>
+    <id>173</id>
+    <Point>
+      <coordinates>-5.646113,40.968590,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Amigos del 97&quot;</name>
+    <address>C/ Nevada, 3</address>
+    <id>310</id>
+    <Point>
+      <coordinates>-3.645367,37.145000,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Turón</name>
+    <address>C/ Rafael del Riego, 23</address>
+    <id>19</id>
+    <Point>
+      <coordinates>-5.741172,43.209557,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Coín</name>
+    <address>C/ Duende, 7</address>
+    <id>186</id>
+    <Point>
+      <coordinates>-4.757665,36.660549,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Azul-Grana&quot;</name>
+    <address>C/ Pablo Neruda, 23</address>
+    <id>112</id>
+    <Point>
+      <coordinates>-3.520780,37.391403,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Albaladejo</name>
+    <address>Av de La Mancha, 19</address>
+    <id>39</id>
+    <Point>
+      <coordinates>-2.810695,38.617863,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Barcarrota</name>
+    <address>C/ Pina, 31-A</address>
+    <id>677</id>
+    <Point>
+      <coordinates>-6.849761,38.514259,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Lloreda-Gijón</name>
+    <address>C/ Marruecos, 2</address>
+    <id>68</id>
+    <Point>
+      <coordinates>-5.709280,43.526989,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;A Pravia&quot;</name>
+    <address>Rúa Guitiriz</address>
+    <id>101</id>
+    <Point>
+      <coordinates>-7.678247,43.296795,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Concello de Guitiriz</name>
+    <address>Rúa da Liberdade, 4</address>
+    <id>389</id>
+    <Point>
+      <coordinates>-7.898952,43.185307,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Valdeorras</name>
+    <address>Av. Manuel Quiroga, 7</address>
+    <id>343</id>
+    <Point>
+      <coordinates>-6.980438,42.416016,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Casas de Juan Núñez</name>
+    <address>C/ Saliente, s/n</address>
+    <id>78</id>
+    <Point>
+      <coordinates>-1.553780,39.100254,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;San Jorge&quot; de Madrigueras</name>
+    <address>C/ Almenas, 50</address>
+    <id>668</id>
+    <Point>
+      <coordinates>-1.801311,39.238361,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana &quot;Minera&quot;</name>
+    <address>C/ Antiguo Círculo Inglés, s/n</address>
+    <id>372</id>
+    <Point>
+      <coordinates>-6.855099,37.715446,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Mingo&quot;</name>
+    <address>Av de Andalucía, 7</address>
+    <id>405</id>
+    <Point>
+      <coordinates>-3.129632,38.255562,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Jaca</name>
+    <address>Av de Zaragoza, 42</address>
+    <id>381</id>
+    <Point>
+      <coordinates>-0.545471,42.575031,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Azofra</name>
+    <address>C/ Mayor, 17</address>
+    <id>113</id>
+    <Point>
+      <coordinates>-2.800641,42.424099,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Toresana</name>
+    <address>Av Carlos Pinilla, 36</address>
+    <id>542</id>
+    <Point>
+      <coordinates>-5.394609,41.526451,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Zapato&quot;</name>
+    <address>Pl. España, 1</address>
+    <id>391</id>
+    <Point>
+      <coordinates>-1.600763,41.523472,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña FC Barcelona La Roda</name>
+    <address>Av Juan Ramón Ramírez, 10</address>
+    <id>436</id>
+    <Point>
+      <coordinates>-2.155904,39.202656,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Franja Mequinenza&quot;</name>
+    <address>Calle N, 15</address>
+    <id>207</id>
+    <Point>
+      <coordinates>0.304048,41.376102,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Arcense</name>
+    <address>Av Miguel Mancheño, 55</address>
+    <id>396</id>
+    <Point>
+      <coordinates>-5.820240,36.749729,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Los Guanches&quot; del Barça</name>
+    <address>Av Condes Santa María Abona, 25</address>
+    <id>100</id>
+    <Point>
+      <coordinates>-16.371252,28.355211,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Vegaviana</name>
+    <address>Plaza de los Artesanos, 4</address>
+    <id>378</id>
+    <Point>
+      <coordinates>-6.719347,40.040623,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barça Caldas</name>
+    <address>Av de Dolores Mosquera, 10</address>
+    <id>478</id>
+    <Point>
+      <coordinates>-8.644206,42.606407,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Villa de Pegalajar&quot;</name>
+    <address>C/ Baja Fuente, 81</address>
+    <id>679</id>
+    <Point>
+      <coordinates>-3.643791,37.740326,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;San Miguel&quot;</name>
+    <address>Camino de Souto Colexios, 66</address>
+    <id>513</id>
+    <Point>
+      <coordinates>-7.192903,43.543262,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Nicolau Casaus&quot;</name>
+    <address>Edificio Vista Mar, s/n</address>
+    <id>77</id>
+    <Point>
+      <coordinates>-5.603542,36.012310,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Verata&quot;</name>
+    <address>C/ Hernán Cortés, s/n</address>
+    <id>157</id>
+    <Point>
+      <coordinates>-5.748937,40.061035,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Indarra Barça&quot;</name>
+    <address>Faustekalea Kalea, 17</address>
+    <id>420</id>
+    <Point>
+      <coordinates>-2.621668,43.168610,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Saidi</name>
+    <address>Av San Antonio Abad, 25</address>
+    <id>545</id>
+    <Point>
+      <coordinates>0.268208,41.607979,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Sergi Barjuan&quot;</name>
+    <address>Pl. de los Marineros, s/n</address>
+    <id>675</id>
+    <Point>
+      <coordinates>-6.967148,37.182480,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Centenario&quot; de Solana</name>
+    <address>C/ Doctor Fléming, 36</address>
+    <id>519</id>
+    <Point>
+      <coordinates>-6.536579,38.723160,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Jadraqueña</name>
+    <address>C/ Cuatro Caminos, 14</address>
+    <id>290</id>
+    <Point>
+      <coordinates>-2.926399,40.926399,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Los Llanos-J. Gaspart</name>
+    <address>C/ Santa Ana, 29</address>
+    <id>588</id>
+    <Point>
+      <coordinates>-2.808689,39.490105,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Guarapo&quot;</name>
+    <address>C/ Camino Lomo del Clavo, s/n</address>
+    <id>392</id>
+    <Point>
+      <coordinates>-17.107271,28.102505,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Beniajan</name>
+    <address>C/ Maymon Antonia, 5</address>
+    <id>386</id>
+    <Point>
+      <coordinates>-1.073436,37.972115,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Túrbula&quot;</name>
+    <address>Pº Príncipe de Asturias, 51</address>
+    <id>555</id>
+    <Point>
+      <coordinates>-1.688360,38.594784,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Entrena</name>
+    <address>C/ Barbacana, 9</address>
+    <id>580</id>
+    <Point>
+      <coordinates>-2.531263,42.387840,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Torres de Cotillas</name>
+    <address>C/ Antonio Machado, 51</address>
+    <id>426</id>
+    <Point>
+      <coordinates>-1.242595,38.028107,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Santa Cruz de Mudela</name>
+    <address>C/ Virgen, 8</address>
+    <id>109</id>
+    <Point>
+      <coordinates>-3.462875,38.638821,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista El Palo</name>
+    <address>C/ Quitapenas, 107</address>
+    <id>333</id>
+    <Point>
+      <coordinates>-4.360091,36.718941,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Ahí Estamos&quot;</name>
+    <address>C/ Maestro Turrillas, 10</address>
+    <id>371</id>
+    <Point>
+      <coordinates>-1.951554,42.374069,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Patrón San Sebastián&quot;</name>
+    <address>C/ Cristo, 14</address>
+    <id>505</id>
+    <Point>
+      <coordinates>-3.528971,39.467079,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Almoroxana</name>
+    <address>Pl. Constitución, 2</address>
+    <id>692</id>
+    <Point>
+      <coordinates>-4.390570,40.233582,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Gora Barça-9 de Mayo&quot;</name>
+    <address>Barrio Argixao Kalea</address>
+    <id>10</id>
+    <Point>
+      <coordinates>-2.312467,43.082024,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Lolo&quot; de Zahara de los Atunes</name>
+    <address>C/ María Luisa, 26</address>
+    <id>315</id>
+    <Point>
+      <coordinates>-5.844271,36.136524,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Las Torres&quot;</name>
+    <address>C/ Pizarrilla, 13</address>
+    <id>645</id>
+    <Point>
+      <coordinates>-6.411311,38.344093,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Riojana de Logroño</name>
+    <address>C/ Escritor Juan Boscán, 11</address>
+    <id>131</id>
+    <Point>
+      <coordinates>-2.437505,42.456017,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Azuaga</name>
+    <address>C/ Estalajes, 16</address>
+    <id>516</id>
+    <Point>
+      <coordinates>-5.677979,38.259491,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Fortuna&quot;</name>
+    <address>C/ Santo Domingo, 25</address>
+    <id>192</id>
+    <Point>
+      <coordinates>-3.780548,40.357616,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Jose Mari Bakero de El Carpio</name>
+    <address>Ctra. de la Romana s/n</address>
+    <id>635</id>
+    <Point>
+      <coordinates>-4.494447,37.942150,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Albuera 1911</name>
+    <address>Av Extremadura, 33</address>
+    <id>241</id>
+    <Point>
+      <coordinates>-6.822546,38.714012,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Villalpando</name>
+    <address>Pl. Mayor, 23</address>
+    <id>123</id>
+    <Point>
+      <coordinates>-5.414174,41.864620,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Malena</name>
+    <address>Pl. Estación, s/n</address>
+    <id>558</id>
+    <Point>
+      <coordinates>-5.106852,37.803772,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana de Bellomonte</name>
+    <address>Pl. Muñoz Grandes, s/n</address>
+    <id>156</id>
+    <Point>
+      <coordinates>-2.705594,39.560093,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Almaden y Comarca</name>
+    <address>C/ Gregorio Lillo, 46</address>
+    <id>398</id>
+    <Point>
+      <coordinates>-4.834804,38.776688,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Jun</name>
+    <address>C/ Camino del Viejo, 11</address>
+    <id>444</id>
+    <Point>
+      <coordinates>-3.594327,37.219521,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Casa de Benítez</name>
+    <address>Virgen del Pilar</address>
+    <id>533</id>
+    <Point>
+      <coordinates>-2.129031,39.359837,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Nicolas Casaus de Las Palmas</name>
+    <address>C/ Pablo Penáguilas, 73</address>
+    <id>551</id>
+    <Point>
+      <coordinates>-15.434688,28.110466,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Tamarite y Comarca</name>
+    <address>Pl. Inmaculada, 9</address>
+    <id>268</id>
+    <Point>
+      <coordinates>0.422311,41.867828,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Faro de Luarca&quot;</name>
+    <address>Av de Galicia, 7</address>
+    <id>141</id>
+    <Point>
+      <coordinates>-6.536474,43.542130,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña del Barça &quot;Alhamar&quot;</name>
+    <address>Pl. General Morales, 10</address>
+    <id>203</id>
+    <Point>
+      <coordinates>-4.052794,37.936768,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de La Alberca</name>
+    <address>C/ Sacristía, 17</address>
+    <id>531</id>
+    <Point>
+      <coordinates>-1.139424,37.940842,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Cabezo de Torres</name>
+    <address>C/ Victoria, 17</address>
+    <id>172</id>
+    <Point>
+      <coordinates>-1.128393,38.022949,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Arandina</name>
+    <address>Av de Castilla, 12</address>
+    <id>170</id>
+    <Point>
+      <coordinates>-3.690869,41.668751,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Cuellarana &quot;Nicolau Casaus&quot;</name>
+    <address>C/ Francisco Orantes, 9</address>
+    <id>104</id>
+    <Point>
+      <coordinates>-4.318476,41.405388,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña FC Barcelona &quot;La Campiña&quot;</name>
+    <address>C/ Merina, 4</address>
+    <id>344</id>
+    <Point>
+      <coordinates>-4.701244,37.786205,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Cuna del Fútbol&quot;</name>
+    <address>Av del Paseo del Coso, s/n</address>
+    <id>5</id>
+    <Point>
+      <coordinates>-6.593088,37.695667,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Almaen 97&quot;</name>
+    <address>C/ Córdoba, 1</address>
+    <id>286</id>
+    <Point>
+      <coordinates>-3.565316,37.679844,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Chapi Ferrer&quot; de Hinojos</name>
+    <address>C/ Santiago, 23</address>
+    <id>355</id>
+    <Point>
+      <coordinates>-6.377359,37.292130,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Archidona</name>
+    <address>C/ Almohalla, 4</address>
+    <id>693</id>
+    <Point>
+      <coordinates>-4.388542,37.095757,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Campillos</name>
+    <address>C/ Pío Baroja, 17</address>
+    <id>212</id>
+    <Point>
+      <coordinates>-4.866751,37.044971,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana Villrrobledo</name>
+    <address>C/ Tinajeros, 14</address>
+    <id>442</id>
+    <Point>
+      <coordinates>-2.603916,39.270130,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Pista&quot;</name>
+    <address>C/ Ramón y Cajal, 68</address>
+    <id>54</id>
+    <Point>
+      <coordinates>-0.742823,41.572575,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Todos a Una&quot;</name>
+    <address>Pº Fuente Nueva, s/n</address>
+    <id>550</id>
+    <Point>
+      <coordinates>-5.425018,38.269531,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña &quot;El Centenario&quot; FCB de Arroyo</name>
+    <address>C/ Acacias, 22</address>
+    <id>636</id>
+    <Point>
+      <coordinates>-6.577510,39.478420,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Las 4 del Centenario&quot;</name>
+    <address>C/ Cristina de Noruega, s/n</address>
+    <id>564</id>
+    <Point>
+      <coordinates>-2.361374,37.348343,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Alpujarreña</name>
+    <address>C/ Concha Ros, 3</address>
+    <id>417</id>
+    <Point>
+      <coordinates>-2.660287,36.993938,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Malerreka&quot;</name>
+    <address>Ctra. del Mercado, 18</address>
+    <id>44</id>
+    <Point>
+      <coordinates>-1.668462,43.132401,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Centenario&quot; Valladolid</name>
+    <address>C/ Menéndez Pelayo, 6</address>
+    <id>317</id>
+    <Point>
+      <coordinates>-4.727489,41.650059,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Cahrly Rexach&quot; de Salar</name>
+    <address>Av de Andalucía, 50</address>
+    <id>340</id>
+    <Point>
+      <coordinates>-4.067070,37.151920,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana Rus 98</name>
+    <address>C/ Tartesos, 4</address>
+    <id>640</id>
+    <Point>
+      <coordinates>-3.461039,38.045078,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña de Futbol Barça Villa de Iscar</name>
+    <address>C/ Puelles, 7</address>
+    <id>146</id>
+    <Point>
+      <coordinates>-4.535200,41.360603,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Carmona</name>
+    <address>C/ del Real, 36</address>
+    <id>316</id>
+    <Point>
+      <coordinates>-5.643536,37.468716,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Eibar &quot;Dream Team&quot;</name>
+    <address>C/ Arane, 9</address>
+    <id>91</id>
+    <Point>
+      <coordinates>-2.465421,43.184692,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Medina de Pomar</name>
+    <address>C/ Mayor, 2</address>
+    <id>684</id>
+    <Point>
+      <coordinates>-3.309574,42.933750,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Virtual Blaugrana</name>
+    <address>C/ California, 38</address>
+    <id>629</id>
+    <Point>
+      <coordinates>-15.442259,28.131105,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Arjonilla &quot;El Centenario&quot;</name>
+    <address>C/ Huertas, 6</address>
+    <id>609</id>
+    <Point>
+      <coordinates>-4.106716,37.972164,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Mejorana&quot;</name>
+    <address>Camino del Real de los Neveros, 11</address>
+    <id>274</id>
+    <Point>
+      <coordinates>-3.570258,37.153805,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana de Añover de Tajo</name>
+    <address>Calle de Juan de Austria, 1</address>
+    <id>553</id>
+    <Point>
+      <coordinates>-3.770123,39.988701,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Monteagudo</name>
+    <address>Calle de los Donantes de Sangre, 16</address>
+    <id>298</id>
+    <Point>
+      <coordinates>-1.694195,41.963963,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Mi-Nerva&quot;</name>
+    <address>Calle del Pacífico, 46</address>
+    <id>2</id>
+    <Point>
+      <coordinates>-6.548284,37.696129,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Calasparra</name>
+    <address>Calle de Vázquez, 11</address>
+    <id>647</id>
+    <Point>
+      <coordinates>-1.696763,38.231701,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista 1999 Peñarroya-Pueblonuevo</name>
+    <address>Calle de la Trinidad, 31</address>
+    <id>421</id>
+    <Point>
+      <coordinates>-5.263280,38.298557,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Periche&quot; de Los Villares</name>
+    <address>Calle del Escribano Antonio de Villarreal, s/n</address>
+    <id>59</id>
+    <Point>
+      <coordinates>-3.817107,37.686127,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Mundo Deportivo&quot; de Siles</name>
+    <address>Calle del Paseo, 23</address>
+    <id>463</id>
+    <Point>
+      <coordinates>-2.584896,38.390312,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Guadiana</name>
+    <address>Calle Escuelas, 11</address>
+    <id>150</id>
+    <Point>
+      <coordinates>-6.688414,38.927475,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Asoc. Barcelonista &quot;Rey de Copas&quot; Espiel</name>
+    <address>Calle Virgen de la Luz, 5</address>
+    <id>648</id>
+    <Point>
+      <coordinates>-5.025109,38.186523,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Nicolau Casaus&quot; Socuéllamos 99</name>
+    <address>Calle de Villarrobledo, 44</address>
+    <id>232</id>
+    <Point>
+      <coordinates>-2.783891,39.285580,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Cauria</name>
+    <address>Calle del Rey Ordoño I, 30</address>
+    <id>82</id>
+    <Point>
+      <coordinates>-6.534630,39.985565,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Campillana Wembley 92</name>
+    <address>Calle del Toledillo, 57</address>
+    <id>151</id>
+    <Point>
+      <coordinates>-1.797822,39.612213,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Guardiola&quot; Jerez de los Caballeros</name>
+    <address>Carretera de la Estación, s/n</address>
+    <id>576</id>
+    <Point>
+      <coordinates>-6.779850,38.321091,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de La Malahá &quot;El Torreón&quot;</name>
+    <address>Calle Real, 1</address>
+    <id>197</id>
+    <Point>
+      <coordinates>-3.724448,37.100376,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Rota &quot;El Cente</name>
+    <address>Calle de Vélez de Guevara, 4</address>
+    <id>660</id>
+    <Point>
+      <coordinates>-6.358525,36.625019,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Alameda de Ribafrecha</name>
+    <address>Calle de la Vieja, 2</address>
+    <id>6</id>
+    <Point>
+      <coordinates>-2.388937,42.356213,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Ben-Hadus</name>
+    <address>Calle Sevilla, 70</address>
+    <id>174</id>
+    <Point>
+      <coordinates>-2.460071,36.930107,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Angliru 2000&quot;</name>
+    <address>Calle de la Fuente, 24</address>
+    <id>208</id>
+    <Point>
+      <coordinates>-5.881128,43.231316,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de La Zarza</name>
+    <address>Plaza del Ayuntamiento, 5</address>
+    <id>175</id>
+    <Point>
+      <coordinates>-6.215588,38.818382,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Ermua &quot;El Centenari&quot;</name>
+    <address>Calle de Zubiaurre, 34</address>
+    <id>611</id>
+    <Point>
+      <coordinates>-2.502050,43.189369,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Tafalla</name>
+    <address>Calle de Marcilla, s/n</address>
+    <id>67</id>
+    <Point>
+      <coordinates>-1.678894,42.523830,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Centenario&quot;</name>
+    <address>Plaza de la Iglesia, s/n</address>
+    <id>85</id>
+    <Point>
+      <coordinates>-3.315526,38.183929,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña F.C.Barcelona &quot;Los Cules&quot; de Baena</name>
+    <address>Calle de Ascensión de Prado, 2</address>
+    <id>34</id>
+    <Point>
+      <coordinates>-4.323825,37.619637,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Alguazas</name>
+    <address>Calle de la Batalla de Bailén, 10</address>
+    <id>139</id>
+    <Point>
+      <coordinates>-1.250052,38.051857,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Sabiote</name>
+    <address>Calle de Juan Rodríguez, 2</address>
+    <id>384</id>
+    <Point>
+      <coordinates>-3.308002,38.069553,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Sigüenza</name>
+    <address>Calle de Vicente Moñux, 8</address>
+    <id>375</id>
+    <Point>
+      <coordinates>-2.644458,41.070023,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Alcantarilla</name>
+    <address>Calle del Médico Pedro Nogeroles, 53</address>
+    <id>517</id>
+    <Point>
+      <coordinates>-1.222222,37.963387,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Inmaculada&quot; Horcajo de Santiago</name>
+    <address>Av de Caballos del Vitor, 32</address>
+    <id>334</id>
+    <Point>
+      <coordinates>-3.006519,39.841091,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Trujillanos</name>
+    <address>Calle de Juan Carlos I, 1</address>
+    <id>471</id>
+    <Point>
+      <coordinates>-6.257689,38.952518,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Egabrense &quot;Rafael Bonilla&quot;</name>
+    <address>Av de José Solis Rutz, 27</address>
+    <id>42</id>
+    <Point>
+      <coordinates>-4.444152,37.472725,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Cotayu&quot;</name>
+    <address>Carbayín Alto, 62</address>
+    <id>548</id>
+    <Point>
+      <coordinates>-5.628989,43.345825,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana La Granja-Valsain</name>
+    <address>Calle de Maestro José Costa, 3</address>
+    <id>454</id>
+    <Point>
+      <coordinates>-4.005958,40.901321,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Narón</name>
+    <address>Carretera de Castilla, 546</address>
+    <id>439</id>
+    <Point>
+      <coordinates>-8.211452,43.493095,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Sarria y Comarca</name>
+    <address>sin ubicación]</address>
+    <id>221</id>
+    <Point>
+      <coordinates>-7.414475,42.777657,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Espasante &quot;Ortegal Azulgrana&quot;</name>
+    <address>Plaza de San Antonio s/n</address>
+    <id>536</id>
+    <Point>
+      <coordinates>-7.806226,43.721325,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Roblana</name>
+    <address>Calle de Alcalde José Benjamín Villalobos, 2</address>
+    <id>325</id>
+    <Point>
+      <coordinates>-5.629105,42.801479,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña FC Barcelona &quot;El Centenario&quot; de Linares</name>
+    <address>Calle Numancia, 11</address>
+    <id>582</id>
+    <Point>
+      <coordinates>-3.630502,38.089779,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Torreorgaz FCBarcelona</name>
+    <address>Calle Transformador, 18</address>
+    <id>181</id>
+    <Point>
+      <coordinates>-6.249311,39.382904,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Villalgordo del Júcar</name>
+    <address>Calle del Quintanar, 37</address>
+    <id>278</id>
+    <Point>
+      <coordinates>-2.062186,39.296364,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Serradilla</name>
+    <address>Calle del Paijuan, 15</address>
+    <id>493</id>
+    <Point>
+      <coordinates>-6.142635,39.828018,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Alcaudete &quot;El Olivo&quot;</name>
+    <address>Calle de Juan de Alcaudete, s/n</address>
+    <id>414</id>
+    <Point>
+      <coordinates>-4.076266,37.588573,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Trobajo del Camino</name>
+    <address>Av de la Constitución, 269</address>
+    <id>35</id>
+    <Point>
+      <coordinates>-5.609128,42.598202,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Valverdeña</name>
+    <address>Calle de Toledo, 18</address>
+    <id>649</id>
+    <Point>
+      <coordinates>-6.761200,37.573933,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Nueva Carteya &quot;Vicente Alcala Viceo&quot;</name>
+    <address>Av de la Constitución, 88</address>
+    <id>583</id>
+    <Point>
+      <coordinates>-4.473317,37.588383,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Somos Blaugranas&quot;</name>
+    <address>Calle Camino Al Polvorin, 29</address>
+    <id>117</id>
+    <Point>
+      <coordinates>-15.421476,28.096020,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Andres Iniesta&quot; de Fuentealbilla</name>
+    <address>Av de Albacete, 12</address>
+    <id>214</id>
+    <Point>
+      <coordinates>-1.550687,39.266541,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Nicolau Casaus&quot; de Rubian</name>
+    <address>Avenida de Santiago, 16</address>
+    <id>489</id>
+    <Point>
+      <coordinates>-7.481734,42.651306,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Los Culegas&quot; de Garachico</name>
+    <address>Calle del Sol, 15</address>
+    <id>549</id>
+    <Point>
+      <coordinates>-16.764307,28.371826,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Los Culés&quot; de Huétor Tajar</name>
+    <address>Calle de San Sebastián, 68</address>
+    <id>360</id>
+    <Point>
+      <coordinates>-4.044168,37.195770,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Cabeza La Vaca</name>
+    <address>Calle del Medio, 18</address>
+    <id>476</id>
+    <Point>
+      <coordinates>-6.421054,38.085682,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Montemolín</name>
+    <address>Calle Medio Grande, 34</address>
+    <id>589</id>
+    <Point>
+      <coordinates>-6.216562,38.155739,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Murchante</name>
+    <address>Calle Mayor, s/n</address>
+    <id>84</id>
+    <Point>
+      <coordinates>-1.654404,42.031021,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Nertobriga</name>
+    <address>Calle de Sevilla, 45</address>
+    <id>16</id>
+    <Point>
+      <coordinates>-6.652402,38.165649,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Garrucha</name>
+    <address>Travesía de Darro, 14</address>
+    <id>571</id>
+    <Point>
+      <coordinates>-1.823158,37.184402,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Real Sitio&quot; San Fernando de Henares</name>
+    <address>Plaza de Fernando VI, 11</address>
+    <id>601</id>
+    <Point>
+      <coordinates>-3.531824,40.425949,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña del Pestiño Azulgrana</name>
+    <address>Camino de la Vega, 19</address>
+    <id>464</id>
+    <Point>
+      <coordinates>-3.516992,36.834351,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;33 RPM&quot; de Albacete</name>
+    <address>Calle de la Concepción, 44</address>
+    <id>269</id>
+    <Point>
+      <coordinates>-1.853021,38.993221,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Nicolau Casaus&quot; de Algarinejo</name>
+    <address>Calle Cervantes, 17</address>
+    <id>229</id>
+    <Point>
+      <coordinates>-4.158848,37.325966,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Las Menas&quot;</name>
+    <address>Calle de Ramón y Cajal, s/n</address>
+    <id>148</id>
+    <Point>
+      <coordinates>-2.298490,37.355633,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Cortes &quot;Antonio Castillo&quot;</name>
+    <address>Calle de San Miguel, 16</address>
+    <id>21</id>
+    <Point>
+      <coordinates>-1.420924,41.921528,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Rivaldo&quot; San Juan del Puerto</name>
+    <address>Calle de San José, 8</address>
+    <id>569</id>
+    <Point>
+      <coordinates>-6.843604,37.313908,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Aliana &quot;Saviola&quot;</name>
+    <address>Calle del Moral, 1</address>
+    <id>618</id>
+    <Point>
+      <coordinates>-5.216064,39.446316,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña FC Barcelona Benalúa de las Villas</name>
+    <address>Calle de Granada, 1</address>
+    <id>534</id>
+    <Point>
+      <coordinates>-3.683726,37.427074,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana Barçavila</name>
+    <address>Calle de Don Rufino Martín, 13</address>
+    <id>639</id>
+    <Point>
+      <coordinates>-4.698711,40.649460,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Hristo&quot; de Ledesma</name>
+    <address>Calle del Horno II, 21</address>
+    <id>678</id>
+    <Point>
+      <coordinates>-6.004436,41.087528,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Dos Mares&quot;</name>
+    <address>[sense ubicació]</address>
+    <id>380</id>
+    <ExtendedData>
+      <Data name="PlaceName">
+        <value></value>
+      </Data>
+      <Data name="Address">
+        <value></value>
+      </Data>
+      <Data name="Phone">
+        <value></value>
+      </Data>
+      <Data name="Website">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-0.719240,37.651970,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Binaced</name>
+    <address>Calle Nueva, 21</address>
+    <id>690</id>
+    <Point>
+      <coordinates>0.198706,41.827755,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Corazón de Asturias</name>
+    <address>Av Prudencio González, 44</address>
+    <id>520</id>
+    <Point>
+      <coordinates>-5.853513,43.441704,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Pulpí</name>
+    <address>sin ubicación]</address>
+    <id>602</id>
+    <Point>
+      <coordinates>-1.745502,37.411831,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Rosa del Azafrán</name>
+    <address>Calle de la Libertad, 1</address>
+    <id>293</id>
+    <Point>
+      <coordinates>-1.396931,39.280682,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Guardahortuna 2002&quot;</name>
+    <address>Calle del Molino, 15</address>
+    <id>165</id>
+    <Point>
+      <coordinates>-3.400908,37.555973,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Villanueva Mesía&quot;</name>
+    <address>sin ubicación]</address>
+    <id>335</id>
+    <Point>
+      <coordinates>-4.011248,37.214195,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Peñamefecit</name>
+    <address>Calle del Escorial, 3</address>
+    <id>501</id>
+    <Point>
+      <coordinates>-3.800048,37.780159,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Barrax</name>
+    <address>Calle de José Echegaray, 57</address>
+    <id>28</id>
+    <Point>
+      <coordinates>-1.875792,38.996765,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Desafío Blaugrana&quot; Telde 02</name>
+    <address>Calle de Juan Diego de la Fuente, 12</address>
+    <id>116</id>
+    <Point>
+      <coordinates>-15.417584,27.995560,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana &quot;La Bomba Navarro&quot;</name>
+    <address>Calle Volcán de las Arenas, 11</address>
+    <id>49</id>
+    <Point>
+      <coordinates>-16.309729,28.446276,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Llanes</name>
+    <address>Calle de Román Romano, 16</address>
+    <id>646</id>
+    <Point>
+      <coordinates>-4.758562,43.420971,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Lena</name>
+    <address>Calle Ramón y Cajal, 15</address>
+    <id>47</id>
+    <Point>
+      <coordinates>-5.830636,43.158356,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Segura de León</name>
+    <address>Calle de los Barrancos, 5</address>
+    <id>230</id>
+    <Point>
+      <coordinates>-6.529575,38.121384,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Peña de Badajoz FC Barcelona</name>
+    <address>Plaza de Cecilio Reino Vargas, 3</address>
+    <id>407</id>
+    <Point>
+      <coordinates>-6.968272,38.871708,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Deleitosa</name>
+    <address>Calle Nuestra Señora de La Breña, s/n</address>
+    <id>233</id>
+    <Point>
+      <coordinates>-5.643861,39.645096,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Espera</name>
+    <address>Calle del Clavel, s/n</address>
+    <id>443</id>
+    <Point>
+      <coordinates>-5.805087,36.870705,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Blaugrana L&#39;Avi</name>
+    <address>Carretera de Almería s/n</address>
+    <id>511</id>
+    <Point>
+      <coordinates>-3.487830,36.703091,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Calzadeña</name>
+    <address>Calle de Nuestra Señora del Valle, 4</address>
+    <id>320</id>
+    <Point>
+      <coordinates>-3.775091,38.703869,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana Isla Bonita</name>
+    <address>Calle Vizconde de Buen Paso, s/n</address>
+    <id>322</id>
+    <Point>
+      <coordinates>-17.915005,28.657551,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barça Padrón</name>
+    <address>Av de Calvo Sotelo, 21</address>
+    <id>634</id>
+    <Point>
+      <coordinates>-8.659822,42.737747,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Val de Lemos</name>
+    <address>[sin ubicación]</address>
+    <id>620</id>
+    <Point>
+      <coordinates>-7.510701,42.518559,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Aljucer</name>
+    <address>Av Príncipe de Asturias, 6</address>
+    <id>169</id>
+    <Point>
+      <coordinates>-1.136991,37.999878,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Azulgranas &quot;Astur-Galaicos&quot; Doce Puentes</name>
+    <address>Calle de la Alameda, 10</address>
+    <id>585</id>
+    <Point>
+      <coordinates>-7.050944,43.464195,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Haro</name>
+    <address>Calle de la Tercia, 27</address>
+    <id>32</id>
+    <Point>
+      <coordinates>-2.668921,39.688835,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Alpuazulgrana</name>
+    <address>Calle de la Aurora, s/n</address>
+    <id>4</id>
+    <Point>
+      <coordinates>-3.052851,36.964199,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista San Martín de Luiña</name>
+    <address>[sin ubicación]</address>
+    <id>562</id>
+    <Point>
+      <coordinates>-6.186510,43.559689,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Aupa Barça</name>
+    <address>Calle Fuente, 1</address>
+    <id>406</id>
+    <Point>
+      <coordinates>-6.689084,38.142403,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Quintanar del Rey</name>
+    <address>Calle de San Miguel, 7</address>
+    <id>512</id>
+    <Point>
+      <coordinates>-1.929822,39.340858,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Yepes</name>
+    <address>Calle de José Ribadeneira, 1</address>
+    <id>251</id>
+    <Point>
+      <coordinates>-3.623003,39.904839,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Cantoria</name>
+    <address>Av de España, 21</address>
+    <id>495</id>
+    <Point>
+      <coordinates>-2.188297,37.353279,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Santiago de Alcántara</name>
+    <address>sin ubicación]<a href="https://maps.google.es/maps/place?ftid=0xd17d013ab23a797:0x40463fd8ca03710&amp;q=espa%C3%B1a,+santiago+de+alcantara&amp;hl=es&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=xg1vULXbNIac8gPM7oCwCw&amp;sig2=yYj6INiE0ODqxvtgDAr4mA&amp;dtab=5" target="_blank"></a></address>
+    <id>326</id>
+    <Point>
+      <coordinates>-7.244205,39.605793,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Joan Laporta&quot; Isla de El Hierro</name>
+    <address>[sin ubicación]</address>
+    <id>685</id>
+    <Point>
+      <coordinates>-17.917631,27.796404,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Sariñena</name>
+    <address>Av de la Fraga, s/n</address>
+    <id>498</id>
+    <Point>
+      <coordinates>-0.152595,41.792233,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Tierra de Barros&quot; de Aceuchal</name>
+    <address>Calle Nueva, s/n</address>
+    <id>607</id>
+    <Point>
+      <coordinates>-6.488993,38.641273,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista San Blas</name>
+    <address>Calle San Blas, s/n</address>
+    <id>145</id>
+    <Point>
+      <coordinates>-6.946472,43.570469,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Santa Olaya</name>
+    <address>Calle de Ceriñola, 22</address>
+    <id>554</id>
+    <Point>
+      <coordinates>-5.688393,43.540054,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Mazarrón</name>
+    <address>Av de la Constitución, 133</address>
+    <id>506</id>
+    <Point>
+      <coordinates>-1.312457,37.597355,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Calanda</name>
+    <address>[sin ubicación]</address>
+    <id>673</id>
+    <Point>
+      <coordinates>-0.234115,40.941818,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Cabra 2004</name>
+    <address>Calle de Santa Ana, 21</address>
+    <id>574</id>
+    <Point>
+      <coordinates>-3.285548,37.703922,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Malpartida de Cáceres</name>
+    <address>Calle de las Piñuelas, 5</address>
+    <id>623</id>
+    <Point>
+      <coordinates>-6.514610,39.442013,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Fuente de Cantos</name>
+    <address>Calle de Jesús, s/n</address>
+    <id>20</id>
+    <Point>
+      <coordinates>-6.303063,38.246326,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana del Congreso y Senado</name>
+    <address>Plaza de la Marina Española, 8</address>
+    <id>480</id>
+    <Point>
+      <coordinates>-3.712707,40.420464,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Rio Tietar</name>
+    <address>Ronda del Carcaboso, 21</address>
+    <id>367</id>
+    <Point>
+      <coordinates>-5.480879,40.028866,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Marchena</name>
+    <address>Carretera de la Puebla Cazalla, 63</address>
+    <id>191</id>
+    <Point>
+      <coordinates>-5.422849,37.324474,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Torremejía</name>
+    <address>Calle Constitución, 19</address>
+    <id>255</id>
+    <Point>
+      <coordinates>-6.375412,38.792171,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Santa María del Águila</name>
+    <address>Calle de Aragón, 1</address>
+    <id>23</id>
+    <Point>
+      <coordinates>-2.775352,36.780422,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Villalba de los Barros</name>
+    <address>Calle San Juan de Ribera, s/n</address>
+    <id>346</id>
+    <Point>
+      <coordinates>-6.509744,38.613762,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Vegas del Genil</name>
+    <address>Calle de San Nicolás, 18</address>
+    <id>105</id>
+    <Point>
+      <coordinates>-3.669589,37.171066,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Villa de Tineo</name>
+    <address>Plaza del Pontan, 18</address>
+    <id>205</id>
+    <Point>
+      <coordinates>-6.416674,43.333588,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Medinense</name>
+    <address>Calle de Santa María de los Huertos, 2</address>
+    <id>22</id>
+    <Point>
+      <coordinates>-4.922316,41.311104,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Asturcon&quot;</name>
+    <address>[sin ubicación]</address>
+    <id>98</id>
+    <Point>
+      <coordinates>-6.136794,43.477898,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Ribiera do Ulla</name>
+    <address>[sin ubicación]</address>
+    <id>53</id>
+    <Point>
+      <coordinates>-8.470547,42.779812,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Caspe</name>
+    <address>Calle del Conde Guadalhorce, 3</address>
+    <id>60</id>
+    <Point>
+      <coordinates>-0.041871,41.238411,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana Paraiso Interior</name>
+    <address>C/ Camino de Santiago, 8</address>
+    <id>261</id>
+    <Point>
+      <coordinates>-3.618493,38.278198,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana Valle Gran Rey-Isla de la Gomera</name>
+    <address>Camino Los Granados, 1</address>
+    <id>270</id>
+    <Point>
+      <coordinates>-17.318932,28.110956,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña &quot;Los Migueletes&quot; FC Barcelona de Miguel Esteban</name>
+    <address>Calle de Santa Ana, 7</address>
+    <id>218</id>
+    <Point>
+      <coordinates>-3.075547,39.525513,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Villa de Letur</name>
+    <address>Calle de la Aurora, 8</address>
+    <id>572</id>
+    <Point>
+      <coordinates>-2.101285,38.366463,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Losareña</name>
+    <address>Plaza de Viñuela, 2</address>
+    <id>357</id>
+    <Point>
+      <coordinates>-5.607335,40.121853,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Campillo de Arenas</name>
+    <address>Calle de Málaga, 11</address>
+    <id>323</id>
+    <Point>
+      <coordinates>-3.636952,37.551430,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Cultural Barcelonista &quot;Paco Clos&quot; de El Rubio</name>
+    <address>Calle del Molino, s/n</address>
+    <id>666</id>
+    <Point>
+      <coordinates>-4.991071,37.353970,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Humilladero</name>
+    <address>Calle de la Mollina, 6</address>
+    <id>422</id>
+    <Point>
+      <coordinates>-4.699180,37.114819,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Esparrense</name>
+    <address>Plaza Nueva, 3</address>
+    <id>300</id>
+    <Point>
+      <coordinates>-6.437207,38.942204,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Villanueva de la Fuente</name>
+    <address>Calle de Juan Bravo, 8</address>
+    <id>358</id>
+    <Point>
+      <coordinates>-2.695626,38.695255,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Hoya del Campo</name>
+    <address>Calle de Juan Carlos I, 1</address>
+    <id>132</id>
+    <Point>
+      <coordinates>-1.338994,38.239178,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Tui</name>
+    <address>Avenida de Castelao, 32</address>
+    <id>595</id>
+    <Point>
+      <coordinates>-8.507000,42.170376,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de La Gineta</name>
+    <address>Calle de Lope de Vega, 11</address>
+    <id>338</id>
+    <Point>
+      <coordinates>-1.995574,39.114113,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Mirandilla</name>
+    <address>Calle Mérida, 17</address>
+    <id>653</id>
+    <Point>
+      <coordinates>-6.290268,39.001171,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña FC Barcelona de Moral de Calatrava</name>
+    <address>Calle de los Labradores, 22</address>
+    <id>111</id>
+    <Point>
+      <coordinates>-3.576446,38.831348,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Los Majoreros&quot; de Gran Tarajal</name>
+    <address>Calle La Venta, 22</address>
+    <id>467</id>
+    <Point>
+      <coordinates>-13.866061,28.499004,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Maria</name>
+    <address>Calle de la Virgen de la Cabeza, s/n</address>
+    <id>133</id>
+    <Point>
+      <coordinates>-2.165878,37.711529,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Moriles</name>
+    <address>Calle de Félix Rodríguez de la Fuente, 19</address>
+    <id>641</id>
+    <Point>
+      <coordinates>-4.609323,37.436275,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Bar Adolfo&quot; a Rúa</name>
+    <address>[sin ubicación]</address>
+    <id>559</id>
+    <Point>
+      <coordinates>-7.120533,42.392487,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Madrileña Valle del Kas</name>
+    <address>Calle de Fuente de Piedra, 18</address>
+    <id>110</id>
+    <Point>
+      <coordinates>-3.639827,40.383167,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Tranvia&quot; de Santa Marta</name>
+    <address>Calle de Francisco Neila, 4</address>
+    <id>154</id>
+    <Point>
+      <coordinates>-6.625008,38.614246,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana Moteña</name>
+    <address>Calle del Castillo, 20</address>
+    <id>691</id>
+    <Point>
+      <coordinates>-2.864062,39.502792,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Xente Culé&quot;</name>
+    <address>Av de Alemania, 30</address>
+    <id>51</id>
+    <Point>
+      <coordinates>-5.927815,43.561504,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de San Pedro de Mérida</name>
+    <address>Calle Mayor, 1</address>
+    <id>46</id>
+    <Point>
+      <coordinates>-6.186406,38.949615,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana de Benavente</name>
+    <address>Calle de la Ronda de San Bernardo, 2</address>
+    <id>521</id>
+    <Point>
+      <coordinates>-5.676695,42.000305,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Pitirrín&quot;</name>
+    <address>Carretera de Illora, Km 0,300</address>
+    <id>226</id>
+    <Point>
+      <coordinates>-3.821699,37.236530,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Novelda de Guadiana</name>
+    <address>Calle de la Torre, s/n</address>
+    <id>496</id>
+    <Point>
+      <coordinates>-6.833972,38.937309,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Comarca de Sepúlveda</name>
+    <address>Calle de Sancho Gracia, 5</address>
+    <id>626</id>
+    <Point>
+      <coordinates>-3.747811,41.296574,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Motilleja</name>
+    <address>Calle de los Extramuros, 2</address>
+    <id>522</id>
+    <Point>
+      <coordinates>-1.792574,39.179546,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Tosiria&quot;</name>
+    <address>Calle de Méndez Núñez, 2</address>
+    <id>671</id>
+    <Point>
+      <coordinates>-3.954601,37.767612,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonisa de Chiclana de la Frontera</name>
+    <address>[sin ubicación]</address>
+    <id>428</id>
+    <Point>
+      <coordinates>-6.149412,36.419151,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana Milagresa</name>
+    <address>Calle de Amaya, 14</address>
+    <id>55</id>
+    <Point>
+      <coordinates>-1.764744,42.241768,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Higueruela</name>
+    <address>Plaza del Mayor, 9</address>
+    <id>625</id>
+    <Point>
+      <coordinates>-1.446025,38.963940,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana Sierra Nevada</name>
+    <address>Calle de Granada, 7</address>
+    <id>694</id>
+    <Point>
+      <coordinates>-2.949277,37.177261,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana La Brisa Ciudad del Paso</name>
+    <address>[sin ubicación]</address>
+    <id>547</id>
+    <Point>
+      <coordinates>-17.870235,28.661844,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Peraleda del Zaucejo</name>
+    <address>Av de Nuestra Señora de Fátima, 8</address>
+    <id>95</id>
+    <Point>
+      <coordinates>-5.564625,38.471619,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista 1995 de León</name>
+    <address>Calle Cayo Jesús Fernández Espino, 3</address>
+    <id>681</id>
+    <Point>
+      <coordinates>-5.566463,42.604984,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista L&#39;Ablana</name>
+    <address>Calle León y Escosura, 5</address>
+    <id>598</id>
+    <Point>
+      <coordinates>-5.363927,43.349670,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Santa Eulalia de Morcin</name>
+    <address>Urbanización Monsacro, 7</address>
+    <id>225</id>
+    <Point>
+      <coordinates>-5.879652,43.282677,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Ezcaray</name>
+    <address>Calle de las Teñas, 60</address>
+    <id>65</id>
+    <Point>
+      <coordinates>-3.011908,42.327503,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana de Navaconcejo</name>
+    <address>Travesía Plaza de la Constitución, 16</address>
+    <id>9</id>
+    <Point>
+      <coordinates>-5.831626,40.177582,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Taoro del Valle&quot;</name>
+    <address>Calle de Juan Cullén, s/n</address>
+    <id>108</id>
+    <Point>
+      <coordinates>-16.520496,28.392811,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Castellana</name>
+    <address>Urbanización Los Linares, 9</address>
+    <id>599</id>
+    <Point>
+      <coordinates>-3.687080,42.451015,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Alpujarra de Órgiva</name>
+    <address>Calle de Ramón y Cajal, 2</address>
+    <id>121</id>
+    <Point>
+      <coordinates>-3.423553,36.902210,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Mijas</name>
+    <address>[sin ubicación]</address>
+    <id>663</id>
+    <Point>
+      <coordinates>-4.637619,36.595699,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Palma de 7 Puertas</name>
+    <address>Carretera de la Angostura, 159</address>
+    <id>76</id>
+    <Point>
+      <coordinates>-15.487977,28.048332,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña F.C. Barcelona Munera</name>
+    <address>Calle del Calvario, 27</address>
+    <id>94</id>
+    <Point>
+      <coordinates>-2.483146,39.041637,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Torremayor</name>
+    <address>Carretera de la Estación, 24</address>
+    <id>565</id>
+    <Point>
+      <coordinates>-6.539273,38.901741,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Villa de Frigiliana</name>
+    <address>Calle de Santa Teresa de Ávila, 19</address>
+    <id>184</id>
+    <Point>
+      <coordinates>-3.898670,36.793842,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Ciaño</name>
+    <address>Av de Laviana, 20</address>
+    <id>630</id>
+    <Point>
+      <coordinates>-5.666234,43.288239,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Paramesa Barcelonista</name>
+    <address>Calle del Alcalde Saturnino Francisco Franco, 7</address>
+    <id>455</id>
+    <Point>
+      <coordinates>-5.747504,42.353069,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Santorcaz</name>
+    <address>Calle de Alfonso de Zamora, 4</address>
+    <id>15</id>
+    <Point>
+      <coordinates>-3.361243,40.489964,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Casariche</name>
+    <address>Calle de la Privada 2</address>
+    <id>664</id>
+    <Point>
+      <coordinates>-4.763027,37.291759,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Culé La Asunción</name>
+    <address>Calle de Antonio Cerda, 15</address>
+    <id>459</id>
+    <Point>
+      <coordinates>-5.563051,42.629032,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Boltaña</name>
+    <address>Av de Ordesa, 28</address>
+    <id>159</id>
+    <Point>
+      <coordinates>0.069930,42.442387,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Donosti</name>
+    <address>Paseo de Federico García Lorca, 10</address>
+    <id>190</id>
+    <Point>
+      <coordinates>-1.978038,43.311729,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana Villafranca de los Caballeros</name>
+    <address>Calle de Victoria, 18</address>
+    <id>469</id>
+    <Point>
+      <coordinates>-3.356930,39.424271,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana de Pradejón</name>
+    <address>Calle de Barrionuevo, 31</address>
+    <id>195</id>
+    <Point>
+      <coordinates>-2.069036,42.335667,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de la Colonia de Fuente Palmera</name>
+    <address>Calle Pablo Picasso, 8</address>
+    <id>31</id>
+    <Point>
+      <coordinates>-5.097643,37.704178,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana &quot;El Guaral&quot;</name>
+    <address>Plaza Mayor, s/n</address>
+    <id>458</id>
+    <Point>
+      <coordinates>-1.520226,41.816910,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Azuqueca</name>
+    <address>Calle de la Soledad, 23</address>
+    <id>80</id>
+    <Point>
+      <coordinates>-3.261562,40.569340,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Almogía</name>
+    <address>Calle del Carril, 20</address>
+    <id>577</id>
+    <Point>
+      <coordinates>-4.540513,36.826775,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Don Pelayo de Cangas de Onís</name>
+    <address>[sin ubicación]</address>
+    <id>62</id>
+    <Point>
+      <coordinates>-5.126959,43.348507,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Alcantarina</name>
+    <address>Calle Torrontero, 2</address>
+    <id>451</id>
+    <Point>
+      <coordinates>-6.888125,39.721001,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Escucha</name>
+    <address>Calle de San Juan, 76</address>
+    <id>399</id>
+    <Point>
+      <coordinates>-0.810810,40.793491,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Puerto Lope</name>
+    <address>Calle de Andalucía, 37</address>
+    <id>376</id>
+    <Point>
+      <coordinates>-3.832446,37.332890,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana Tolosarra</name>
+    <address>Paseo de San Frantzisko, 26</address>
+    <id>377</id>
+    <Point>
+      <coordinates>-2.078864,43.134071,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Záncara</name>
+    <address>Calle del General Mola, 15</address>
+    <id>240</id>
+    <Point>
+      <coordinates>-2.496131,39.511681,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Portmán</name>
+    <address>Calle de la Silvela, s/n</address>
+    <id>140</id>
+    <Point>
+      <coordinates>-0.852970,37.590088,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Magina Blaugrana</name>
+    <address>Calle del Nacimiento, s/n</address>
+    <id>532</id>
+    <Point>
+      <coordinates>-3.383674,37.724586,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista El Entrego</name>
+    <address>Calle Alejandro Casona, 5</address>
+    <id>96</id>
+    <Point>
+      <coordinates>-5.636586,43.288601,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Huétor Santillán</name>
+    <address>[sin ubicación]</address>
+    <id>579</id>
+    <Point>
+      <coordinates>-3.515261,37.223217,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Honrubia</name>
+    <address>Calle de las Cruces, 34</address>
+    <id>543</id>
+    <Point>
+      <coordinates>-2.282212,39.614670,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Generalife</name>
+    <address>Calle Platón, 2</address>
+    <id>348</id>
+    <Point>
+      <coordinates>-3.625291,37.200516,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Carles Puyol&quot; de Bollulos Par del Condado</name>
+    <address>Calle de la Isla Cristina, 12</address>
+    <id>319</id>
+    <Point>
+      <coordinates>-6.532635,37.337730,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Cascante</name>
+    <address>Calle del Dos de Mayo, 7</address>
+    <id>642</id>
+    <Point>
+      <coordinates>-1.683612,41.996037,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Calicasas 2007</name>
+    <address>Calle de las Casas Bajas, 22</address>
+    <id>118</id>
+    <Point>
+      <coordinates>-3.616794,37.273132,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Zahinera</name>
+    <address>Carretera de Valencia, 2</address>
+    <id>525</id>
+    <Point>
+      <coordinates>-6.956925,38.327515,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Guadalimar de Puente Génave</name>
+    <address>Av de Andalucía, s/n</address>
+    <id>612</id>
+    <Point>
+      <coordinates>-2.800308,38.356888,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista A Bella Otero de Valga</name>
+    <address>[sin ubicación]</address>
+    <id>209</id>
+    <Point>
+      <coordinates>-8.639425,42.694305,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Calaceit</name>
+    <address>Av de Cataluña, 45</address>
+    <id>487</id>
+    <Point>
+      <coordinates>0.188704,41.015434,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Zestoa 1899 &quot;Zestoatik Oihuka: Barça&quot;</name>
+    <address>Calle de Portale, 1</address>
+    <id>502</id>
+    <Point>
+      <coordinates>-2.258215,43.239475,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista El Herrumblar</name>
+    <address>Calle de Cuenca, 73</address>
+    <id>201</id>
+    <Point>
+      <coordinates>-1.621147,39.397770,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Silo&quot; de Villacañas</name>
+    <address>[sin ubicación]</address>
+    <id>364</id>
+    <Point>
+      <coordinates>-3.331703,39.625584,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Deportiva Barcelonista Zeppelín</name>
+    <address>Calle del Barrio Belén, 1</address>
+    <id>86</id>
+    <Point>
+      <coordinates>-3.052099,38.244320,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Mestanza</name>
+    <address>Travesía de Calvario, 12</address>
+    <id>179</id>
+    <Point>
+      <coordinates>-3.920575,38.407005,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Moscona</name>
+    <address>Calle del Curato, 1</address>
+    <id>383</id>
+    <Point>
+      <coordinates>-6.070916,43.388332,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Villatobas</name>
+    <address>Calle de la Culebrina, 2</address>
+    <id>171</id>
+    <Point>
+      <coordinates>-3.323134,39.901924,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Cabezamesada</name>
+    <address>[sin ubicación]</address>
+    <id>292</id>
+    <Point>
+      <coordinates>-3.102188,39.816208,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Talayuelas</name>
+    <address>Plaza del Obispo Almonacid, 20</address>
+    <id>447</id>
+    <Point>
+      <coordinates>-1.284343,39.848412,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Camp-Barça</name>
+    <address>Calle de Unamuno, 1</address>
+    <id>353</id>
+    <Point>
+      <coordinates>-6.626885,37.694401,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Unión Blaugrana de Murcia</name>
+    <address>Calle de la Constitución, 22</address>
+    <id>43</id>
+    <Point>
+      <coordinates>-0.875752,37.620296,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Asociación de Futbol Arquigrana</name>
+    <address>Av de Linares, s/n</address>
+    <id>81</id>
+    <Point>
+      <coordinates>-3.433674,38.179886,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Feria</name>
+    <address>Calle San Sebastián, 5</address>
+    <id>248</id>
+    <Point>
+      <coordinates>-6.562236,38.509499,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Pata Negra&quot; de Cabeza del Buey</name>
+    <address>Calle de Juan Carlos I, 14</address>
+    <id>655</id>
+    <Point>
+      <coordinates>-5.227019,38.716003,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Sarllé 1540 Alt.</name>
+    <address>Plaza Iglesia, 3</address>
+    <id>387</id>
+    <Point>
+      <coordinates>0.538546,42.594601,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Roldan</name>
+    <address>Calle de la Gloria, 36</address>
+    <id>119</id>
+    <Point>
+      <coordinates>-1.006803,37.800385,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Jarilla</name>
+    <address>Calle de Nuestra Señora de la Soledad, 3</address>
+    <id>508</id>
+    <Point>
+      <coordinates>-5.651903,39.054527,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Bargas</name>
+    <address>Calle de la Arroyada, 3</address>
+    <id>400</id>
+    <Point>
+      <coordinates>-4.021565,39.941082,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Pansiverde</name>
+    <address>Calle del Sol, 4</address>
+    <id>385</id>
+    <Point>
+      <coordinates>-4.239123,37.669865,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Castejón - Pub Trapos</name>
+    <address>Calle de las Merindades, 10</address>
+    <id>448</id>
+    <Point>
+      <coordinates>-1.691320,42.170933,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Erreniega</name>
+    <address>Calle de Santa Cruz de Ardoi, 7</address>
+    <id>330</id>
+    <Point>
+      <coordinates>-1.690474,42.788631,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Motilla</name>
+    <address>Calle de Madrid, 16</address>
+    <id>38</id>
+    <Point>
+      <coordinates>-1.907050,39.563881,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Mondoñedo</name>
+    <address>Plaza Molinos de Arriba, 6</address>
+    <id>266</id>
+    <Point>
+      <coordinates>-7.358134,43.425167,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana Flumen Monegros</name>
+    <address>Calle de San Lorenzo del Flumen, 4</address>
+    <id>284</id>
+    <Point>
+      <coordinates>-0.255388,41.841492,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Osca</name>
+    <address>Paseo de las Autonomías, 3</address>
+    <id>41</id>
+    <Point>
+      <coordinates>-0.419412,42.138653,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Picos de Espuña</name>
+    <address>Calle del Gallo, 8</address>
+    <id>219</id>
+    <Point>
+      <coordinates>-1.505757,37.992146,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Zorrera&quot; El Triplete</name>
+    <address>Calle Zurbarán, 8</address>
+    <id>687</id>
+    <Point>
+      <coordinates>-5.603718,38.649841,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Macisvenda</name>
+    <address>Calle Nueva, 1</address>
+    <id>189</id>
+    <Point>
+      <coordinates>-1.018093,38.263599,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Móstoles Blaugrana</name>
+    <address>Calle de Simón Hernández, 66</address>
+    <id>465</id>
+    <Point>
+      <coordinates>-3.855445,40.319614,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Valladolid</name>
+    <address>Calle de Caamaño, 128</address>
+    <id>563</id>
+    <Point>
+      <coordinates>-4.725043,41.628128,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Manolo Oliveros&quot; de Mas de las Matas</name>
+    <address>Calle Mayor, 11</address>
+    <id>382</id>
+    <Point>
+      <coordinates>-0.242168,40.833214,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Albense</name>
+    <address>Calle de la Puerta del Río, 2</address>
+    <id>260</id>
+    <Point>
+      <coordinates>-5.515979,40.825565,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista El Candil</name>
+    <address>Calle Alcalde Díaz Penedela, 4</address>
+    <id>416</id>
+    <Point>
+      <coordinates>-6.550551,43.178097,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Trébol&quot; Villanubla</name>
+    <address>Calle de la Fuente, 7</address>
+    <id>672</id>
+    <Point>
+      <coordinates>-4.844322,41.699032,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Asociacion Cultural Peña Barcelonista El Carpio</name>
+    <address>Calle de Simón Aranda, 1</address>
+    <id>264</id>
+    <Point>
+      <coordinates>-5.111611,41.214100,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Almunia</name>
+    <address>Calle de Teruel, 45</address>
+    <id>294</id>
+    <Point>
+      <coordinates>-1.376212,41.473175,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Sabiñanigo &quot;2 de Mayo&quot;</name>
+    <address>Travesía Camino de Aurín, 3</address>
+    <id>644</id>
+    <Point>
+      <coordinates>-0.359397,42.521111,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Comillas</name>
+    <address>[sin ubicación]</address>
+    <id>600</id>
+    <Point>
+      <coordinates>-4.291507,43.385635,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Faió</name>
+    <address>Calle Ebro, s/n</address>
+    <id>566</id>
+    <Point>
+      <coordinates>0.331843,41.241802,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Fuente</name>
+    <address>Calle de Viña, 22</address>
+    <id>92</id>
+    <Point>
+      <coordinates>-3.773407,39.231823,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Huertas de Ánimas</name>
+    <address>Calle de Arriba, 16</address>
+    <id>142</id>
+    <Point>
+      <coordinates>-5.876352,39.480968,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Lucho&quot; de Granja de Torrehermosa</name>
+    <address>Calle Felipe II, 10</address>
+    <id>366</id>
+    <Point>
+      <coordinates>-5.597770,38.310043,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Cules de Logroño</name>
+    <address>Calle de Alfonso VI, 6</address>
+    <id>452</id>
+    <Point>
+      <coordinates>-2.464452,42.457279,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Bizkabarça</name>
+    <address>Calle de Getxo, 5</address>
+    <id>50</id>
+    <Point>
+      <coordinates>-2.984706,43.316601,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Monturque FC Barcelona</name>
+    <address>Calle de los Moriles, 1</address>
+    <id>155</id>
+    <Point>
+      <coordinates>-4.583642,37.471447,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Dos Torres</name>
+    <address>Calle de Granada, s/n</address>
+    <id>637</id>
+    <Point>
+      <coordinates>-4.895848,38.444092,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Triplete&quot; de Baza</name>
+    <address>Calle del Correo Viejo, 3</address>
+    <id>632</id>
+    <Point>
+      <coordinates>-2.772035,37.490578,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Coyanza</name>
+    <address>Av de Luis Alonso, 24</address>
+    <id>481</id>
+    <Point>
+      <coordinates>-5.515331,42.295074,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Championdetó 2009</name>
+    <address>Av de Carlos III, 109</address>
+    <id>103</id>
+    <Point>
+      <coordinates>-4.935858,37.670448,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Fuenmayor</name>
+    <address>[sin ubicación]</address>
+    <id>312</id>
+    <Point>
+      <coordinates>-2.562578,42.466995,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Corazón Blaugrana</name>
+    <address>Calle de Ernesto Sanz Sanz, 11</address>
+    <id>638</id>
+    <Point>
+      <coordinates>-3.040597,41.981361,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana 2-6 de Hornachuelos</name>
+    <address>Travesía de San Calixto Km 7,5</address>
+    <id>329</id>
+    <Point>
+      <coordinates>-5.249432,37.830948,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Cella</name>
+    <address>Calle del Postigo, 2</address>
+    <id>456</id>
+    <Point>
+      <coordinates>-1.287580,40.454189,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista San Asensio</name>
+    <address>Camino del Santo Domingo, s/n</address>
+    <id>239</id>
+    <Point>
+      <coordinates>-2.752456,42.495571,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Sarón</name>
+    <address>sin ubicación</address>
+    <id>26</id>
+    <Point>
+      <coordinates>-3.852803,43.324841,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Altorricón</name>
+    <address>Calle Francisco de Goya, 5</address>
+    <id>610</id>
+    <Point>
+      <coordinates>0.413866,41.802643,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Loscos</name>
+    <address>Calle de la Baja, 1</address>
+    <id>125</id>
+    <Point>
+      <coordinates>-1.058717,41.073864,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Pontanense &quot;El Triplete&quot;</name>
+    <address>Calle de Calderón de la Barca, 16</address>
+    <id>490</id>
+    <Point>
+      <coordinates>-4.762180,37.392708,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Ciudad de la Cuchillería</name>
+    <address>Calle del Arquitecto Vandelvira, 81</address>
+    <id>470</id>
+    <Point>
+      <coordinates>-1.866545,38.991055,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Albariño de Cambados</name>
+    <address>Praza do Fefiñáns, 7</address>
+    <id>359</id>
+    <Point>
+      <coordinates>-8.813499,42.519390,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Güejar Sierra</name>
+    <address>[sin ubicación]</address>
+    <id>178</id>
+    <Point>
+      <coordinates>-3.438653,37.159874,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Balazote</name>
+    <address>Calle del Rosario, 25</address>
+    <id>321</id>
+    <Point>
+      <coordinates>-2.153091,38.888073,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista a Balastrera de Ribadeo</name>
+    <address>Calle de Carlos III, 17</address>
+    <id>507</id>
+    <Point>
+      <coordinates>-7.045021,43.538498,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Canena</name>
+    <address>Calle de Manuel Reyes, 22</address>
+    <id>129</id>
+    <Point>
+      <coordinates>-3.481911,38.047031,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana Los Cárcheles</name>
+    <address>Calle Pilar, 3</address>
+    <id>234</id>
+    <Point>
+      <coordinates>-3.641605,37.634689,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Arcos de la Llana</name>
+    <address>Plaza Pedro Carazo, 10</address>
+    <id>198</id>
+    <Point>
+      <coordinates>-3.756161,42.265076,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Benamargosa &quot;Jose Antonio Infante&quot;</name>
+    <address>Av de Andalucía, 21</address>
+    <id>318</id>
+    <Point>
+      <coordinates>-4.192284,36.832951,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Poblete</name>
+    <address>Calle de los Barrancos, 10</address>
+    <id>1</id>
+    <Point>
+      <coordinates>-3.978728,38.936214,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Castejon de Sobrarbe</name>
+    <address>Calle Mayor, 2</address>
+    <id>468</id>
+    <Point>
+      <coordinates>0.137889,42.319576,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de la Montaña Palentina</name>
+    <address>Plaza Mayor, 12</address>
+    <id>440</id>
+    <Point>
+      <coordinates>-4.497921,42.863911,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Illa de Arousa</name>
+    <address>Avenida de Castelao, 43</address>
+    <id>106</id>
+    <Point>
+      <coordinates>-8.868162,42.562828,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña El Santo del FC Barcelona</name>
+    <address>Calle de Madrid, 3</address>
+    <id>152</id>
+    <Point>
+      <coordinates>-2.954056,42.438389,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Cúllar</name>
+    <address>Av de Buenavista, 10</address>
+    <id>87</id>
+    <Point>
+      <coordinates>-2.568923,37.582767,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Ahillones</name>
+    <address>[sin ubicación]</address>
+    <id>627</id>
+    <Point>
+      <coordinates>-5.861946,38.262238,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Kalabria</name>
+    <address>Calle Grande, 20</address>
+    <id>674</id>
+    <Point>
+      <coordinates>-4.932198,39.132027,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana de Galisteo</name>
+    <address>Plaza de Extremadura, 5</address>
+    <id>423</id>
+    <Point>
+      <coordinates>-6.268732,39.975445,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Pedrito</name>
+    <address>Calle Salamanca, 39</address>
+    <id>287</id>
+    <Point>
+      <coordinates>-16.263306,28.470091,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Pomar de Cinca</name>
+    <address>Calle Hospital, 12</address>
+    <id>257</id>
+    <Point>
+      <coordinates>0.129148,41.852192,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Móstoles</name>
+    <address>Av. Carlos V, 66</address>
+    <id>243</id>
+    <Point>
+      <coordinates>-3.857414,40.314068,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Villa de Blanca</name>
+    <address>Calle de Juan Ramón Jiménez, 18</address>
+    <id>401</id>
+    <Point>
+      <coordinates>-1.375457,38.177616,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Los Gabarreros</name>
+    <address>Av del Molinillo, 6</address>
+    <id>304</id>
+    <Point>
+      <coordinates>-4.247624,40.716183,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista El Pibito</name>
+    <address>Av de Andalucía, 2</address>
+    <id>272</id>
+    <Point>
+      <coordinates>-5.233215,36.916935,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Iznajeña</name>
+    <address>Calle Almendros, 7</address>
+    <id>575</id>
+    <Point>
+      <coordinates>-4.310619,37.258049,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Quesada </name>
+    <address>Calle del Agua, 9</address>
+    <id>302</id>
+    <Point>
+      <coordinates>-3.066987,37.845428,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Siglo XXI de Acedera y Los Guadalperales</name>
+    <address>Ronda del Sur, 12</address>
+    <id>231</id>
+    <Point>
+      <coordinates>-5.626978,39.081245,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista El Zorro Culé</name>
+    <address>Calle Morena, 3</address>
+    <id>662</id>
+    <Point>
+      <coordinates>-6.401611,38.396725,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Chema Corbella Aldehuela del Jerte</name>
+    <address>Calle Hernán Cortés, 1</address>
+    <id>484</id>
+    <Point>
+      <coordinates>-6.239027,40.011398,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Valtierra</name>
+    <address>Calle del Valle del Roncal, 2</address>
+    <id>434</id>
+    <Point>
+      <coordinates>-1.634401,42.194809,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana Amigos del Tren</name>
+    <address>[sin ubicación]</address>
+    <id>8</id>
+    <Point>
+      <coordinates>-3.861802,38.033081,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de la Ribera del Duero</name>
+    <address>Calle de Onésimo Redondo, 19</address>
+    <id>128</id>
+    <Point>
+      <coordinates>-4.365336,41.638828,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña barcelonista &quot;El Pino&quot; de Almendralejo</name>
+    <address>Calle de Santa Marta, 3</address>
+    <id>196</id>
+    <Point>
+      <coordinates>-6.398730,38.681885,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Iniestazo&quot;</name>
+    <address>Plaza Mayor, 4</address>
+    <id>432</id>
+    <Point>
+      <coordinates>-3.190116,42.420261,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Villagonzalo</name>
+    <address>Av Constitución, 16</address>
+    <id>176</id>
+    <Point>
+      <coordinates>-6.198514,38.865223,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Huelva Costa de la Luz</name>
+    <address>Calle Diego de Almagro, 9</address>
+    <id>474</id>
+    <Point>
+      <coordinates>-6.954337,37.265640,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Medina Sidonia</name>
+    <address>Calle de Hércules, 2</address>
+    <id>180</id>
+    <Point>
+      <coordinates>-5.928108,36.457710,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Puerto de Béjar</name>
+    <address>Calle Mayor, 51</address>
+    <id>608</id>
+    <Point>
+      <coordinates>-5.858849,40.317768,0.000000</coordinates>
+    </Point>
+  </penya>
+</Document>

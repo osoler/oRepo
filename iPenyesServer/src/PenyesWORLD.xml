@@ -1,0 +1,836 @@
+<document>
+<area>Mon</area>
+	<penya>
+    <name>Penya Blaugrana Principat d&#39;Andorra</name>
+    <address>C/ Prat de Salit, 128</address>
+    <id>70</id>
+    <Point>
+      <coordinates>1.503627,42.496304</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Perpinyà</name>
+    <address>Esplanade Lopofa</address>
+    <id>1</id>
+    <Point>
+      <coordinates>2.913708,42.692116</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana London of Great Britain</name>
+    <address>Bar&amp;co, Temple Pier, Victoria Embankment - WC2R 2PN </address>
+    <id>25</id>
+    <Point>
+      <coordinates>-0.115115,51.510540</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Nicolau Casaus&quot;</name>
+    <address>C/ Chacabuco, 863</address>
+    <id>33</id>
+    <Point>
+      <coordinates>-58.375874,-34.618130</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Lausanne</name>
+    <address>[Sin ubicación]</address>
+    <id>72</id>
+    <Point>
+      <coordinates>6.560574,46.528515</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Don Quijote</name>
+    <address>Läufergässchen, 5  8200 Schaffhausen, Suiza</address>
+    <id>55</id>
+    <Point>
+      <coordinates>8.639794,47.695576</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Casal Català Brussel·les</name>
+    <address>Etterbeek, Belgium</address>
+    <id>28</id>
+    <Point>
+      <coordinates>4.388949,50.832176</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;La Gran Muralla Xina&quot;</name>
+    <address> JIANWAI SOHO, CHAOYANG DISTRICT</address>
+    <id>2</id>
+    <Point>
+      <coordinates>116.461258,39.913239</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça Banyuls de la Marenda</name>
+    <address>Rue Jean Iché, A-228</address>
+    <id>56</id>
+    <Point>
+      <coordinates>3.127407,42.485683</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Tarbes</name>
+    <address>113 Rue Clément Ader</address>
+    <id>101</id>
+    <Point>
+      <coordinates>0.070178,43.215431</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Suecia</name>
+    <address>Spannarpsgränd, 4</address>
+    <id>77</id>
+       <logo>0983.PBSuecia-icon.png</logo>
+    <Point>
+      <coordinates>18.027985,59.289810</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de La Habana</name>
+    <address>C/ Consulado, 68</address>
+    <id>88</id>
+    <Point>
+      <coordinates>-82.359718,23.142649</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Costa Rica</name>
+    <address>Paseo Colón</address>
+    <id>3</id>
+    <Point>
+      <coordinates>-84.091850,9.935217</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Hispaniola&quot;</name>
+    <address>Viriato Fiallo, 35</address>
+    <id>32</id>
+    <Point>
+      <coordinates>-69.945229,18.470980</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Berlín Culé&quot;</name>
+    <address>Kottbusser Damm, 22</address>
+    <id>67</id>
+    <Point>
+      <coordinates>13.423491,52.490307</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Ciberpenya Blaugrana</name>
+    <address>Urb. Comella Parc, Fase 3 - Casa 20</address>
+    <id>103</id>
+    <Point>
+      <coordinates>1.527706,42.498322</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Fan Club Barcelona de Rosmalen</name>
+    <address>Oranje Nassaustraat 1</address>
+    <id>37</id>
+    <Point>
+      <coordinates>5.344441,51.702007</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>FC Barcelona Fan Club Finland</name>
+    <address>Kaunisharju 17</address>
+    <id>24</id>
+    <Point>
+      <coordinates>25.093632,60.270878</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>The Los Angeles FC Barcelona Soccer Fundation</name>
+    <address>337 Baptiste Way</address>
+    <id>62</id>
+    <Point>
+      <coordinates>-118.184929,34.200729</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya del Barça de Guatemala</name>
+    <address>7A Avenida, Zona 9</address>
+    <id>86</id>
+    <Point>
+      <coordinates>-90.519066,14.600154</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Sambou&#39;s Barça Fans Club</name>
+    <address>Jamisa</address>
+    <id>46</id>
+    <Point>
+      <coordinates>-16.646906,13.271817</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Nova York</name>
+    <address>215 west 28th street</address>
+    <id>6</id>
+    <Point>
+      <coordinates>-73.994247,40.747875</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Fanatiek FC Barcelona Limburg</name>
+    <address>Koerweg 50</address>
+    <id>19</id>
+    <Point>
+      <coordinates>5.494409,50.988800</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>FC Juvenil Barcelona de Zurich</name>
+    <address>Eichwisweg 14</address>
+    <id>65</id>
+    <Point>
+      <coordinates>8.781939,47.249493</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya La Maquina Blaugrana</name>
+    <address>Pelikaanstraat 12</address>
+    <id>63</id>
+    <Point>
+      <coordinates>6.197920,52.139416</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya del Barça El Salvador</name>
+    <address>7 Avenida Norte, Calle Poniente</address>
+    <id>30</id>
+    <Point>
+      <coordinates>-89.194626,13.702197</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña FC Barcelona Japan</name>
+    <address>Ichikawa-shi, Motokitakata, １丁目39−2</address>
+    <id>8</id>
+    <Point>
+      <coordinates>139.943466,35.727318</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya &quot;Blaugranor&quot; du Nord de la France</name>
+    <address>108 Rue des Jacobins</address>
+    <id>61</id>
+    <Point>
+      <coordinates>2.966502,50.494129</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Miami</name>
+    <address>354 Sevilla Ave</address>
+    <id>5</id>
+    <Point>
+      <coordinates>-80.261650,25.746096</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>FC Barcelona Clan: Cyberpenya Blaugrana Froncophone</name>
+    <address>3 Allée des Martyrs</address>
+    <id>42</id>
+    <Point>
+      <coordinates>2.518622,48.910149</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>FC Barcelona Fan Club United Arab Emirates</name>
+    <address>[Sense ubicació]</address>
+    <id>96</id>
+    <Point>
+      <coordinates>55.318909,25.244696</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Tanger</name>
+    <address>47 Boulevard Pasteur</address>
+    <id>34</id>
+    <Point>
+      <coordinates>-5.810384,35.780212</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Kosovar del FC Barcelona</name>
+    <address>1 Ali Pashë Tepelena</address>
+    <id>93</id>
+    <Point>
+      <coordinates>21.165268,42.657303</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Lima</name>
+    <address>749 Avenida del Ejercito</address>
+    <id>82</id>
+    <Point>
+      <coordinates>-77.049286,-12.112194</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça Tetouani</name>
+    <address>[Sense ubicacio]</address>
+    <id>81</id>
+    <Point>
+      <coordinates>-5.367465,35.566254</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Lisboa</name>
+    <address>[Sense ubicació]</address>
+    <id>89</id>
+    <Point>
+      <coordinates>-9.140024,38.721210</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Atenes</name>
+    <address>Valtetsiou 50</address>
+    <id>11</id>
+    <Point>
+      <coordinates>23.735577,37.985744</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Casamance</name>
+    <address>[Sense ubicació]</address>
+    <id>74</id>
+    <Point>
+      <coordinates>-16.543951,12.486862</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Fan Club Barça Polska</name>
+    <address>osiedle Na Stoku 36</address>
+    <id>36</id>
+    <Point>
+      <coordinates>20.669918,50.893383</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Martigny-Valais Romand</name>
+    <address>Rue du Bourg 66</address>
+    <id>39</id>
+    <Point>
+      <coordinates>7.062235,46.089394</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Xipre</name>
+    <address>[Sense ubicació]</address>
+    <id>78</id>
+    <Point>
+      <coordinates>33.023186,34.707188</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Union Blaugrana</name>
+    <address>25 Glengarry Rd</address>
+    <id>10</id>
+    <Point>
+      <coordinates>-3.440051,56.381340</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Lombarda FC Barcelona</name>
+    <address>Via dei Ronchetti, 2</address>
+    <id>57</id>
+    <Point>
+      <coordinates>9.443951,45.737759</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>FC Blaugrana &quot;Plus que des Supporters&quot;</name>
+    <address>11 Rue Mazagran</address>
+    <id>38</id>
+    <Point>
+      <coordinates>4.842921,45.751720</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>FC Barcelona Supporters Club Nordic</name>
+    <address>Kvarnstensvägen 10</address>
+    <id>80</id>
+    <Point>
+      <coordinates>20.219778,63.830753</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Caracas Azulgrana</name>
+    <address>Izcaragua Country Club</address>
+    <id>83</id>
+    <Point>
+      <coordinates>-66.692032,10.490829</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>FC Barcelona Fan Club India</name>
+    <address>553 Sector 23</address>
+    <id>102</id>
+    <Point>
+      <coordinates>77.055061,28.511616</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>FC Barcelona Australasia Supporters Club</name>
+    <address>1 Glamorgan Way</address>
+    <id>9</id>
+    <Point>
+      <coordinates>151.039810,-33.721447</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Trondheim</name>
+    <address>Volvevegen 8</address>
+    <id>84</id>
+    <Point>
+      <coordinates>10.422120,63.401440</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Montevideo &quot;Hector Scarone&quot;</name>
+    <address>Francisco Araucho 1186</address>
+    <id>16</id>
+    <Point>
+      <coordinates>-56.161915,-34.906136</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Dublin</name>
+    <address>152 Stapolin Lawns</address>
+    <id>53</id>
+    <Point>
+      <coordinates>-6.142452,53.399696</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Gabriel López Sola&quot; de Saint Juery</name>
+    <address>20 Chemin de l'Albaret</address>
+    <id>52</id>
+    <Point>
+      <coordinates>2.202394,43.947273</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Puerto Rico</name>
+    <address>[Sense ubicació]</address>
+    <id>44</id>
+    <Point>
+      <coordinates>-66.036842,18.448713</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça de Luxembourg</name>
+    <address>173 Cité Roger Schmitz</address>
+    <id>90</id>
+    <Point>
+      <coordinates>6.141315,49.688900</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Xiva</name>
+    <address>20 Avenida 1</address>
+    <id>99</id>
+    <Point>
+      <coordinates>-91.524635,14.838570</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Association Penya Mazagan FCB</name>
+    <address>[Sense ubicació]</address>
+    <id>94</id>
+    <Point>
+      <coordinates>-8.499212,33.232658</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Azulgrana Frankfurg/Rhein-Main</name>
+    <address>Gräsiger Weg 7K</address>
+    <id>17</id>
+    <Point>
+      <coordinates>8.367140,50.058739</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana d&#39;Uppsala</name>
+    <address>Sturegatan 9</address>
+    <id>7</id>
+    <Point>
+      <coordinates>17.627306,59.862617</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Kölscher FC Barcelona Fan Club</name>
+    <address>Luxemburger Straße 124</address>
+    <id>76</id>
+    <Point>
+      <coordinates>6.932437,50.921581</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Mzansi Penya Barcelonista</name>
+    <address>45 Portion St</address>
+    <id>22</id>
+    <Point>
+      <coordinates>28.013163,-26.070526</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Turin</name>
+    <address>Corso Turati Filippo, 12</address>
+    <id>23</id>
+    <Point>
+      <coordinates>7.669830,45.053848</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Chicago</name>
+    <address>6251 N McCormick Blvd</address>
+    <id>66</id>
+    <Point>
+      <coordinates>-87.713554,41.995014</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana del Nord</name>
+    <address>Gjerdrums vei 5</address>
+    <id>75</id>
+    <Point>
+      <coordinates>10.766945,59.952946</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Washington DC</name>
+    <address>900 19th St NW</address>
+    <id>21</id>
+    <Point>
+      <coordinates>-77.043861,38.901588</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana d&#39;Amsterdam</name>
+    <address>Saenredamstraat 37</address>
+    <id>50</id>
+    <Point>
+      <coordinates>4.888465,52.355816</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Varsovia</name>
+    <address>Nowogrodzka 22</address>
+    <id>58</id>
+    <Point>
+      <coordinates>21.014400,52.229286</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Banfield y Lomas</name>
+    <address>[Sense ubicació]</address>
+    <id>26</id>
+    <Point>
+      <coordinates>-58.797497,-34.343136</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Asociación Barcelonista de León - Mexico</name>
+    <address>Atenas 102</address>
+    <id>100</id>
+    <Point>
+      <coordinates>-101.687691,21.135744</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Paris</name>
+    <address>33 Rue du Maréchal de Lattre de Tassigny</address>
+    <id>40</id>
+    <Point>
+      <coordinates>2.423279,48.800575</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>FC Barcelona Doha Fan Club</name>
+    <address>[Sense ubicació]</address>
+    <id>35</id>
+    <Point>
+      <coordinates>51.461636,25.303238</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Copenhaguen</name>
+    <address>Matthæusgade 50</address>
+    <id>54</id>
+    <Point>
+      <coordinates>12.546515,55.669697</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Lleó de Dues Cues</name>
+    <address>Čeladná 161</address>
+    <id>98</id>
+    <Point>
+      <coordinates>18.336481,49.543480</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça de Lagos Club</name>
+    <address>[Sense ubicació]</address>
+    <id>51</id>
+    <Point>
+      <coordinates>3.403015,6.450412</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Tbilisi</name>
+    <address>31 Ilia Chavchavadze Ave</address>
+    <id>31</id>
+    <Point>
+      <coordinates>44.765038,41.710598</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Santo Domingo</name>
+    <address>52 Calle Manuel de Jesús Troncoso</address>
+    <id>4</id>
+    <Point>
+      <coordinates>-69.939049,18.472466</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Dragones</name>
+    <address>[Sense ubicació]</address>
+    <id>79</id>
+    <Point>
+      <coordinates>18.253098,43.845917</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>FC Barcelona Penya Ticino</name>
+    <address>Viale Stazione 29</address>
+    <id>85</id>
+    <Point>
+      <coordinates>9.027565,46.194626</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya de Touraine Supporters du Barça</name>
+    <address>[Sense ubicació]</address>
+    <id>27</id>
+    <Point>
+      <coordinates>0.701623,47.472084</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Genova</name>
+    <address>Lungoparco Gropallo, 2</address>
+    <id>97</id>
+    <Point>
+      <coordinates>8.948343,44.411819</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Eslovena triglav</name>
+    <address>Cesta V Gorice 1</address>
+    <id>47</id>
+    <Point>
+      <coordinates>14.461935,46.034973</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de La Massana</name>
+    <address>Ctra. d'Arinsal, s/n</address>
+    <id>59</id>
+    <Point>
+      <coordinates>1.496453,42.561680</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Suiza Berna</name>
+    <address>Via Alpenstrasse, 16</address>
+    <id>18</id>
+    <Point>
+      <coordinates>7.456498,46.943089</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Ginebra</name>
+    <address>Route de Certoux 27B</address>
+    <id>60</id>
+    <Point>
+      <coordinates>6.094514,46.156281</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Viena &quot;Udo Steinberg&quot;</name>
+    <address>U-Bahnbögen 29-32</address>
+    <id>20</id>
+    <Point>
+      <coordinates>16.338831,48.209946</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Israel</name>
+    <address>Tamar 11</address>
+    <id>104</id>
+    <Point>
+      <coordinates>34.858208,32.172184</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Trinidad</name>
+    <address>Casidad Trinidad de Cuba</address>
+    <id>87</id>
+    <Point>
+      <coordinates>-79.984833,21.804230</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Barcelona Supporters Club Malta</name>
+    <address>60 L - Mrabat</address>
+    <id>41</id>
+    <Point>
+      <coordinates>14.493703,35.910976</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Chicho Sibilio</name>
+    <address>Calle Arzobispo Portes, 110</address>
+    <id>13</id>
+    <Point>
+      <coordinates>-69.890785,18.468115</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonistas de Gante</name>
+    <address>Waterstraat 199</address>
+    <id>64</id>
+    <Point>
+      <coordinates>3.762007,51.075111</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Monofacio</name>
+    <address>Tefeli</address>
+    <id>15</id>
+    <Point>
+      <coordinates>25.163225,35.092621</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Maracay Gent del Barça</name>
+    <address>Av. Intercomunal Santiago Mariño, 29</address>
+    <id>68</id>
+    <Point>
+      <coordinates>-67.489052,10.215506</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Aït Nsar</name>
+    <address>Aït Nsar</address>
+    <id>95</id>
+    <Point>
+      <coordinates>-2.934167,35.256943</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista di Bergamo - Citta dei Mille</name>
+    <address>Via F. del Pino, 5</address>
+    <id>12</id>
+    <Point>
+      <coordinates>9.677270,45.698265</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gent Blaugrana d&#39;Anfa</name>
+    <address>Rue Socrate, 3</address>
+    <id>14</id>
+    <Point>
+      <coordinates>-7.645398,33.578251</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Barcelona Fan Club Guanzhou</name>
+    <address>N 6 Bo Hui Street</address>
+    <id>48</id>
+    <Point>
+      <coordinates>113.374672,23.139956</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Knokke-Heist</name>
+    <address>Natiënlaan 90</address>
+    <id>69</id>
+    <Point>
+      <coordinates>3.290639,51.334122</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Bayerischer Penya Blaugrana</name>
+    <address>Clemensstraße, 83</address>
+    <id>43</id>
+    <Point>
+      <coordinates>11.571764,48.163673</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Eslovaca dels Alts Tatras</name>
+    <address>Koceľova 9</address>
+    <id>73</id>
+    <Point>
+      <coordinates>17.128176,48.153267</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Börsungar</name>
+    <address>Laugavegur, 28</address>
+    <id>49</id>
+    <Point>
+      <coordinates>-21.913792,64.143005</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Roosendaal</name>
+    <address>Molenstraat 12</address>
+    <id>29</id>
+    <Point>
+      <coordinates>4.459506,51.534443</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Toronto</name>
+    <address>300 Jane St</address>
+    <id>92</id>
+    <Point>
+      <coordinates>-79.487396,43.656521</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Casal Català Caracas</name>
+    <address>Avenida 3, Los Palos Grandes</address>
+    <id>91</id>
+    <Point>
+      <coordinates>-66.843857,10.509696</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Barça Fan Club Bucarest</name>
+    <address>Calea Victoriei, 36</address>
+    <id>71</id>
+    <Point>
+      <coordinates>26.098324,44.435223</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Istanbul Barcelona Spor Kulübü Dernegi</name>
+    <address>Cami Sk No:40</address>
+    <id>45</id>
+    <Point>
+      <coordinates>28.785444,41.003925</coordinates>
+    </Point>
+  </penya>
+  </document>

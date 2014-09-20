@@ -1,0 +1,5086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+<area>Països Catalans</area>
+  <penya>
+    <name>Agrupació Barcelonista Penya Anguera</name>
+    <address>C/ Viladomat, 267</address>
+    <id>285</id>
+    <city>Barcelona</city>
+    <numAffiliates>30</numAffiliates>
+    <fundationYear>1903</fundationYear>
+    <infodetail>
+    	<info><title>president</title><desc>Joan Pere</desc></info>
+    	<info><title>vicepresident</title><desc>Antoni Tàpies</desc></info>
+    	<info><title>phone</title><desc>694454545</desc></info>
+    	<info><title>email</title><desc>anguerapenya@barsa.cat</desc></info>
+    	<info><title>website</title><desc>http://www.anguerapenya.cat</desc></info>
+    </infodetail>
+    <socialNetworks>
+    	<socialnet>http://www.facebook.com/anguera</socialnet>
+    	<socialnet>http://www.twitter.com/anguera</socialnet>
+    	<socialnet>http://www.youtube.com/anguera</socialnet>
+    </socialNetworks>
+    <description>
+    	<texte><![CDATA[<b> The FC Barcelona Supporters Club Miami</b> (Penya Barcelonista de Miami by its Catalan name) is officially authorized by FC Barcelona as a fan club dedicated to promote FC Barcelona name and brand in South Florida.]]></texte>
+    	<texte><![CDATA[The Barcelona Supporters Club of Miami (Penya Barcelonista de Miami) was established on June 9, 2003. What began as an occasional get together by a group of Catalan friends (residing in Miami) to watch televised Barça games, became an official and organized Club.]]></texte>
+  		<imatges>
+  			<imatge>PBSuecia/25674_375479747599_1075420_n.jpg</imatge>
+  			<imatge>PBSuecia/26194_374642007599_7429551_n.jpg</imatge>
+  			<imatge>PBSuecia/525863_10150878688002600_479399075_n.jpg</imatge>
+  			<imatge>PBSuecia/579861_10150878690297600_1131012138_n.jpg</imatge>
+  		</imatges>
+  		<texte><![CDATA[<b>The Barcelona Fan Club of Miami</b>, officially recognized by F.C. Barcelona</b> on February 2004 and assigned as the Penya #1588, was created by Pepe Martí, Ricard Mateu, Lluís Sandoval, Rafael Escofet, Toni Pich, Gregori Dolz and Genís Sànchez.]]></texte>
+  		<texte><![CDATA[On a weekly basis, as long as games are televised, members of the Club gather to watch Barça play at Franz and Fritz Bierhaus in Coral Gables. We also have other activities, which we hope to increment with the help and cooperation of the members and followers, in order to become a reference for all FC Barcelona fans in the South Florida and the US.]]></texte>
+  		<texte><![CDATA[<b>You can request a membership</b> form in our web site filling out the contact us form in this web site. We hope you enjoy our web site and that you will become a member.]]></texte>
+  		<texte><![CDATA[Força Barça!!! (Go Barça!)]]></texte>  
+    </description>
+    
+    <logo>0001.ABPenyaAnguera-icon.png</logo>
+    <Point>
+      <coordinates>2.147415,41.387005,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Granada</name>
+    <address>Av. Catalunya, 70</address>
+    <id>322</id>
+        <numAffiliates>20</numAffiliates>
+    <fundationYear>1957</fundationYear>
+    <infodetail>
+    	<info><title>president</title><desc>Agnes Folk</desc></info>
+    	<info><title>phone</title><desc>44353553</desc></info>
+    	<info><title>email</title><desc>granadapenya@barsa.cat</desc></info>
+    	<info><title>website</title><desc>http://www.granadapenya.cat</desc></info>
+    </infodetail>
+    <socialNetworks>
+    	<socialnet>http://www.facebook.com/granada</socialnet>
+    	<socialnet>http://www.twitter.com/granada</socialnet>
+
+    </socialNetworks>
+    <description>
+    <texte><![CDATA[Penya granada mola]]></texte>
+  		<texte><![CDATA[Força Barça!!! (Go Barça!)]]></texte>
+  		<imatges>
+  			<imatge>PBSuecia/25674_375479747599_1075420_n.jpg</imatge>
+  			<imatge>PBSuecia/26194_374642007599_7429551_n.jpg</imatge>
+  		</imatges>  
+    </description>
+    <logo>0002.LaGranada-icon.png</logo>
+    <Point>
+      <coordinates>1.720337,41.375153,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Fruitos de Bages</name>
+    <address>C/ Doctor Duran, 3</address>
+    <id>584</id>
+    <infodetail>
+    	<info><title>president</title><desc>Agnes Folk</desc></info>
+    	<info><title>phone</title><desc>44353553</desc></info>
+    	<info><title>email</title><desc>granadapenya@barsa.cat</desc></info>
+    	<info><title>website</title><desc>http://www.granadapenya.cat</desc></info>
+    </infodetail>
+    <socialNetworks>
+    	<socialnet>http://www.facebook.com/granada</socialnet>
+    	<socialnet>http://www.twitter.com/granada</socialnet>
+
+    </socialNetworks>
+    <description>
+    	<texte><![CDATA[<b> The FC Barcelona Supporters Club Miami</b> (Penya Barcelonista de Miami by its Catalan name) is officially authorized by FC Barcelona as a fan club dedicated to promote FC Barcelona name and brand in South Florida.]]></texte>
+		<texte><![CDATA[Força Barça!!! (Go Barça!)]]></texte>
+  		<imatges>
+  			<imatge>PBSuecia/25674_375479747599_1075420_n.jpg</imatge>
+  			<imatge>PBSuecia/26194_374642007599_7429551_n.jpg</imatge>
+  		</imatges>  
+    </description>
+     <logo>0003.PBSantFruitosBages-icon.png</logo>
+    <Point>
+      <coordinates>1.877019,41.750832,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Barcino</name>
+    <address>C/ Menorca, 7-11</address>
+    <id>580</id>
+    <logo>0004.PBBarcino-icon.png</logo>
+    <Point>
+      <coordinates>2.195276,41.418404,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Barceloneta</name>
+    <address>C/ Ginebra, 13</address>
+    <id>62</id>
+    <Point>
+      <coordinates>2.188149,41.381603,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Ripollet</name>
+    <address>C/ de la Lluna, 20</address>
+    <id>112</id>
+    <logo>0006.PBRipollet-icon.png</logo>
+    <Point>
+      <coordinates>2.159331,41.497604,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Unió Barcelonista Catalonia</name>
+    <address>Gran Vía de les Corts Catalanes, 443</address>
+    <id>82</id>
+     <logo>0007.UBCatalonia-icon.png</logo>
+    <Point>
+      <coordinates>2.153604,41.378654,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Cinc Copes</name>
+    <address>C/ Marina, 119</address>
+    <id>295</id>
+     <logo>0008.PBCincCopes-icon.png</logo>
+    <Point>
+      <coordinates>2.184719,41.396126,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>A.D.B. Collblanc</name>
+    <address>C/Pintor Tapiró, 28</address>
+    <id>391</id>
+    <logo>0010.ADBCollblanc-icon.png</logo>
+    <Point>
+      <coordinates>2.117999,41.378323,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Foment Martinenc</name>
+    <address>C/ Provença, 591</address>
+    <id>66</id>
+    <Point>
+      <coordinates>2.182503,41.410419,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Agrupació Barcelonista D&#39;Horta</name>
+    <address>C/ Tossa, 8-12</address>
+    <id>405</id>
+    <Point>
+      <coordinates>2.158850,41.428661,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Poble Nou</name>
+    <address>C/ Venero, 16</address>
+    <id>386</id>
+    <Point>
+      <coordinates>2.201563,41.401730,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Altea</name>
+    <address>C/ Almendros, s/n</address>
+    <id>111</id>
+    <Point>
+      <coordinates>-0.054056,38.600330,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Andreu de la Barca</name>
+    <address>C/ Muntanya, 14</address>
+    <id>212</id>
+    <Point>
+      <coordinates>1.955754,41.447395,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Villaverde</name>
+    <address>C/ Cànoves, s/n</address>
+    <id>567</id>
+    <Point>
+      <coordinates>2.132309,41.427624,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça d&#39;Arenys de Mar</name>
+    <address>C/ d'Avall, 38</address>
+    <id>200</id>
+    <Point>
+      <coordinates>2.548832,41.578644,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Arenys de Munt</name>
+    <address>C/ Rial Bellsolell, 5</address>
+    <id>411</id>
+    <Point>
+      <coordinates>2.540813,41.610111,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Argentona</name>
+    <address>C/ de Sant Jaume, 3</address>
+    <id>438</id>
+    <Point>
+      <coordinates>2.403212,41.554958,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Artigues i Badalona Sud</name>
+    <address>Avda. Alfons XIII, 568</address>
+    <id>335</id>
+    <Point>
+      <coordinates>2.218868,41.434410,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Cervera i Rodalia</name>
+    <address>Pl. Santa Anna, 2</address>
+    <id>317</id>
+    <Point>
+      <coordinates>1.271957,41.669659,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana de Badalona</name>
+    <address>Riera Matamoros, 44</address>
+    <id>137</id>
+    <Point>
+      <coordinates>2.250676,41.452389,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Berga</name>
+    <address>Pl. Viladomat, 20</address>
+    <id>376</id>
+    <Point>
+      <coordinates>1.847769,42.103600,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Solera Barcelonista de Calella</name>
+    <address>C/ Església, 205-207</address>
+    <id>439</id>
+    <Point>
+      <coordinates>2.664340,41.615517,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana Caldes de Montbui</name>
+    <address>C/ Montserrat, 19</address>
+    <id>298</id>
+    <Point>
+      <coordinates>2.166314,41.631123,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Cardedeu</name>
+    <address>Av. Rei Jaume, 114</address>
+    <id>540</id>
+    <Point>
+      <coordinates>2.360922,41.637192,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Granollers</name>
+    <address>C/ Torras i Bages, 1 Bis</address>
+    <id>546</id>
+    <Point>
+      <coordinates>2.289332,41.610218,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Solera Barcelonista Castellar del Vallès</name>
+    <address>C/ Molí, 1</address>
+    <id>172</id>
+    <Point>
+      <coordinates>2.083900,41.614716,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana Castelldefels</name>
+    <address>C/ Arcadi Balaguer, 20</address>
+    <id>119</id>
+    <Point>
+      <coordinates>1.975227,41.279053,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Esparraguera</name>
+    <address>Av. Francesc Macià, 85</address>
+    <id>412</id>
+    <Point>
+      <coordinates>1.866600,41.539127,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana La Roca del Vallès</name>
+    <address>C/ de Dalt, 31</address>
+    <id>91</id>
+    <Point>
+      <coordinates>2.326687,41.589375,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça Llavaneres &quot;Joaquim Passi&quot;</name>
+    <address>Camí dels Contrabandistes, s/n</address>
+    <id>8</id>
+    <Point>
+      <coordinates>2.477626,41.572754,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Blaugrana Gavanenca</name>
+    <address>C/ Sant Pere, 43</address>
+    <id>534</id>
+    <Point>
+      <coordinates>2.003172,41.304382,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Gelida</name>
+    <address>C/ Doctor Gales, 21-23</address>
+    <id>284</id>
+    <Point>
+      <coordinates>1.865615,41.439472,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Taradell</name>
+    <address>[Sense localització]</address>
+    <id>525</id>
+    <Point>
+      <coordinates>2.292591,41.867065,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Igualada</name>
+    <address>C/ Clos, 19-21</address>
+    <id>461</id>
+    <Point>
+      <coordinates>1.617167,41.580051,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista El Masnou-Ocata</name>
+    <address>C/ Fontanils, 41</address>
+    <id>378</id>
+    <Point>
+      <coordinates>2.320267,41.481514,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Josep Raich&quot;</name>
+    <address>C/ del Ponent, 9</address>
+    <id>197</id>
+    <Point>
+      <coordinates>2.016239,41.413132,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Mataró</name>
+    <address>C/ Argentona, 14</address>
+    <id>14</id>
+    <Point>
+      <coordinates>2.443431,41.541096,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Manlleu</name>
+    <address>Av. Bellmunt, 39</address>
+    <id>399</id>
+    <Point>
+      <coordinates>2.291653,42.006821,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Manresa</name>
+    <address>C/ Angel Guimerà, 16</address>
+    <id>373</id>
+    <Point>
+      <coordinates>1.824299,41.726036,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Martorell</name>
+    <address>Pl. Pedró, 3</address>
+    <id>173</id>
+    <Point>
+      <coordinates>1.925646,41.477741,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Mollet</name>
+    <address>C/ de Doctor Lluìs Durán, 20</address>
+    <id>442</id>
+    <Point>
+      <coordinates>2.213629,41.536919,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Montcada i Reixac</name>
+    <address>C/ Domènec Fins, 15</address>
+    <id>272</id>
+    <Point>
+      <coordinates>2.187439,41.485523,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Montserrat-Monistrol</name>
+    <address>C/ Manresa, 2</address>
+    <id>117</id>
+    <Point>
+      <coordinates>1.843868,41.611389,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Olesa</name>
+    <address>Trav. del Calvari, 39</address>
+    <id>235</id>
+    <Point>
+      <coordinates>1.896725,41.542866,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana de Parets</name>
+    <address>Av. Lluis Companys, 25</address>
+    <id>367</id>
+    <Point>
+      <coordinates>2.231524,41.572056,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Premià de Mar</name>
+    <address>C/ Sant Antoni, 60</address>
+    <id>72</id>
+    <Point>
+      <coordinates>2.359127,41.490108,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Pineda de Mar</name>
+    <address>Carreró de la Plaça, 29</address>
+    <id>3</id>
+    <Point>
+      <coordinates>2.691150,41.627941,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana Ramon Llorens</name>
+    <address>Pl. Montserrat Roig, s/n</address>
+    <id>51</id>
+    <Point>
+      <coordinates>2.032056,41.491432,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista del Vallès</name>
+    <address>C/ Roger de Flor, 27</address>
+    <id>270</id>
+    <Point>
+      <coordinates>2.103552,41.542053,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Cinc Roses</name>
+    <address>Pl. Euskadi, s/n</address>
+    <id>227</id>
+    <Point>
+      <coordinates>2.033944,41.336449,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Just</name>
+    <address>Rda. Sant Ramon de Penyafort, s/n</address>
+    <id>288</id>
+    <Point>
+      <coordinates>2.219455,41.415874,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Santa Coloma de Gramenet</name>
+    <address>C/ Monturiol, 52</address>
+    <id>501</id>
+    <Point>
+      <coordinates>2.213805,41.443520,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Sitges</name>
+    <address>C/ Illa de Cuba, 8</address>
+    <id>574</id>
+    <Point>
+      <coordinates>1.810034,41.237370,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista 1900</name>
+    <address>Rambla d'Egara, 190</address>
+    <id>572</id>
+    <Point>
+      <coordinates>2.008002,41.562820,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sant Vicenç de Castellet</name>
+    <address>C/ Llobregat, 8</address>
+    <id>464</id>
+    <Point>
+      <coordinates>1.861869,41.665985,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Vicenç dHorts</name>
+    <address>[Sense ubicació]</address>
+    <id>486</id>
+    <Point>
+      <coordinates>2.009870,41.393620,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sant Sadurní d&#39;Anoia</name>
+    <address>C/ Diputació, 20</address>
+    <id>95</id>
+    <Point>
+      <coordinates>1.789180,41.423328,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Pol de Mar</name>
+    <address>C/ Consolat</address>
+    <id>611</id>
+    <Point>
+      <coordinates>2.621034,41.599945,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Santa Perpetua</name>
+    <address>C/ Prat de la Riba, 15</address>
+    <id>457</id>
+    <Point>
+      <coordinates>2.180260,41.535255,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Feliu de Llobregat</name>
+    <address>[Sense ubicació]</address>
+    <id>32</id>
+    <Point>
+      <coordinates>2.045172,41.380939,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Els Blaugrana&quot;</name>
+    <address>C/ Sant Pere, 22</address>
+    <id>455</id>
+    <Point>
+      <coordinates>2.162930,41.689304,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sant Cugat</name>
+    <address>C/ Sant Domènec, 15</address>
+    <id>601</id>
+    <Point>
+      <coordinates>2.081155,41.473270,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Celoni</name>
+    <address>C/ Ramis, 21</address>
+    <id>520</id>
+    <Point>
+      <coordinates>2.487808,41.690876,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Boi de Llobregat</name>
+    <address>C/ Riereta, 4</address>
+    <id>362</id>
+    <Point>
+      <coordinates>2.042438,41.346893,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista El Cabreres</name>
+    <address>C/ Jacint Verdaguer, 2</address>
+    <id>357</id>
+    <Point>
+      <coordinates>2.369794,42.030430,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Vallirana</name>
+    <address>Av. de l'Esport, s/n</address>
+    <id>430</id>
+    <Point>
+      <coordinates>1.933306,41.384495,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana de Torelló</name>
+    <address>C/ Sant Miquel, 11</address>
+    <id>332</id>
+    <Point>
+      <coordinates>2.264027,42.047558,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vilafranca del Penedès i Comarca</name>
+    <address>C/ General Prim, 11</address>
+    <id>458</id>
+    <Point>
+      <coordinates>1.696648,41.345856,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vilanova</name>
+    <address>Rambla de Josep Antoni Vidal, 8</address>
+    <id>355</id>
+    <Point>
+      <coordinates>1.725521,41.220768,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vilassar de Mar</name>
+    <address>C/ Marià Vidal, 19-21</address>
+    <id>168</id>
+    <Point>
+      <coordinates>2.385905,41.501038,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vilassar de Dalt</name>
+    <address>[Sense ubicació]</address>
+    <id>211</id>
+    <Point>
+      <coordinates>2.358552,41.516685,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Plana Vic</name>
+    <address>Pl. Major, 23</address>
+    <id>199</id>
+    <Point>
+      <coordinates>2.254477,41.930748,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Agramunt i Comarca</name>
+    <address>Ctra. de Cervera Agramunt, 6</address>
+    <id>250</id>
+    <Point>
+      <coordinates>1.101799,41.784904,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Balaguer i Comarca</name>
+    <address>C/ La Banqueta, 9</address>
+    <id>21</id>
+    <Point>
+      <coordinates>0.806453,41.789864,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana de Guissona i Comarca</name>
+    <address>Pl. Vell Plá, 1</address>
+    <id>204</id>
+    <Point>
+      <coordinates>1.289185,41.787022,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Carles Puyol de lLa Pobla de Segur</name>
+    <address>C/ Mil·lenari de Catalunya, 33</address>
+    <id>159</id>
+    <Point>
+      <coordinates>0.964502,42.250664,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Lleida i Província</name>
+    <address>C/ Doctor Combelles, 57-63</address>
+    <id>519</id>
+    <Point>
+      <coordinates>0.616436,41.613064,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Tàrrega</name>
+    <address>C/ Alonso Martinez, 15</address>
+    <id>349</id>
+    <Point>
+      <coordinates>1.139118,41.649162,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Som i Serem&quot;</name>
+    <address>C/ Anselm Clavé, 18</address>
+    <id>278</id>
+    <Point>
+      <coordinates>0.826815,41.580662,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista del Pallars Jussà</name>
+    <address>C/ Seix i Faya, 9</address>
+    <id>604</id>
+    <Point>
+      <coordinates>0.894970,42.169292,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana Vilanova Bellpuig</name>
+    <address>C/ Doctor Gassol, 1</address>
+    <id>595</id>
+    <Point>
+      <coordinates>0.961224,41.614765,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Arbúcies</name>
+    <address>C/ Estenedor, 44</address>
+    <id>251</id>
+    <Point>
+      <coordinates>2.511846,41.817692,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Blanes</name>
+    <address>[Sense ubicació]</address>
+    <id>428</id>
+    <Point>
+      <coordinates>2.792103,41.674274,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Breda</name>
+    <address>C/ Santa Anna, 6</address>
+    <id>475</id>
+    <Point>
+      <coordinates>2.559728,41.746864,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Cassa i Comarca</name>
+    <address>[Sense ubicació]</address>
+    <id>471</id>
+    <Point>
+      <coordinates>2.867686,41.893879,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de L&#39;Escala</name>
+    <address>C/ Enric Serra, 51</address>
+    <id>369</id>
+    <Point>
+      <coordinates>3.132113,42.123386,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sant Joan Abadesses</name>
+    <address>C/ Sant Miquel, 6</address>
+    <id>487</id>
+    <Point>
+      <coordinates>2.285235,42.232643,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Amics del Barça</name>
+    <address>C/ Major, 2</address>
+    <id>347</id>
+    <Point>
+      <coordinates>2.872926,42.418522,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Lloret de Mar</name>
+    <address>C/ Josep Lluhí, 56</address>
+    <id>441</id>
+    <Point>
+      <coordinates>2.845613,41.702572,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Olot i Comarca</name>
+    <address>Av. Girona, 35</address>
+    <id>328</id>
+    <Point>
+      <coordinates>2.494951,42.185555,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Palafrugell</name>
+    <address>C/ Ample, 2</address>
+    <id>425</id>
+    <Point>
+      <coordinates>3.162643,41.915588,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Palamòs i Comarca</name>
+    <address>C/ Didac Garrell, 24</address>
+    <id>429</id>
+    <Point>
+      <coordinates>3.129572,41.848286,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Puigcerdà</name>
+    <address>Pl. Cabrinety, 3</address>
+    <id>477</id>
+    <Point>
+      <coordinates>1.927912,42.431034,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana El Ter de Salt</name>
+    <address>Pl. Sant Jaume</address>
+    <id>598</id>
+    <Point>
+      <coordinates>2.784051,41.974857,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau i Grana de Ripoll</name>
+    <address>C/ Macià Bonaplata, 4</address>
+    <id>266</id>
+    <Point>
+      <coordinates>2.191651,42.198196,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Santa Coloma Farneres</name>
+    <address>C/ Castanyet, 28</address>
+    <id>265</id>
+    <Point>
+      <coordinates>2.659249,41.864525,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Guixolenca</name>
+    <address>C/ de l'Hospital, 3</address>
+    <id>502</id>
+    <Point>
+      <coordinates>3.027014,41.780773,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Hilari</name>
+    <address>[Sense Ubicació]</address>
+    <id>306</id>
+    <Point>
+      <coordinates>2.509891,41.902233,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Montgri i Comarca</name>
+    <address>C/ dels Dolors, 7</address>
+    <id>93</id>
+    <Point>
+      <coordinates>3.124747,42.040112,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Tossa de Mar</name>
+    <address>Av. Costa Brava, 1</address>
+    <id>89</id>
+    <Point>
+      <coordinates>2.932070,41.720085,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Joan Gamper&quot;</name>
+    <address>C/ Major, 52</address>
+    <id>488</id>
+    <Point>
+      <coordinates>0.580086,40.712425,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça Cambrils</name>
+    <address>C/ València, 12</address>
+    <id>562</id>
+    <Point>
+      <coordinates>1.058344,41.067860,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana Santa Coloma de Queralt</name>
+    <address>Pg. de la Muralla, 39</address>
+    <id>460</id>
+    <Point>
+      <coordinates>1.384295,41.533157,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça de Valls i l&#39;Alt Camp</name>
+    <address>C/ Anselm Clavé, 23</address>
+    <id>560</id>
+    <Point>
+      <coordinates>1.252853,41.286942,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana del Vendrell i Baix Penedès</name>
+    <address>C/ Font de la Menya, 2</address>
+    <id>421</id>
+    <Point>
+      <coordinates>1.534864,41.218239,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Penya B. de Tarragona i Província</name>
+    <address>Pl. de la Font, 2</address>
+    <id>56</id>
+    <Point>
+      <coordinates>1.254814,41.117390,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Baix Camp</name>
+    <address>Av. Sant Jordi, 23</address>
+    <id>484</id>
+    <Point>
+      <coordinates>1.109428,41.160778,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Sarral</name>
+    <address>C/ Monturiol, 2</address>
+    <id>283</id>
+    <Point>
+      <coordinates>1.248057,41.444088,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Horadada</name>
+    <address>C/ de la Isla, 34</address>
+    <id>319</id>
+    <Point>
+      <coordinates>-0.791684,37.862125,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Peña Barcelonista Altura</name>
+    <address>C/ Fuente Sierra, 11</address>
+    <id>382</id>
+    <Point>
+      <coordinates>-0.513698,39.851143,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Xabia</name>
+    <address>C/ Vírgen de los Ángeles, 32</address>
+    <id>351</id>
+    <Point>
+      <coordinates>0.162797,38.791462,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Casal Barcelonista de Tarragona</name>
+    <address>Pl. dels Carros, 3</address>
+    <id>92</id>
+    <Point>
+      <coordinates>1.250455,41.110569,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barça Callosa de Segura</name>
+    <address>C/ Canónigo Hidalgo, 10</address>
+    <id>232</id>
+    <Point>
+      <coordinates>-0.879443,38.124439,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Esportiva Barça Castelló</name>
+    <address>C/ Maria Rosa Molas, 3</address>
+    <id>129</id>
+    <Point>
+      <coordinates>-0.031235,39.992058,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Elda</name>
+    <address>C/ San Crispín, 22</address>
+    <id>60</id>
+    <Point>
+      <coordinates>-0.790469,38.473244,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Menorca</name>
+    <address>C/ Pintor Calbó, 15</address>
+    <id>170</id>
+    <Point>
+      <coordinates>4.258411,39.885529,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Soller</name>
+    <address>Av. del Born, 6</address>
+    <id>587</id>
+    <Point>
+      <coordinates>2.715253,39.765862,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Associació Cultural i Esportiva Penya Barcelonista d&#39;Onda</name>
+    <address>C/ Metge Ricardo Gil, 3</address>
+    <id>480</id>
+    <Point>
+      <coordinates>-0.267865,39.962822,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Santa Pola</name>
+    <address>C/ Hernán Cortés, 15</address>
+    <id>436</id>
+    <Point>
+      <coordinates>-0.556244,38.191303,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Segorbe</name>
+    <address>C/ Santa María, 4</address>
+    <id>191</id>
+    <Point>
+      <coordinates>-0.487437,39.852474,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barça Torrevieja</name>
+    <address>C/ Moriones, 27</address>
+    <id>107</id>
+    <Point>
+      <coordinates>-0.676564,37.977783,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça La Vall d&#39;Uxó</name>
+    <address>C/ Benigafull, 43</address>
+    <id>353</id>
+    <Point>
+      <coordinates>-0.235196,39.822708,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Orrius</name>
+    <address>C/ Major, 8</address>
+    <id>417</id>
+    <Point>
+      <coordinates>2.354651,41.555779,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça Vinaròs</name>
+    <address>C/ Andorra, 5</address>
+    <id>38</id>
+    <Point>
+      <coordinates>0.473014,40.468758,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Cerdanyola del Vallès</name>
+    <address>C/ Sant Ramon, 10</address>
+    <id>64</id>
+    <Point>
+      <coordinates>2.136284,41.489227,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Anar-hi Anant&quot;</name>
+    <address>C/ Sant Antoni, 30-32</address>
+    <id>237</id>
+    <Point>
+      <coordinates>1.930520,41.414925,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Alcanar</name>
+    <address>Pl. Païssos Catalans, s/n</address>
+    <id>608</id>
+    <Point>
+      <coordinates>0.481835,40.540676,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Torredembarra</name>
+    <address>C/ Filadors, 13</address>
+    <id>161</id>
+    <Point>
+      <coordinates>1.401033,41.145283,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Barcebre</name>
+    <address>Pl. Corona d'Aragó, s/n</address>
+    <id>147</id>
+    <Point>
+      <coordinates>0.513061,40.816097,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Navàs</name>
+    <address>Ps. Ramon Vall, 17</address>
+    <id>493</id>
+    <Point>
+      <coordinates>1.877068,41.898575,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Camprodon</name>
+    <address>Pl. Doctor Robert, 1</address>
+    <id>273</id>
+    <Point>
+      <coordinates>2.364805,42.313683,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Alcarràs</name>
+    <address>C/ Joan XXIII, s/n</address>
+    <id>146</id>
+    <Point>
+      <coordinates>0.526029,41.563046,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Montmeló</name>
+    <address>C/ Lluís Companys, 4</address>
+    <id>545</id>
+    <Point>
+      <coordinates>2.245558,41.550819,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Capellades</name>
+    <address>C/ Garbí, 20</address>
+    <id>102</id>
+    <Point>
+      <coordinates>1.685912,41.529758,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana Platja Castell d&#39;Aro i S&#39;Agaró</name>
+    <address>C/ Marina, 5</address>
+    <id>115</id>
+    <Point>
+      <coordinates>3.068651,41.819073,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Gol 3.000</name>
+    <address>[Sense ubicació]</address>
+    <id>590</id>
+    <Point>
+      <coordinates>2.197795,41.457771,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana de Guardamar Segura</name>
+    <address>C/ San Pedro, 81</address>
+    <id>23</id>
+    <Point>
+      <coordinates>-0.654736,38.086174,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Calaf i Comarca</name>
+    <address>Ps. Santa Calamanda, 2</address>
+    <id>73</id>
+    <Point>
+      <coordinates>1.513701,41.731968,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Llançà</name>
+    <address>Av. Reina Fabiola, 32</address>
+    <id>588</id>
+    <Point>
+      <coordinates>3.159392,42.364491,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Llorenç del Penedès</name>
+    <address>C/ Francesc Macià, 27-29</address>
+    <id>185</id>
+    <Point>
+      <coordinates>1.550715,41.284191,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Torreblanca</name>
+    <address>C/ Sant Antoni, 154</address>
+    <id>294</id>
+    <Point>
+      <coordinates>0.191643,40.218517,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Principal d&#39;Andorra</name>
+    <address>C/ Prat de Salit, 128</address>
+    <id>7</id>
+    <Point>
+      <coordinates>1.503627,42.496304,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Betxi</name>
+    <address>C/ Burriana, 5</address>
+    <id>311</id>
+    <Point>
+      <coordinates>-0.195533,39.926159,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Flix</name>
+    <address>C/ Gombau, s/n</address>
+    <id>615</id>
+    <Point>
+      <coordinates>0.549336,41.230858,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Ulldecona</name>
+    <address>C/ Mestre Hierro, 11</address>
+    <id>453</id>
+    <Point>
+      <coordinates>0.444125,40.595955,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Bon Pastor</name>
+    <address>C/ Flix, 29</address>
+    <id>415</id>
+    <Point>
+      <coordinates>2.204586,41.435028,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Joan Despí</name>
+    <address>Ps. del Canal, 49</address>
+    <id>316</id>
+    <Point>
+      <coordinates>2.056916,41.370647,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Garriga</name>
+    <address>C/ La Doma, 12</address>
+    <id>247</id>
+    <Point>
+      <coordinates>2.284683,41.684319,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Castellterçol</name>
+    <address>Pl. Vella, 3</address>
+    <id>561</id>
+    <Point>
+      <coordinates>2.120609,41.751389,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Girona</name>
+    <address>Pl. Assumpció, 17</address>
+    <id>586</id>
+    <Point>
+      <coordinates>2.810683,41.975281,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Antoni Camps&quot;</name>
+    <address>Ps. Sant Isidre, 24</address>
+    <id>190</id>
+    <Point>
+      <coordinates>1.804482,41.747238,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vall de Ribes</name>
+    <address>C/ Nuria, 15</address>
+    <id>495</id>
+    <Point>
+      <coordinates>2.170153,42.308331,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista San Mateo</name>
+    <address>C/ Historiador Beti, 9</address>
+    <id>138</id>
+    <Point>
+      <coordinates>0.179853,40.465904,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Perelló</name>
+    <address>C/ Gayarre, 22</address>
+    <id>41</id>
+    <Point>
+      <coordinates>0.711708,40.873775,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Just Desvern</name>
+    <address>C/ Ateneu, 3-5</address>
+    <id>443</id>
+    <Point>
+      <coordinates>2.077496,41.380211,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista L&#39;Avenç</name>
+    <address>C/ Angel Guimera, 27-29</address>
+    <id>13</id>
+    <Point>
+      <coordinates>2.085698,41.377235,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista del Pla d&#39;Urgell</name>
+    <address>C/ Cami Palau, 11</address>
+    <id>97</id>
+    <Point>
+      <coordinates>0.890710,41.633434,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana La Llagosta</name>
+    <address>[Sense Ubicació]</address>
+    <id>609</id>
+    <Point>
+      <coordinates>2.201535,41.512772,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Inca</name>
+    <address>C/ Palmer, 69</address>
+    <id>195</id>
+    <Point>
+      <coordinates>2.910605,39.722706,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Congrès</name>
+    <address>C/ Pardo, 6</address>
+    <id>532</id>
+    <Point>
+      <coordinates>2.182593,41.426235,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Ciutadella</name>
+    <address>Av. Capità Negrete, 1</address>
+    <id>334</id>
+    <Point>
+      <coordinates>3.839066,39.999050,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonistas Denia-Marina Alta</name>
+    <address>C/ Pare Pere, 68</address>
+    <id>287</id>
+    <Point>
+      <coordinates>0.102533,38.839123,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Cardona</name>
+    <address>Pl. de la Fira, s/n</address>
+    <id>451</id>
+    <Point>
+      <coordinates>1.681843,41.913673,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana Ponts i Comarca</name>
+    <address>C/ Major, 37</address>
+    <id>304</id>
+    <Point>
+      <coordinates>1.186518,41.916363,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana El Papiol</name>
+    <address>C/ Salut, 12</address>
+    <id>476</id>
+    <Point>
+      <coordinates>2.011939,41.439484,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana de Moia</name>
+    <address>C/ Tosca, 1</address>
+    <id>330</id>
+    <Point>
+      <coordinates>2.096895,41.811207,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Piera</name>
+    <address>C/ Industria, 71</address>
+    <id>154</id>
+    <Point>
+      <coordinates>1.754484,41.522816,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Solsona i Comarca</name>
+    <address>C/ Salvador Espriu, 10</address>
+    <id>230</id>
+    <Point>
+      <coordinates>1.517762,41.989037,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Roses</name>
+    <address>C/ Josep Cervera, 10</address>
+    <id>342</id>
+    <Point>
+      <coordinates>3.174608,42.264320,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Pallejà</name>
+    <address>Av. Prat de la Riba, 10</address>
+    <id>535</id>
+    <Point>
+      <coordinates>1.997349,41.421227,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Penya Barcelonista Muro</name>
+    <address>C/ San Juan, 2</address>
+    <id>276</id>
+    <Point>
+      <coordinates>3.057992,39.735600,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Sénia</name>
+    <address>C/ Alacant, 4</address>
+    <id>178</id>
+    <Point>
+      <coordinates>0.282948,40.633575,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Benidorm</name>
+    <address>C/ Roldán, 7</address>
+    <id>228</id>
+    <Point>
+      <coordinates>-0.133338,38.538185,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Contestana</name>
+    <address>Pl. Anselmo Martí, 4</address>
+    <id>262</id>
+    <Point>
+      <coordinates>-0.441210,38.741577,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barça de Oropesa del Mar</name>
+    <address>C/ Almassora, 30</address>
+    <id>175</id>
+    <Point>
+      <coordinates>0.138454,40.088772,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Ascó</name>
+    <address>C/ Esquerrà, 9</address>
+    <id>305</id>
+    <Point>
+      <coordinates>0.568105,41.177341,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Montornès del Vallès</name>
+    <address>Av. Onze de Setembre, 11</address>
+    <id>551</id>
+    <Point>
+      <coordinates>2.263669,41.542397,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana del Lluçanès</name>
+    <address>Av. Montserrat, s/n</address>
+    <id>292</id>
+    <Point>
+      <coordinates>2.033718,42.009422,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Bigastrense</name>
+    <address>Pasaje Picasso, 6</address>
+    <id>531</id>
+    <Point>
+      <coordinates>-0.896248,38.061687,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça d&#39;Artesa de Segre i Comarca</name>
+    <address>Ctra. d'Agramunt, 28</address>
+    <id>29</id>
+    <Point>
+      <coordinates>1.047152,41.894772,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Villena</name>
+    <address>C/ Hilo, 18</address>
+    <id>193</id>
+    <Point>
+      <coordinates>-0.861562,38.629677,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Fraga i Comarca Jaume Pallares</name>
+    <address>C/ Teruel, 14</address>
+    <id>340</id>
+    <Point>
+      <coordinates>0.335071,41.522133,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Adrià de Besòs</name>
+    <address>C/ Maragall, 18</address>
+    <id>134</id>
+    <Point>
+      <coordinates>2.218771,41.429321,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Comarca de Banyoles</name>
+    <address>Pl. Santa María, s/n</address>
+    <id>433</id>
+    <Point>
+      <coordinates>2.765644,42.118858,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Súria</name>
+    <address>C/ Ignasi Abadal, 47</address>
+    <id>327</id>
+    <Point>
+      <coordinates>1.750396,41.830021,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Perpinyà</name>
+    <address>Esplanade Lopofa</address>
+    <id>275</id>
+    <Point>
+      <coordinates>2.913708,42.692116,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Vicenç Piera&quot;</name>
+    <address>C/ Sant Isidre, 68</address>
+    <id>203</id>
+    <Point>
+      <coordinates>0.590264,40.618576,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Barcelona</name>
+    <address>C/ Argullós, 6</address>
+    <id>2</id>
+    <Point>
+      <coordinates>2.184328,41.439919,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vila-Real</name>
+    <address>C/ Onda, 86</address>
+    <id>363</id>
+    <Point>
+      <coordinates>-0.105237,39.941357,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de La Munia</name>
+    <address>C/ Anselm Clavé, 12</address>
+    <id>576</id>
+    <Point>
+      <coordinates>1.618810,41.325787,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista L&#39;Ametlla Mar</name>
+    <address>C/ Mar, 22</address>
+    <id>259</id>
+    <Point>
+      <coordinates>0.806084,40.885624,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Valencia</name>
+    <address>C/ Nueva Tabarca, 12</address>
+    <id>118</id>
+    <Point>
+      <coordinates>-0.332293,39.447742,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Borges Blanques</name>
+    <address>C/ Comerç, 29</address>
+    <id>116</id>
+    <Point>
+      <coordinates>0.870492,41.518875,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Sallent</name>
+    <address>C/ Estació, 3</address>
+    <id>44</id>
+    <Point>
+      <coordinates>1.892956,41.823376,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana Alt Empordà</name>
+    <address>C/ Rambla, 15</address>
+    <id>240</id>
+    <Point>
+      <coordinates>2.960146,42.266350,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sa Pobla</name>
+    <address>Pl. Major, 18</address>
+    <id>387</id>
+    <Point>
+      <coordinates>3.024614,39.769562,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Quatre Barres</name>
+    <address>C/ Floridablanca, 34</address>
+    <id>313</id>
+    <Point>
+      <coordinates>2.102348,41.374992,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Hoquei Gel</name>
+    <address>Carrer de Sardenya, 524</address>
+    <id>59</id>
+    <Point>
+      <coordinates>2.162981,41.411728,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vall d&#39;Aran</name>
+    <address>[Sense ubicació]</address>
+    <id>548</id>
+    <Point>
+      <coordinates>0.795638,42.701653,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana S. Maria d&#39;Oló</name>
+    <address>C/ Lleida, 8</address>
+    <id>414</id>
+    <Point>
+      <coordinates>2.035531,41.876186,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Pere de Ribes</name>
+    <address>C/ Mare de Déu de Montserrat, 80</address>
+    <id>174</id>
+    <Point>
+      <coordinates>1.773447,41.257824,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Esportiva Barça de L&#39;Alcora</name>
+    <address>C/ Maestro Juan Sales, 138</address>
+    <id>202</id>
+    <Point>
+      <coordinates>-0.216954,40.074673,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Arnes</name>
+    <address>[Sense ubicació]</address>
+    <id>368</id>
+    <Point>
+      <coordinates>0.260313,40.910980,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Llevat</name>
+    <address>[Sense ubicació]</address>
+    <id>570</id>
+    <Point>
+      <coordinates>3.284748,39.608963,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana d&#39;Avinyó</name>
+    <address>[Sense ubicació]</address>
+    <id>579</id>
+    <Point>
+      <coordinates>1.978367,41.872890,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça Borriol</name>
+    <address>Av. Zaragoza, 93</address>
+    <id>79</id>
+    <Point>
+      <coordinates>-0.068938,40.041164,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Montblanc i Conca de Barberà</name>
+    <address>C/ Mare Vedruna, 16</address>
+    <id>261</id>
+    <Point>
+      <coordinates>1.161914,41.373993,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Ciutat de Peñíscola</name>
+    <address>Av. Papa Luna, 5</address>
+    <id>12</id>
+    <Point>
+      <coordinates>0.402546,40.363232,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Santpedor</name>
+    <address>C/ Camí de Llussà, 2</address>
+    <id>345</id>
+    <Point>
+      <coordinates>1.843344,41.785606,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça Hospitalet de l&#39;Infant</name>
+    <address>C/ Jaume II, 6</address>
+    <id>513</id>
+    <Point>
+      <coordinates>0.923679,40.989914,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Formentera</name>
+    <address>Hostal Illes Pitiüses Av. Joan Castelló, s/n</address>
+    <id>547</id>
+    <Point>
+      <coordinates>1.457374,38.706131,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Novelda</name>
+    <address>C/ Gayarre, 7</address>
+    <id>109</id>
+    <Point>
+      <coordinates>-0.771970,38.382309,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Cava-Galatxo</name>
+    <address>Av. Francesc Robert Graupera, 6</address>
+    <id>361</id>
+    <Point>
+      <coordinates>0.730910,40.718147,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Tivenys</name>
+    <address>C/ del Riu, 21</address>
+    <id>114</id>
+    <Point>
+      <coordinates>0.511980,40.907700,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana &quot;Planers&quot;</name>
+    <address>C/ de la Rosa, 22</address>
+    <id>254</id>
+    <Point>
+      <coordinates>0.494375,40.714207,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Martí Sarroca</name>
+    <address>C/ de la Font, 22-24</address>
+    <id>483</id>
+    <Point>
+      <coordinates>1.611226,41.385677,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Benicarló</name>
+    <address>C/ Francisco Pizarro, 42</address>
+    <id>239</id>
+    <Point>
+      <coordinates>0.427709,40.415363,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Solothurn</name>
+    <address>C/ Victoriano Ximénez de Courer, 4</address>
+    <id>473</id>
+    <Point>
+      <coordinates>-0.509645,38.348087,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Palau Solità i Plegamans</name>
+    <address>[Sense ubicació]</address>
+    <id>573</id>
+    <Point>
+      <coordinates>2.179644,41.585705,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vilanova del Camí</name>
+    <address>C/ Montserrat, 28</address>
+    <id>381</id>
+    <Point>
+      <coordinates>1.637423,41.573063,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Alcoiana</name>
+    <address>Carrer J, Pol. Ind. Cotes Baixes</address>
+    <id>366</id>
+    <Point>
+      <coordinates>-0.458658,38.712219,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista San Vicente del Raspeig</name>
+    <address>Av. 1º Mayo, 1</address>
+    <id>529</id>
+    <Point>
+      <coordinates>-0.526544,38.396626,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana Guardiola</name>
+    <address>Ctra. Bagà, 15</address>
+    <id>177</id>
+    <Point>
+      <coordinates>1.877788,42.234051,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Gata de Gorgos</name>
+    <address>C/ Sant Miquel, 27</address>
+    <id>581</id>
+    <Point>
+      <coordinates>0.085755,38.776329,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;La Safor&quot;</name>
+    <address>[Sense ubicació]</address>
+    <id>131</id>
+    <Point>
+      <coordinates>-0.184010,38.967010,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Alzira i Comarca</name>
+    <address>C/ Curtidors, 27</address>
+    <id>87</id>
+    <Point>
+      <coordinates>-0.437696,39.149815,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça de Linyola</name>
+    <address>C/ Jacint Verdaguer, 4</address>
+    <id>503</id>
+    <Point>
+      <coordinates>0.903317,41.708656,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Ribera Baixa</name>
+    <address>C/ Sorts, 1</address>
+    <id>127</id>
+    <Point>
+      <coordinates>-0.311323,39.205418,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Santa Margalida</name>
+    <address>Pl. de la Vila, 10</address>
+    <id>506</id>
+    <Point>
+      <coordinates>3.102231,39.701504,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Altafulla</name>
+    <address>C/ del Camí del Prat, 60</address>
+    <id>128</id>
+    <Point>
+      <coordinates>1.380190,41.134754,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça Juventud Vallespir</name>
+    <address>C/ Galileu, 117</address>
+    <id>479</id>
+    <Point>
+      <coordinates>2.134543,41.379078,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana de Puig-Reig</name>
+    <address>C/ Llobregat, 12</address>
+    <id>518</id>
+    <Point>
+      <coordinates>1.879649,41.974300,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Aiguafreda</name>
+    <address>C/ Can Bellit, s/n</address>
+    <id>242</id>
+    <Point>
+      <coordinates>2.250986,41.771038,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Centelles</name>
+    <address>C/ Jesús, 13</address>
+    <id>552</id>
+    <Point>
+      <coordinates>2.218373,41.798512,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Camarles</name>
+    <address>C/ Déu, 43</address>
+    <id>84</id>
+    <Point>
+      <coordinates>0.669775,40.771694,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Miralcamp</name>
+    <address>C/ Bonavista, s/n</address>
+    <id>403</id>
+    <Point>
+      <coordinates>0.878220,41.604317,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Zona Franca</name>
+    <address>C/ Mare de Déu de Port, 407</address>
+    <id>550</id>
+    <Point>
+      <coordinates>2.138985,41.364452,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Roda de Ter i Les Masies</name>
+    <address>C/ Ramón Martí, 42</address>
+    <id>50</id>
+    <Point>
+      <coordinates>2.311111,41.982327,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Morà d&#39;Ebre</name>
+    <address>Av. Comarques Catalanes, 2</address>
+    <id>616</id>
+    <Point>
+      <coordinates>0.643443,41.089687,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Basquet</name>
+    <address>Av. Catalunya, 43</address>
+    <id>566</id>
+    <Point>
+      <coordinates>2.217657,41.431374,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Pep Ventura</name>
+    <address>C/ Saragossa, 36</address>
+    <id>121</id>
+    <Point>
+      <coordinates>2.238064,41.446281,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Torres de Segre</name>
+    <address>C/ Comandant Mateu Salla, 5</address>
+    <id>233</id>
+    <Point>
+      <coordinates>0.514963,41.535095,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Utielana Angel Mur</name>
+    <address>Pl. San Juan, 16</address>
+    <id>104</id>
+    <Point>
+      <coordinates>-1.207542,39.568188,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Ontinyent</name>
+    <address>C/ de los Furs, 44</address>
+    <id>563</id>
+    <Point>
+      <coordinates>-0.600452,38.822174,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Penya Barcelonista 20 de Maig</name>
+    <address>Av. de la Pau, s/n</address>
+    <id>408</id>
+    <Point>
+      <coordinates>0.709652,40.724819,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Maria de la Salut</name>
+    <address>C/ Sant Miquel, 13</address>
+    <id>404</id>
+    <Point>
+      <coordinates>3.074231,39.666843,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Almogàvers</name>
+    <address>C/ Londres, 17</address>
+    <id>24</id>
+    <Point>
+      <coordinates>2.144342,41.388744,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Sax</name>
+    <address>C/ Valencia, 6</address>
+    <id>209</id>
+    <Point>
+      <coordinates>-0.823732,38.536217,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Porreres</name>
+    <address>Av. Bisbe Campins, 6</address>
+    <id>577</id>
+    <Point>
+      <coordinates>3.023169,39.517063,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Nules</name>
+    <address>C/ Padre Tomás Lucas, 17</address>
+    <id>401</id>
+    <Point>
+      <coordinates>-0.157736,39.851902,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Balsareny</name>
+    <address>C/ Angel Guimerà, 17</address>
+    <id>83</id>
+    <Point>
+      <coordinates>1.876408,41.862553,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vall de Bisaura</name>
+    <address>Ctra. de Berga, 6</address>
+    <id>372</id>
+    <Point>
+      <coordinates>2.217304,42.101311,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Bisbal d&#39;Empordà</name>
+    <address>C/ de l'Aigüeta, 115</address>
+    <id>105</id>
+    <Point>
+      <coordinates>3.033554,41.966503,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça Almassora</name>
+    <address>Av. José Ortiz, 36</address>
+    <id>160</id>
+    <Point>
+      <coordinates>-0.065178,39.948105,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Miguel Angel Nadal</name>
+    <address>C/ Bordils, 39</address>
+    <id>524</id>
+    <Point>
+      <coordinates>3.335053,39.541222,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista El Pla de Santa Maria</name>
+    <address>C/ Anselm Clavé, 1-3</address>
+    <id>536</id>
+    <Point>
+      <coordinates>1.290724,41.362854,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Estel Blaugrana</name>
+    <address>[Sense ubicació]</address>
+    <id>53</id>
+    <Point>
+      <coordinates>3.459256,39.709877,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Bou</name>
+    <address>Ps. Fabra i Puig, 70</address>
+    <id>337</id>
+    <Point>
+      <coordinates>2.186326,41.430271,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Alginet</name>
+    <address>Av. Nueve de Octubre, 6</address>
+    <id>392</id>
+    <Point>
+      <coordinates>-0.469864,39.267372,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Culés de la Vila de Gràcia</name>
+    <address>C/ Indústria, 8</address>
+    <id>467</id>
+    <Point>
+      <coordinates>2.164701,41.402119,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Catí</name>
+    <address>C/ Santa Ana, s/n</address>
+    <id>343</id>
+    <Point>
+      <coordinates>0.027177,40.485966,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Olèrdola</name>
+    <address>Av. Carrerada, 31-33</address>
+    <id>269</id>
+    <Point>
+      <coordinates>1.693073,41.324520,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Pego</name>
+    <address>C/ Mar, 88</address>
+    <id>80</id>
+    <Point>
+      <coordinates>-0.113414,38.840557,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana Santa Eularia des Riu</name>
+    <address>C/ Isidor Macabich, 21</address>
+    <id>465</id>
+    <Point>
+      <coordinates>1.535828,38.985123,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Camp de Turia&quot;</name>
+    <address>C/ San Miguel, 32</address>
+    <id>526</id>
+    <Point>
+      <coordinates>-0.574261,39.612942,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Penya Barcelonista del Campello</name>
+    <address>C/ Convento, 25</address>
+    <id>176</id>
+    <Point>
+      <coordinates>-0.399452,38.429878,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Binefar y Comarca</name>
+    <address>C/ de la Luna, 2</address>
+    <id>377</id>
+    <Point>
+      <coordinates>0.298908,41.849907,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Santa Susanna</name>
+    <address>C/ Sant Ramon, 1</address>
+    <id>156</id>
+    <Point>
+      <coordinates>2.707527,41.634960,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Ondara</name>
+    <address>C/ Segaria, s/n</address>
+    <id>591</id>
+    <Point>
+      <coordinates>0.015289,38.830044,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Canet de Mar</name>
+    <address>C/ Montnegre, 23</address>
+    <id>530</id>
+    <Point>
+      <coordinates>2.578202,41.592434,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Penya Barcelonista de L&#39;Aldea</name>
+    <address>Av. Catalunya, 327</address>
+    <id>557</id>
+    <Point>
+      <coordinates>0.625300,40.749123,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sant Esteve Sesrovires</name>
+    <address>Av. de Montserrat, s/n</address>
+    <id>214</id>
+    <Point>
+      <coordinates>1.871837,41.495350,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Wembley 92</name>
+    <address>C/ València, 335</address>
+    <id>528</id>
+    <Point>
+      <coordinates>2.169234,41.397324,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Unibarçataris</name>
+    <address>C/ Padilla, 217</address>
+    <id>505</id>
+    <Point>
+      <coordinates>2.179398,41.403790,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Gandesa</name>
+    <address>Av. Aragó, 33</address>
+    <id>192</id>
+    <Point>
+      <coordinates>0.434865,41.053841,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya B. d&#39;Horta de Sant Joan</name>
+    <address>Av. Generalitat, 13</address>
+    <id>277</id>
+    <Point>
+      <coordinates>0.315663,40.956989,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Llubí</name>
+    <address>Pl. de l'Església, 6</address>
+    <id>218</id>
+    <Point>
+      <coordinates>3.004338,39.700703,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Premià de Dalt Sant Jaume</name>
+    <address>[Sense ubicació]</address>
+    <id>16</id>
+    <Point>
+      <coordinates>2.338611,41.500050,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Les Roquetes del Garraf</name>
+    <address>C/ Miquel Àngel, 24</address>
+    <id>375</id>
+    <Point>
+      <coordinates>1.744379,41.229004,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Bufalà</name>
+    <address>C/ Independència, 275</address>
+    <id>585</id>
+    <Point>
+      <coordinates>2.240892,41.461903,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Dosrius-Canyamars</name>
+    <address>Pl. Catalunya, 1</address>
+    <id>400</id>
+    <Point>
+      <coordinates>2.406049,41.594471,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Sabadell</name>
+    <address>C/ d'Alguersuari i Pascual, 13</address>
+    <id>599</id>
+    <Point>
+      <coordinates>2.115652,41.540455,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Mas de Barberans</name>
+    <address>C/ Molí, 42</address>
+    <id>77</id>
+    <Point>
+      <coordinates>0.373720,40.735138,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana Benejúzar</name>
+    <address>C/ Miguel Hernández, 7</address>
+    <id>243</id>
+    <Point>
+      <coordinates>-0.836894,38.077370,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vilafranca de Bonany</name>
+    <address>C/ Santa Bàrbara, 49</address>
+    <id>593</id>
+    <Point>
+      <coordinates>3.087500,39.566597,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Trinitat Vella</name>
+    <address>Via Favència</address>
+    <id>171</id>
+    <Point>
+      <coordinates>2.186827,41.447056,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de La Nucia</name>
+    <address>C/ Carretera, 18</address>
+    <id>589</id>
+    <Point>
+      <coordinates>-0.125232,38.616829,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>PB de Bellcaire d&#39;Urgell</name>
+    <address>Pl. Major, 6</address>
+    <id>416</id>
+    <Point>
+      <coordinates>0.906300,41.759251,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Camp de Morvedre</name>
+    <address>C/ Menéndez Pelayo, 37</address>
+    <id>113</id>
+    <Point>
+      <coordinates>-0.218426,39.661236,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Bellpuig</name>
+    <address>Av. Catalunya, 34</address>
+    <id>452</id>
+    <Point>
+      <coordinates>1.011359,41.628368,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Calafell</name>
+    <address>Pl. de l'Alcalde Romeu, s/n</address>
+    <id>504</id>
+    <Point>
+      <coordinates>1.568860,41.187176,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Canet lo Roig</name>
+    <address>C/ San Vicente, 20</address>
+    <id>133</id>
+    <Point>
+      <coordinates>0.244179,40.552063,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Pedreguer</name>
+    <address>Av. de Jaume I, 79</address>
+    <id>481</id>
+    <Point>
+      <coordinates>0.036080,38.795116,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Viladecans</name>
+    <address>C/ Pi i Margall, 3</address>
+    <id>440</id>
+    <Point>
+      <coordinates>2.018428,41.314358,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Els Ports</name>
+    <address>C/ Marquesa Fuente El Sol, 9</address>
+    <id>141</id>
+    <Point>
+      <coordinates>-0.100356,40.618507,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Almenar</name>
+    <address>Pl. d'Onzè de Setembre, s/n</address>
+    <id>554</id>
+    <Point>
+      <coordinates>0.570291,41.797485,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Rasquera</name>
+    <address>C/ de Plaça, 35</address>
+    <id>85</id>
+    <Point>
+      <coordinates>0.599968,41.002254,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Cubelles</name>
+    <address>Poliesportiu de Cubelles</address>
+    <id>309</id>
+    <Point>
+      <coordinates>1.670115,41.201340,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Carles Rexach&quot;</name>
+    <address>C/ Major, 64</address>
+    <id>482</id>
+    <Point>
+      <coordinates>0.717143,40.706184,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Salvador Sadurní&quot; L&#39;Arbo´ç</name>
+    <address>C/ dels Horts, 24</address>
+    <id>103</id>
+    <Point>
+      <coordinates>1.599961,41.268032,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Ayora</name>
+    <address>Pl. Mayor, 25</address>
+    <id>108</id>
+    <Point>
+      <coordinates>-1.054821,39.059914,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Santa Margarida i Els Monjos</name>
+    <address>C/ d'Anselm Clavé, 12</address>
+    <id>181</id>
+    <Point>
+      <coordinates>1.663735,41.320843,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista El Verger</name>
+    <address>C/ Sant Roc, 1</address>
+    <id>61</id>
+    <Point>
+      <coordinates>0.009892,38.842785,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Binissalem</name>
+    <address>C/ Arxiduc Lluís Salvador, s/n</address>
+    <id>125</id>
+    <Point>
+      <coordinates>2.848222,39.687572,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Crevillent</name>
+    <address>C/ Gabriel Miró, 4</address>
+    <id>325</id>
+    <Point>
+      <coordinates>-0.806541,38.250141,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Teixonera</name>
+    <address>C/ d'Arenys, 21</address>
+    <id>28</id>
+    <Point>
+      <coordinates>2.142290,41.421959,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Massanassa</name>
+    <address>C/ Valencia, 46</address>
+    <id>106</id>
+    <Point>
+      <coordinates>-0.400164,39.410069,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista del Pinell de Brai</name>
+    <address>C/ Tortosa, 9</address>
+    <id>597</id>
+    <Point>
+      <coordinates>0.514028,41.015083,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Creu de Sant Jordi</name>
+    <address>C/ Luís Antúnez, 7</address>
+    <id>379</id>
+    <Point>
+      <coordinates>2.155324,41.398403,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>&quot;Més que una Penya&quot; del FC Barcelona</name>
+    <address>C/ Pintor Sorolla, 11</address>
+    <id>575</id>
+    <Point>
+      <coordinates>-0.051565,39.986507,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça Banyuls de la Marenda</name>
+    <address>Rue Jean Iché, A-228</address>
+    <id>344</id>
+    <Point>
+      <coordinates>3.127407,42.485683,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Burjassot</name>
+    <address>C/ Pablo Iglesias, 18</address>
+    <id>81</id>
+    <Point>
+      <coordinates>-0.413070,39.510063,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Mont-Caro</name>
+    <address>C/ de la Masia, s/n</address>
+    <id>71</id>
+    <Point>
+      <coordinates>0.506133,40.817856,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana d&#39;Alcàsser &quot;L&#39;Horta Sud&quot;</name>
+    <address>[Sense ubicació]</address>
+    <id>490</id>
+    <Point>
+      <coordinates>-0.442818,39.369308,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Celrà</name>
+    <address>Carretera Girona Palamós, 130</address>
+    <id>279</id>
+    <Point>
+      <coordinates>2.887607,42.031052,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Xàtiva</name>
+    <address>Portal de Lleó, 9</address>
+    <id>537</id>
+    <Point>
+      <coordinates>-0.519600,38.989643,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana &quot;La Baells&quot;</name>
+    <address>C/ de la Confederació, 35</address>
+    <id>194</id>
+    <Point>
+      <coordinates>1.856149,42.153091,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Vila-Seca</name>
+    <address>C/ de la Verge de la Pineda, 45</address>
+    <id>371</id>
+    <Point>
+      <coordinates>1.146684,41.109879,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Forum Manolo Clares</name>
+    <address>C/ Marc Aureli, 2</address>
+    <id>99</id>
+    <Point>
+      <coordinates>2.143481,41.399788,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Passio Blaugrana&quot;</name>
+    <address>C/ Hort del Senyor, 1</address>
+    <id>385</id>
+    <Point>
+      <coordinates>-0.120490,38.650936,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Mercat de la Boqueria</name>
+    <address>C/ Ausias Marc, 108</address>
+    <id>126</id>
+    <Point>
+      <coordinates>2.181827,41.395878,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Pollença</name>
+    <address>Ctra. Palma-Pollença, km 52</address>
+    <id>543</id>
+    <Point>
+      <coordinates>3.016752,39.882130,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Castellbisbal</name>
+    <address>Carrer de Sant Lluc, 31</address>
+    <id>49</id>
+    <Point>
+      <coordinates>1.979663,41.474850,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça Puçol</name>
+    <address>Pje del Pintor Sorolla, s/n</address>
+    <id>397</id>
+    <Point>
+      <coordinates>-0.306927,39.618469,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Franja Mequinenza&quot;</name>
+    <address>Calle N, 15</address>
+    <id>320</id>
+    <Point>
+      <coordinates>0.304048,41.376102,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Saidi</name>
+    <address>Av San Antonio Abad, 25</address>
+    <id>326</id>
+    <Point>
+      <coordinates>0.268208,41.607979,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Tamarite y Comarca</name>
+    <address>Pl. Inmaculada, 9</address>
+    <id>165</id>
+    <Point>
+      <coordinates>0.422311,41.867828,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana d&#39;Alcudia</name>
+    <address>[sense ubicació]</address>
+    <id>182</id>
+    <Point>
+      <coordinates>2.885890,39.822174,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana San Bartolomé</name>
+    <address>Calle de Miguel de Cervantes, 4</address>
+    <id>222</id>
+    <Point>
+      <coordinates>-0.861505,38.094173,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Matadepera</name>
+    <address>Carrer de Pere Aldavert 4</address>
+    <id>478</id>
+    <Point>
+      <coordinates>2.028428,41.600311,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;La Guineu&quot;</name>
+    <address>Passeig de Valldaura, 175 bis</address>
+    <id>462</id>
+    <Point>
+      <coordinates>2.173136,41.438744,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Foia</name>
+    <address>Calle de Senieta l'Auelet, 64</address>
+    <id>231</id>
+    <Point>
+      <coordinates>-0.674059,38.590683,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Sant Joan</name>
+    <address>Av del Doctor Jiménez Díaz, 4</address>
+    <id>68</id>
+    <Point>
+      <coordinates>-0.505442,38.349659,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Can Baro</name>
+    <address>Carrer de Josep Serrano, 57</address>
+    <id>578</id>
+    <Point>
+      <coordinates>2.162194,41.417061,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça de Traiguera</name>
+    <address>Calle Ramón y Cajal, 18</address>
+    <id>358</id>
+    <Point>
+      <coordinates>0.287830,40.523594,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Hostalric</name>
+    <address>Carrer Ravalet, 71</address>
+    <id>558</id>
+    <Point>
+      <coordinates>2.644107,41.744797,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-Grana Bellvisenca</name>
+    <address>Plaça de Catalunya s/n</address>
+    <id>163</id>
+    <Point>
+      <coordinates>0.817306,41.672089,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista L&#39;Hospitalet</name>
+    <address>Carrer de Provença, 69</address>
+    <id>96</id>
+    <Point>
+      <coordinates>2.101667,41.358627,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vilanova i Vall de Meià</name>
+    <address>Carrer de la Font, 8</address>
+    <id>446</id>
+    <Point>
+      <coordinates>1.023615,41.995251,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Collblanc-Torrassa</name>
+    <address>Carrer de Llavinés, 16</address>
+    <id>517</id>
+    <Point>
+      <coordinates>2.117123,41.372971,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de l&#39;Ampolla</name>
+    <address>Carrer Banys, 41</address>
+    <id>213</id>
+    <Point>
+      <coordinates>0.713780,40.812431,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Benissa</name>
+    <address>C/ Capità Cabrera, 1</address>
+    <id>31</id>
+    <Point>
+      <coordinates>0.048362,38.713501,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Castellbell i El Vilar</name>
+    <address>Calle Joaquim Borràs, 14</address>
+    <id>145</id>
+    <Point>
+      <coordinates>1.862344,41.628735,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Prat-Potablava</name>
+    <address>C. Lo Gaiter de Llobregat, 31</address>
+    <id>300</id>
+    <ExtendedData>
+      <Data name="PlaceName">
+        <value></value>
+      </Data>
+      <Data name="Address">
+        <value></value>
+      </Data>
+      <Data name="Phone">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>2.093149,41.330475,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Som-hi</name>
+    <address>Carrer de l'Olivera, 21</address>
+    <id>360</id>
+    <Point>
+      <coordinates>2.158414,41.373638,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Jana</name>
+    <address>Calle de Pou Nou, 84</address>
+    <id>280</id>
+    <Point>
+      <coordinates>0.252480,40.510265,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de L&#39;Olleria</name>
+    <address>Avinguda de la Diputació Provincial, 66</address>
+    <id>450</id>
+    <Point>
+      <coordinates>-0.550678,38.910992,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Cabrils</name>
+    <address>Calle de Emilia Carles, 15</address>
+    <id>223</id>
+    <Point>
+      <coordinates>2.367487,41.526852,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça de la Cerdanya</name>
+    <address>Carrer de Jaume II de Mallorca, 3</address>
+    <id>527</id>
+    <Point>
+      <coordinates>1.776382,42.370422,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Gegantó Avi del Barça</name>
+    <address>Carrer dels Comtes de Bell-lloc, 192</address>
+    <id>75</id>
+    <Point>
+      <coordinates>2.135341,41.383492,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Sueras</name>
+    <address>[sense ubicació]</address>
+    <id>122</id>
+    <Point>
+      <coordinates>-0.329884,39.952408,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Joves de Ponent</name>
+    <address>Carrer de Felip Rodes, 10</address>
+    <id>153</id>
+    <Point>
+      <coordinates>0.659847,41.751682,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Quarta Lliga&quot; Sant Cosme i Sant Damià</name>
+    <address>Carrer del Riu Ebre, 17</address>
+    <id>157</id>
+    <Point>
+      <coordinates>2.089201,41.317261,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Urgellenca</name>
+    <address>Carrer de Sant Joan Baptista de la Salle, 21</address>
+    <id>17</id>
+    <Point>
+      <coordinates>1.458923,42.354103,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de la Colònia Güell</name>
+    <address>Carrer del Mossèn Frederic Martí, 7</address>
+    <id>497</id>
+    <Point>
+      <coordinates>2.028070,41.363052,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Cabrera de Mar</name>
+    <address>Av del Pare Jaume Català, 8</address>
+    <id>299</id>
+    <Point>
+      <coordinates>2.393713,41.527889,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Almeda</name>
+    <address>Carrer de Dolors Almeda, 60</address>
+    <id>155</id>
+    <Point>
+      <coordinates>2.087296,41.351994,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Biar</name>
+    <address>Calle de Perino Alt, 4</address>
+    <id>538</id>
+    <Point>
+      <coordinates>-0.763388,38.627110,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Poble Nou de la Salut</name>
+    <address>Carrer de la Cisa, 9</address>
+    <id>20</id>
+    <Point>
+      <coordinates>2.128726,41.561382,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Bagà Blaugrana</name>
+    <address>Carrer del Mossèn Cinto, 19</address>
+    <id>86</id>
+    <Point>
+      <coordinates>1.866107,42.250576,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Ventalló</name>
+    <address>Carrer Pou, 8</address>
+    <id>318</id>
+    <Point>
+      <coordinates>3.027466,42.149281,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Caldes de Malavella</name>
+    <address>Carrer dels Cavalls 12</address>
+    <id>256</id>
+    <Point>
+      <coordinates>2.807075,41.832939,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Empleats Aigües de Bcn (AGBAR)</name>
+    <address>Carrer del Consell de Cent, 477</address>
+    <id>418</id>
+    <Point>
+      <coordinates>2.176852,41.399479,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Pobla Lillet-Castellar de N&#39;hug</name>
+    <address>Calle Doctor Cisneros, 3</address>
+    <id>206</id>
+    <ExtendedData>
+      <Data name="PlaceName">
+        <value></value>
+      </Data>
+      <Data name="Address">
+        <value></value>
+      </Data>
+      <Data name="Phone">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>1.974540,42.244301,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Cap de Creus</name>
+    <address>Carretera de Cadaqués al Cap de Creus s/n</address>
+    <id>388</id>
+    <Point>
+      <coordinates>3.302535,42.318916,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Monover</name>
+    <address>Calle del Sol, 6</address>
+    <id>296</id>
+    <Point>
+      <coordinates>-0.838196,38.434723,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Vora Sèquia&quot;</name>
+    <address>Calle del Gobernador Bermúdez de Castro, 53</address>
+    <id>179</id>
+    <Point>
+      <coordinates>-0.034817,39.985512,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de la Vall d&#39;Ager</name>
+    <address>Carretera C-12, kilòmetre 200</address>
+    <id>290</id>
+    <Point>
+      <coordinates>0.764395,42.002827,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista S&#39;Arenal</name>
+    <address>Carrer de Costa i Llobera</address>
+    <id>65</id>
+    <Point>
+      <coordinates>2.748986,39.498093,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Tordera</name>
+    <address>Plaça de la Concòrdia</address>
+    <id>10</id>
+    <Point>
+      <coordinates>2.718149,41.701782,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana d&#39;Arbeca</name>
+    <address>Plaça de Mercat, 15</address>
+    <id>216</id>
+    <Point>
+      <coordinates>0.923770,41.542053,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Gran Penya Barcelonista de Paüls</name>
+    <address>Plaça del Serrall, 1</address>
+    <id>88</id>
+    <Point>
+      <coordinates>0.399554,40.921474,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Campdevànol</name>
+    <address>Calle Puigmal, 2</address>
+    <id>409</id>
+    <Point>
+      <coordinates>2.169092,42.224243,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Coma-ruga&#39;95</name>
+    <address>Carrer de la Segarra s/n</address>
+    <id>348</id>
+    <Point>
+      <coordinates>1.524851,41.182072,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vall de Llémena</name>
+    <address>Carrer de Miguel de Cervantes, 55</address>
+    <id>52</id>
+    <Point>
+      <coordinates>2.796210,41.974236,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Benicassim</name>
+    <address>Calle del Mosén Oliver, 1</address>
+    <id>559</id>
+    <Point>
+      <coordinates>0.064304,40.055561,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Llagostera</name>
+    <address>Carrer d'Àngel Guimerà, 7</address>
+    <id>380</id>
+    <Point>
+      <coordinates>2.894818,41.826614,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Alberic</name>
+    <address>Calle de Ramón y Cajal, 6</address>
+    <id>420</id>
+    <Point>
+      <coordinates>-0.521118,39.117107,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de la Font de la Figuera</name>
+    <address>Calle de Arcediano Ros s/n</address>
+    <id>246</id>
+    <Point>
+      <coordinates>-0.879114,38.808300,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Periche</name>
+    <address>Calle de la Alameda, 1</address>
+    <id>186</id>
+    <Point>
+      <coordinates>-0.885759,38.140419,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Bescanó</name>
+    <address>Carrer Major, 148</address>
+    <id>468</id>
+    <Point>
+      <coordinates>2.734745,41.966820,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista La Canal</name>
+    <address>Av del Pantano, 16</address>
+    <id>500</id>
+    <Point>
+      <coordinates>-0.642077,39.020538,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista 1899</name>
+    <address>Carrer de la Diputació, 185</address>
+    <id>542</id>
+    <Point>
+      <coordinates>2.160392,41.385399,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Antella</name>
+    <address>Calle de la Purísima, 66</address>
+    <id>19</id>
+    <Point>
+      <coordinates>-0.595188,39.082058,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Salou</name>
+    <address>Carrer de l'Ametlla de Mar, 8</address>
+    <id>463</id>
+    <Point>
+      <coordinates>1.133810,41.085255,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de l&#39;Espluga de Francolí</name>
+    <address>Carretera de Montblanc, 6</address>
+    <id>396</id>
+    <Point>
+      <coordinates>1.104833,41.396305,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Garcia</name>
+    <address>Carrer de Cards, 4</address>
+    <id>236</id>
+    <Point>
+      <coordinates>0.651856,41.136162,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Navarcles</name>
+    <address>Carrer de Badalona, 2</address>
+    <id>539</id>
+    <Point>
+      <coordinates>1.906998,41.754463,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista San Miguel de Salinas</name>
+    <address>Calle de Romea, 10</address>
+    <id>592</id>
+    <Point>
+      <coordinates>-0.784723,37.978466,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Cabanyal-Ciutat Jardí</name>
+    <address>Calle de La Floresta, 25</address>
+    <id>47</id>
+    <Point>
+      <coordinates>-0.348862,39.466911,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Cristinenca</name>
+    <address>Calle de Pere Geronès, 43</address>
+    <id>364</id>
+    <Point>
+      <coordinates>2.999859,41.812042,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Llinars del Vallès</name>
+    <address>Carrer de Giola, 1</address>
+    <id>437</id>
+    <Point>
+      <coordinates>2.401371,41.639194,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;San Marcelino&quot;</name>
+    <address>Calle del Doctor Royo Vilanova, 8</address>
+    <id>612</id>
+    <Point>
+      <coordinates>-0.391777,39.443199,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista 100x100</name>
+    <address>Carrer de Cuba, 2</address>
+    <id>422</id>
+    <Point>
+      <coordinates>2.188588,41.429863,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Batea</name>
+    <address>Av Terra Alta, 14</address>
+    <id>321</id>
+    <Point>
+      <coordinates>0.312027,41.093925,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Pòrtol</name>
+    <address>Carrer Major, 73</address>
+    <id>148</id>
+    <Point>
+      <coordinates>2.769511,39.617546,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de la Selva del Camp</name>
+    <address>Carrer de l'Horta s/n</address>
+    <id>4</id>
+    <Point>
+      <coordinates>1.142023,41.213360,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;El Castellet&quot;</name>
+    <address>Calle del Mestre Giner, 24</address>
+    <id>217</id>
+    <Point>
+      <coordinates>-0.516043,39.081833,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Bàsquet &quot;Meritxell&quot;</name>
+    <address>Avinguda del Portal de l'Àngel, 17</address>
+    <id>224</id>
+    <Point>
+      <coordinates>2.173065,41.385551,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana d&#39;Amer</name>
+    <address>Carrer Pio Ludovico, 5</address>
+    <id>187</id>
+    <Point>
+      <coordinates>2.603224,42.009758,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista U.P.C-Vilanova</name>
+    <address>Avinguda de Víctor Balaguer s/n</address>
+    <id>263</id>
+    <Point>
+      <coordinates>1.729897,41.220947,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vilabertran</name>
+    <address>[sense ubicació]</address>
+    <id>374</id>
+    <Point>
+      <coordinates>2.981709,42.284218,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Artana</name>
+    <address>Calle del Cristo, 24</address>
+    <id>221</id>
+    <Point>
+      <coordinates>-0.257383,39.892097,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Muro</name>
+    <address>Avinguda del País Valencià, 37</address>
+    <id>215</id>
+    <Point>
+      <coordinates>-0.434572,38.781815,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Les Coves&quot;</name>
+    <address>Calle de Garrofer, 7</address>
+    <id>208</id>
+    <Point>
+      <coordinates>-0.344282,39.581367,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Ciutat Comtal</name>
+    <address>Carrer de Sant Roc, 26</address>
+    <id>389</id>
+    <Point>
+      <coordinates>2.145405,41.374794,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Mediona i Comarca</name>
+    <address>Carrer de la Natació s/n</address>
+    <id>413</id>
+    <Point>
+      <coordinates>1.655010,41.490341,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Jesús</name>
+    <address>Carretera de Roquetes a Jesús, 1</address>
+    <id>521</id>
+    <Point>
+      <coordinates>0.508318,40.825684,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Juncosa de Les Garrigues</name>
+    <address>Carrer Major, 3</address>
+    <id>123</id>
+    <Point>
+      <coordinates>0.775175,41.371750,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Almatret</name>
+    <address>[sense ubicació]</address>
+    <id>69</id>
+    <Point>
+      <coordinates>0.424416,41.305260,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Navajas</name>
+    <address>[sense ubicació]</address>
+    <id>39</id>
+    <Point>
+      <coordinates>-0.505991,39.877270,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Ciberpenya Blaugrana</name>
+    <address>Urb. Comella Parc, Fase 3 - Casa 20</address>
+    <id>188</id>
+    <Point>
+      <coordinates>1.527706,42.498322,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Penaguila</name>
+    <address>[sense ubicació]</address>
+    <id>238</id>
+    <Point>
+      <coordinates>-0.359000,38.679417,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Vilavella</name>
+    <address>Calle Santos Piedra, 32</address>
+    <id>459</id>
+    <Point>
+      <coordinates>-0.183630,39.859467,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Mercabarna</name>
+    <address>Mercabarna, Pavelló A</address>
+    <id>57</id>
+    <Point>
+      <coordinates>2.115544,41.331131,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Teulada</name>
+    <address>Av del Mediterráneo, 33</address>
+    <id>553</id>
+    <Point>
+      <coordinates>0.099450,38.727627,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana d&#39;Avià</name>
+    <address>Plaça del Padró s/n</address>
+    <id>267</id>
+    <Point>
+      <coordinates>1.824837,42.076553,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Calpe-Peñón de Ifach&quot;</name>
+    <address>Carrer de l'Ermita, 10</address>
+    <id>150</id>
+    <Point>
+      <coordinates>0.042624,38.644127,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Saldes</name>
+    <address>Campo del Cantó s/n</address>
+    <id>201</id>
+    <ExtendedData>
+      <Data name="PlaceName">
+        <value></value>
+      </Data>
+      <Data name="Address">
+        <value></value>
+      </Data>
+      <Data name="Phone">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>1.739680,42.227680,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Rossello (Lleida)</name>
+    <address>Carrer de Magisteri, 5</address>
+    <id>15</id>
+    <Point>
+      <coordinates>0.593714,41.695168,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Llacuna</name>
+    <address>[sense ubicació]</address>
+    <id>333</id>
+    <Point>
+      <coordinates>1.534255,41.472576,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Oliana</name>
+    <address>Plaça de Mossèn Albert Vives, 1</address>
+    <id>390</id>
+    <Point>
+      <coordinates>1.313786,42.067612,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Johan&quot;</name>
+    <address>Carrer d'Aloy, 8</address>
+    <id>315</id>
+    <Point>
+      <coordinates>2.211918,41.451752,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;Alacant Culé&quot;</name>
+    <address>Calle del Doctor Santaolalla, 4</address>
+    <id>509</id>
+    <Point>
+      <coordinates>-0.496339,38.346546,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana L&#39;Alcúdia (València)</name>
+    <address>Carretera de Carlet, 6</address>
+    <id>314</id>
+    <Point>
+      <coordinates>-0.504937,39.199677,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Centenari&quot; de Barcelona</name>
+    <address>Carrer de la Ciutat de Granada, 88</address>
+    <id>507</id>
+    <Point>
+      <coordinates>2.195981,41.400002,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;El Guerrer&quot;</name>
+    <address>Calle del Venerable Padre Moreno, 47</address>
+    <id>18</id>
+    <Point>
+      <coordinates>-0.750280,38.874786,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Petrer</name>
+    <address>Calle del Poeta Zorrilla, 19</address>
+    <id>395</id>
+    <Point>
+      <coordinates>-0.773731,38.480839,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;El Repartidor&quot; de L&#39;H</name>
+    <address>Plaça del Repartidor, 6</address>
+    <id>198</id>
+    <Point>
+      <coordinates>2.099846,41.361710,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana d&#39;Alpicat</name>
+    <address>Carrer Major, 10</address>
+    <id>5</id>
+    <Point>
+      <coordinates>0.555135,41.665890,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sant Pau-Raval</name>
+    <address>Carrer de Sant Pacià, 14</address>
+    <id>515</id>
+    <Point>
+      <coordinates>2.167628,41.377773,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana &quot;El Racó&quot;</name>
+    <address>Avinguda del Paral·lel, 180</address>
+    <id>600</id>
+    <Point>
+      <coordinates>2.154662,41.375198,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Sudanell</name>
+    <address>[sense ubicació]</address>
+    <id>565</id>
+    <Point>
+      <coordinates>0.566377,41.556164,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Gamper&quot; de Barcelona</name>
+    <address>Carrer del Rosselló, 164</address>
+    <id>74</id>
+    <Point>
+      <coordinates>2.155452,41.391876,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de la Bisbal del Penedés</name>
+    <address>Av de Baix Penedés, 1</address>
+    <id>26</id>
+    <Point>
+      <coordinates>1.488104,41.282608,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Ramonet Barcelonista</name>
+    <address>C/ Santa Eulàlia, 71</address>
+    <id>268</id>
+    <Point>
+      <coordinates>2.127393,41.367039,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana &quot;Euro Barça&quot;</name>
+    <address>Carrer de Miguel de Cervantes, 11</address>
+    <id>70</id>
+    <Point>
+      <coordinates>2.847251,41.699223,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penyes Mil·leni FCB</name>
+    <address>Passeig del Carme, 24</address>
+    <id>336</id>
+    <Point>
+      <coordinates>2.074805,41.468384,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Jesús Pobre</name>
+    <address>Carrer Major, 1</address>
+    <id>522</id>
+    <Point>
+      <coordinates>0.085175,38.798939,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça Es Castell</name>
+    <address>Carrer de Maó, 40</address>
+    <id>427</id>
+    <Point>
+      <coordinates>4.287745,39.878914,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista &quot;La Serrania&quot;</name>
+    <address>Calle de San Juan, 27</address>
+    <id>564</id>
+    <Point>
+      <coordinates>-1.042305,39.767166,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Speed 58&quot;</name>
+    <address>Carrer del Torrent de les Flors, 43</address>
+    <id>383</id>
+    <Point>
+      <coordinates>2.160435,41.405933,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Cornudella de Montsant</name>
+    <address>Carrer de Comte de Rius, 5</address>
+    <id>472</id>
+    <Point>
+      <coordinates>0.906779,41.264973,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana 25 de Setembre de Rubí</name>
+    <address>Plaça de l'Esbart Dansaire de Rubí, 7</address>
+    <id>282</id>
+    <Point>
+      <coordinates>2.035200,41.497372,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Santa Oliva</name>
+    <address>[sense ubicació]</address>
+    <id>308</id>
+    <Point>
+      <coordinates>1.549884,41.253075,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Pep Guardiola&quot; La Pobla del Duc</name>
+    <address>Calle de Levante, 8</address>
+    <id>180</id>
+    <Point>
+      <coordinates>-0.418204,38.904022,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sant Antoni</name>
+    <address>Carrer Nou de la Rambla, 137</address>
+    <id>310</id>
+    <Point>
+      <coordinates>2.168206,41.373142,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Sang Culé Cor Català&quot;</name>
+    <address>Avinguda de Madrid, 60</address>
+    <id>260</id>
+    <Point>
+      <coordinates>2.126195,41.377609,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Benigànim</name>
+    <address>Calle del Coronel Gomar, 23</address>
+    <id>354</id>
+    <Point>
+      <coordinates>-0.441493,38.942528,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça d&#39;Alfara del Patriarca</name>
+    <address>Calle de Don Emilio Ramón Llin, 53</address>
+    <id>274</id>
+    <Point>
+      <coordinates>-0.384497,39.545368,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Sagrera</name>
+    <address>Baixada de la Sagrera, 6</address>
+    <id>596</id>
+    <Point>
+      <coordinates>2.191698,41.418972,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Vallbarça</name>
+    <address>Paseo de Lepanto, 36</address>
+    <id>384</id>
+    <Point>
+      <coordinates>-0.272662,39.067371,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Montaverner</name>
+    <address>Calle de la Mare de Déu de Loreto, 17</address>
+    <id>9</id>
+    <Point>
+      <coordinates>-0.495432,38.887905,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sa Indioteria</name>
+    <address>Carrer de Gabriel Cortés, 2</address>
+    <id>496</id>
+    <Point>
+      <coordinates>2.678398,39.606586,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sant Julià de Cerdanyola</name>
+    <address>[sense ubicació]</address>
+    <id>140</id>
+    <Point>
+      <coordinates>1.891119,42.223057,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Ciutat Meridiana</name>
+    <address>Carrer de les Agudes, 22</address>
+    <id>110</id>
+    <Point>
+      <coordinates>2.177177,41.462631,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Cabanes</name>
+    <address>[sense ubicació]</address>
+    <id>454</id>
+    <Point>
+      <coordinates>0.045430,40.154766,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Gironella</name>
+    <address>[sense ubicació]</address>
+    <id>67</id>
+    <Point>
+      <coordinates>1.882638,42.033730,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista del Taxi ZF</name>
+    <address>Carrer Número 6, sector A</address>
+    <id>469</id>
+    <Point>
+      <coordinates>2.143842,41.345039,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Banyeres del Penedès</name>
+    <address>Carrer Mestre Josep Güell, 13</address>
+    <id>164</id>
+    <Point>
+      <coordinates>1.582201,41.279510,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Els Tamarells&quot;</name>
+    <address>Carrer de la Plaça, 14</address>
+    <id>331</id>
+    <Point>
+      <coordinates>3.148621,39.469791,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Gent Blaugrana&quot; del Perelló</name>
+    <address>[sense ubicació]</address>
+    <id>491</id>
+    <Point>
+      <coordinates>-0.376805,39.470238,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Nostra Ensenya</name>
+    <address>Carrer de Ventura Plaja, 28</address>
+    <id>189</id>
+    <Point>
+      <coordinates>2.126123,41.374573,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Vila de Seròs</name>
+    <address>Carrer de Metge, 6</address>
+    <id>132</id>
+    <Point>
+      <coordinates>0.410619,41.462669,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Carlet</name>
+    <address>Carrer de Colón, 57</address>
+    <id>474</id>
+    <Point>
+      <coordinates>-0.522744,39.229053,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana d&#39;Olesa de Bonesvalls</name>
+    <address>[sense ubicació]</address>
+    <id>431</id>
+    <Point>
+      <coordinates>1.849887,41.353008,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Esperit Blaugrana</name>
+    <address>Carrer del Nil, 12</address>
+    <id>466</id>
+    <Point>
+      <coordinates>2.172042,41.434601,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;La Societat&quot;</name>
+    <address>Plaça Eliseu Sales, s/n</address>
+    <id>94</id>
+    <Point>
+      <coordinates>0.507331,41.363159,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Cervià de Ter</name>
+    <address>Carrer Priorat, 29</address>
+    <id>489</id>
+    <Point>
+      <coordinates>2.911868,42.067959,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista L&#39;Eliana</name>
+    <address>Calle del Marqués de Cáceres</address>
+    <id>226</id>
+    <Point>
+      <coordinates>-0.531100,39.566345,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Les Alqueries</name>
+    <address>Calle Virgen de Gracia, 48</address>
+    <id>571</id>
+    <Point>
+      <coordinates>-0.114024,39.895771,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Montpedrós Santa Coloma de Cervelló</name>
+    <address>Plaça Pi Tallat</address>
+    <id>144</id>
+    <Point>
+      <coordinates>2.017161,41.367695,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Torrelameu</name>
+    <address>[sense ubicació]</address>
+    <id>101</id>
+    <Point>
+      <coordinates>0.704760,41.704556,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Camarasa</name>
+    <address>Carrer de Santa María, 32</address>
+    <id>582</id>
+    <Point>
+      <coordinates>0.878525,41.874828,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Mai Por&quot;</name>
+    <address>Carrer de la Indústria, 166</address>
+    <id>271</id>
+    <Point>
+      <coordinates>2.175050,41.410027,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Montesquiu</name>
+    <address>Plaça Emili Junca, 11</address>
+    <id>45</id>
+    <Point>
+      <coordinates>2.210233,42.110050,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Districte XXVII</name>
+    <address>Avinguda Meridiana, 296</address>
+    <id>447</id>
+    <Point>
+      <coordinates>2.187020,41.422272,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Salomó</name>
+    <address>Carrer de Nord, 2</address>
+    <id>63</id>
+    <Point>
+      <coordinates>1.375624,41.232044,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Collsuspina</name>
+    <address>Carrer Major, 3</address>
+    <id>549</id>
+    <Point>
+      <coordinates>2.175578,41.826965,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Vilanova de la Barca</name>
+    <address>Carrer Segrià, s/n</address>
+    <id>48</id>
+    <Point>
+      <coordinates>0.726624,41.688362,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Roda de Barà</name>
+    <address>Av. Avenc, 13</address>
+    <id>329</id>
+    <Point>
+      <coordinates>1.457169,41.186680,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Josep Suñol i Garriga&quot; de Palafolls</name>
+    <address>Travessera de les Esplanes, 7</address>
+    <id>544</id>
+    <Point>
+      <coordinates>2.751569,41.671654,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de L&#39;Eixample &quot;Can Conesa&quot;</name>
+    <address>Carrer de Casanova, 22</address>
+    <id>499</id>
+    <Point>
+      <coordinates>2.162052,41.382957,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Pals Blau i Grana</name>
+    <address>Carrer de la Font, 6</address>
+    <id>494</id>
+    <Point>
+      <coordinates>3.148339,41.971699,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Montserrat a Montferri</name>
+    <address>Carrer Major, 35</address>
+    <id>556</id>
+    <Point>
+      <coordinates>1.365276,41.265339,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Cor Culé</name>
+    <address>Carrer de la Indústria, 120</address>
+    <id>291</id>
+    <Point>
+      <coordinates>2.172086,41.407787,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Sant Llorenç d&#39;Hortons</name>
+    <address>Carrer Nou, 41</address>
+    <id>205</id>
+    <Point>
+      <coordinates>1.822123,41.468498,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Ciutat Cooperativa&quot; Molí Nou</name>
+    <address>[sense ubicació]</address>
+    <id>541</id>
+    <ExtendedData>
+      <Data name="PlaceName">
+        <value></value>
+      </Data>
+      <Data name="Address">
+        <value></value>
+      </Data>
+      <Data name="Phone">
+        <value></value>
+      </Data>
+      <Data name="Website">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>2.029123,41.356518,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Puigverd de Lleida</name>
+    <address>Carrer de Borges Blanques, 3</address>
+    <id>603</id>
+    <Point>
+      <coordinates>0.734305,41.543343,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Torrefarrera</name>
+    <address>Carrer de Ramon Muntaner, 49 bis</address>
+    <id>234</id>
+    <Point>
+      <coordinates>0.609314,41.672741,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Ca&#39;n Picafort</name>
+    <address>Avinguda de José Trías, 37</address>
+    <id>568</id>
+    <Point>
+      <coordinates>3.147298,39.767014,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Almussafes</name>
+    <address>Carrer de Atarazanas, 3</address>
+    <id>30</id>
+    <Point>
+      <coordinates>-0.413319,39.295040,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Begues</name>
+    <address>Carrer del Ginebró, 1</address>
+    <id>162</id>
+    <Point>
+      <coordinates>1.913179,41.332066,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Gualba</name>
+    <address>[sense ubicació]</address>
+    <id>252</id>
+    <Point>
+      <coordinates>2.502726,41.731453,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Castellar de n&#39;Hug-Gossos d&#39;Atura</name>
+    <address>[sense ubicació]</address>
+    <id>307</id>
+    <Point>
+      <coordinates>2.016574,42.283257,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Orgull Culé</name>
+    <address>Carrer de Copèrnic, 1</address>
+    <id>449</id>
+    <Point>
+      <coordinates>2.135333,41.399986,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Iniesta 24</name>
+    <address>Carrer de Carles Buïgas, 50</address>
+    <id>289</id>
+    <Point>
+      <coordinates>2.052787,41.384815,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya L&#39;Avellana Blaugrana</name>
+    <address>Carrer de Sant Jaume, 2</address>
+    <id>98</id>
+    <Point>
+      <coordinates>1.051016,41.138966,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Villafranca del Cid</name>
+    <address>Av Castellón, 6</address>
+    <id>432</id>
+    <Point>
+      <coordinates>-0.257407,40.427265,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Monforte del Cid</name>
+    <address>Carrer dels Pasos, 12</address>
+    <id>241</id>
+    <Point>
+      <coordinates>-0.728006,38.380913,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Benassal al vent</name>
+    <address>Carretera Villafranca del Cid s/n</address>
+    <id>124</id>
+    <Point>
+      <coordinates>-0.143912,40.381229,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana El Forat de la Guineu</name>
+    <address>Camí de Carrerada s/n</address>
+    <id>613</id>
+    <Point>
+      <coordinates>1.125803,42.619869,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Bordils</name>
+    <address>Carrer de la Creu, 20</address>
+    <id>166</id>
+    <Point>
+      <coordinates>2.912114,42.044300,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista del Palau d&#39;Anglesola</name>
+    <address>[sense ubicació]</address>
+    <id>257</id>
+    <Point>
+      <coordinates>0.880874,41.651634,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Borredà</name>
+    <address>[sense ubicació]</address>
+    <id>58</id>
+    <Point>
+      <coordinates>1.993754,42.135406,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Soses</name>
+    <address>Carrer del Sindicat, 75</address>
+    <id>135</id>
+    <Point>
+      <coordinates>0.487919,41.533276,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Metal Club Barcelona</name>
+    <address>Carrer de San Pere Màrtir, 39</address>
+    <id>169</id>
+    <Point>
+      <coordinates>2.156847,41.399921,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Albatera</name>
+    <address>Calle de Orihuela, 20</address>
+    <id>533</id>
+    <Point>
+      <coordinates>-0.870886,38.177296,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana Chella</name>
+    <address>Plaza de Giménez del Río Adolfo, 17</address>
+    <id>253</id>
+    <Point>
+      <coordinates>-0.659472,39.041882,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Paris 2006</name>
+    <address>Carrer d'En Gignàs, 17</address>
+    <id>184</id>
+    <Point>
+      <coordinates>2.180119,41.381195,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Creixell</name>
+    <address>Avinguda Navarra, s/n</address>
+    <id>605</id>
+    <Point>
+      <coordinates>1.437938,41.168949,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Albalat de la Ribera</name>
+    <address>Calle de Sebastián Figueres, 2</address>
+    <id>297</id>
+    <Point>
+      <coordinates>-0.388781,39.200653,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista de Peguera</name>
+    <address>Carrer de Savina, 2</address>
+    <id>434</id>
+    <Point>
+      <coordinates>2.443974,39.537434,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sant Feliu de Pallerols</name>
+    <address>Carretera d'Olot, 42</address>
+    <id>100</id>
+    <Point>
+      <coordinates>2.507576,42.078197,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Xara</name>
+    <address>Calle de San Antonio, 21</address>
+    <id>210</id>
+    <Point>
+      <coordinates>0.063684,38.829464,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sant Ildefons de Cornellà</name>
+    <address>Avinguda de la República Argentina, 62</address>
+    <id>36</id>
+    <Point>
+      <coordinates>2.085062,41.363659,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista L&#39;Urpa</name>
+    <address>Carrer d'Esteràs, 18</address>
+    <id>286</id>
+    <Point>
+      <coordinates>2.129918,41.371223,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Emerita Augusta 1899</name>
+    <address>Carrer del Pintor Tapiró, 18</address>
+    <id>516</id>
+    <Point>
+      <coordinates>2.118395,41.378014,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Vallgorguina</name>
+    <address>[sense ubicació]</address>
+    <id>302</id>
+    <Point>
+      <coordinates>2.509912,41.648323,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana &quot;Aquest any si&quot; de Les Piles</name>
+    <address>Carrer de Major, 26</address>
+    <id>370</id>
+    <Point>
+      <coordinates>1.342511,41.503708,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Residència Font Florida</name>
+    <address>Carrer de la Font Florida, 98</address>
+    <id>149</id>
+    <Point>
+      <coordinates>2.141842,41.366867,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Coleccionistes de Plaques de Cava</name>
+    <address>Avinguda del Paral·lel, 25</address>
+    <id>264</id>
+    <Point>
+      <coordinates>2.173905,41.374565,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista El Pla del Penedès</name>
+    <address>Carrer Vallès, 14</address>
+    <id>219</id>
+    <Point>
+      <coordinates>1.711177,41.417461,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sant Vicenç dels Horts</name>
+    <address>Carretera de Sant Boi, 110</address>
+    <id>555</id>
+    <Point>
+      <coordinates>2.007616,41.400543,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Besalú &quot;Can Quei&quot;</name>
+    <address>[sense ubicació]</address>
+    <id>40</id>
+    <Point>
+      <coordinates>2.698663,42.200386,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana de San Fulgencio</name>
+    <address>Calle del General Mola, 1</address>
+    <id>158</id>
+    <Point>
+      <coordinates>-0.719196,38.113182,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista L&#39;Avi Xaxu</name>
+    <address>Carrer de Sant Esteve, 20</address>
+    <id>583</id>
+    <Point>
+      <coordinates>2.742639,41.642719,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana &quot;Pirata&quot; de Gràcia</name>
+    <address>Carrer de la Mare de Déu del Coll, 51</address>
+    <id>508</id>
+    <Point>
+      <coordinates>2.148780,41.409775,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Constantí</name>
+    <address>Carrer Major, 18</address>
+    <id>42</id>
+    <Point>
+      <coordinates>1.213357,41.153141,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Los Montesinos</name>
+    <address>Calle del Naranjo, 1</address>
+    <id>46</id>
+    <Point>
+      <coordinates>-0.744246,38.029709,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Mura</name>
+    <address>Carrer de Puiggili s/n</address>
+    <id>346</id>
+    <Point>
+      <coordinates>1.976228,41.700241,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista El Paler</name>
+    <address>Calle de Ramón i Cajal, 5</address>
+    <id>393</id>
+    <Point>
+      <coordinates>-0.561278,39.277847,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Almenara</name>
+    <address>Calle de Goya, s/n</address>
+    <id>78</id>
+    <Point>
+      <coordinates>-0.224568,39.754395,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sant Boi de Lluçanès</name>
+    <address>Carrer Vic, 1</address>
+    <id>492</id>
+    <Point>
+      <coordinates>2.151166,42.057072,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Peralada</name>
+    <address>Calle Praxedis Rocaberti, s/n</address>
+    <id>293</id>
+    <Point>
+      <coordinates>3.027250,42.321060,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Coll de Nargó</name>
+    <address>Plaça dels Raiers, 1</address>
+    <id>594</id>
+    <Point>
+      <coordinates>1.316647,42.174831,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Carme</name>
+    <address>Avinguda Catalunya, 52</address>
+    <id>43</id>
+    <Point>
+      <coordinates>1.619021,41.531567,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Figaró-Montmany</name>
+    <address>Carrer Major, 37</address>
+    <id>55</id>
+    <Point>
+      <coordinates>2.273225,41.721302,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Isona i Conca Dellà</name>
+    <address>Plaça del Bisbe Badía, 1</address>
+    <id>365</id>
+    <Point>
+      <coordinates>1.043852,42.116966,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Rincón de Ademuz</name>
+    <address>Av de Valencia, 11</address>
+    <id>423</id>
+    <Point>
+      <coordinates>-1.284175,40.065529,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Vallmoll</name>
+    <address>Carrer Major, 14</address>
+    <id>196</id>
+    <Point>
+      <coordinates>1.248486,41.243000,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Riells i Viabrea</name>
+    <address>[sense ubicació]</address>
+    <id>303</id>
+    <Point>
+      <coordinates>2.551667,41.721668,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Alcover</name>
+    <address>Carrer de la Indústria, 5</address>
+    <id>152</id>
+    <Point>
+      <coordinates>1.173019,41.260292,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Orihuela</name>
+    <address>Calle de Aragón, 3</address>
+    <id>312</id>
+    <Point>
+      <coordinates>-0.947845,38.082108,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista L&#39;Alba del Vallès</name>
+    <address>[sense ubicació]</address>
+    <id>220</id>
+    <Point>
+      <coordinates>2.234790,41.514523,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Castellolí</name>
+    <address>Avinguda La Unió, 50</address>
+    <id>281</id>
+    <Point>
+      <coordinates>1.701879,41.598797,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Almoines</name>
+    <address>Calle del Ecce-Homo, 63</address>
+    <id>485</id>
+    <Point>
+      <coordinates>-0.182657,38.940945,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Tres Xemeneies</name>
+    <address>Carrer de Piquer, 12</address>
+    <id>34</id>
+    <Point>
+      <coordinates>2.171065,41.372665,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista dels Lligallos</name>
+    <address>Avinguda Conseller Joan Navarro i Tomás, 32</address>
+    <id>324</id>
+    <Point>
+      <coordinates>0.652504,40.761749,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Xavi</name>
+    <address>Carretera de la Arrabassada, 107</address>
+    <id>356</id>
+    <Point>
+      <coordinates>2.123286,41.428993,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana Redovan</name>
+    <address>Calle de Jesús Jorda, 7</address>
+    <id>142</id>
+    <Point>
+      <coordinates>-0.908925,38.114231,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Aitona i Comarca</name>
+    <address>Travessia Major, 17</address>
+    <id>448</id>
+    <Point>
+      <coordinates>0.458643,41.494308,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Hockey</name>
+    <address>Passeig Olímpic, 4</address>
+    <id>350</id>
+    <Point>
+      <coordinates>2.154137,41.361969,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Torrebesses</name>
+    <address>Carrer de Portal, 3</address>
+    <id>398</id>
+    <Point>
+      <coordinates>0.594341,41.426544,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana &quot;La Matraca&quot; de Sort</name>
+    <address>Avinguda Generalitat, 13</address>
+    <id>602</id>
+    <Point>
+      <coordinates>1.132595,42.414337,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Matinera</name>
+    <address>Carrer de Pomaret, 49</address>
+    <id>54</id>
+    <Point>
+      <coordinates>2.122087,41.406555,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista del Priorat de Poboleda</name>
+    <address>Carrer de Sant Jaume, 24</address>
+    <id>510</id>
+    <Point>
+      <coordinates>0.845615,41.235760,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Almogavers Garrotxins</name>
+    <address>Carrer de Rocabruna, 28</address>
+    <id>514</id>
+    <Point>
+      <coordinates>2.484157,42.191872,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sants-Hostafrancs 2009</name>
+    <address>Plaça d'Osca, 5</address>
+    <id>258</id>
+    <Point>
+      <coordinates>2.138996,41.375912,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barçamics Artés</name>
+    <address>Carretera de Sallent, s/n</address>
+    <id>407</id>
+    <Point>
+      <coordinates>1.948825,41.798447,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Fontalba d&#39;Ulldemolins</name>
+    <address>Carrer Eixarts s/n</address>
+    <id>249</id>
+    <Point>
+      <coordinates>0.877739,41.320320,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Calonge-Sant Antoni</name>
+    <address>Carrer d'Àngel Guimerà, 1</address>
+    <id>120</id>
+    <Point>
+      <coordinates>3.074094,41.861961,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Fanzara Triplet 2009</name>
+    <address>Carrer de Santó Sepulcro, 1</address>
+    <id>229</id>
+    <Point>
+      <coordinates>-0.315701,40.018608,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Albocàsser</name>
+    <address>Plaça de Gaspar Fuster, 1</address>
+    <id>402</id>
+    <Point>
+      <coordinates>0.023749,40.356354,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de L&#39;Estany</name>
+    <address>Carrer Major s/n</address>
+    <id>419</id>
+    <Point>
+      <coordinates>2.111653,41.868809,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sis Copes de Barcelona</name>
+    <address>Carrer de Còrsega, 102</address>
+    <id>225</id>
+    <Point>
+      <coordinates>2.145521,41.386356,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana El Casal de Bellveí</name>
+    <address>Carrer Sant Magí, 3</address>
+    <id>426</id>
+    <Point>
+      <coordinates>1.576255,41.239674,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Can Peguera</name>
+    <address>Carrer de Montmajor, 20</address>
+    <id>444</id>
+    <Point>
+      <coordinates>2.170878,41.432556,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista El Pinós</name>
+    <address>Calle del Camino del Prado, 8</address>
+    <id>569</id>
+    <Point>
+      <coordinates>-1.045466,38.396709,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Muntanyes de Prades</name>
+    <address>[sense ubicació]</address>
+    <id>523</id>
+    <Point>
+      <coordinates>0.988445,41.308762,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Gerard Piqué de Sant Guim de Freixenet</name>
+    <address>Carrer Major, 83</address>
+    <id>606</id>
+    <Point>
+      <coordinates>1.420359,41.655975,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Bojan Krkic de Menàrguens</name>
+    <address>Avinguda de la Carrera, s/n</address>
+    <id>33</id>
+    <Point>
+      <coordinates>0.753915,41.721031,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Azulgrana San Isidro</name>
+    <address>[sense ubicació]</address>
+    <id>136</id>
+    <Point>
+      <coordinates>-0.841902,38.173111,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Gerard Piqué Carreras i Candi</name>
+    <address>Carrer de Carreras i Candi, 25</address>
+    <id>511</id>
+    <Point>
+      <coordinates>2.127002,41.374268,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Quate Locs Associació</name>
+    <address>Passeig de Grauèr deth Duc de Denia, 39</address>
+    <id>435</id>
+    <Point>
+      <coordinates>0.693760,42.787197,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Santa Eulàlia de Puig-Oriol</name>
+    <address>Carrer Els Rouret s/n</address>
+    <id>323</id>
+    <Point>
+      <coordinates>2.073877,42.068375,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Castellers de Barcelona</name>
+    <address>Carrer de Bilbao, 212</address>
+    <id>183</id>
+    <Point>
+      <coordinates>2.192274,41.411350,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista El Mareny</name>
+    <address>[sense ubicació]</address>
+    <id>352</id>
+    <Point>
+      <coordinates>-0.264502,39.246029,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Blaugrana de La Marina</name>
+    <address>Calle Migdia, 8</address>
+    <id>406</id>
+    <Point>
+      <coordinates>-0.644352,38.147038,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Pedrera de Masllorenç</name>
+    <address>Carrer Nou, 1</address>
+    <id>614</id>
+    <Point>
+      <coordinates>1.416344,41.270168,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blau-grana de Nulles</name>
+    <address>Carrer d'Anselm Clavé, s/n</address>
+    <id>90</id>
+    <Point>
+      <coordinates>1.297157,41.249237,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Bocairent</name>
+    <address>Plaza de la Ajuntament, 7</address>
+    <id>35</id>
+    <Point>
+      <coordinates>-0.609979,38.767231,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sant Ramon i Rodalies</name>
+    <address>Carrer de Santuari, 21</address>
+    <id>341</id>
+    <Point>
+      <coordinates>1.369052,41.726818,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Castellvell del Camp</name>
+    <address>[sense ubicació]</address>
+    <id>610</id>
+    <Point>
+      <coordinates>1.098705,41.179993,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Badia del Vallès</name>
+    <address>Plaça de les Entitats s/n</address>
+    <id>255</id>
+    <ExtendedData>
+      <Data name="PlaceName">
+        <value></value>
+      </Data>
+      <Data name="Address">
+        <value></value>
+      </Data>
+      <Data name="Phone">
+        <value></value>
+      </Data>
+      <Data name="Website">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>2.113677,41.510490,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Llutxent al Vent</name>
+    <address>[sense ubicació]</address>
+    <id>424</id>
+    <ExtendedData>
+      <Data name="PlaceName">
+        <value></value>
+      </Data>
+      <Data name="Address">
+        <value></value>
+      </Data>
+      <Data name="Phone">
+        <value></value>
+      </Data>
+      <Data name="Website">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-0.356466,38.942459,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana La Vilella</name>
+    <address>Carrer Freixinals, 4</address>
+    <id>130</id>
+    <Point>
+      <coordinates>0.762997,41.219952,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Can Cartó i Subirats</name>
+    <address>Calle Sant Josep, 15</address>
+    <id>410</id>
+    <Point>
+      <coordinates>1.737782,41.396011,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Monells</name>
+    <address>[sense ubicació]</address>
+    <id>338</id>
+    <Point>
+      <coordinates>2.998280,41.975983,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Sant Cugat Sesgarrigues</name>
+    <address>[sense ubicació]</address>
+    <id>245</id>
+    <Point>
+      <coordinates>1.753613,41.364414,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Alòs de Balaguer</name>
+    <address>Plaça de l'Església, s/n</address>
+    <id>143</id>
+    <Point>
+      <coordinates>0.960840,41.911915,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Sis Copes de Mont-Roig del Camp</name>
+    <address>Avinguda de Reus, 1</address>
+    <id>1</id>
+    <Point>
+      <coordinates>0.959657,41.087025,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana del Roser</name>
+    <address>Carrer de Ribes, 69</address>
+    <id>244</id>
+    <Point>
+      <coordinates>2.184040,41.399734,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Xerallo</name>
+    <address>[sense ubicació]</address>
+    <id>339</id>
+    <Point>
+      <coordinates>0.862868,42.369007,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Peña Barcelonista Albadalejo</name>
+    <address>Calle de Alberola, 32</address>
+    <id>456</id>
+    <Point>
+      <coordinates>-0.499216,38.341202,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Som un Sentiment</name>
+    <address>Avinguda de Pius XII, 29</address>
+    <id>151</id>
+    <Point>
+      <coordinates>0.612534,41.613686,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana d&#39;Alguaire 2-6</name>
+    <address>Avinguda de Jaume Nadal, 5</address>
+    <id>207</id>
+    <Point>
+      <coordinates>0.584687,41.736111,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Catarroja</name>
+    <address>Plaza Mayor, 6</address>
+    <id>22</id>
+    <Point>
+      <coordinates>-0.405228,39.402687,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana d&#39;Alforja</name>
+    <address>Avinguda Catalunya, 20</address>
+    <id>25</id>
+    <Point>
+      <coordinates>0.976141,41.211166,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana &quot;Txema Corbella&quot; de Nalec</name>
+    <address>Plaça de l'Església, 1</address>
+    <id>6</id>
+    <Point>
+      <coordinates>1.115203,41.559933,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Vallbona d&#39;Anoia</name>
+    <address>Carrer del Reguerot, s/n</address>
+    <id>139</id>
+    <Point>
+      <coordinates>1.707307,41.516891,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barça RCTB 1899</name>
+    <address>Carrer de Bosch i Gimpera, 5</address>
+    <id>27</id>
+    <Point>
+      <coordinates>2.117664,41.392319,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Almoster</name>
+    <address>[sense ubicació]</address>
+    <id>470</id>
+    <Point>
+      <coordinates>1.112454,41.197189,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista &quot;Cor de Catalunya&quot; de Manresa</name>
+    <address>Carrer del Abat Oliva, 66</address>
+    <id>301</id>
+    <Point>
+      <coordinates>1.828652,41.735207,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Associació Blaugrana Círculo Ecuestre</name>
+    <address>Carrer de Balmes, 169</address>
+    <id>607</id>
+    <Point>
+      <coordinates>2.154109,41.395748,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista Nova Lloreda</name>
+    <address>Passatge del Riu Congost, 11</address>
+    <id>445</id>
+    <Point>
+      <coordinates>2.233333,41.448853,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya El Bastió Blaugrana</name>
+    <address>Carrer de Jovellanos, 7</address>
+    <id>359</id>
+    <Point>
+      <coordinates>2.167818,41.385452,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana Les Corts</name>
+    <address>Carrer del Doctor Ibáñez, 9</address>
+    <id>512</id>
+    <Point>
+      <coordinates>2.132908,41.386105,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de Ferreries</name>
+    <address>Carrer de Mallorca, 11</address>
+    <id>248</id>
+    <Point>
+      <coordinates>4.012518,39.981705,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista d&#39;Alaior</name>
+    <address>C/ des Forn, 2</address>
+    <id>37</id>
+    <Point>
+      <coordinates>4.139832,39.933796,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista La Batlloria Culé</name>
+    <address>C/ Major, 4</address>
+    <id>76</id>
+    <Point>
+      <coordinates>2.546967,41.717693,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Collbató</name>
+    <address>Av. Centenari Amadeu Vives, 38</address>
+    <id>498</id>
+    <Point>
+      <coordinates>1.825576,41.567337,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Sidamon</name>
+    <address>C/ Carretera, s/n</address>
+    <id>11</id>
+    <Point>
+      <coordinates>0.834561,41.628212,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Barcelonista de La Massana</name>
+    <address>Ctra. d'Arinsal, s/n</address>
+    <id>167</id>
+    <Point>
+      <coordinates>1.496453,42.561680,0.000000</coordinates>
+    </Point>
+  </penya>
+  <penya>
+    <name>Penya Blaugrana de Porrera</name>
+    <address>C/ Barceloneta, 6</address>
+    <id>394</id>
+    <Point>
+      <coordinates>0.855635,41.188911,0.000000</coordinates>
+    </Point>
+  </penya>
+</Document>
+

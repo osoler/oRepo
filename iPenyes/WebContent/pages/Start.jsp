@@ -52,7 +52,6 @@
 <%@ include file="Detail.jsp"%>
 <%@ include file="Map.jsp"%>   
 <%@ include file="Photo.jsp"%> 
-
 </body>
 
 </html>

@@ -19,6 +19,8 @@ var texts = function () {
 	h['phone'] = 'Telèfon';	
 	h['email'] = 'email';
 	h['website'] = 'Website';	
+	h['done'] = 'Fet!';	
+	h['marksloaded'] = ' penyes de ';	
 	
 	function loadTexts() {
 		

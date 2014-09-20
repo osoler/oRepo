@@ -17,8 +17,9 @@ var mapPenyes = function () {
     	console.log(e);
     }
     
-	function addMarker(penya, map, counter, addSelectedPenya){
+	function addMarker(penya, map, counter, addSelectedPenya, total){
 		if (counter >=filterPenyes.getListOfFanClubs().length && !addSelectedPenya) {
+			navigation.hideInfo(texts.h().done);
 			return false;
 		}
 		var title = "penya";	   
@@ -55,9 +56,7 @@ var mapPenyes = function () {
 					showArea = "catalonia";
 				}
 				var x = eval('MAP_OPTS_' + showArea + '[1]');
-				var y = eval('MAP_OPTS_' + showArea + '[2]');
-				var newLatlng = new google.maps.LatLng(myLatlng.k + x,myLatlng.B + y);            				
-			    map.setCenter(newLatlng);            			    
+				var y = eval('MAP_OPTS_' + showArea + '[2]');           			    
 				currentinfowindow = infowindow; 
 				navigation.setTimeout(setTimeout(function(){if (infowindow.isOpen()) {navigation.loadLogo("#infowindow-penya-logo-" + penya.id, penya.logo);}} , 1000));
 			});  
@@ -88,8 +87,10 @@ var mapPenyes = function () {
 				    detailPenyes.loadDetailPenya(penya.id);
 				});
 		}
-		navigation.setTimeout(setTimeout(function(){ addMarker(filterPenyes.getListOfFanClubs()[newcounter], map, newcounter, false); } , 600));		
-	 
+		navigation.setTimeout(setTimeout(function(){ addMarker(filterPenyes.getListOfFanClubs()[newcounter], map, newcounter, false, total); } , 600));
+		if (detailPenyes.getSelectedPenya() == undefined) {
+			navigation.info( newcounter+ texts.h().marksloaded + total);
+		}
 		return false; 
 	}
 
@@ -115,7 +116,7 @@ var mapPenyes = function () {
 	    	 addMarker(detailPenyes.getSelectedPenya(), map, -1, true);
 	    }
 	    if ((filterPenyes.getListOfFanClubs() != undefined) && (filterPenyes.getListOfFanClubs().length > 0)){
-		    addMarker(filterPenyes.getListOfFanClubs()[0], map, 0, false);
+		    addMarker(filterPenyes.getListOfFanClubs()[0], map, 0, false, filterPenyes.getListOfFanClubs().length);
 		}
 		google.maps.event.addListener(map, 'click', function() {
 			if (mapPenyes.getCurrentInfoWindow()) currentinfowindow.close();

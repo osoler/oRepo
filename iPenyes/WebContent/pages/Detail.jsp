@@ -14,7 +14,10 @@
 					<div class="detailPenyes_coat"><img id="penyaSelected-logo" class="desc-icon" src="/images/spinner.gif"></div>
 					<div class="detailPenyes_description"> 
 						<div id="penyaSelected-name" class="detailPenyes_name"></div>
-						<div id="penyaSelected-fundation" class="detailPenyes_fundation"></div>
+						<div id="penyaSelected-socisfundation" class="detailPenyes_socis_fundation">
+							<div id="penyaSelected-socis" class="detailPenyes_socis"></div>
+							<div id="penyaSelected-fundation" class="detailPenyes_fundation"></div>
+						</div>
 					</div>				
 				</div>
 		</div>   

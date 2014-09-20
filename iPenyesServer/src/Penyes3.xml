@@ -1,835 +1,836 @@
-      <document>
-	<Placemark>
+<document>
+<area>Mon</area>
+	<penya>
     <name>Penya Blaugrana Principat d&#39;Andorra</name>
-    <description><![CDATA[<div dir="ltr">C/ Prat de Salit, 128</div>]]></description>
-    <styleUrl>#style70</styleUrl>
+    <address>C/ Prat de Salit, 128</address>
+    <id>70</id>
     <Point>
       <coordinates>1.503627,42.496304</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista Perpinyà</name>
-    <description><![CDATA[<div dir="ltr">Esplanade Lopofa</div>]]></description>
-    <styleUrl>#style1</styleUrl>
+    <address>Esplanade Lopofa</address>
+    <id>1</id>
     <Point>
       <coordinates>2.913708,42.692116</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana London of Great Britain</name>
-    <description><![CDATA[<div dir="ltr">Bar&amp;co, Temple Pier, Victoria Embankment - WC2R 2PN<br></div>]]></description>
-    <styleUrl>#style25</styleUrl>
+    <address>Bar&amp;co, Temple Pier, Victoria Embankment - WC2R 2PN </address>
+    <id>25</id>
     <Point>
       <coordinates>-0.115115,51.510540</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Barcelonista &quot;Nicolau Casaus&quot;</name>
-    <description><![CDATA[<div dir="ltr">C/ Chacabuco, 863</div>]]></description>
-    <styleUrl>#style33</styleUrl>
+    <address>C/ Chacabuco, 863</address>
+    <id>33</id>
     <Point>
       <coordinates>-58.375874,-34.618130</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Barcelonista de Lausanne</name>
-    <description><![CDATA[<div dir="ltr">[Sin ubicación]</div>]]></description>
-    <styleUrl>#style72</styleUrl>
+    <address>[Sin ubicación]</address>
+    <id>72</id>
     <Point>
       <coordinates>6.560574,46.528515</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Barcelonista Don Quijote</name>
-    <description><![CDATA[<div dir="ltr">Läufergässchen, 5 <br>8200 Schaffhausen, Suiza</div>]]></description>
-    <styleUrl>#style55</styleUrl>
+    <address>Läufergässchen, 5  8200 Schaffhausen, Suiza</address>
+    <id>55</id>
     <Point>
       <coordinates>8.639794,47.695576</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista Casal Català Brussel·les</name>
-    <description><![CDATA[<div dir="ltr">Etterbeek, Belgium</div>]]></description>
-    <styleUrl>#style28</styleUrl>
+    <address>Etterbeek, Belgium</address>
+    <id>28</id>
     <Point>
       <coordinates>4.388949,50.832176</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista &quot;La Gran Muralla Xina&quot;</name>
-    <description><![CDATA[<div dir="ltr"> JIANWAI SOHO, CHAOYANG DISTRICT</div>]]></description>
-    <styleUrl>#style2</styleUrl>
+    <address> JIANWAI SOHO, CHAOYANG DISTRICT</address>
+    <id>2</id>
     <Point>
       <coordinates>116.461258,39.913239</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barça Banyuls de la Marenda</name>
-    <description><![CDATA[<div dir="ltr">Rue Jean Iché, A-228</div>]]></description>
-    <styleUrl>#style56</styleUrl>
+    <address>Rue Jean Iché, A-228</address>
+    <id>56</id>
     <Point>
       <coordinates>3.127407,42.485683</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Tarbes</name>
-    <description><![CDATA[<div dir="ltr">113 Rue Clément Ader</div>]]></description>
-    <styleUrl>#style101</styleUrl>
+    <address>113 Rue Clément Ader</address>
+    <id>101</id>
     <Point>
       <coordinates>0.070178,43.215431</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Suecia</name>
-    <description><![CDATA[<div dir="ltr">Spannarpsgränd, 4</div>]]></description>
-    <styleUrl>#style77</styleUrl>
+    <address>Spannarpsgränd, 4</address>
+    <id>77</id>
        <logo>0983.PBSuecia-icon.png</logo>
     <Point>
       <coordinates>18.027985,59.289810</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Barcelonista de La Habana</name>
-    <description><![CDATA[<div dir="ltr">C/ Consulado, 68</div>]]></description>
-    <styleUrl>#style88</styleUrl>
+    <address>C/ Consulado, 68</address>
+    <id>88</id>
     <Point>
       <coordinates>-82.359718,23.142649</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Barcelonista Costa Rica</name>
-    <description><![CDATA[<div dir="ltr">Paseo Colón</div>]]></description>
-    <styleUrl>#style3</styleUrl>
+    <address>Paseo Colón</address>
+    <id>3</id>
     <Point>
       <coordinates>-84.091850,9.935217</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Barcelonista &quot;La Hispaniola&quot;</name>
-    <description><![CDATA[<div dir="ltr">Viriato Fiallo, 35</div>]]></description>
-    <styleUrl>#style32</styleUrl>
+    <address>Viriato Fiallo, 35</address>
+    <id>32</id>
     <Point>
       <coordinates>-69.945229,18.470980</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista &quot;Berlín Culé&quot;</name>
-    <description><![CDATA[<div dir="ltr">Kottbusser Damm, 22</div>]]></description>
-    <styleUrl>#style67</styleUrl>
+    <address>Kottbusser Damm, 22</address>
+    <id>67</id>
     <Point>
       <coordinates>13.423491,52.490307</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Ciberpenya Blaugrana</name>
-    <description><![CDATA[<div dir="ltr">Urb. Comella Parc, Fase 3 - Casa 20</div>]]></description>
-    <styleUrl>#style103</styleUrl>
+    <address>Urb. Comella Parc, Fase 3 - Casa 20</address>
+    <id>103</id>
     <Point>
       <coordinates>1.527706,42.498322</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Fan Club Barcelona de Rosmalen</name>
-    <description><![CDATA[<div dir="ltr">Oranje Nassaustraat 1</div>]]></description>
-    <styleUrl>#style37</styleUrl>
+    <address>Oranje Nassaustraat 1</address>
+    <id>37</id>
     <Point>
       <coordinates>5.344441,51.702007</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>FC Barcelona Fan Club Finland</name>
-    <description><![CDATA[<div dir="ltr">Kaunisharju 17</div>]]></description>
-    <styleUrl>#style24</styleUrl>
+    <address>Kaunisharju 17</address>
+    <id>24</id>
     <Point>
       <coordinates>25.093632,60.270878</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>The Los Angeles FC Barcelona Soccer Fundation</name>
-    <description><![CDATA[<div dir="ltr">337 Baptiste Way</div>]]></description>
-    <styleUrl>#style62</styleUrl>
+    <address>337 Baptiste Way</address>
+    <id>62</id>
     <Point>
       <coordinates>-118.184929,34.200729</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya del Barça de Guatemala</name>
-    <description><![CDATA[<div dir="ltr">7A Avenida, Zona 9</div>]]></description>
-    <styleUrl>#style86</styleUrl>
+    <address>7A Avenida, Zona 9</address>
+    <id>86</id>
     <Point>
       <coordinates>-90.519066,14.600154</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Sambou&#39;s Barça Fans Club</name>
-    <description><![CDATA[<div dir="ltr">Jamisa</div>]]></description>
-    <styleUrl>#style46</styleUrl>
+    <address>Jamisa</address>
+    <id>46</id>
     <Point>
       <coordinates>-16.646906,13.271817</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Nova York</name>
-    <description><![CDATA[<div dir="ltr">215 west 28th street</div>]]></description>
-    <styleUrl>#style6</styleUrl>
+    <address>215 west 28th street</address>
+    <id>6</id>
     <Point>
       <coordinates>-73.994247,40.747875</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Fanatiek FC Barcelona Limburg</name>
-    <description><![CDATA[<div dir="ltr">Koerweg 50</div>]]></description>
-    <styleUrl>#style19</styleUrl>
+    <address>Koerweg 50</address>
+    <id>19</id>
     <Point>
       <coordinates>5.494409,50.988800</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>FC Juvenil Barcelona de Zurich</name>
-    <description><![CDATA[<div dir="ltr">Eichwisweg 14</div>]]></description>
-    <styleUrl>#style65</styleUrl>
+    <address>Eichwisweg 14</address>
+    <id>65</id>
     <Point>
       <coordinates>8.781939,47.249493</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya La Maquina Blaugrana</name>
-    <description><![CDATA[<div dir="ltr">Pelikaanstraat 12</div>]]></description>
-    <styleUrl>#style63</styleUrl>
+    <address>Pelikaanstraat 12</address>
+    <id>63</id>
     <Point>
       <coordinates>6.197920,52.139416</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya del Barça El Salvador</name>
-    <description><![CDATA[<div dir="ltr">7 Avenida Norte, Calle Poniente</div>]]></description>
-    <styleUrl>#style30</styleUrl>
+    <address>7 Avenida Norte, Calle Poniente</address>
+    <id>30</id>
     <Point>
       <coordinates>-89.194626,13.702197</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña FC Barcelona Japan</name>
-    <description><![CDATA[<div dir="ltr">Ichikawa-shi, Motokitakata, １丁目39−2</div>]]></description>
-    <styleUrl>#style8</styleUrl>
+    <address>Ichikawa-shi, Motokitakata, １丁目39−2</address>
+    <id>8</id>
     <Point>
       <coordinates>139.943466,35.727318</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya &quot;Blaugranor&quot; du Nord de la France</name>
-    <description><![CDATA[<div dir="ltr">108 Rue des Jacobins</div>]]></description>
-    <styleUrl>#style61</styleUrl>
+    <address>108 Rue des Jacobins</address>
+    <id>61</id>
     <Point>
       <coordinates>2.966502,50.494129</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Miami</name>
-    <description><![CDATA[<div dir="ltr">354 Sevilla Ave</div>]]></description>
-    <styleUrl>#style5</styleUrl>
+    <address>354 Sevilla Ave</address>
+    <id>5</id>
     <Point>
       <coordinates>-80.261650,25.746096</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>FC Barcelona Clan: Cyberpenya Blaugrana Froncophone</name>
-    <description><![CDATA[<div dir="ltr">3 Allée des Martyrs</div>]]></description>
-    <styleUrl>#style42</styleUrl>
+    <address>3 Allée des Martyrs</address>
+    <id>42</id>
     <Point>
       <coordinates>2.518622,48.910149</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>FC Barcelona Fan Club United Arab Emirates</name>
-    <description><![CDATA[<div dir="ltr">[Sense ubicació]</div>]]></description>
-    <styleUrl>#style96</styleUrl>
+    <address>[Sense ubicació]</address>
+    <id>96</id>
     <Point>
       <coordinates>55.318909,25.244696</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Tanger</name>
-    <description><![CDATA[<div dir="ltr">47 Boulevard Pasteur</div>]]></description>
-    <styleUrl>#style34</styleUrl>
+    <address>47 Boulevard Pasteur</address>
+    <id>34</id>
     <Point>
       <coordinates>-5.810384,35.780212</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Kosovar del FC Barcelona</name>
-    <description><![CDATA[<div dir="ltr">1 Ali Pashë Tepelena</div>]]></description>
-    <styleUrl>#style93</styleUrl>
+    <address>1 Ali Pashë Tepelena</address>
+    <id>93</id>
     <Point>
       <coordinates>21.165268,42.657303</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana de Lima</name>
-    <description><![CDATA[<div dir="ltr">749 Avenida del Ejercito</div>]]></description>
-    <styleUrl>#style82</styleUrl>
+    <address>749 Avenida del Ejercito</address>
+    <id>82</id>
     <Point>
       <coordinates>-77.049286,-12.112194</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barça Tetouani</name>
-    <description><![CDATA[<div dir="ltr">[Sense ubicacio]</div>]]></description>
-    <styleUrl>#style81</styleUrl>
+    <address>[Sense ubicacio]</address>
+    <id>81</id>
     <Point>
       <coordinates>-5.367465,35.566254</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Lisboa</name>
-    <description><![CDATA[<div dir="ltr">[Sense ubicació]</div>]]></description>
-    <styleUrl>#style89</styleUrl>
+    <address>[Sense ubicació]</address>
+    <id>89</id>
     <Point>
       <coordinates>-9.140024,38.721210</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista d&#39;Atenes</name>
-    <description><![CDATA[<div dir="ltr">Valtetsiou 50</div>]]></description>
-    <styleUrl>#style11</styleUrl>
+    <address>Valtetsiou 50</address>
+    <id>11</id>
     <Point>
       <coordinates>23.735577,37.985744</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana de Casamance</name>
-    <description><![CDATA[<div dir="ltr">[Sense ubicació]</div>]]></description>
-    <styleUrl>#style74</styleUrl>
+    <address>[Sense ubicació]</address>
+    <id>74</id>
     <Point>
       <coordinates>-16.543951,12.486862</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Fan Club Barça Polska</name>
-    <description><![CDATA[<div dir="ltr">osiedle Na Stoku 36</div>]]></description>
-    <styleUrl>#style36</styleUrl>
+    <address>osiedle Na Stoku 36</address>
+    <id>36</id>
     <Point>
       <coordinates>20.669918,50.893383</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Barcelonista Martigny-Valais Romand</name>
-    <description><![CDATA[<div dir="ltr">Rue du Bourg 66</div>]]></description>
-    <styleUrl>#style39</styleUrl>
+    <address>Rue du Bourg 66</address>
+    <id>39</id>
     <Point>
       <coordinates>7.062235,46.089394</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Xipre</name>
-    <description><![CDATA[<div dir="ltr">[Sense ubicació]</div>]]></description>
-    <styleUrl>#style78</styleUrl>
+    <address>[Sense ubicació]</address>
+    <id>78</id>
     <Point>
       <coordinates>33.023186,34.707188</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Union Blaugrana</name>
-    <description><![CDATA[<div dir="ltr">25 Glengarry Rd</div>]]></description>
-    <styleUrl>#style10</styleUrl>
+    <address>25 Glengarry Rd</address>
+    <id>10</id>
     <Point>
       <coordinates>-3.440051,56.381340</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Lombarda FC Barcelona</name>
-    <description><![CDATA[<div dir="ltr">Via dei Ronchetti, 2</div>]]></description>
-    <styleUrl>#style57</styleUrl>
+    <address>Via dei Ronchetti, 2</address>
+    <id>57</id>
     <Point>
       <coordinates>9.443951,45.737759</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>FC Blaugrana &quot;Plus que des Supporters&quot;</name>
-    <description><![CDATA[<div dir="ltr">11 Rue Mazagran</div>]]></description>
-    <styleUrl>#style38</styleUrl>
+    <address>11 Rue Mazagran</address>
+    <id>38</id>
     <Point>
       <coordinates>4.842921,45.751720</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>FC Barcelona Supporters Club Nordic</name>
-    <description><![CDATA[<div dir="ltr">Kvarnstensvägen 10</div>]]></description>
-    <styleUrl>#style80</styleUrl>
+    <address>Kvarnstensvägen 10</address>
+    <id>80</id>
     <Point>
       <coordinates>20.219778,63.830753</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Caracas Azulgrana</name>
-    <description><![CDATA[<div dir="ltr">Izcaragua Country Club</div>]]></description>
-    <styleUrl>#style83</styleUrl>
+    <address>Izcaragua Country Club</address>
+    <id>83</id>
     <Point>
       <coordinates>-66.692032,10.490829</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>FC Barcelona Fan Club India</name>
-    <description><![CDATA[<div dir="ltr">553 Sector 23</div>]]></description>
-    <styleUrl>#style102</styleUrl>
+    <address>553 Sector 23</address>
+    <id>102</id>
     <Point>
       <coordinates>77.055061,28.511616</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>FC Barcelona Australasia Supporters Club</name>
-    <description><![CDATA[<div dir="ltr">1 Glamorgan Way</div>]]></description>
-    <styleUrl>#style9</styleUrl>
+    <address>1 Glamorgan Way</address>
+    <id>9</id>
     <Point>
       <coordinates>151.039810,-33.721447</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Trondheim</name>
-    <description><![CDATA[<div dir="ltr">Volvevegen 8</div>]]></description>
-    <styleUrl>#style84</styleUrl>
+    <address>Volvevegen 8</address>
+    <id>84</id>
     <Point>
       <coordinates>10.422120,63.401440</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Montevideo &quot;Hector Scarone&quot;</name>
-    <description><![CDATA[<div dir="ltr">Francisco Araucho 1186</div>]]></description>
-    <styleUrl>#style16</styleUrl>
+    <address>Francisco Araucho 1186</address>
+    <id>16</id>
     <Point>
       <coordinates>-56.161915,-34.906136</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana de Dublin</name>
-    <description><![CDATA[<div dir="ltr">152 Stapolin Lawns</div>]]></description>
-    <styleUrl>#style53</styleUrl>
+    <address>152 Stapolin Lawns</address>
+    <id>53</id>
     <Point>
       <coordinates>-6.142452,53.399696</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Barcelonista &quot;Gabriel López Sola&quot; de Saint Juery</name>
-    <description><![CDATA[<div dir="ltr">20 Chemin de l'Albaret</div>]]></description>
-    <styleUrl>#style52</styleUrl>
+    <address>20 Chemin de l'Albaret</address>
+    <id>52</id>
     <Point>
       <coordinates>2.202394,43.947273</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana de Puerto Rico</name>
-    <description><![CDATA[<div dir="ltr">[Sense ubicació]</div>]]></description>
-    <styleUrl>#style44</styleUrl>
+    <address>[Sense ubicació]</address>
+    <id>44</id>
     <Point>
       <coordinates>-66.036842,18.448713</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barça de Luxembourg</name>
-    <description><![CDATA[<div dir="ltr">173 Cité Roger Schmitz</div>]]></description>
-    <styleUrl>#style90</styleUrl>
+    <address>173 Cité Roger Schmitz</address>
+    <id>90</id>
     <Point>
       <coordinates>6.141315,49.688900</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Barcelonista Xiva</name>
-    <description><![CDATA[<div dir="ltr">20 Avenida 1</div>]]></description>
-    <styleUrl>#style99</styleUrl>
+    <address>20 Avenida 1</address>
+    <id>99</id>
     <Point>
       <coordinates>-91.524635,14.838570</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Association Penya Mazagan FCB</name>
-    <description><![CDATA[<div dir="ltr">[Sense ubicació]</div>]]></description>
-    <styleUrl>#style94</styleUrl>
+    <address>[Sense ubicació]</address>
+    <id>94</id>
     <Point>
       <coordinates>-8.499212,33.232658</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Azulgrana Frankfurg/Rhein-Main</name>
-    <description><![CDATA[<div dir="ltr">Gräsiger Weg 7K</div>]]></description>
-    <styleUrl>#style17</styleUrl>
+    <address>Gräsiger Weg 7K</address>
+    <id>17</id>
     <Point>
       <coordinates>8.367140,50.058739</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana d&#39;Uppsala</name>
-    <description><![CDATA[<div dir="ltr">Sturegatan 9</div>]]></description>
-    <styleUrl>#style7</styleUrl>
+    <address>Sturegatan 9</address>
+    <id>7</id>
     <Point>
       <coordinates>17.627306,59.862617</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Kölscher FC Barcelona Fan Club</name>
-    <description><![CDATA[<div dir="ltr">Luxemburger Straße 124</div>]]></description>
-    <styleUrl>#style76</styleUrl>
+    <address>Luxemburger Straße 124</address>
+    <id>76</id>
     <Point>
       <coordinates>6.932437,50.921581</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Mzansi Penya Barcelonista</name>
-    <description><![CDATA[<div dir="ltr">45 Portion St</div>]]></description>
-    <styleUrl>#style22</styleUrl>
+    <address>45 Portion St</address>
+    <id>22</id>
     <Point>
       <coordinates>28.013163,-26.070526</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Turin</name>
-    <description><![CDATA[<div dir="ltr">Corso Turati Filippo, 12</div>]]></description>
-    <styleUrl>#style23</styleUrl>
+    <address>Corso Turati Filippo, 12</address>
+    <id>23</id>
     <Point>
       <coordinates>7.669830,45.053848</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista Chicago</name>
-    <description><![CDATA[<div dir="ltr">6251 N McCormick Blvd</div>]]></description>
-    <styleUrl>#style66</styleUrl>
+    <address>6251 N McCormick Blvd</address>
+    <id>66</id>
     <Point>
       <coordinates>-87.713554,41.995014</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana del Nord</name>
-    <description><![CDATA[<div dir="ltr">Gjerdrums vei 5</div>]]></description>
-    <styleUrl>#style75</styleUrl>
+    <address>Gjerdrums vei 5</address>
+    <id>75</id>
     <Point>
       <coordinates>10.766945,59.952946</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Washington DC</name>
-    <description><![CDATA[<div dir="ltr">900 19th St NW</div>]]></description>
-    <styleUrl>#style21</styleUrl>
+    <address>900 19th St NW</address>
+    <id>21</id>
     <Point>
       <coordinates>-77.043861,38.901588</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana d&#39;Amsterdam</name>
-    <description><![CDATA[<div dir="ltr">Saenredamstraat 37</div>]]></description>
-    <styleUrl>#style50</styleUrl>
+    <address>Saenredamstraat 37</address>
+    <id>50</id>
     <Point>
       <coordinates>4.888465,52.355816</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Varsovia</name>
-    <description><![CDATA[<div dir="ltr">Nowogrodzka 22</div>]]></description>
-    <styleUrl>#style58</styleUrl>
+    <address>Nowogrodzka 22</address>
+    <id>58</id>
     <Point>
       <coordinates>21.014400,52.229286</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Barcelonista de Banfield y Lomas</name>
-    <description><![CDATA[<div dir="ltr">[Sense ubicació]</div>]]></description>
-    <styleUrl>#style26</styleUrl>
+    <address>[Sense ubicació]</address>
+    <id>26</id>
     <Point>
       <coordinates>-58.797497,-34.343136</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Asociación Barcelonista de León - Mexico</name>
-    <description><![CDATA[<div dir="ltr">Atenas 102</div>]]></description>
-    <styleUrl>#style100</styleUrl>
+    <address>Atenas 102</address>
+    <id>100</id>
     <Point>
       <coordinates>-101.687691,21.135744</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana de Paris</name>
-    <description><![CDATA[<div dir="ltr">33 Rue du Maréchal de Lattre de Tassigny</div>]]></description>
-    <styleUrl>#style40</styleUrl>
+    <address>33 Rue du Maréchal de Lattre de Tassigny</address>
+    <id>40</id>
     <Point>
       <coordinates>2.423279,48.800575</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>FC Barcelona Doha Fan Club</name>
-    <description><![CDATA[<div dir="ltr">[Sense ubicació]</div>]]></description>
-    <styleUrl>#style35</styleUrl>
+    <address>[Sense ubicació]</address>
+    <id>35</id>
     <Point>
       <coordinates>51.461636,25.303238</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista Copenhaguen</name>
-    <description><![CDATA[<div dir="ltr">Matthæusgade 50</div>]]></description>
-    <styleUrl>#style54</styleUrl>
+    <address>Matthæusgade 50</address>
+    <id>54</id>
     <Point>
       <coordinates>12.546515,55.669697</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista Lleó de Dues Cues</name>
-    <description><![CDATA[<div dir="ltr">Čeladná 161</div>]]></description>
-    <styleUrl>#style98</styleUrl>
+    <address>Čeladná 161</address>
+    <id>98</id>
     <Point>
       <coordinates>18.336481,49.543480</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barça de Lagos Club</name>
-    <description><![CDATA[<div dir="ltr">[Sense ubicació]</div>]]></description>
-    <styleUrl>#style51</styleUrl>
+    <address>[Sense ubicació]</address>
+    <id>51</id>
     <Point>
       <coordinates>3.403015,6.450412</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Barcelonista Tbilisi</name>
-    <description><![CDATA[<div dir="ltr">31 Ilia Chavchavadze Ave</div>]]></description>
-    <styleUrl>#style31</styleUrl>
+    <address>31 Ilia Chavchavadze Ave</address>
+    <id>31</id>
     <Point>
       <coordinates>44.765038,41.710598</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana de Santo Domingo</name>
-    <description><![CDATA[<div dir="ltr">52 Calle Manuel de Jesús Troncoso</div>]]></description>
-    <styleUrl>#style4</styleUrl>
+    <address>52 Calle Manuel de Jesús Troncoso</address>
+    <id>4</id>
     <Point>
       <coordinates>-69.939049,18.472466</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista Dragones</name>
-    <description><![CDATA[<div dir="ltr">[Sense ubicació]</div>]]></description>
-    <styleUrl>#style79</styleUrl>
+    <address>[Sense ubicació]</address>
+    <id>79</id>
     <Point>
       <coordinates>18.253098,43.845917</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>FC Barcelona Penya Ticino</name>
-    <description><![CDATA[<div dir="ltr">Viale Stazione 29</div>]]></description>
-    <styleUrl>#style85</styleUrl>
+    <address>Viale Stazione 29</address>
+    <id>85</id>
     <Point>
       <coordinates>9.027565,46.194626</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya de Touraine Supporters du Barça</name>
-    <description><![CDATA[<div dir="ltr">[Sense ubicació]</div>]]></description>
-    <styleUrl>#style27</styleUrl>
+    <address>[Sense ubicació]</address>
+    <id>27</id>
     <Point>
       <coordinates>0.701623,47.472084</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Genova</name>
-    <description><![CDATA[<div dir="ltr">Lungoparco Gropallo, 2</div>]]></description>
-    <styleUrl>#style97</styleUrl>
+    <address>Lungoparco Gropallo, 2</address>
+    <id>97</id>
     <Point>
       <coordinates>8.948343,44.411819</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana Eslovena triglav</name>
-    <description><![CDATA[<div dir="ltr">Cesta V Gorice 1</div>]]></description>
-    <styleUrl>#style47</styleUrl>
+    <address>Cesta V Gorice 1</address>
+    <id>47</id>
     <Point>
       <coordinates>14.461935,46.034973</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de La Massana</name>
-    <description><![CDATA[<div dir="ltr">Ctra. d'Arinsal, s/n</div>]]></description>
-    <styleUrl>#style59</styleUrl>
+    <address>Ctra. d'Arinsal, s/n</address>
+    <id>59</id>
     <Point>
       <coordinates>1.496453,42.561680</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista Suiza Berna</name>
-    <description><![CDATA[<div dir="ltr">Via Alpenstrasse, 16</div>]]></description>
-    <styleUrl>#style18</styleUrl>
+    <address>Via Alpenstrasse, 16</address>
+    <id>18</id>
     <Point>
       <coordinates>7.456498,46.943089</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Ginebra</name>
-    <description><![CDATA[<font face="arial" size="2">Route de Certoux 27B</font>]]></description>
-    <styleUrl>#style60</styleUrl>
+    <address>Route de Certoux 27B</address>
+    <id>60</id>
     <Point>
       <coordinates>6.094514,46.156281</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Viena &quot;Udo Steinberg&quot;</name>
-    <description><![CDATA[<div dir="ltr">U-Bahnbögen 29-32</div>]]></description>
-    <styleUrl>#style20</styleUrl>
+    <address>U-Bahnbögen 29-32</address>
+    <id>20</id>
     <Point>
       <coordinates>16.338831,48.209946</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Barcelonista Israel</name>
-    <description><![CDATA[<div dir="ltr">Tamar 11</div>]]></description>
-    <styleUrl>#style104</styleUrl>
+    <address>Tamar 11</address>
+    <id>104</id>
     <Point>
       <coordinates>34.858208,32.172184</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Peña Barcelonista Trinidad</name>
-    <description><![CDATA[Casidad Trinidad de Cuba]]></description>
-    <styleUrl>#style87</styleUrl>
+    <address>Casidad Trinidad de Cuba</address>
+    <id>87</id>
     <Point>
       <coordinates>-79.984833,21.804230</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Barcelona Supporters Club Malta</name>
-    <description><![CDATA[60 L - Mrabat]]></description>
-    <styleUrl>#style41</styleUrl>
+    <address>60 L - Mrabat</address>
+    <id>41</id>
     <Point>
       <coordinates>14.493703,35.910976</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista Chicho Sibilio</name>
-    <description><![CDATA[Calle Arzobispo Portes, 110]]></description>
-    <styleUrl>#style13</styleUrl>
+    <address>Calle Arzobispo Portes, 110</address>
+    <id>13</id>
     <Point>
       <coordinates>-69.890785,18.468115</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonistas de Gante</name>
-    <description><![CDATA[<div dir="ltr">Waterstraat 199</div>]]></description>
-    <styleUrl>#style64</styleUrl>
+    <address>Waterstraat 199</address>
+    <id>64</id>
     <Point>
       <coordinates>3.762007,51.075111</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Monofacio</name>
-    <description><![CDATA[Tefeli]]></description>
-    <styleUrl>#style15</styleUrl>
+    <address>Tefeli</address>
+    <id>15</id>
     <Point>
       <coordinates>25.163225,35.092621</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana de Maracay Gent del Barça</name>
-    <description><![CDATA[<div><span style="font-size:10pt">Av. Intercomunal Santiago Mariño, 29</span></div>]]></description>
-    <styleUrl>#style68</styleUrl>
+    <address><div><span style="font-size:10pt">Av. Intercomunal Santiago Mariño, 29</span></address>
+    <id>68</id>
     <Point>
       <coordinates>-67.489052,10.215506</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana Aït Nsar</name>
-    <description><![CDATA[Aït Nsar]]></description>
-    <styleUrl>#style95</styleUrl>
+    <address>Aït Nsar</address>
+    <id>95</id>
     <Point>
       <coordinates>-2.934167,35.256943</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista di Bergamo - Citta dei Mille</name>
-    <description><![CDATA[<div dir="ltr">Via F. del Pino, 5</div>]]></description>
-    <styleUrl>#style12</styleUrl>
+    <address>Via F. del Pino, 5</address>
+    <id>12</id>
     <Point>
       <coordinates>9.677270,45.698265</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Gent Blaugrana d&#39;Anfa</name>
-    <description><![CDATA[Rue Socrate, 3]]></description>
-    <styleUrl>#style14</styleUrl>
+    <address>Rue Socrate, 3</address>
+    <id>14</id>
     <Point>
       <coordinates>-7.645398,33.578251</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Barcelona Fan Club Guanzhou</name>
-    <description><![CDATA[N 6 Bo Hui Street]]></description>
-    <styleUrl>#style48</styleUrl>
+    <address>N 6 Bo Hui Street</address>
+    <id>48</id>
     <Point>
       <coordinates>113.374672,23.139956</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista Knokke-Heist</name>
-    <description><![CDATA[<div dir="ltr">Natiënlaan 90</div>]]></description>
-    <styleUrl>#style69</styleUrl>
+    <address>Natiënlaan 90</address>
+    <id>69</id>
     <Point>
       <coordinates>3.290639,51.334122</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Bayerischer Penya Blaugrana</name>
-    <description><![CDATA[<div dir="ltr">Clemensstraße, 83</div>]]></description>
-    <styleUrl>#style43</styleUrl>
+    <address>Clemensstraße, 83</address>
+    <id>43</id>
     <Point>
       <coordinates>11.571764,48.163673</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista Eslovaca dels Alts Tatras</name>
-    <description><![CDATA[<div dir="ltr">Koceľova 9</div>]]></description>
-    <styleUrl>#style73</styleUrl>
+    <address>Koceľova 9</address>
+    <id>73</id>
     <Point>
       <coordinates>17.128176,48.153267</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana Börsungar</name>
-    <description><![CDATA[<div dir="ltr">Laugavegur, 28</div>]]></description>
-    <styleUrl>#style49</styleUrl>
+    <address>Laugavegur, 28</address>
+    <id>49</id>
     <Point>
       <coordinates>-21.913792,64.143005</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista de Roosendaal</name>
-    <description><![CDATA[<div dir="ltr">Molenstraat 12</div>]]></description>
-    <styleUrl>#style29</styleUrl>
+    <address>Molenstraat 12</address>
+    <id>29</id>
     <Point>
       <coordinates>4.459506,51.534443</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Blaugrana de Toronto</name>
-    <description><![CDATA[<div dir="ltr">300 Jane St</div>]]></description>
-    <styleUrl>#style92</styleUrl>
+    <address>300 Jane St</address>
+    <id>92</id>
     <Point>
       <coordinates>-79.487396,43.656521</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Penya Barcelonista Casal Català Caracas</name>
-    <description><![CDATA[Avenida 3, Los Palos Grandes]]></description>
-    <styleUrl>#style91</styleUrl>
+    <address>Avenida 3, Los Palos Grandes</address>
+    <id>91</id>
     <Point>
       <coordinates>-66.843857,10.509696</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Barça Fan Club Bucarest</name>
-    <description><![CDATA[<div dir="ltr">Calea Victoriei, 36</div>]]></description>
-    <styleUrl>#style71</styleUrl>
+    <address>Calea Victoriei, 36</address>
+    <id>71</id>
     <Point>
       <coordinates>26.098324,44.435223</coordinates>
     </Point>
-  </Placemark>
-  <Placemark>
+  </penya>
+  <penya>
     <name>Istanbul Barcelona Spor Kulübü Dernegi</name>
-    <description><![CDATA[<div dir="ltr">Cami Sk No:40</div>]]></description>
-    <styleUrl>#style45</styleUrl>
+    <address>Cami Sk No:40</address>
+    <id>45</id>
     <Point>
       <coordinates>28.785444,41.003925</coordinates>
     </Point>
-  </Placemark>
+  </penya>
   </document>

@@ -7,15 +7,6 @@ import java.util.List;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
- 
-
-
-
-
-
-
-
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -23,7 +14,8 @@ import org.w3c.dom.NodeList;
 
 import com.google.common.primitives.Ints;
 import com.ophone.ipenyes.api.PenyaDetail;
- 
+import org.w3c.dom.CharacterData; 
+
 public class XMLParser {
 	
     public List<PenyaDetail> getAllUserNames(InputStream file, String area) {
@@ -39,7 +31,7 @@ public class XMLParser {
                 // Print root element of the document
                 System.out.println("Root element of the document: " + docEle.getNodeName());
  
-                NodeList placemarkList = docEle.getElementsByTagName("Placemark");
+                NodeList placemarkList = docEle.getElementsByTagName("penya");
  
                 // Print total elements in document
                 System.out.println("Total Penyes: " + placemarkList.getLength());
@@ -59,7 +51,8 @@ public class XMLParser {
                             penya.x = new Double(coordinates[1]);
                             penya.y = new Double(coordinates[0]);
                            
-                            penya.location = getNodeDivValue(e, "description"); 
+                            penya.city = getNodeDivValue(e, "city"); 
+                            penya.location = getNodeDivValue(e, "address"); 
                             penya.country = "undefined".equals(getNodeValue(e, "country"))?area:getNodeValue(e, "country");
                             penya.area = area;
                             String logo = "undefined".equals(getNodeValue(e, "logo"))?"blank.png":getNodeValue(e, "logo");
@@ -70,9 +63,11 @@ public class XMLParser {
                         	penya.fundationYear = getNodeIntValue(e, "fundationYear")>0?getNodeIntValue(e, "fundationYear"):1899; 
 
                         	NodeList infoList = e.getElementsByTagName("info");
-              
-                            if (infoList != null && infoList.getLength() > 0) {
-                            	 penya.info = new LinkedHashMap<String, String>();
+                        	
+                        	penya.info = new LinkedHashMap<String, String>();
+                        	penya.info.put("Adreça",penya.location +" , "+ penya.city + " , " + penya.country);
+                        	penya.info.put("","");
+                            if (infoList != null && infoList.getLength() > 0) {                            	 
                                  for (int i2 = 0; i2 < infoList.getLength(); i2++) {
                                 	 Node node2 = infoList.item(i2);
                                 	 
@@ -82,7 +77,7 @@ public class XMLParser {
                                      }
                                  }
                             }   
-                            
+                           
                           	 NodeList socialNetList = e.getElementsByTagName("socialnet");
                              
                              if (socialNetList != null && socialNetList.getLength() > 0) {
@@ -91,17 +86,17 @@ public class XMLParser {
                                 	 Node node2 = socialNetList.item(i2);
                                 	 String socialNetURL = node2.getTextContent();
                                      if (socialNetURL.toLowerCase().contains("facebook")) {
-                                    	 penya.socialNetworks.put(socialNetURL, "../images/socialicons/facebook.png");                                       
+                                    	 penya.socialNetworks.put(socialNetURL, "facebook");                                       
                                      }else if (socialNetURL.toLowerCase().contains("twitter")) {
-                                    	 penya.socialNetworks.put(socialNetURL, "../images/socialicons/twitter.png");                                       
+                                    	 penya.socialNetworks.put(socialNetURL, "twitter");                                       
                                      }else if (socialNetURL.toLowerCase().contains("youtube")) {
-                                    	 penya.socialNetworks.put(socialNetURL, "../images/socialicons/youtube.png");                                       
+                                    	 penya.socialNetworks.put(socialNetURL, "youtube");                                       
                                      }
                                  }
                             }  
                             int indexText = 1;
                             int indexImg = 1;
-                             NodeList descripcioNode = e.getElementsByTagName("descripcio"); 
+                             NodeList descripcioNode = e.getElementsByTagName("description"); 
                              if (descripcioNode != null && descripcioNode.getLength() > 0) {
                             	 penya.description = new LinkedHashMap<String, Object>();
                             	 Node nodeDesc = descripcioNode.item(0);
@@ -109,9 +104,8 @@ public class XMLParser {
                             	 for (int i2 = 0; i2 < descList.getLength(); i2++) {
                             		 Node node2 = descList.item(i2);
                             		 if ("texte".equals(node2.getNodeName())){
-                            			 String descNode = node2.getTextContent();
-                            			 String d = descNode.replaceAll("openb", "<b>").replaceAll("closeb", "</b>");
-                            			 penya.description.put("text"+(indexText++), d);
+                            			 String descNode = getCharacterDataFromElement((Element)node2);
+                            			 penya.description.put("text"+(indexText++), descNode);
                             		 }
                             		 if ("imatges".equals(node2.getNodeName())){
                             			 
@@ -148,6 +142,16 @@ public class XMLParser {
         }
         return list;
     }
+    
+    private static String getCharacterDataFromElement(Element e) {
+        Node child = e.getFirstChild();
+        if (child instanceof CharacterData) {
+          CharacterData cd = (CharacterData) child;
+          return cd.getData();
+        }
+        return "";
+    }
+    
     private static String getNodeDivValue(Element e, String key){
     	try{
 	    	NodeList nodeList = e.getElementsByTagName(key);

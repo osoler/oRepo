@@ -2,10 +2,13 @@
 #detailPenyes{ background: -webkit-linear-gradient(left,#000C52,#970F23 35%,#970F23 65%,#000C52) !important;}
 .div_padding_v{margin-bottom: 10px;}
 .detailPenyes_divheader {border: 1px solid #b3b3b3;background-color: #ECEFF3;font-weight: bold;padding: 5px;height:100px;}
+.detailPenyes_name{height: 75%;}
 .detailPenyes_coat {width: 120px;float:left;}
 .detailPenyes_description {width: 90%;height:80px;padding:10px;background-color: #ECEFF3;left: 100px;}
 .desc-icon { max-height: 100px; max-width: 100px;}
-.detailPenyes_fundation{font-size: 10px;padding-top: 14px;text-align: right;}
+.detailPenyes_socis_fundation{font-size: 10px;padding-top: 14px;text-align: right;display: inline-block;}
+.detailPenyes_socis{display: inline;}
+.detailPenyes_fundation{display: inline;padding-left: 120px;}
 .headerBtnBack{display:inline-block; float: left;margin-top:3px;margin-left: 5px;}
 .headerLogoInner{display:inline-block; float: right;margin-top:3px;margin-right: 17px;}
 #filterimage{width: 17px;}

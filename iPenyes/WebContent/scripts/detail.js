@@ -81,21 +81,28 @@ var detailPenyes = function () {
 		 navigation.loadLogo("#penyaSelected-logo", penya.logo);
 		 $("#penyaSelected-name").empty();
 		 $("#penyaSelected-name").append(penya.name);
+		 $("#penyaSelected-socis").empty();
+		 $("#penyaSelected-socis").append(penya.numAffiliates + " socis");
 		 $("#penyaSelected-fundation").empty();
 		 $("#penyaSelected-fundation").append("Fundació:" + penya.fundationYear);
 		 
 		 $("#penyaSelected-info1").empty();
 		 if (penya.info){
 			 $.each( penya.info, function( title, value ) {	 
-				 if (title=="email"){
+				 if (title === 'email'){
 					 value = "<a href='mailto:"+value+"'>" + value + "</a>";
-				 }	
-				 $("#penyaSelected-info1").append("<div class='subdetailPenyes_div'><div class='subdetailPenyes_divheader'>"+title+":</div><div class='subdetailPenyes_divvalue'>"+value+"</div></div>");
+				 }
+				 if(title !== ''){
+					 $("#penyaSelected-info1").append("<div class='subdetailPenyes_div'><div class='subdetailPenyes_divheader'>"+title+":</div><div class='subdetailPenyes_divvalue'>"+value+"</div></div>");
+				 }else{
+					 $("#penyaSelected-info1").append("<div class='subdetailPenyes_div'>&nbsp;</div>");
+				 }
 			 });
 		 }
 		 if (penya.socialNetworks){
 			 $("#penyaSelected-info1").append("<div class='socialNetworks'>");
-			 $.each( penya.socialNetworks, function( url, urlImg ) { 
+			 $.each( penya.socialNetworks, function( url, socialnetwork ) { 
+				 var urlImg = "../images/socialicons/" + socialnetwork + ".png";
 				 var newdiv = "<div class='socialneticon'><a href='"+url+"' target='_blank'><img class = 'icon' src='"+urlImg+"'></a></div>";	 
 				 $(".socialNetworks").append(newdiv);
 			 });	
@@ -111,6 +118,7 @@ var detailPenyes = function () {
 					 $("#penyaSelected-info2").append("<div class='iosSlider'>");
 					 $(".iosSlider").append("<div class='slider'>");
 					 $.each( value, function( key, value ) {
+						 value = "/iPenyesResources/images/photosPenyes/" + value;
 						 var valueStr = "&#39;" + value + "&#39;";
 						 var photoClass = "photopenyaitem";
 						 if (window.orientation !== 0){ photoClass = "photopenyaitem horizontal";}

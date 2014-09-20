@@ -12,6 +12,7 @@ public class Penya {
 	public String shortname;
 	public String logo;
 	public String location;
+	public String city;
 	public String country;
 	public String area;
 	public int numAffiliates;

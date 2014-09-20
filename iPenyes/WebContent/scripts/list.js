@@ -27,7 +27,7 @@ var listPenyes = function () {
 	    	 		"<div id='detailPenyaBean'><div class='coat'><img id='penya-logo-" + item.id + "' class='ui-li-icon' src='/images/spinner.gif'></div>" +
 	    	 				"<div  class='description'> <div  class='namePenya'><span>" + item.shortname + "</span></div></div>" +
 	    	 						"<div class='rightarrow'><img class='icon-arrow' src='/images/icon-arrow-black.png'></div>" +
-	    	 						"<div id='penyaMoreInfo' class='moreinfo'><div id='penyaLocation' class='location'><span>" + item.location + "</span></div>" +
+	    	 						"<div id='penyaMoreInfo' class='moreinfo'><div id='penyaLocation' class='location'><span>" + item.city + "</span></div>" +
 	    	 						"<div id='penyaCountry' class='country'>" + item.country + "</div>" +
 	    	 						"<div id='penyaNumSocios' class='numSocios'>" + item.numAffiliates + " socis</div>" +
 	    	 						"<div id='penyaFundationYear' class='fundationYear'>Fundació: " + item.fundationYear + "</div>" +

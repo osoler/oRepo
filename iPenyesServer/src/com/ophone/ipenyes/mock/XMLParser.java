@@ -65,7 +65,7 @@ public class XMLParser {
                         	NodeList infoList = e.getElementsByTagName("info");
                         	
                         	penya.info = new LinkedHashMap<String, String>();
-                        	penya.info.put("Adreça",penya.location +" , "+ penya.city + " , " + penya.country);
+                        	penya.info.put("address",penya.location +" , "+ penya.city + " , " + penya.country);
                         	penya.info.put("","");
                             if (infoList != null && infoList.getLength() > 0) {                            	 
                                  for (int i2 = 0; i2 < infoList.getLength(); i2++) {

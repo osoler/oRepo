@@ -9,9 +9,9 @@
     <numAffiliates>30</numAffiliates>
     <fundationYear>1903</fundationYear>
     <infodetail>
-    	<info><title>President</title><desc>Joan Pere</desc></info>
-    	<info><title>Vicepresident</title><desc>Antoni Tàpies</desc></info>
-    	<info><title>telèfon</title><desc>694454545</desc></info>
+    	<info><title>president</title><desc>Joan Pere</desc></info>
+    	<info><title>vicepresident</title><desc>Antoni Tàpies</desc></info>
+    	<info><title>phone</title><desc>694454545</desc></info>
     	<info><title>email</title><desc>anguerapenya@barsa.cat</desc></info>
     	<info><title>website</title><desc>http://www.anguerapenya.cat</desc></info>
     </infodetail>
@@ -47,8 +47,8 @@
         <numAffiliates>20</numAffiliates>
     <fundationYear>1957</fundationYear>
     <infodetail>
-    	<info><title>President</title><desc>Agnes Folk</desc></info>
-    	<info><title>telèfon</title><desc>44353553</desc></info>
+    	<info><title>president</title><desc>Agnes Folk</desc></info>
+    	<info><title>phone</title><desc>44353553</desc></info>
     	<info><title>email</title><desc>granadapenya@barsa.cat</desc></info>
     	<info><title>website</title><desc>http://www.granadapenya.cat</desc></info>
     </infodetail>
@@ -75,8 +75,8 @@
     <address>C/ Doctor Duran, 3</address>
     <id>584</id>
     <infodetail>
-    	<info><title>President</title><desc>Agnes Folk</desc></info>
-    	<info><title>telèfon</title><desc>44353553</desc></info>
+    	<info><title>president</title><desc>Agnes Folk</desc></info>
+    	<info><title>phone</title><desc>44353553</desc></info>
     	<info><title>email</title><desc>granadapenya@barsa.cat</desc></info>
     	<info><title>website</title><desc>http://www.granadapenya.cat</desc></info>
     </infodetail>

@@ -27,8 +27,8 @@ var mapPenyes = function () {
 		var contentString = "<div class='coat'><img id='infowindow-penya-logo-" + penya.id + "' class='desc-icon' src='/images/spinner.gif'></div><div  class='description'> " +
 				"<div  class='namePenya'><span>" + penya.shortname + "</span></div></div><div id='penyaMoreInfo' class='moreinfo'>" +
 						"	<div id='penyaLocation' class='location'><span>" + penya.city + ", " + penya.country + "</span></div>" +
-								"	<div id='penyaNumSocios' class='numSocios'>" + penya.numAffiliates + " socis</div>" +
-										"	<div id='penyaFundationYear' class='fundationYear'>Fundació: " + penya.fundationYear + "</div></div>	";	
+								"	<div id='penyaNumSocios' class='numSocios'>" + penya.numAffiliates + " "+texts.h().affiliates+"</div>" +
+										"	<div id='penyaFundationYear' class='fundationYear'>"+texts.h().fundation+": " + penya.fundationYear + "</div></div>	";	
 		
 		var infowindow = new InfoBubble({mainfowindowp: map,content: contentString,position: new google.maps.LatLng(-35, 151),
 		        shadowStyle: 1,padding: 0,backgroundColor: '#030C51',borderRadius: 22,arrowSize: 10,minWidth:220,maxWidth:250,

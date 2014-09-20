@@ -4,17 +4,13 @@ var initPenyes = function() {
 	function init() {
 		
 		loadImages(goToList);
+		texts.loadTexts();
 	
 	}
 
 	function loadImages(callBack) {
 		var loadedImagesCount = 0;
-		var imageNames = [ "/images/spinner.gif","/images/ico-close-button.png","/images/close-button.png",
-		                   "/images/close-button-blue.png","/images/ajax-loader-infinite.gif",
-						   "/images/logo_fcb_penyes_250x90.png", "/images/lupa.png",
-						   "/images/map-marker-l.png", "/images/icon_list.png",'/images/fcb_marker.png',
-						   "/images/map_icon.png", "/images/catalonia.png",
-						   "/images/spain.png", "/images/europe.png", "/images/world.png" ];
+		var imageNames = configuration.getImages();
 		var imagesArray = [];
 		for ( var i = 0; i < imageNames.length; i++) {
 			var image = new Image();

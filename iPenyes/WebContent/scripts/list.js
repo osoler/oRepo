@@ -5,7 +5,7 @@ var listPenyes = function () {
 		if ($('#listviewpenyes').length == 0){
 			$("#contentlistPenyes").append("<ul id='listviewpenyes' data-role='listview' data-inset='true' data-filter='false'></ul>");	
 			$("#contentlistPenyes").append("<div id='morelistviewpenyes'>" +
-					"<div class='innerLoadMore search'><div onclick='filterPenyes.search(true)' class='buttonHover'>more</div></div>" +
+					"<div class='innerLoadMore search'><div onclick='filterPenyes.search(true)' class='buttonHover'>"+texts.h().more+"</div></div>" +
 					"</div>");	
 			$("#morelistviewpenyes").hide();
 			$("#listviewpenyes").listview();
@@ -29,8 +29,8 @@ var listPenyes = function () {
 	    	 						"<div class='rightarrow'><img class='icon-arrow' src='/images/icon-arrow-black.png'></div>" +
 	    	 						"<div id='penyaMoreInfo' class='moreinfo'><div id='penyaLocation' class='location'><span>" + item.city + "</span></div>" +
 	    	 						"<div id='penyaCountry' class='country'>" + item.country + "</div>" +
-	    	 						"<div id='penyaNumSocios' class='numSocios'>" + item.numAffiliates + " socis</div>" +
-	    	 						"<div id='penyaFundationYear' class='fundationYear'>Fundació: " + item.fundationYear + "</div>" +
+	    	 						"<div id='penyaNumSocios' class='numSocios'>" + item.numAffiliates + " "+ texts.h().affiliates+"</div>" +
+	    	 						"<div id='penyaFundationYear' class='fundationYear'>"+texts.h().fundation+": " + item.fundationYear + "</div>" +
 	    	 				"</div></div></a></li>";
 	    	 navigation.loadLogo("#penya-logo-" + item.id, item.logo);
 	    	 $("#listviewpenyes").append(penyaHtml);

@@ -47,7 +47,7 @@ var detailPenyes = function () {
 		        },
 		        error: function (xhr, ajaxOptions, thrownError) {
 		        	navigation.hidePageLoading();
-		        	navigation.alert("Connection failed");
+		        	navigation.alert(texts.h().conectionFailed);
 		        }
 	        });	
 		});
@@ -55,7 +55,7 @@ var detailPenyes = function () {
 	};
 
 	function removeDetails(){
-		navigation.loadLogo("#penyaSelected-logo", "/images/spinner.gif");
+		navigation.loadLogo("#penyaSelected-logo", configuration.getSpinner());
 		$("#penyaSelected-name").empty();
 		$("#penyaSelected-fundation").empty();
 		$("#penyaSelected-info1").empty();
@@ -82,9 +82,9 @@ var detailPenyes = function () {
 		 $("#penyaSelected-name").empty();
 		 $("#penyaSelected-name").append(penya.name);
 		 $("#penyaSelected-socis").empty();
-		 $("#penyaSelected-socis").append(penya.numAffiliates + " socis");
+		 $("#penyaSelected-socis").append(penya.numAffiliates + " " + texts.h().affiliates);
 		 $("#penyaSelected-fundation").empty();
-		 $("#penyaSelected-fundation").append("Fundació:" + penya.fundationYear);
+		 $("#penyaSelected-fundation").append(texts.h().fundation + ":" + penya.fundationYear);
 		 
 		 $("#penyaSelected-info1").empty();
 		 if (penya.info){
@@ -93,7 +93,7 @@ var detailPenyes = function () {
 					 value = "<a href='mailto:"+value+"'>" + value + "</a>";
 				 }
 				 if(title !== ''){
-					 $("#penyaSelected-info1").append("<div class='subdetailPenyes_div'><div class='subdetailPenyes_divheader'>"+title+":</div><div class='subdetailPenyes_divvalue'>"+value+"</div></div>");
+					 $("#penyaSelected-info1").append("<div class='subdetailPenyes_div'><div class='subdetailPenyes_divheader'>"+texts.h()[title]+":</div><div class='subdetailPenyes_divvalue'>"+value+"</div></div>");
 				 }else{
 					 $("#penyaSelected-info1").append("<div class='subdetailPenyes_div'>&nbsp;</div>");
 				 }
@@ -102,7 +102,7 @@ var detailPenyes = function () {
 		 if (penya.socialNetworks){
 			 $("#penyaSelected-info1").append("<div class='socialNetworks'>");
 			 $.each( penya.socialNetworks, function( url, socialnetwork ) { 
-				 var urlImg = "../images/socialicons/" + socialnetwork + ".png";
+				 var urlImg = configuration.getSocialIcons() + socialnetwork + ".png";
 				 var newdiv = "<div class='socialneticon'><a href='"+url+"' target='_blank'><img class = 'icon' src='"+urlImg+"'></a></div>";	 
 				 $(".socialNetworks").append(newdiv);
 			 });	
@@ -118,7 +118,7 @@ var detailPenyes = function () {
 					 $("#penyaSelected-info2").append("<div class='iosSlider'>");
 					 $(".iosSlider").append("<div class='slider'>");
 					 $.each( value, function( key, value ) {
-						 value = "/iPenyesResources/images/photosPenyes/" + value;
+						 value = configuration.getPhotos() + value;
 						 var valueStr = "&#39;" + value + "&#39;";
 						 var photoClass = "photopenyaitem";
 						 if (window.orientation !== 0){ photoClass = "photopenyaitem horizontal";}

@@ -2,7 +2,6 @@ var filterPenyes = function () {
 	var listOfFanClubs = undefined;	
 	
 	var  fullLoaded = false; 
-
 	
 	var location;
 	var yearFrom;
@@ -107,7 +106,7 @@ var filterPenyes = function () {
 	        },
 	        error: function (xhr, ajaxOptions, thrownError) {
 	        	navigation.hidePageLoading();
-	        	navigation.alert("Connection failed");
+	        	navigation.alert(texts.h().connectionFailed);
 	        }
         });			
 		
@@ -143,22 +142,3 @@ var filterPenyes = function () {
 	    }
 	  }; // end of the return
 }();
-
-$(window).scroll(function()
-		{
-		if ($.mobile.activePage.is("#listPenyes")){
-			
-			var totalHeight = $(document).height();	
-			var scrollTop = $(window).scrollTop();
-			var windowHeight = $(window).height();
-			var timeToSearch = (totalHeight-200) <= (scrollTop + windowHeight);
-			var alreadyLoaded = totalHeight > windowHeight;
-			
-			if (timeToSearch && alreadyLoaded){
-				
-				 	//TODO: add more --> filterPenyes.search();
-			
-			}			
-			
-		}
-		});

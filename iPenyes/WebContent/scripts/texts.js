@@ -21,6 +21,7 @@ var texts = function () {
 	h['website'] = 'Website';	
 	h['done'] = 'Fet!';	
 	h['marksloaded'] = ' penyes de ';	
+	h['noResults'] = 'No s´han trobat resultats';	
 	
 	function loadTexts() {
 		

@@ -99,6 +99,10 @@ var filterPenyes = function () {
 	            	
 	            	navigation.hidePageLoading();
 	            	
+	            	if (result.length === 0){
+	            		navigation.alert(texts.h().noResults);
+	            	}
+	            	
 	            	if (callBack){
 	            		callBack();
 	            	}    	

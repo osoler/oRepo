@@ -10,7 +10,7 @@ import javax.ws.rs.core.MediaType;
 
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
-import com.ophone.ipenyes.mock.Utils;
+import com.ophone.ipenyes.db.DBReader;
 
 @Path("/")
 @Produces(MediaType.APPLICATION_JSON)
@@ -27,14 +27,14 @@ public class iPenyesResource {
     @Produces(MediaType.APPLICATION_JSON)
     public List<Penya> getJSONMsg(@QueryParam("lastPosition") int lastPosition, @QueryParam("area") String area, @QueryParam("yearFrom") int yearFrom, @QueryParam("yearTo") int yearTo, @QueryParam("numFansFrom") int numFansFrom, @QueryParam("numFansTo") int numFansTo) {   	
     	FilterPenya filter = new FilterPenya(lastPosition, area, yearFrom, yearTo, numFansFrom, numFansTo);
-        return Utils.getPenyas(filter);
+        return DBReader.getPenyas(filter);
     }
     
     @GET 
     @Path("/loadDetailPenya")
     @Produces(MediaType.APPLICATION_JSON)
     public PenyaDetail loadDetailPenya(@QueryParam("penyaId") String penyaId) {  		 	
-        return Utils.getPenyaDetail(penyaId);
+        return DBReader.getPenyaDetail(penyaId);
     }
 
 }

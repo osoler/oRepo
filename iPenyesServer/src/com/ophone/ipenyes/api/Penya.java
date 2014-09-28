@@ -15,6 +15,7 @@ public class Penya {
 	public String city;
 	public String country;
 	public String area;
+	public String subarea;
 	public int numAffiliates;
 	public int fundationYear;
 	public double x;

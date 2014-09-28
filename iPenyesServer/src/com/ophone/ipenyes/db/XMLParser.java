@@ -55,12 +55,13 @@ public class XMLParser {
                             penya.location = getNodeDivValue(e, "address"); 
                             penya.country = "undefined".equals(getNodeValue(e, "country"))?area:getNodeValue(e, "country");
                             penya.area = area;
+                            penya.subarea = getNodeDivValue(e, "subarea");
                             String logo = "undefined".equals(getNodeValue(e, "logo"))?"blank.png":getNodeValue(e, "logo");
                             
-                            penya.logo = "/iPenyesResources/images/escudos/" + logo;
+                            penya.logo = logo;
                             
-                        	penya.numAffiliates = getNodeIntValue(e, "numAffiliates")>0?getNodeIntValue(e, "numAffiliates"):1; 
-                        	penya.fundationYear = getNodeIntValue(e, "fundationYear")>0?getNodeIntValue(e, "fundationYear"):1899; 
+                        	penya.numAffiliates = getNodeIntValue(e, "numAffiliates")>0?getNodeIntValue(e, "numAffiliates"):-1; 
+                        	penya.fundationYear = getNodeIntValue(e, "fundationYear")>0?getNodeIntValue(e, "fundationYear"):2015; 
 
                         	NodeList infoList = e.getElementsByTagName("info");
                         	
@@ -91,6 +92,8 @@ public class XMLParser {
                                     	 penya.socialNetworks.put(socialNetURL, "twitter");                                       
                                      }else if (socialNetURL.toLowerCase().contains("youtube")) {
                                     	 penya.socialNetworks.put(socialNetURL, "youtube");                                       
+                                     }else if (socialNetURL.toLowerCase().contains("pinterest")) {
+                                    	 penya.socialNetworks.put(socialNetURL, "pinterest");                                       
                                      }
                                  }
                             }  

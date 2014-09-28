@@ -4,41 +4,42 @@
   <penya>
     <name>Agrupació Barcelonista Penya Anguera</name>
     <address>C/ Viladomat, 267</address>
-    <id>285</id>
-    <city>Barcelona</city>
-    <numAffiliates>30</numAffiliates>
-    <fundationYear>1903</fundationYear>
-    <infodetail>
-    	<info><title>president</title><desc>Joan Pere</desc></info>
-    	<info><title>vicepresident</title><desc>Antoni Tàpies</desc></info>
-    	<info><title>phone</title><desc>694454545</desc></info>
-    	<info><title>email</title><desc>anguerapenya@barsa.cat</desc></info>
-    	<info><title>website</title><desc>http://www.anguerapenya.cat</desc></info>
-    </infodetail>
-    <socialNetworks>
-    	<socialnet>http://www.facebook.com/anguera</socialnet>
-    	<socialnet>http://www.twitter.com/anguera</socialnet>
-    	<socialnet>http://www.youtube.com/anguera</socialnet>
-    </socialNetworks>
-    <description>
-    	<texte><![CDATA[<b> The FC Barcelona Supporters Club Miami</b> (Penya Barcelonista de Miami by its Catalan name) is officially authorized by FC Barcelona as a fan club dedicated to promote FC Barcelona name and brand in South Florida.]]></texte>
-    	<texte><![CDATA[The Barcelona Supporters Club of Miami (Penya Barcelonista de Miami) was established on June 9, 2003. What began as an occasional get together by a group of Catalan friends (residing in Miami) to watch televised Barça games, became an official and organized Club.]]></texte>
-  		<imatges>
-  			<imatge>PBSuecia/25674_375479747599_1075420_n.jpg</imatge>
-  			<imatge>PBSuecia/26194_374642007599_7429551_n.jpg</imatge>
-  			<imatge>PBSuecia/525863_10150878688002600_479399075_n.jpg</imatge>
-  			<imatge>PBSuecia/579861_10150878690297600_1131012138_n.jpg</imatge>
-  		</imatges>
-  		<texte><![CDATA[<b>The Barcelona Fan Club of Miami</b>, officially recognized by F.C. Barcelona</b> on February 2004 and assigned as the Penya #1588, was created by Pepe Martí, Ricard Mateu, Lluís Sandoval, Rafael Escofet, Toni Pich, Gregori Dolz and Genís Sànchez.]]></texte>
-  		<texte><![CDATA[On a weekly basis, as long as games are televised, members of the Club gather to watch Barça play at Franz and Fritz Bierhaus in Coral Gables. We also have other activities, which we hope to increment with the help and cooperation of the members and followers, in order to become a reference for all FC Barcelona fans in the South Florida and the US.]]></texte>
-  		<texte><![CDATA[<b>You can request a membership</b> form in our web site filling out the contact us form in this web site. We hope you enjoy our web site and that you will become a member.]]></texte>
-  		<texte><![CDATA[Força Barça!!! (Go Barça!)]]></texte>  
-    </description>
-    
+    <id>1</id>
     <logo>0001.ABPenyaAnguera-icon.png</logo>
     <Point>
       <coordinates>2.147415,41.387005,0.000000</coordinates>
     </Point>
+    <city>Barcelona</city>
+    <country>Catalunya</country>
+    <subarea>Barcelona Occidental</subarea>
+    <fundationYear>1957</fundationYear>
+    <infodetail>
+    	<info><title>president</title><desc>Lluís Monràs Xalapeira</desc></info>
+    	<info><title>phone</title><desc>638 901 114</desc></info>
+    	<info><title>fax</title><desc>933 212 401</desc></info>
+    	<info><title>email</title><desc>pbanguera@telefonica.net</desc></info>
+    	<info><title>website</title><desc>http://www.pbanguera.cat/</desc></info>
+    </infodetail>
+    <socialNetworks>
+    	<socialnet>http://www.facebook.com/pages/Penya-Barcelonista-Anguera/529909557031342</socialnet>
+    	<socialnet>http://twitter.com/pbanguera</socialnet>
+    	<socialnet>http://pinterest.com/pbanguera/</socialnet>
+    </socialNetworks>
+    <description>
+    	<texte><![CDATA[Figures com la del Papi Anguera són d’aquelles que sovint passen desapercebudes dins els grans clubs de futbol. Ell va ser l’encarregat de material -i moltes coses més- del primer equip del Barça durant més de 30 anys, a mes de ser com un pare per a molts cracks blaugrana com ara Maradona i Cruyff.]]></texte>
+    	<texte><![CDATA[La seva importància dins el vestidor del Camp Nou va ser cabdal, però ell mai va voler homenatges ni reconeixements de cap tipus.]]></texte>
+  		<texte><![CDATA[El que no va poder evitar, però, és que un grup de marrecs del barri del Raval de Barcelona, que ell va ajudar portant-los material de can Barça per al seu equip de futbol, li posessin el seu nom al club.]]></texte>
+  		<texte><![CDATA[I així va néixer la Penya Barcelonista Anguera l’any 1957, que abans s’havia anomenat Atlètic Catalunya, i abans Sant Pacià, amb un únic equip juvenil i amb vocació de penya barcelonista, sí, però encara més, amb una clara vocació de fomentar l’esport, el futbol entre les joves generacions, i de formar persones a través d’un esport apassionant com és el futbol.]]></texte>
+  		<texte><![CDATA[Quan el 1957 aquella colla de nanos van fundar el club, van convèncer un amic del Papi, Domingo Bernat Ruiz, que en fos el president. I no va ser una cosa temporal, sinó que el senyor Bernat va ser el president de la Penya Anguera durant 25 anys, tota una demostració de constància i dedicació.]]></texte>
+  		<texte><![CDATA[I és que a la Penya la gent sempre s’hi ha sentit a gust. Un altre exemple és el de l’entrenador Carlos Garay va arribar al juvenil de la Penya l’any 1958, i el va entrenar durant 20 temporades seguides i també altres entrenadors com Alejandro Cruz, Valero, Silvestre, Fermín, Emilio, Iglesias, etc.]]></texte>
+  		<texte><![CDATA[ El Papi Anguera va ocupar el càrrec de president d’honor, des d’on va ajudar sempre que va poder els nanos del club i també va aconseguir portar Maradona la seu de la Penya per fer-hi una xerrada amb els jugadors del club; va ser un dia molt especial per a l’entitat.]]></texte>
+  		<texte><![CDATA[La Penya Barcelonista Anguera ha arribat als 56 anys amb una salut esportiva i social de ferro amb un total de 20 equips, però no sempre va ser així, fa uns 22 anys el club va estar a punt de desaparèixer. Va ser el 1991, quan la Penya es va quedar amb només dos equips alevins i un de benjamí, i la junta directiva va plegar en bloc. Van ser els pares d’aquells nens els que van agafar forces i van fer reflotar l’equip i el van dur fins al que és ara, conservant l’esperit de que el mes important sempre son els nens i sent així el millor homenatge a l’herència de l’entranyable Papi Anguera.]]></texte>
+  		<texte><![CDATA[És per a  tots nosaltres una gran satisfacció poder comprovar que a día d’avui la Penya és un referent com a entitat que té cura del futbol base.]]></texte>
+  	  	<imatges>
+  			<imatge>0001.PBAnguera/historia1.jpg</imatge>
+  			<imatge>0001.PBAnguera/historia2.jpg</imatge>
+  		</imatges>	  
+    </description>   
   </penya>
   <penya>
     <name>Penya Barcelonista La Granada</name>

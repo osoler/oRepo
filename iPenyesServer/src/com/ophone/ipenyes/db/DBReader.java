@@ -57,6 +57,12 @@ public class DBReader {
     		if (listPenyes.size() >= maxPenyes ){
     			break;
     		}
+    		
+    		if (filter != null && filter.search !=null && !"undefined".equals(filter.search) && !"".equals(filter.search)){
+    			if (!penya.name.toLowerCase().contains(filter.search.toLowerCase())){
+    				continue;
+    			}
+    		}
 
     		if (filter != null && filter.area !=null){
     			if (!filter.area.toLowerCase().equals(penya.area.toLowerCase())){
@@ -67,12 +73,6 @@ public class DBReader {
     			continue;
     		}
     		if (filter != null && filter.yearTo !=0 && penya.fundationYear > filter.yearTo){
-    			continue;
-    		}
-    		if (filter != null && filter.numFansFrom !=0 && penya.numAffiliates < filter.numFansFrom){
-    			continue;
-    		}
-    		if (filter != null && filter.numFansTo !=0 && penya.numAffiliates > filter.numFansTo){
     			continue;
     		}
     		if (i >= filter.lastPosition){

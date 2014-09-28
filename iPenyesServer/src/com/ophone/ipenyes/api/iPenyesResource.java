@@ -25,8 +25,8 @@ public class iPenyesResource {
     @GET 
     @Path("/getPenyes")
     @Produces(MediaType.APPLICATION_JSON)
-    public List<Penya> getJSONMsg(@QueryParam("lastPosition") int lastPosition, @QueryParam("area") String area, @QueryParam("yearFrom") int yearFrom, @QueryParam("yearTo") int yearTo, @QueryParam("numFansFrom") int numFansFrom, @QueryParam("numFansTo") int numFansTo) {   	
-    	FilterPenya filter = new FilterPenya(lastPosition, area, yearFrom, yearTo, numFansFrom, numFansTo);
+    public List<Penya> getJSONMsg(@QueryParam("lastPosition") int lastPosition, @QueryParam("area") String area, @QueryParam("yearFrom") int yearFrom, @QueryParam("yearTo") int yearTo, @QueryParam("search") String search) {   	
+    	FilterPenya filter = new FilterPenya(lastPosition, area, yearFrom, yearTo, search);
         return DBReader.getPenyas(filter);
     }
     

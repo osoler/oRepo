@@ -8,7 +8,7 @@
 .ui-footer .ui-btn-active {background: none rgba(37, 25, 122, 0.22);border: none;-webkit-filter:none}
 .ui-footer .ui-navbar li .ui-btn { height: 100%;}
 .ui-footer .ui-btn-inner {padding-top: 23px !important;}
-.ui-footer .ui-btn-text {font-size: 10px;text-shadow: none;color: white;font-style: normal;font-weight: normal;top: 3px;}
+.ui-footer .ui-btn-text {font-size: 10px;text-shadow: none;color: white;font-style: normal;font-weight: normal;top: 2px;left: 1px;}
 .ui-footer .ui-icon-custom.ui-icon {width: 30px;height: 28px;}
 .ui-footer .ui-icon-shadow {-webkit-box-shadow: none;-moz-box-shadow: none;	-o-box-shadow: none;box-shadow: none;}
 .tabList .ui-icon {background: url('../images/icon_list.png') 0 0 no-repeat;background-size: 67%;margin-left: -10px;margin-top: -0px;-moz-border-radius: 0px;-webkit-border-radius: 0px;	border-radius: 0px;}

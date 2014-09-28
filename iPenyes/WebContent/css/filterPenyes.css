@@ -13,7 +13,7 @@
  }
  .closer.filter{
  	width: 30px;
- 	background-image: url('/images/close-button-blue.png');
+ 	background-image: url('../images/close-button-blue.png');
  }
  #filterPopup .ui-field-contain{
  	padding: 0;
@@ -99,24 +99,24 @@
 
 .custom-button.catalonia .ui-btn-inner .ui-btn-text {
     width: 50px !important;
-    background-image: url('/images/catalonia.png')  !important;
+    background-image: url('../images/catalonia.png')  !important;
     background-size: 40px;
 }
 
 .custom-button.spain .ui-btn-inner .ui-btn-text {
     width: 50px !important;
-    background-image: url('/images/spain.png')  !important;
+    background-image: url('../images/spain.png')  !important;
     background-size: 40px;
 }
 
 .custom-button.europe .ui-btn-inner .ui-btn-text {
     width: 48px !important;
-	background-image: url('/images/europe.png')  !important;
+	background-image: url('../images/europe.png')  !important;
     background-size: 37px;
 }
 
 .custom-button.world .ui-btn-inner .ui-btn-text {
 	width: 72px !important;
-    background-image: url('/images/world.png')  !important;
+    background-image: url('../images/world.png')  !important;
     background-size: 65px;
 } 

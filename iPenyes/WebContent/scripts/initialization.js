@@ -1,11 +1,9 @@
-var addToHomeConfig = {	touchIcon : true,	returningVisitor : false,	expire : 0};
+
 var initPenyes = function() {
 
 	function init() {
-		
-		loadImages(goToList);
 		texts.loadTexts();
-	
+		loadImages(goToList);
 	}
 
 	function loadImages(callBack) {
@@ -28,12 +26,9 @@ var initPenyes = function() {
 	}
 	
 	function goToList() {
-		var showWebApp = configuration.showWebapp();
-		if (showWebApp) {
-			filterPenyes.newSearch(0, function (){
-				$("#logoImg").animate({marginTop : '0px'}, 1000, function() {$.mobile.changePage($("#listPenyes"));});	
-			});			
-		}
+		filterPenyes.newSearch(0, function (){
+			$("#logoImg").animate({marginTop : '0px'}, 1000, function() {$.mobile.changePage($("#listPenyes"));});	
+		});			
 	}
 	
 	return {

@@ -17,6 +17,7 @@ var texts = function () {
 	h['president'] = 'President';	
 	h['vicepresident'] = 'Vicepresident';	
 	h['phone'] = 'Telèfon';	
+	h['fax'] = 'Fax';	
 	h['email'] = 'email';
 	h['website'] = 'Website';	
 	h['done'] = 'Fet!';	

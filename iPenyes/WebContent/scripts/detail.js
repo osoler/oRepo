@@ -55,7 +55,7 @@ var detailPenyes = function () {
 	};
 
 	function removeDetails(){
-		navigation.loadLogo("#penyaSelected-logo", configuration.getSpinner());
+		navigation.loadSpinner("#penyaSelected-logo");
 		$("#penyaSelected-name").empty();
 		$("#penyaSelected-fundation").empty();
 		$("#penyaSelected-info1").empty();
@@ -82,7 +82,9 @@ var detailPenyes = function () {
 		 $("#penyaSelected-name").empty();
 		 $("#penyaSelected-name").append(penya.name);
 		 $("#penyaSelected-socis").empty();
-		 $("#penyaSelected-socis").append(penya.numAffiliates + " " + texts.h().affiliates);
+		 if (penya.numAffiliates > 0){
+			 $("#penyaSelected-socis").append(penya.numAffiliates + " " + texts.h().affiliates);
+		 }
 		 $("#penyaSelected-fundation").empty();
 		 $("#penyaSelected-fundation").append(texts.h().fundation + ":" + penya.fundationYear);
 		 
@@ -91,6 +93,9 @@ var detailPenyes = function () {
 			 $.each( penya.info, function( title, value ) {	 
 				 if (title === 'email'){
 					 value = "<a href='mailto:"+value+"'>" + value + "</a>";
+				 }
+				 if (value.indexOf("http") == 0){
+					 value = "<a href=\"#\" onclick=\"window.open('"+value+"', '_system', 'location=yes'); return false;\">"+value+"</a>";
 				 }
 				 if(title !== ''){
 					 $("#penyaSelected-info1").append("<div class='subdetailPenyes_div'><div class='subdetailPenyes_divheader'>"+texts.h()[title]+":</div><div class='subdetailPenyes_divvalue'>"+value+"</div></div>");
@@ -103,7 +108,7 @@ var detailPenyes = function () {
 			 $("#penyaSelected-info1").append("<div class='socialNetworks'>");
 			 $.each( penya.socialNetworks, function( url, socialnetwork ) { 
 				 var urlImg = configuration.getSocialIcons() + socialnetwork + ".png";
-				 var newdiv = "<div class='socialneticon'><a href='"+url+"' target='_blank'><img class = 'icon' src='"+urlImg+"'></a></div>";	 
+				 var newdiv  = "<div class='socialneticon'><a href=\"#\" onclick=\"window.open('"+url+"', '_system', 'location=yes'); return false;\"><img class = 'icon' src='"+urlImg+"'></a></div>";	 
 				 $(".socialNetworks").append(newdiv);
 			 });	
 		 }

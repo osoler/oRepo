@@ -53,11 +53,21 @@ var navigation = function () {
 	
 	function loadLogo(img, src){		       
         var image = new Image();
-        image.src = src;
+        image.src = configuration.getEscudos() + src;
         image.onload = function(){
         	$(img).attr("src", image.src);
         };   
 	}
+
+	function loadSpinner(img){		       
+        var image = new Image();
+        image.src = configuration.getDomain() + configuration.getSpinner();
+        image.onload = function(){
+        	$(img).attr("src", image.src);
+        };   
+	}
+	
+	
 	
 	function showShadows(){
 		if (filterPenyes.getListOfFanClubs() != undefined && filterPenyes.getListOfFanClubs().length > 0){
@@ -98,6 +108,9 @@ var navigation = function () {
 	    },
 	    "loadLogo" : function (img, src) {
 	    	loadLogo(img, src); 
+	    },
+	    "loadSpinner" : function (img) {
+	    	loadSpinner(img); 
 		},
 	    "alert" : function (message) {
 	    	showAlert(message);

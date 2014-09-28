@@ -5,6 +5,8 @@
 <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
 <meta HTTP-EQUIV="Expires" CONTENT="-1">
 <meta name="viewport" content="initial-scale = 1.0,  minimum-scale=1.0, maximum-scale=2.0, user-scalable = yes">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 <link rel="apple-touch-icon" href="images/iconFCBPenyes.png" />
 <link rel="shortcut icon"    href="images/iconFCBPenyes.png" />

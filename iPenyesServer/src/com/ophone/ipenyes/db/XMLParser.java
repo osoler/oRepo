@@ -98,6 +98,7 @@ public class XMLParser {
                                  }
                             }  
                             int indexText = 1;
+                            int indexImgList = 1;
                             int indexImg = 1;
                              NodeList descripcioNode = e.getElementsByTagName("description"); 
                              if (descripcioNode != null && descripcioNode.getLength() > 0) {
@@ -117,7 +118,7 @@ public class XMLParser {
 
                             			 if (imatgeList != null && imatgeList.getLength() > 0) {
                                 			 LinkedHashMap<String, String> images =  new LinkedHashMap<>();
-                                			 penya.description.put("images", images);
+                                			 penya.description.put("images"+(indexImgList++), images);
                                              for (int i3 = 0; i3 < imatgeList.getLength(); i3++) {
                                             	 Node node3 = imatgeList.item(i3);
                                             	 String imatgeURL = node3.getTextContent();

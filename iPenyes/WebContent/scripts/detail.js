@@ -117,21 +117,27 @@ var detailPenyes = function () {
 		 
 		 $("#penyaSelected-info2").empty();
 		 if(penya.description){
+			 var imgIndex = 0;
 			 $.each(penya.description, function( type, value ) {
 				 if (type.indexOf("text") == 0){	 
 					 $("#penyaSelected-info2").append("<div class='descText'>" + value + "</div>");		
 				 }
-				 if (type === "images"){
-					 $("#penyaSelected-info2").append("<div class='iosSlider'>");
-					 $(".iosSlider").append("<div class='slider'>");
+				 if (type.indexOf("images") == 0){	
+					 var slidername = 'imgslider' + imgIndex;
+					 $("#penyaSelected-info2").append("<div id='"+slidername+"' class='iosSlider'>");
+					 var hslidername = '#'+slidername;
+					 var subslidername = 'subimgslider' + imgIndex;
+					 var hsubslidername = '#'+subslidername;
+					 $(hslidername).append("<div  id='"+subslidername+"' class='slider'>");
 					 $.each( value, function( key, value ) {
 						 value = configuration.getPhotos() + value;
 						 var valueStr = "&#39;" + value + "&#39;";
 						 var photoClass = "photopenyaitem";
 						 if (window.orientation !== 0){ photoClass = "photopenyaitem horizontal";}
 						 var newdiv = "<div class='"+photoClass+"' style='background-image:url("+value+");' id= '" + key + "' onclick='detailPenyes.openPhoto("+valueStr+")'></div>";	 
-						 $(".slider").append(newdiv);
-					 });		 
+						 $(hsubslidername).append(newdiv);
+					 });	
+					 imgIndex = imgIndex + 1;
 				 }
 			 });
 		 }

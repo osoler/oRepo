@@ -61,7 +61,7 @@ var navigation = function () {
 
 	function loadSpinner(img){		       
         var image = new Image();
-        image.src = configuration.getDomain() + configuration.getSpinner();
+        image.src = configuration.getDomain() +"/"+ configuration.getSpinner();
         image.onload = function(){
         	$(img).attr("src", image.src);
         };   

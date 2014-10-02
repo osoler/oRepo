@@ -11,7 +11,7 @@
     <div data-role="content" id="contentDetailPenyes">
     	<div id="penyaSelected-info0" class="detailPenyes_divheader ui-corner-all ui-shadow div_padding_v">
 				<div>
-					<div class="detailPenyes_coat"><img id="penyaSelected-logo" class="desc-icon" src="images/spinner.gif"></div>
+					<div class="detailPenyes_coat"><img id="penyaSelected-logo" class="desc-icon" src="/images/spinner.gif" onclick="detailPenyes.openLogo()"></div>
 					<div class="detailPenyes_description"> 
 						<div id="penyaSelected-name" class="detailPenyes_name"></div>
 						<div id="penyaSelected-socisfundation" class="detailPenyes_socis_fundation">

@@ -15,7 +15,9 @@ var detailPenyes = function () {
 		}
 		return false; 
 	};
-	
+	function openLogo() {
+		openPhoto(configuration.getEscudos() + penyaSelected.logo);
+	}
 	function loadDetailPenya(penyaId){
 		goToDetailPenya(penyaId, { transition: "slide", changeHash: false });
 	}
@@ -181,6 +183,9 @@ var detailPenyes = function () {
 return {  
     "openPhoto" : function (selection) {
     	openPhoto(selection);
+    },
+    "openLogo" : function () {
+    	openLogo();
     },
     "goToDetail" : function (options, callBack) {
     	goToDetail(options, callBack); 
